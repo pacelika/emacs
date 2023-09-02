@@ -1,0 +1,18 @@
+;; Object semanticdb-project-database-file-158f838a426c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-158f838a426c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158f83acb0ca"
+      :major-mode makefile-gmake-mode
+      :tags 
+        '( ("run" function nil nil [1 134])
+            ("build" function nil nil [134 248]))          
+      :file "Makefile"
+      :pointmax 248
+      :fsize 247
+      :lastmodtime '(25639 54579 555006 313000)
+      :unmatched-syntax nil))
+  :file "!home!hword!Documents!mygames!game!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

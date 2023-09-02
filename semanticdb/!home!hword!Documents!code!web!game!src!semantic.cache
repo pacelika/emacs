@@ -1,0 +1,44 @@
+;; Object semanticdb-project-database-file-1569df1f6092
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1569df1f6092"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1569df1f6072"
+      :major-mode js-mode
+      :tags nil
+      :file "tsconfig.json"
+      :pointmax 535
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1569df1e6f7a"
+      :major-mode js-mode
+      :tags 
+        '( ("main" function nil nil [1 209]))          
+      :file "main.js"
+      :pointmax 218
+      :fsize 377
+      :lastmodtime '(25589 48198 200631 464000)
+      :unmatched-syntax '((VARIABLE 210 . 214) (PAREN_BLOCK 214 . 216)))
+    (semanticdb-table "semanticdb-table-1569df2ff922"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("gl-game" section nil nil [33 59])
+            ("cocks" section nil nil [59 143])
+            ("cocks" section (:members 
+              ( ("cocks" section nil nil [151 243]))              ) nil [143 243]))          
+      :file "index.html"
+      :pointmax 243
+      :fsize 242
+      :lastmodtime '(25589 48184 697266 418000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1569e0056ea2"
+      :major-mode js-mode
+      :tags 
+        '( ("PORT" variable (:default-value "6969") nil [1 17]))          
+      :file "server.js"
+      :pointmax 218
+      :fsize 271
+      :lastmodtime '(25589 47947 523376 74000)
+      :unmatched-syntax '((VARIABLE 142 . 145) (PAREN_BLOCK 152 . 216) (VARIABLE 73 . 76) (PAREN_BLOCK 80 . 140) (VAR 52 . 55) (PAREN_BLOCK 69 . 71) (VAR 18 . 21) (PAREN_BLOCK 39 . 50))))
+  :file "!home!hword!Documents!code!web!game!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

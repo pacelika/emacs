@@ -1,0 +1,28 @@
+;; Object semanticdb-project-database-file-157c4d8f8610
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-157c4d8f8610"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-157c4d8f864a"
+      :major-mode c-mode
+      :tags 
+        '( ("GL/gl.h" include (:system-flag t) nil [602 620])
+            ("GL/glut.h" include (:system-flag t) nil [621 641])
+            ("display" function (:type "void") nil [706 1185])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1198 1207])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1208 1221]))                  
+                :type "int")
+                nil [1188 1849]))          
+      :file "first-triangle.c"
+      :pointmax 1851
+      :fsize 1850
+      :lastmodtime '(25594 16334 96591 8000)
+      :unmatched-syntax nil))
+  :file "!home!hword!Downloads!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

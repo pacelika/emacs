@@ -1,0 +1,20 @@
+;; Object semanticdb-project-database-file-157cdc77b5d0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-157cdc77b5d0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-157cdca6cd20"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("gl-game" section nil nil [33 59])
+            ("cocks" section nil nil [59 143])
+            ("cocks" section (:members 
+              ( ("cocks" section nil nil [151 243]))              ) nil [143 243]))          
+      :file "index.html"
+      :pointmax 243
+      :fsize 242
+      :lastmodtime '(25589 48184 697266 418000)
+      :unmatched-syntax nil))
+  :file "!home!hword!Documents!code!web!game!src!public!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

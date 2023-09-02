@@ -1,0 +1,17 @@
+;; Object semanticdb-project-database-file-1589fe7b0be8
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1589fe7b0be8"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1589fea4c296"
+      :major-mode makefile-gmake-mode
+      :tags 
+        '( ("all" function nil nil [1 62]))          
+      :file "Makefile"
+      :pointmax 62
+      :fsize 61
+      :lastmodtime '(25548 20354 527307 934000)
+      :unmatched-syntax '((shell-command 51 . 61) (bol 50 . 50))))
+  :file "!home!hword!Documents!code!c++!some_project!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

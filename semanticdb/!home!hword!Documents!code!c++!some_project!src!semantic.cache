@@ -1,0 +1,37 @@
+;; Object semanticdb-project-database-file-155a5c28862c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155a5c28862c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155a5c28860c"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("memory" include (:system-flag t) nil [21 38])
+            ("vector" include (:system-flag t) nil [39 56])
+            ("deque" include (:system-flag t) nil [57 73])
+            ("unordered_map" include (:system-flag t) nil [74 98])
+            ("std::cout" using (:type ("std::cout" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [100 116])
+            ("std::string" using (:type ("std::string" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [117 135])
+            ("log_type" function
+               (:template 
+                  ( ("T" type (:type "class") nil nil))                  
+                :type "void"
+                :arguments 
+                  ( ("v" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [169 173]))                  )
+                nil [137 212])
+            ("main" function (:type "int") nil [214 258]))          
+      :file "main.cpp"
+      :pointmax 259
+      :fsize 258
+      :lastmodtime '(25641 14272 48433 686000)
+      :unmatched-syntax '((symbol 259 . 260) (punctuation 272 . 273) (punctuation 271 . 272) (punctuation 270 . 271) (punctuation 269 . 270))))
+  :file "!home!hword!Documents!code!c++!some_project!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

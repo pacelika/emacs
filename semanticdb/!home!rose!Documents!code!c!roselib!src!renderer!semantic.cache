@@ -1,0 +1,340 @@
+;; Object semanticdb-project-database-file-158cd273d2ac
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-158cd273d2ac"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158cd273d2e6"
+      :major-mode c-mode
+      :tags 
+        '( ("../buffers.h" include nil nil [15 38])
+            ("draw_rectangle" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("vao" variable
+                       (:pointer 1
+                        :type ("VAO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [68 77])
+                    ("vbo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [77 92])
+                    ("ebo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [92 107]))                  
+                :type "unsigned int")
+                nil [40 108])
+            ("draw_triangle" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("vao" variable
+                       (:pointer 1
+                        :type ("VAO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [136 145])
+                    ("vbo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [145 160])
+                    ("ebo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [160 175]))                  
+                :type "unsigned int")
+                nil [109 176])
+            ("draw_pyramid" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("vao" variable
+                       (:pointer 1
+                        :type ("VAO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [203 212])
+                    ("vbo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [212 227])
+                    ("ebo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [227 242]))                  
+                :type "unsigned int")
+                nil [177 243]))          
+      :file "draw.h"
+      :pointmax 244
+      :fsize 243
+      :lastmodtime '(25840 65398 246340 737000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table-158cd273d32e"
+      :major-mode c-mode
+      :tags 
+        '( ("ShaderState" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("SHADER_FAIL" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [34 46])
+                          ("SHADER_OK" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [51 62]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [15 74])
+            ("ShaderSourceType" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("ShaderSource" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [94 107])
+                          ("ShaderFile" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [112 124]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [76 141])
+            ("Shader" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("id" variable (:type "unsigned int") (reparse-symbol classsubparts) [164 180])
+                          ("bound" variable (:type "int") (reparse-symbol classsubparts) [185 195]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [143 204])
+            ("shader_load" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Shader" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [230 238])
+                    ("" variable (:type ("ShaderSourceType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [238 255])
+                    ("vertex" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [256 275])
+                    ("fragment" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [276 297]))                  
+                :type ("ShaderState" type (:type "class") nil nil))
+                nil [206 298])
+            ("shader_load_default" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Shader" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [324 332]))                  
+                :type "void")
+                nil [299 333])
+            ("shader_unload" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Shader" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [353 362]))                  
+                :type "void")
+                nil [334 363])
+            ("shader_use" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Shader" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [388 396]))                  
+                :type ("ShaderState" type (:type "class") nil nil))
+                nil [365 397])
+            ("shader_bind" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Shader" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [415 423]))                  
+                :type "void")
+                nil [398 424])
+            ("shader_unbind" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Shader" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [444 452]))                  
+                :type "void")
+                nil [425 453])
+            ("shader_get_uniform_location" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Shader" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [496 504])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [504 521]))                  
+                :type "unsigned int")
+                nil [455 522])
+            ("shader_set_mat4" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Shader" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [545 553])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [553 570])
+                    ("data" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [571 589]))                  
+                :type "void")
+                nil [524 590])
+            ("shader_set_float" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Shader" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [613 621])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [621 638])
+                    ("" variable (:type "float") (reparse-symbol arg-sub-list) [638 644]))                  
+                :type "void")
+                nil [591 645])
+            ("shader_set_int" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Shader" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [666 674])
+                    ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [674 691])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [691 695]))                  
+                :type "void")
+                nil [646 696]))          
+      :file "shader.h"
+      :pointmax 697
+      :fsize 696
+      :lastmodtime '(25840 15253 503724 695000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table-158cd273d376"
+      :major-mode c-mode
+      :tags 
+        '( ("../libs/glad/glad.h" include nil nil [15 45])
+            ("../renderer/shader.h" include nil nil [46 77])
+            ("Texture" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("bytes" variable
+                             (:pointer 1
+                              :type "unsigned char")
+                              (reparse-symbol classsubparts) [99 120])
+                          ("id" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [126 136])
+                          ("width" variable (:type ("GLint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [141 160])
+                          ("height" variable (:type ("GLint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [141 160])
+                          ("num_col_ch" variable (:type ("GLint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [165 182])
+                          ("fmt" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [187 208])
+                          ("image_fmt" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [187 208])
+                          ("type" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol classsubparts) [213 225]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [79 236])
+            ("texture_load" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("shader" variable
+                       (:pointer 1
+                        :type ("Shader" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [259 274])
+                    ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [274 291]))                  
+                :type ("Texture" type (:type "class") nil nil))
+                nil [238 292])
+            ("texture_init" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("tex" variable
+                       (:pointer 1
+                        :type ("Texture" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [311 324])
+                    ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [324 341])
+                    ("tex_type" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [342 358])
+                    ("slot" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [359 371])
+                    ("format" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [372 386])
+                    ("pixel_type" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [387 405]))                  
+                :type "void")
+                nil [293 406])
+            ("texture_unload" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("tex" variable
+                       (:pointer 1
+                        :type ("Texture" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [427 440]))                  
+                :type "void")
+                nil [407 441])
+            ("texture_bind" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("tex" variable
+                       (:pointer 1
+                        :type ("Texture" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [461 474]))                  
+                :type "void")
+                nil [443 475])
+            ("texture_unbind" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("tex" variable
+                       (:pointer 1
+                        :type ("Texture" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [496 509]))                  
+                :type "void")
+                nil [476 510])
+            ("texture_set_unit" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Shader" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [533 541])
+                    ("value" variable (:type "int") (reparse-symbol arg-sub-list) [541 551]))                  
+                :type "void")
+                nil [511 552]))          
+      :file "texture.h"
+      :pointmax 553
+      :fsize 552
+      :lastmodtime '(25840 13242 621293 105000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2))))
+  :file "!home!rose!Documents!code!c!roselib!src!renderer!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

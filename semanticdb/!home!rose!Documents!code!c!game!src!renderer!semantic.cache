@@ -1,0 +1,423 @@
+;; Object semanticdb-project-database-file-158a4ce06090
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-158a4ce06090"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158a4ce06010"
+      :major-mode c++-mode
+      :tags 
+        '( ("../buffers.h" include nil nil [14 37])
+            ("texture.h" include nil nil [38 58])
+            ("../core/extern_libs//cglm/include/cglm/cglm.h" include nil nil [60 116])
+            ("../core/extern_libs//cglm/include/cglm/call.h" include nil nil [117 173])
+            ("../basicdefs.h" include nil nil [174 199])
+            ("Shape" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("Rect" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [220 225])
+                          ("Triangle" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [230 240]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [201 246])
+            ("Mesh2D" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [263 270])
+                    ("id" variable (:type "unsigned int") (reparse-symbol classsubparts) [275 291])
+                    ("isStaticObject" variable (:type "bool") (reparse-symbol classsubparts) [296 316])
+                    ("wasTranslatedToStaticPosition" variable (:type "bool") (reparse-symbol classsubparts) [321 356])
+                    ("translation" variable (:type ("Vector2f" type (:type "class") nil nil)) (reparse-symbol classsubparts) [362 383])
+                    ("rotation" variable (:type "float") (reparse-symbol classsubparts) [388 424])
+                    ("scale" variable (:type "float") (reparse-symbol classsubparts) [388 424])
+                    ("width" variable (:type "float") (reparse-symbol classsubparts) [388 424])
+                    ("height" variable (:type "float") (reparse-symbol classsubparts) [388 424])
+                    ("texture" variable (:type ("std::shared_ptr" type
+                         (:template-specifier 
+                            ( ("Texture" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [455 488])
+                    ("__draw_triangle__" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [494 519])
+                    ("__draw_rectangle__" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [524 550])
+                    ("Mesh2D" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("Mesh2D" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [556 565])
+                    ("init_with_shape" function
+                       (:prototype-flag t
+                        :typemodifiers ("static")
+                        :arguments 
+                          ( ("" variable (:type ("Shape" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [600 606]))                          
+                        :type ("Mesh2D" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [570 607])
+                    ("init" function
+                       (:prototype-flag t
+                        :typemodifiers ("static")
+                        :type ("Mesh2D" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [612 633])
+                    ("unload" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [638 652])
+                    ("draw" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [658 670])
+                    ("translate" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("to" variable
+                               (:reference 1
+                                :type ("Vector2f" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [726 739]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [711 740])
+                    ("translate" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("Vector2f" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [760 771])
+                            ("" variable (:type ("to" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [771 774]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [745 775])
+                    ("rotate" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("rot" variable (:type ("vec3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [793 802]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [781 803])
+                    ("private" label nil (reparse-symbol classsubparts) [804 812])
+                    ("_translation" variable (:type ("vec3" type (:type "class") nil nil)) (reparse-symbol classsubparts) [817 835])
+                    ("_is_translation_zero" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :type "bool")
+                        (reparse-symbol classsubparts) [840 874])
+                    ("_model_matrix" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol classsubparts) [880 899])
+                    ("_vbo" variable (:type ("vbo_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [905 916])
+                    ("_vao" variable (:type ("vao_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [921 932])
+                    ("_ebo" variable (:type ("ebo_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [937 948])
+                    ("_move" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [953 966]))                  
+                :type "class")
+                nil [248 969])
+            ("renderer_set_flag" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("r_flag" variable (:type "int") (reparse-symbol arg-sub-list) [994 1005])
+                    ("r_value" variable (:type "int") (reparse-symbol arg-sub-list) [1005 1017]))                  
+                :type "void")
+                nil [971 1018])
+            ("drawing_begin" function
+               (:prototype-flag t
+                :type "void")
+                nil [1019 1040])
+            ("drawing_end" function
+               (:prototype-flag t
+                :type "void")
+                nil [1041 1060]))          
+      :file "draw.h"
+      :pointmax 1061
+      :fsize 1060
+      :lastmodtime '(25795 60436 65206 656000)
+      :unmatched-syntax '((punctuation 770 . 771) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table-158a4ce06030"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [14 33])
+            ("memory" include (:system-flag t) nil [34 51])
+            ("Texture" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [70 77])
+                    ("Texture" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [82 93])
+                    ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [99 116])
+                    ("id" variable (:type "unsigned int") (reparse-symbol classsubparts) [121 137])
+                    ("w" variable (:type "int") (reparse-symbol classsubparts) [142 179])
+                    ("h" variable (:type "int") (reparse-symbol classsubparts) [142 179])
+                    ("image_mode" variable (:type "int") (reparse-symbol classsubparts) [142 179])
+                    ("channels" variable (:type "int") (reparse-symbol classsubparts) [142 179])
+                    ("released" variable (:type "int") (reparse-symbol classsubparts) [142 179])
+                    ("pixels" variable
+                       (:pointer 1
+                        :type "unsigned char")
+                        (reparse-symbol classsubparts) [185 207])
+                    ("is_valid" function
+                       (:typemodifiers ("static")
+                        :arguments 
+                          ( ("tex" variable
+                               (:pointer 1
+                                :type ("Texture" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [231 244]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [210 281])
+                    ("load_image" function
+                       (:prototype-flag t
+                        :typemodifiers ("static")
+                        :arguments 
+                          ( ("path" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [331 348]))                          
+                        :type ("std::shared_ptr" type
+                             (:template-specifier 
+                                ( ("Texture" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [288 349])
+                    ("load" function
+                       (:prototype-flag t
+                        :typemodifiers ("static")
+                        :arguments 
+                          ( ("path" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [391 408]))                          
+                        :type ("std::shared_ptr" type
+                             (:template-specifier 
+                                ( ("Texture" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [354 409])
+                    ("create_buffer" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [415 436])
+                    ("bind" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [441 459])
+                    ("unload" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [464 478]))                  
+                :type "class")
+                nil [53 481]))          
+      :file "texture.h"
+      :pointmax 482
+      :fsize 481
+      :lastmodtime '(25753 45891 480033 828000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table-158a4ce06050"
+      :major-mode c++-mode
+      :tags 
+        '( ("SHADER_FILE" variable (:constant-flag t) nil [23 34])
+            ("SHADER_SOURCE" variable (:constant-flag t) nil [48 61])
+            ("iostream" include (:system-flag t) nil [68 87])
+            ("unordered_map" include (:system-flag t) nil [88 112])
+            ("ShaderSourceType" type
+               (:members 
+                  ( ("ShaderSource" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [141 154])
+                    ("ShaderFile" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [159 171]))                  
+                :type "enum")
+                nil [114 172])
+            ("Shader" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [189 196])
+                    ("id" variable (:type "unsigned int") (reparse-symbol classsubparts) [201 217])
+                    ("bound" variable (:type "int") (reparse-symbol classsubparts) [222 232])
+                    ("last_shader" variable
+                       (:pointer 1
+                        :typemodifiers ("static")
+                        :type ("Shader" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [237 264])
+                    ("load" function
+                       (:prototype-flag t
+                        :typemodifiers ("static")
+                        :arguments 
+                          ( ("flag" variable (:type ("ShaderSourceType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [289 311])
+                            ("v_shad" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [312 331])
+                            ("f_shad" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [332 351]))                          
+                        :type ("Shader" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [270 352])
+                    ("unload" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [357 371])
+                    ("use" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [377 388])
+                    ("set" function
+                       (:prototype-flag t
+                        :typemodifiers ("static")
+                        :arguments 
+                          ( ("shader" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type ("Shader" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [409 430]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [393 431])
+                    ("bind" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [437 449])
+                    ("unbind" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [454 468])
+                    ("get_uniform_location" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :arguments 
+                          ( ("name" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [535 552]))                          
+                        :type "unsigned int")
+                        (reparse-symbol classsubparts) [501 559])
+                    ("mat4" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :arguments 
+                          ( ("name" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [574 591])
+                            ("data" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "float")
+                                (reparse-symbol arg-sub-list) [592 610]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [564 617])
+                    ("uni1f" function
+                       (:prototype-flag t
+                        :methodconst-flag t
+                        :arguments 
+                          ( ("name" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [633 650])
+                            ("v" variable
+                               (:constant-flag t
+                                :type "float")
+                                (reparse-symbol arg-sub-list) [651 665]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [622 672])
+                    ("private" label nil (reparse-symbol classsubparts) [673 681])
+                    ("_uniform_location_cache" variable
+                       (:typemodifiers ("mutable")
+                        :type ("std::unordered_map" type
+                             (:template-specifier 
+                                ( ("char" type
+                                     (:pointer 1
+                                      :constant-flag t)
+                                      nil nil)
+                                  ("unsigned int" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [686 764]))                  
+                :type "class")
+                nil [174 767]))          
+      :file "shader.h"
+      :pointmax 768
+      :fsize 767
+      :lastmodtime '(25751 60811 264247 622000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2))
+      :lexical-table 
+        '(("SHADER_FILE" . ((number "0x45" 35 . 39)))
+          ("SHADER_SOURCE" . ((number "0x69" 62 . 66)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158a4ce06070"
+      :major-mode c-mode
+      :tags 
+        '( ("../core/extern_libs//cglm/include/cglm/cglm.h" include nil nil [1 57])
+            ("../core/extern_libs//cglm/include/cglm/call.h" include nil nil [58 114])
+            ("../basicdefs.h" include nil nil [115 140])
+            ("../core/extern_libs/glad/glad.h" include nil nil [141 183])
+            ("Camera2D" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [202 209])
+                    ("Camera2D" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("Camera2D" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [214 225])
+                    ("translation" variable (:type ("Vector2f" type (:type "class") nil nil)) (reparse-symbol classsubparts) [257 278])
+                    ("rotation" variable (:type "float") (reparse-symbol classsubparts) [283 298])
+                    ("translate" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("to" variable
+                               (:reference 1
+                                :type ("Vector2f" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [354 367]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [339 368])
+                    ("translate" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("Vector2f" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [388 399])
+                            ("" variable (:type ("to" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [399 402]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [373 403])
+                    ("update" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [408 422])
+                    ("private" label nil (reparse-symbol classsubparts) [425 433])
+                    ("_translation" variable (:type ("vec3" type (:type "class") nil nil)) (reparse-symbol classsubparts) [438 456])
+                    ("_view_matrix" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol classsubparts) [461 479])
+                    ("_move" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [484 497]))                  
+                :type "class")
+                nil [185 500]))          
+      :file "camera.h"
+      :pointmax 501
+      :fsize 500
+      :lastmodtime '(25746 7166 810317 293000)
+      :unmatched-syntax nil))
+  :file "!home!rose!Documents!code!c!game!src!renderer!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

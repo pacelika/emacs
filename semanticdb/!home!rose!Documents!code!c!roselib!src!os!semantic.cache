@@ -1,0 +1,54 @@
+;; Object semanticdb-project-database-file-158cd273d222
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-158cd273d222"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158cd273d264"
+      :major-mode c-mode
+      :tags 
+        '( ("SDL2/SDL.h" include (:system-flag t) nil [1 22])
+            ("Window" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("should_close" variable (:type "signed char") (reparse-symbol classsubparts) [45 70])
+                          ("event" variable (:type ("SDL_Event" type (:type "class") nil nil)) (reparse-symbol classsubparts) [76 92])
+                          ("window" variable
+                             (:pointer 1
+                              :type ("SDL_Window" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [97 116])
+                          ("display_mode" variable (:type ("SDL_DisplayMode" type (:type "class") nil nil)) (reparse-symbol classsubparts) [121 150])
+                          ("width" variable (:type "unsigned int") (reparse-symbol classsubparts) [156 182])
+                          ("height" variable (:type "unsigned int") (reparse-symbol classsubparts) [156 182]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [24 191])
+            ("window_create" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("width" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [214 233])
+                    ("height" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [233 253])
+                    ("title" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [253 271]))                  
+                :type ("Window" type (:type "class") nil nil))
+                nil [193 272])
+            ("window_close" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("window" variable
+                       (:pointer 1
+                        :type ("Window" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [291 306]))                  
+                :type "void")
+                nil [273 307]))          
+      :file "window.h"
+      :pointmax 308
+      :fsize 307
+      :lastmodtime '(25839 58825 48921 37000)
+      :unmatched-syntax nil))
+  :file "!home!rose!Documents!code!c!roselib!src!os!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

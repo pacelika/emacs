@@ -1,0 +1,42 @@
+;; Object semanticdb-project-database-file-1581b5104504
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1581b5104504"
+  :tables
+  (list
+
+    (semanticdb-table "semanticdb-table-1581b4e83048"
+      :major-mode c-mode
+      :tags 
+        '( ("blocks" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+	/*Icon*/ /*Command*/	 	                            /*Update Interval*/	/*Update Signal*/
+    {\" 🐧 \", \"/opt/dwmblocks-distrotube/scripts/kernel\",	 360,		          2},
+
+	{\"  \", \"/opt/dwmblocks-distrotube/scripts/upt\",		 60,		          2},
+
+	{\"  \", \"/opt/dwmblocks-distrotube/scripts/pacupdate\",  360,		          9},
+	
+	{\"  \", \"/opt/dwmblocks-distrotube/scripts/memory\",	 6,		              1},
+
+	{\"  \", \"/opt/dwmblocks-distrotube/scripts/volume\",     0,		              10},
+
+	{\"  \", \"/opt/dwmblocks-distrotube/scripts/clock\",	     60,	              0},
+}"
+                :type ("Block" type (:type "class") nil nil))
+                nil [108 698])
+            ("delim" variable
+               (:typemodifiers ("static")
+                :default-value "'|'"
+                :type "char")
+                nil [784 808]))          
+      :file "blocks.h"
+      :pointmax 809
+      :fsize 821
+      :lastmodtime '(25549 55997 186646 375000)
+      :unmatched-syntax nil))
+  :file "!opt!dwmblocks-distrotube!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

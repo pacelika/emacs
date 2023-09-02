@@ -1,0 +1,119 @@
+;; Object semanticdb-project-database-file-1583ec88160c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1583ec88160c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1583ec8815ec"
+      :major-mode c++-mode
+      :tags 
+        '( ("SDL2/SDL.h" include (:system-flag t) nil [14 35])
+            ("iostream" include (:system-flag t) nil [37 56])
+            ("unordered_map" include (:system-flag t) nil [57 81])
+            ("vector" include (:system-flag t) nil [82 99])
+            ("FLAG_SCREEN_WIDTH" variable (:constant-flag t) nil [109 126])
+            ("FLAG_SCREEN_HEIGHT" variable (:constant-flag t) nil [139 157])
+            ("WindowDescriptor" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("title" variable
+                             (:pointer 1
+                              :constant-flag t
+                              :type "char")
+                              (reparse-symbol classsubparts) [184 202])
+                          ("icon_path" variable
+                             (:pointer 1
+                              :constant-flag t
+                              :type "char")
+                              (reparse-symbol classsubparts) [207 229])
+                          ("width" variable (:type "unsigned int") (reparse-symbol classsubparts) [234 253])
+                          ("height" variable (:type "unsigned int") (reparse-symbol classsubparts) [258 278]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [163 297])
+            ("Window" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [314 321])
+                    ("handle" variable
+                       (:pointer 1
+                        :type ("SDL_Window" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [326 345])
+                    ("event" variable (:type ("SDL_Event" type (:type "class") nil nil)) (reparse-symbol classsubparts) [354 370])
+                    ("init" function
+                       (:prototype-flag t
+                        :typemodifiers ("static")
+                        :type "void")
+                        (reparse-symbol classsubparts) [376 395])
+                    ("active_window" variable
+                       (:pointer 1
+                        :typemodifiers ("static")
+                        :type ("Window" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [400 429])
+                    ("Window" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("" variable (:type ("WindowDescriptor" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [442 459]))                          
+                        :type ("Window" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [435 460])
+                    ("screen_height" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [465 485])
+                    ("screen_width" function
+                       (:prototype-flag t
+                        :type "int")
+                        (reparse-symbol classsubparts) [490 509])
+                    ("close" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [514 527])
+                    ("updated" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("f" function
+                               (:function-pointer t
+                                :arguments "void"
+                                :type "void")
+                                nil nil))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [532 558])
+                    ("set_flag" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("flag" variable (:type "int") (reparse-symbol arg-sub-list) [576 585])
+                            ("value" variable (:type "int") (reparse-symbol arg-sub-list) [585 595]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [563 596])
+                    ("mainloop" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [601 617])
+                    ("private" label nil (reparse-symbol classsubparts) [619 627])
+                    ("_should_exit" variable (:type "int") (reparse-symbol classsubparts) [632 649])
+                    ("_display_mode" variable (:type ("SDL_DisplayMode" type (:type "class") nil nil)) (reparse-symbol classsubparts) [654 684])
+                    ("_handlers" variable (:type ("std::unordered_map" type
+                         (:template-specifier 
+                            ( ("char" type
+                                 (:pointer 1
+                                  :constant-flag t)
+                                  nil nil)
+                              ("std::vector" type (:template-specifier 
+                                ( ("void" type (:typevar "*") nil nil))                                ) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [689 755]))                  
+                :type "class")
+                nil [299 758]))          
+      :file "window.h"
+      :pointmax 759
+      :fsize 758
+      :lastmodtime '(25816 49552 982402 714000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2))
+      :lexical-table 
+        '(("FLAG_SCREEN_WIDTH" . ((number "0x0" 127 . 130)))
+          ("FLAG_SCREEN_HEIGHT" . ((number "0x1" 158 . 161)))
+          )
+))
+  :file "!home!rose!Documents!code!c++!text_editor!src!os!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

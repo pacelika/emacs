@@ -1,0 +1,18 @@
+;; Object semanticdb-project-database-file-155561d83e9c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155561d83e9c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155561d83ee0"
+      :major-mode makefile-gmake-mode
+      :tags 
+        '( ("bin_loc" variable (:default-value ("bin/main")) nil [1 18])
+            ("build" function nil nil [19 115]))          
+      :file "Makefile"
+      :pointmax 116
+      :fsize 115
+      :lastmodtime '(25675 15295 657535 920000)
+      :unmatched-syntax nil))
+  :file "!home!rose!Documents!code!assembly!testing!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

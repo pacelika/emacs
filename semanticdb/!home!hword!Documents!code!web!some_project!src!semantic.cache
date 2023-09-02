@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file-156dce311e6e
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156dce311e6e"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156dce311ea8"
+      :major-mode svelte-mode
+      :tags nil
+      :file "mod.svelte"
+      :pointmax 24
+      :fsize 23
+      :lastmodtime '(25572 58950 259554 602000)
+      :unmatched-syntax nil))
+  :file "!home!hword!Documents!code!web!some_project!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,779 @@
+;; Object semanticdb-project-database-file-156430d8e056
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156430d8e056"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156430d8dfd6"
+      :major-mode c++-mode
+      :tags 
+        '( ("SDL2/SDL.h" include (:system-flag t) nil [14 35])
+            ("iostream" include (:system-flag t) nil [36 55])
+            ("unordered_map" include (:system-flag t) nil [56 80])
+            ("vector" include (:system-flag t) nil [81 98])
+            ("Engine" type
+               (:members 
+                  ( ("Window" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [140 147])
+                            ("title" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol classsubparts) [156 174])
+                            ("_handle" variable
+                               (:pointer 1
+                                :type ("SDL_Window" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [183 203])
+                            ("event" variable (:type ("SDL_Event" type (:type "class") nil nil)) (reparse-symbol classsubparts) [212 228])
+                            ("width" variable (:type "unsigned int") (reparse-symbol classsubparts) [237 256])
+                            ("height" variable (:type "unsigned int") (reparse-symbol classsubparts) [265 285])
+                            ("should_exit" variable (:type "int") (reparse-symbol classsubparts) [294 310])
+                            ("init" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :type ("Window" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [347 368])
+                            ("closing" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("f" function
+                                       (:function-pointer t
+                                        :arguments "void"
+                                        :type "void")
+                                        nil nil))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [377 402])
+                            ("w_title" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("title" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type "char")
+                                        (reparse-symbol arg-sub-list) [427 445]))                                  
+                                :type ("Window" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [411 446])
+                            ("size" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("w" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [468 483])
+                                    ("h" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [483 498]))                                  
+                                :type ("Window" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [455 499])
+                            ("full_screen" function
+                               (:prototype-flag t
+                                :type ("Window" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [508 530])
+                            ("build" function
+                               (:prototype-flag t
+                                :type ("Window" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [539 555])
+                            ("mainloop" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [564 580])
+                            ("destroy" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [589 604])
+                            ("handlers" variable (:type ("std::unordered_map" type
+                                 (:template-specifier 
+                                    ( ("char" type
+                                         (:pointer 1
+                                          :constant-flag t)
+                                          nil nil)
+                                      ("std::vector" type (:template-specifier 
+                                        ( ("void" type (:typevar "*") nil nil))                                        ) nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [613 677]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [122 684]))                  
+                :type "namespace")
+                nil [100 686]))          
+      :file "window.h"
+      :pointmax 688
+      :fsize 687
+      :lastmodtime '(25649 3691 895203 105000)
+      :unmatched-syntax '((punctuation 686 . 687) (punctuation 337 . 338) (DEFAULT 330 . 337) (punctuation 328 . 329) (semantic-list 325 . 327) (symbol 319 . 325) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table-156430d8dff6"
+      :major-mode c-mode
+      :tags 
+        '( ("LMATH_H" variable (:constant-flag t) nil [25 32])
+            ("mat2" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("data" variable
+                             (:dereference 1
+                              :type "float")
+                              (reparse-symbol classsubparts) [52 66]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [34 73])
+            ("mat3" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("data" variable
+                             (:dereference 1
+                              :type "float")
+                              (reparse-symbol classsubparts) [93 107]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [75 114])
+            ("mat4" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("data" variable
+                             (:dereference 1
+                              :type "float")
+                              (reparse-symbol classsubparts) [134 149]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [116 156])
+            ("mat2_print" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [174 188]))                  
+                :type "void")
+                nil [158 189])
+            ("mat2_add" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [204 218])
+                    ("B" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [219 233])
+                    ("C" variable
+                       (:pointer 1
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [234 242]))                  
+                :type "void")
+                nil [190 243])
+            ("mat2_sub" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [258 272])
+                    ("B" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [273 287])
+                    ("C" variable
+                       (:pointer 1
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [288 296]))                  
+                :type "void")
+                nil [244 297])
+            ("mat2_mul" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [312 326])
+                    ("B" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [327 341])
+                    ("C" variable
+                       (:pointer 1
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [342 350]))                  
+                :type "void")
+                nil [298 351])
+            ("mat2_scal_mul" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [371 385])
+                    ("B" variable
+                       (:pointer 1
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [386 394])
+                    ("scalar" variable (:type "float") (reparse-symbol arg-sub-list) [395 408]))                  
+                :type "void")
+                nil [352 409])
+            ("mat2_trans" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [426 440])
+                    ("B" variable
+                       (:pointer 1
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [441 449]))                  
+                :type "void")
+                nil [410 450])
+            ("mat2_inv" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [465 479])
+                    ("B" variable
+                       (:pointer 1
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [480 488]))                  
+                :type "void")
+                nil [451 489])
+            ("mat3_print" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [507 521]))                  
+                :type "void")
+                nil [491 522])
+            ("mat3_add" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [537 551])
+                    ("B" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [552 566])
+                    ("C" variable
+                       (:pointer 1
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [567 575]))                  
+                :type "void")
+                nil [523 576])
+            ("mat3_sub" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [591 605])
+                    ("B" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [606 620])
+                    ("C" variable
+                       (:pointer 1
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [621 629]))                  
+                :type "void")
+                nil [577 630])
+            ("mat3_mul" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [645 659])
+                    ("B" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [660 674])
+                    ("C" variable
+                       (:pointer 1
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [675 683]))                  
+                :type "void")
+                nil [631 684])
+            ("mat3_scal_mul" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("scalar" variable (:type "float") (reparse-symbol arg-sub-list) [704 717])
+                    ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [717 731])
+                    ("B" variable
+                       (:pointer 1
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [732 740]))                  
+                :type "void")
+                nil [685 741])
+            ("mat3_trans" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [758 772])
+                    ("B" variable
+                       (:pointer 1
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [773 781]))                  
+                :type "void")
+                nil [742 782])
+            ("mat3_inv" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [797 811])
+                    ("B" variable
+                       (:pointer 1
+                        :type ("mat3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [812 820]))                  
+                :type "void")
+                nil [783 821])
+            ("mat4_print" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [838 852]))                  
+                :type "void")
+                nil [822 853])
+            ("mat4_add" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [868 882])
+                    ("B" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [883 897])
+                    ("C" variable
+                       (:pointer 1
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [898 906]))                  
+                :type "void")
+                nil [854 907])
+            ("mat4_sub" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [922 936])
+                    ("B" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [937 951])
+                    ("C" variable
+                       (:pointer 1
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [952 960]))                  
+                :type "void")
+                nil [908 961])
+            ("mat4_mul" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [976 990])
+                    ("B" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [991 1005])
+                    ("C" variable
+                       (:pointer 1
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1006 1014]))                  
+                :type "void")
+                nil [962 1015])
+            ("mat4_scal_mul" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("scalar" variable (:type "float") (reparse-symbol arg-sub-list) [1035 1048])
+                    ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1048 1062])
+                    ("B" variable
+                       (:pointer 1
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1063 1071]))                  
+                :type "void")
+                nil [1016 1072])
+            ("mat4_trans" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1089 1103])
+                    ("B" variable
+                       (:pointer 1
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1104 1112]))                  
+                :type "void")
+                nil [1073 1113])
+            ("mat4_inv" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1128 1142])
+                    ("B" variable
+                       (:pointer 1
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1143 1151]))                  
+                :type "void")
+                nil [1114 1152])
+            ("vec2" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("x" variable (:type "float") (reparse-symbol classsubparts) [1172 1180])
+                          ("y" variable (:type "float") (reparse-symbol classsubparts) [1183 1191]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [1154 1198])
+            ("vec2_new" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [1214 1222])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [1223 1231]))                  
+                :type ("vec2" type (:type "class") nil nil))
+                nil [1200 1232])
+            ("vec2_zero" function
+               (:prototype-flag t
+                :type ("vec2" type (:type "class") nil nil))
+                nil [1233 1250])
+            ("vec2_repr" function
+               (:prototype-flag t
+                :pointer 1
+                :constant-flag t
+                :arguments 
+                  ( ("v" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1273 1280]))                  
+                :type "char")
+                nil [1251 1281])
+            ("vec2_log" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("v" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1296 1303]))                  
+                :type "void")
+                nil [1282 1304])
+            ("vec2_lerp" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("what" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1320 1330])
+                    ("to" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1330 1338])
+                    ("alpha" variable (:type "float") (reparse-symbol arg-sub-list) [1338 1350]))                  
+                :type ("vec2" type (:type "class") nil nil))
+                nil [1305 1351])
+            ("vec2_mag" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("v" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1367 1374]))                  
+                :type "float")
+                nil [1352 1375])
+            ("vec2_norm" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("v1" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1391 1399]))                  
+                :type ("vec2" type (:type "class") nil nil))
+                nil [1376 1400])
+            ("vec2_add" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("v1" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1415 1423])
+                    ("v2" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1424 1432]))                  
+                :type ("vec2" type (:type "class") nil nil))
+                nil [1401 1433])
+            ("vec2_sub" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("v1" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1448 1456])
+                    ("v2" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1457 1465]))                  
+                :type ("vec2" type (:type "class") nil nil))
+                nil [1434 1466])
+            ("vec2_scal_mul" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("v" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1486 1493])
+                    ("scalar" variable (:type "float") (reparse-symbol arg-sub-list) [1494 1507]))                  
+                :type ("vec2" type (:type "class") nil nil))
+                nil [1467 1508])
+            ("vec2_dot_prod" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("v1" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1529 1537])
+                    ("v2" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1538 1546]))                  
+                :type "float")
+                nil [1509 1547])
+            ("vec2_is_eq" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("v1" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1563 1571])
+                    ("v2" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1572 1580]))                  
+                :type "int")
+                nil [1548 1581])
+            ("roa" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("A" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("mat2" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1592 1600])
+                    ("angle" variable (:type "float") (reparse-symbol arg-sub-list) [1601 1613]))                  
+                :type ("mat2" type (:type "class") nil nil))
+                nil [1583 1614])
+            ("vroa" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("v" variable (:type ("vec2" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1625 1632])
+                    ("angle" variable (:type "float") (reparse-symbol arg-sub-list) [1633 1645]))                  
+                :type ("vec2" type (:type "class") nil nil))
+                nil [1615 1646]))          
+      :file "lmath.h"
+      :pointmax 1655
+      :fsize 1654
+      :lastmodtime '(25594 61754 137950 108000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("LMATH_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-156430d8e016"
+      :major-mode c-mode
+      :tags 
+        '( ("FileBuf" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("buf" variable
+                             (:pointer 1
+                              :type "char")
+                              (reparse-symbol classsubparts) [19 29])
+                          ("f_size" variable (:type "int") (reparse-symbol classsubparts) [32 43])
+                          ("is_ok" variable (:type "int") (reparse-symbol classsubparts) [46 56]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [1 66])
+            ("read_local_file" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [92 109]))                  
+                :type ("FileBuf" type (:type "class") nil nil))
+                nil [68 110])
+            ("write_local_file" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [133 150])
+                    ("bytes" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [150 168]))                  
+                :type "void")
+                nil [111 169])
+            ("close_local_file" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :type ("FileBuf" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [192 206]))                  
+                :type "void")
+                nil [170 207]))          
+      :file "fs.h"
+      :pointmax 208
+      :fsize 207
+      :lastmodtime '(25603 48647 998172 609000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-156430d8e036"
+      :major-mode c++-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [15 33])
+            ("memory.h" include (:system-flag t) nil [34 53])
+            ("stdlib.h" include (:system-flag t) nil [54 73])
+            ("__DYN_ARR_ALLOC_STEP" variable (:constant-flag t) nil [82 102])
+            ("Iterator" type
+               (:template 
+                  ( ("T" type (:type "class") nil nil))                  
+                :type "struct"
+                :members 
+                  ( ("Iterator" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("addr" variable
+                               (:pointer 1
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [157 165]))                          
+                        :type ("Iterator" type (:type "struct") nil nil))
+                        (reparse-symbol classsubparts) [148 183])
+                    ("" function
+                       (:methodconst-flag t
+                        :operator-flag t
+                        :function-pointer t
+                        :type ("T" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [189 226])
+                    ("->" function
+                       (:operator-flag t
+                        :pointer 1
+                        :type ("T" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [231 262])
+                    ("++" function
+                       (:operator-flag t
+                        :type ("Iterator" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [268 315])
+                    ("++" function
+                       (:operator-flag t
+                        :arguments 
+                          ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [343 347]))                          
+                        :type ("Iterator" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [323 396])
+                    ("==" function
+                       (:operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("a" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Iterator" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [425 443])
+                            ("b" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Iterator" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [444 462]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [402 489])
+                    ("!=" function
+                       (:operator-flag t
+                        :typemodifiers ("friend")
+                        :arguments 
+                          ( ("a" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Iterator" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [518 536])
+                            ("b" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Iterator" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [537 555]))                          
+                        :type "int")
+                        (reparse-symbol classsubparts) [495 582])
+                    ("private" label nil (reparse-symbol classsubparts) [589 597])
+                    ("ptr" variable
+                       (:pointer 1
+                        :type ("T" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [602 609]))                  )
+                nil [106 612])
+            ("dyn_array" type
+               (:template 
+                  ( ("T" type (:type "class") nil nil))                  
+                :type "class"
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [649 656])
+                    ("dyn_array" function
+                       (:constructor-flag t
+                        :type ("dyn_array" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [659 737])
+                    ("dyn_array" function
+                       (:destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [740 781])
+                    ("push" function
+                       (:arguments 
+                          ( ("e" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [794 798]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [784 846])
+                    ("push" function
+                       (:arguments 
+                          ( ("e" variable
+                               (:reference 1
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [859 864]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [849 912])
+                    ("get_addr" function
+                       (:pointer 1
+                        :typemodifiers ("inline")
+                        :type "int")
+                        (reparse-symbol classsubparts) [915 955])
+                    ("length" function (:type "int") (reparse-symbol classsubparts) [958 993])
+                    ("begin" function (:type ("Iterator" type
+                         (:template-specifier 
+                            ( ("T" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [996 1050])
+                    ("end" function (:type ("Iterator" type
+                         (:template-specifier 
+                            ( ("T" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [1053 1112])
+                    ("private" label nil (reparse-symbol classsubparts) [1113 1121])
+                    ("ptr" variable
+                       (:pointer 1
+                        :type ("T" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1124 1131])
+                    ("cap" variable (:type "int") (reparse-symbol classsubparts) [1134 1151])
+                    ("quantity" variable (:type "int") (reparse-symbol classsubparts) [1134 1151])
+                    ("_test" function (:type "void") (reparse-symbol classsubparts) [1155 1268]))                  )
+                nil [614 1271]))          
+      :file "util.h"
+      :pointmax 1272
+      :fsize 1271
+      :lastmodtime '(25603 48625 157317 693000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__DYN_ARR_ALLOC_STEP" . ((number "4" 103 . 104)))
+          )
+))
+  :file "!home!hword!Documents!mygames!game!src!headers!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

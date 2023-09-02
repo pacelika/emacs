@@ -1,0 +1,44 @@
+;; Object semanticdb-project-database-file-1576dc6b4ca0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1576dc6b4ca0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1576dc6cc522"
+      :major-mode c-mode
+      :tags 
+        '( ("cglm_intrin_h" variable (:constant-flag t) nil [182 195])
+            ("xmmintrin.h" include (:system-flag t) nil [642 666])
+            ("emmintrin.h" include (:system-flag t) nil [667 691])
+            ("CGLM_SSE_FP" variable (:constant-flag t) nil [702 713])
+            ("CGLM_SIMD_x86" variable (:constant-flag t) nil [752 765])
+            ("CGLM_SIMD" variable (:constant-flag t) nil [2379 2388])
+            ("x86.h" include nil nil [2461 2479]))          
+      :file "intrin.h"
+      :pointmax 2625
+      :fsize 2624
+      :lastmodtime '(25812 33285 404486 351000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("CGLM_SSE_FP" . ((number "1" 714 . 715)))
+          ("CGLM_SIMD_x86")
+          ("cglm_intrin_h")
+          ("CGLM_SIMD")
+          )
+)
+    (semanticdb-table "semanticdb-table-1576dc6ce528"
+      :major-mode c-mode
+      :tags 
+        '( ("cglm_simd_x86_h" variable (:constant-flag t) nil [184 199])
+            ("intrin.h" include nil nil [200 219]))          
+      :file "x86.h"
+      :pointmax 7471
+      :fsize 7470
+      :lastmodtime '(25812 33285 404486 351000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("cglm_simd_x86_h")
+          )
+))
+  :file "!home!rose!Documents!code!c++!text_editor!src!core!extern_libs!cglm!include!cglm!simd!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

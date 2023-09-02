@@ -1,0 +1,300 @@
+;; Object semanticdb-project-database-file-155ecee9a944
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155ecee9a944"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155ecee9a904"
+      :major-mode c-mode
+      :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [59 78])
+            ("movestack.c" include nil nil [79 101])
+            ("borderpx" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "1"
+                :type "unsigned int")
+                nil [120 160])
+            ("snap" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "32"
+                :type "unsigned int")
+                nil [198 239])
+            ("showbar" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "1"
+                :type "int")
+                nil [263 303])
+            ("topbar" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "0"
+                :type "int")
+                nil [332 372])
+            ("fonts" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{ \"Symbols Nerd Font:size=10\" }"
+                :type "char")
+                nil [405 475])
+            ("dmenufont" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "\"monospace:size=10\""
+                :type "char")
+                nil [476 534])
+            ("col_gray1" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "\"#000000\""
+                :type "char")
+                nil [1168 1216])
+            ("col_gray2" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "\"#444444\""
+                :type "char")
+                nil [1217 1265])
+            ("col_gray3" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "\"#bbbbbb\""
+                :type "char")
+                nil [1266 1314])
+            ("col_gray4" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "\"#eeeeee\""
+                :type "char")
+                nil [1315 1363])
+            ("col_gray" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "\"#010101\""
+                :type "char")
+                nil [1415 1462])
+            ("colors" variable
+               (:pointer 1
+                :dereference 2
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+	/*               fg         bg         border   */
+	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
+	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+}"
+                :type "char")
+                nil [1464 1664])
+            ("tags" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{ \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\" }"
+                :type "char")
+                nil [1763 1839])
+            ("rules" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+	/* xprop(1):
+	 *	WM_CLASS(STRING) = instance, class
+	 *	WM_NAME(STRING) = title
+	 */
+	/* class      instance    title       tags mask     isfloating   monitor */
+	{ \"Gimp\",     NULL,       NULL,       0,            1,           -1 },
+	/* { \"Firefox\",  NULL,       NULL,       1 << 8,       0,           -1 }, */
+}"
+                :type ("Rule" type (:type "class") nil nil))
+                nil [1925 2270])
+            ("mfact" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "0.55"
+                :type "float")
+                nil [2288 2324])
+            ("nmaster" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "1"
+                :type "int")
+                nil [2371 2404])
+            ("resizehints" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "1"
+                :type "int")
+                nil [2447 2480])
+            ("lockfullscreen" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "1"
+                :type "int")
+                nil [2535 2571])
+            ("layouts" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+	/* symbol     arrange function */
+	{ \"[]=\",      tile },    /* first entry is default */
+	{ \"><>\",      NULL },    /* no layout function means floating behavior */
+	{ \"[M]\",      monocle },
+}"
+                :type ("Layout" type (:type "class") nil nil))
+                nil [2623 2850])
+            ("MODKEY" variable (:constant-flag t) nil [2882 2888])
+            ("TAGKEYS" variable (:constant-flag t) nil [2906 2913])
+            ("SHCMD" variable (:constant-flag t) nil [3324 3329])
+            ("dmenumon" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :default-value "\"0\""
+                :type "char")
+                nil [3406 3436])
+            ("dmenucmd" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{ \"dmenu_run\", \"-m\", dmenumon, \"-fn\", dmenufont, \"-nb\", col_gray1, \"-nf\", col_gray3, \"-sb\", col_cyan, \"-sf\", col_gray4, NULL }"
+                :type "char")
+                nil [3489 3648])
+            ("termcmd" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{ \"kitty\", NULL }"
+                :type "char")
+                nil [3710 3760])
+            ("test_cmd" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{\"./test.sh\",NULL}"
+                :type "char")
+                nil [3761 3812])
+            ("screenshot_cmd" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{\"maim ~/Pictures/screenshots $(date).png\", NULL}"
+                :type "char")
+                nil [3933 4021])
+            ("screenshot_select_cmd" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{\"maim\",\"~/Pictures/ $(date).png\",NULL}"
+                :type "char")
+                nil [4022 4107])
+            ("keys" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :default-value "{
+	/* modifier                     key        function        argument */
+	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
+	{ MODKEY|ShiftMask,             XK_s,      spawn,          {.v = screenshot_select_cmd} },
+	{ MODKEY,						XK_s,      spawn,          {.v = test_cmd} },
+	{ MODKEY,						XK_Return, spawn,          {.v = termcmd } },
+	{ MODKEY,                       XK_b,      togglebar,      {0} },
+	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
+	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
+	{ MODKEY|ShiftMask,             XK_j,      movestack,      {.i = +1 } },
+	{ MODKEY|ShiftMask,             XK_k,      movestack,      {.i = -1 } },
+	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
+	{ MODKEY,                       XK_p,      incnmaster,     {.i = -1 } },
+	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
+	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
+	{ MODKEY|ShiftMask,             XK_Return, zoom,           {0} },
+	{ MODKEY,                       XK_Tab,    view,           {0} },
+	{ MODKEY,						XK_q,      killclient,     {0} },
+	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
+	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
+	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
+	{ MODKEY,                       XK_space,  setlayout,      {0} },
+	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
+	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
+	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
+	{ MODKEY,                       XK_comma,  focusmon,       {.i = -1 } },
+	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
+	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
+	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
+	TAGKEYS(                        XK_1,                      0)
+	TAGKEYS(                        XK_2,                      1)
+	TAGKEYS(                        XK_3,                      2)
+	TAGKEYS(                        XK_4,                      3)
+	TAGKEYS(                        XK_5,                      4)
+	TAGKEYS(                        XK_6,                      5)
+	TAGKEYS(                        XK_7,                      6)
+	TAGKEYS(                        XK_8,                      7)
+	TAGKEYS(                        XK_9,                      8)
+	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+}"
+                :type ("Key" type (:type "class") nil nil))
+                nil [4109 6808])
+            ("buttons" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :default-value "{
+	/* click                event mask      button          function        argument */
+	{ ClkLtSymbol,          0,              Button1,        setlayout,      {0} },
+	{ ClkLtSymbol,          0,              Button3,        setlayout,      {.v = &layouts[2]} },
+	{ ClkWinTitle,          0,              Button2,        zoom,           {0} },
+	{ ClkStatusText,        0,              Button2,        spawn,          {.v = termcmd } },
+	{ ClkClientWin,         MODKEY,         Button1,        movemouse,      {0} },
+	{ ClkClientWin,         MODKEY,         Button2,        togglefloating, {0} },
+	{ ClkClientWin,         MODKEY,         Button3,        resizemouse,    {0} },
+	{ ClkTagBar,            0,              Button1,        view,           {0} },
+	{ ClkTagBar,            0,              Button3,        toggleview,     {0} },
+	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
+	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
+}"
+                :type ("Button" type (:type "class") nil nil))
+                nil [6934 7956]))          
+      :file "config.h"
+      :pointmax 7957
+      :fsize 7974
+      :lastmodtime '(25811 29416 18296 862000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SHCMD" (spp-arg-list ("cmd") 3327 . 3332) . ((semantic-list "{ .v = (const char*[]){ \"/bin/sh\", \"-c\", cmd, NULL } }" 3333 . 3387)))
+          ("MODKEY" . ((symbol "Mod4Mask" 2887 . 2895)))
+          ("TAGKEYS" (spp-arg-list ("KEY" "TAG") 2911 . 2920) . 
+              ((semantic-list "{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }" 2924 . 3000) (punctuation "," 3000 . 3001) (semantic-list "{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }" 3005 . 3081) (punctuation "," 3081 . 3082) (semantic-list "{ MODKEY|ShiftMask,             KEY,      tag,            {.ui = 1 << TAG} }" 3086 . 3162) (punctuation "," 3162 . 3163) (semantic-list "{ MODKEY|ControlMask|ShiftMask, KEY,      toggletag,      {.ui = 1 << TAG} }" 3167 . 3243) (punctuation "," 3243 . 3244)))
+          )
+)
+    (semanticdb-table "semanticdb-table-155ecee9a924"
+      :major-mode c-mode
+      :tags 
+        '( ("movestack" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16 31]))                  
+                :type "void")
+                nil [1 1231]))          
+      :file "movestack.c"
+      :pointmax 1231
+      :fsize 1230
+      :lastmodtime '(25655 41168 0 0)
+      :unmatched-syntax nil))
+  :file "!opt!suckless!dwm!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

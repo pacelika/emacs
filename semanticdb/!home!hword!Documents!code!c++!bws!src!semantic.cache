@@ -1,0 +1,111 @@
+;; Object semanticdb-project-database-file-1584786353ec
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1584786353ec"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158478517530"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("stdio.h" include (:system-flag t) nil [21 39])
+            ("prelude.h" include nil nil [40 60])
+            ("WIN_WIDTH" variable (:constant-flag t) nil [70 79])
+            ("WIN_HEIGHT" variable (:constant-flag t) nil [92 102])
+            ("DEBUG_MODE" variable (:constant-flag t) nil [115 125])
+            ("Engine" using (:type ("Engine" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [129 152])
+            ("main" function (:type "int") nil [154 345]))          
+      :file "main.cpp"
+      :pointmax 346
+      :fsize 345
+      :lastmodtime '(25648 54475 115306 265000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("WIN_HEIGHT" . ((number "600" 103 . 106)))
+          ("DEBUG_MODE" . ((number "0" 126 . 127)))
+          ("WIN_WIDTH" . ((number "800" 80 . 83)))
+          )
+)
+    (semanticdb-table "semanticdb-table-1584785b1b14"
+      :major-mode c-mode
+      :tags 
+        '( ("renderer/camera.h" include nil nil [1 29])
+            ("renderer/shader.h" include nil nil [30 58])
+            ("renderer/texture.h" include nil nil [59 88])
+            ("headers/window.h" include nil nil [89 116])
+            ("headers/fs.h" include nil nil [117 140])
+            ("headers/util.h" include nil nil [141 166])
+            ("renderer/draw.h" include nil nil [167 193])
+            ("renderer/shader.h" include nil nil [194 222]))          
+      :file "prelude.h"
+      :pointmax 223
+      :fsize 222
+      :lastmodtime '(25648 45289 233159 562000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1584787b4c88"
+      :major-mode c++-mode
+      :tags 
+        '( ("prelude.h" include nil nil [1 21])
+            ("stdlib.h" include (:system-flag t) nil [22 41])
+            ("stdio.h" include (:system-flag t) nil [42 60])
+            ("string.h" include (:system-flag t) nil [61 80])
+            ("extern_libs/glad/glad.h" include nil nil [81 115])
+            ("SDL2/SDL.h" include (:system-flag t) nil [116 137])
+            ("stdint.h" include (:system-flag t) nil [138 157])
+            ("size" function
+               (:parent "Engine::Window"
+                :arguments 
+                  ( ("w" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [196 211])
+                    ("h" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [212 227]))                  
+                :type ("Engine::Window" type (:type "class") nil nil))
+                nil [159 292])
+            ("full_screen" function
+               (:parent "Engine::Window"
+                :type ("Engine::Window" type (:type "class") nil nil))
+                nil [294 477])
+            ("init" function
+               (:parent "Engine::Window"
+                :type ("Engine::Window" type (:type "class") nil nil))
+                nil [479 669])
+            ("w_title" function
+               (:parent "Engine::Window"
+                :arguments 
+                  ( ("title" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [711 729]))                  
+                :type ("Engine::Window" type (:type "class") nil nil))
+                nil [671 775])
+            ("build" function
+               (:parent "Engine::Window"
+                :type ("Engine::Window" type (:type "class") nil nil))
+                nil [777 1435])
+            ("destroy" function
+               (:parent "Engine::Window"
+                :type "void")
+                nil [1437 1500])
+            ("mainloop" function
+               (:parent "Engine::Window"
+                :type "void")
+                nil [1502 2249])
+            ("closing" function
+               (:parent "Engine::Window"
+                :arguments 
+                  ( ("f" function
+                       (:function-pointer t
+                        :arguments "void"
+                        :type "void")
+                        nil nil))                  
+                :type "void")
+                nil [2251 2332]))          
+      :file "window.cpp"
+      :pointmax 2333
+      :fsize 2332
+      :lastmodtime '(25648 54146 860880 397000)
+      :unmatched-syntax nil))
+  :file "!home!hword!Documents!code!c++!bws!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,79 @@
+;; Object semanticdb-project-database-file-155aadd7b6be
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155aadd7b6be"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155aadd7b69e"
+      :major-mode c++-mode
+      :tags 
+        '( ("SDL2/SDL_image.h" include (:system-flag t) nil [14 41])
+            ("Engine" type
+               (:members 
+                  ( ("Texture" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [84 91])
+                            ("w" variable (:type "int") (reparse-symbol classsubparts) [100 106])
+                            ("h" variable (:type "int") (reparse-symbol classsubparts) [115 121])
+                            ("load" function
+                               (:prototype-flag t
+                                :pointer 1
+                                :typemodifiers ("static")
+                                :arguments 
+                                  ( ("" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type "char")
+                                        (reparse-symbol arg-sub-list) [156 168]))                                  
+                                :type ("SDL_Texture" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [131 169])
+                            ("get_tex_info" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :type ("Texture" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [178 208]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [65 213]))                  
+                :type "namespace")
+                nil [43 215]))          
+      :file "texture.h"
+      :pointmax 217
+      :fsize 216
+      :lastmodtime '(25650 29727 986828 128000)
+      :unmatched-syntax '((punctuation 215 . 216) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table-155aade3fc40"
+      :major-mode c-mode
+      :tags 
+        '( ("malloc" function
+               (:typemodifiers ("inline")
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [19 25]))                  
+                :type "int")
+                nil [1 43])
+            ("TileMap" type
+               (:members 
+                  ( ("col" variable
+                       (:typemodifiers ("static")
+                        :constant-flag t
+                        :default-value "10"
+                        :type "int")
+                        (reparse-symbol classsubparts) [64 90])
+                    ("row" variable
+                       (:typemodifiers ("static")
+                        :constant-flag t
+                        :default-value "10"
+                        :type "int")
+                        (reparse-symbol classsubparts) [95 121])
+                    ("tilemap" variable
+                       (:dereference 2
+                        :type "int")
+                        (reparse-symbol classsubparts) [131 153]))                  
+                :type "class")
+                nil [45 156]))          
+      :file "tilemap.h"
+      :pointmax 157
+      :fsize 156
+      :lastmodtime '(25650 39457 20127 686000)
+      :unmatched-syntax nil))
+  :file "!home!hword!Documents!mygames!game_no_gl!src!renderer!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

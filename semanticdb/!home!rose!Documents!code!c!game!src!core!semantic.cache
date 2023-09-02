@@ -1,0 +1,9 @@
+;; Object semanticdb-project-database-file-156abcbfa532
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156abcbfa532"
+  :tables
+  (list
+)
+  :file "!home!rose!Documents!code!c!game!src!core!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

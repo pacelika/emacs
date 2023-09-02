@@ -1,0 +1,54 @@
+;; Object semanticdb-project-database-file-15755bbb8f18
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15755bbb8f18"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15755bbb8ed8"
+      :major-mode c-mode
+      :tags 
+        '( ("log" function
+               (:prototype-flag t
+                :type "void")
+                nil [15 26]))          
+      :file "meow.h"
+      :pointmax 27
+      :fsize 26
+      :lastmodtime '(25596 23869 809542 91000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (VOID 27 . 31) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table-15755bbb8ef8"
+      :major-mode c-mode
+      :tags 
+        '( ("init_engine" function
+               (:prototype-flag t
+                :type "void")
+                nil [15 34])
+            ("set_eng_flag" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("flag" variable (:type "int") (reparse-symbol arg-sub-list) [52 61]))                  
+                :type "int")
+                nil [35 62]))          
+      :file "eng.h"
+      :pointmax 63
+      :fsize 62
+      :lastmodtime '(25596 23948 989055 910000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (semantic-list 51 . 53) (symbol 39 . 51) (INT 35 . 38) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 39 . 48) (INT 35 . 38) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (VOID 35 . 39) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table-15755bd4edaa"
+      :major-mode c-mode
+      :tags 
+        '( ("update" function
+               (:prototype-flag t
+                :type "void")
+                nil [15 29])
+            ("start" function
+               (:prototype-flag t
+                :type "void")
+                nil [30 43]))          
+      :file "script.h"
+      :pointmax 44
+      :fsize 43
+      :lastmodtime '(25596 27674 512757 82000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2))))
+  :file "!home!hword!Documents!project!res!headers!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

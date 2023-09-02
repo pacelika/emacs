@@ -1,0 +1,17 @@
+;; Object semanticdb-project-database-file-157fddee8272
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-157fddee8272"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-157fddf47118"
+      :major-mode js-mode
+      :tags 
+        '( ("App" function nil nil [349 444]))          
+      :file "App.jsx"
+      :pointmax 466
+      :fsize 465
+      :lastmodtime '(25685 32067 179469 831000)
+      :unmatched-syntax nil))
+  :file "!home!rose!Documents!code!web!some_project!client!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

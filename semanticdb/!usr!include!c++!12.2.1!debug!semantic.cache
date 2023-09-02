@@ -1,0 +1,111 @@
+;; Object semanticdb-project-database-file-15595915058a
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15595915058a"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1559591505c6"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_DEBUG_MACRO_SWITCH_H" variable (:constant-flag t) nil [1233 1262])
+            ("debug/assertions.h" include (:system-flag t) nil [1656 1685])
+            ("std" type
+               (:members 
+                  ( ("__debug" type (:type "namespace") (reparse-symbol namespacesubparts) [1842 1863]))                  
+                :type "namespace")
+                nil [1823 1866])
+            ("__gnu_debug" type
+               (:members 
+                  ( ("std::__debug" using (:type ("std::__debug" type
+                         (:prototype t
+                          :type "namespace")
+                          nil nil)) (reparse-symbol namespacesubparts) [1969 1998])
+                    ("_Safe_iterator" type
+                       (:template 
+                          ( ("_Ite" type (:type "class") nil nil)
+                            ("_Seq" type (:type "class") nil nil)
+                            ("_Cat" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :prototype t)
+                        (reparse-symbol namespacesubparts) [2002 2082]))                  
+                :type "namespace")
+                nil [1943 2084])
+            ("__glibcxx_requires_cond" variable (:constant-flag t) nil [2119 2142])
+            ("__glibcxx_requires_valid_range" variable (:constant-flag t) nil [2164 2194])
+            ("__glibcxx_requires_can_increment" variable (:constant-flag t) nil [2218 2250])
+            ("__glibcxx_requires_can_increment_range" variable (:constant-flag t) nil [2274 2312])
+            ("__glibcxx_requires_can_decrement_range" variable (:constant-flag t) nil [2346 2384])
+            ("__glibcxx_requires_sorted" variable (:constant-flag t) nil [2418 2443])
+            ("__glibcxx_requires_sorted_pred" variable (:constant-flag t) nil [2467 2497])
+            ("__glibcxx_requires_sorted_set" variable (:constant-flag t) nil [2527 2556])
+            ("__glibcxx_requires_sorted_set_pred" variable (:constant-flag t) nil [2590 2624])
+            ("__glibcxx_requires_partitioned_lower" variable (:constant-flag t) nil [2664 2700])
+            ("__glibcxx_requires_partitioned_upper" variable (:constant-flag t) nil [2731 2767])
+            ("__glibcxx_requires_partitioned_lower_pred" variable (:constant-flag t) nil [2798 2839])
+            ("__glibcxx_requires_partitioned_upper_pred" variable (:constant-flag t) nil [2876 2917])
+            ("__glibcxx_requires_heap" variable (:constant-flag t) nil [2954 2977])
+            ("__glibcxx_requires_heap_pred" variable (:constant-flag t) nil [3001 3029])
+            ("__glibcxx_requires_string" variable (:constant-flag t) nil [3059 3084])
+            ("__glibcxx_requires_string_len" variable (:constant-flag t) nil [3103 3132])
+            ("__glibcxx_requires_irreflexive" variable (:constant-flag t) nil [3156 3186])
+            ("__glibcxx_requires_irreflexive2" variable (:constant-flag t) nil [3210 3241])
+            ("__glibcxx_requires_irreflexive_pred" variable (:constant-flag t) nil [3265 3300])
+            ("__glibcxx_requires_irreflexive_pred2" variable (:constant-flag t) nil [3330 3366]))          
+      :file "debug.h"
+      :pointmax 5882
+      :fsize 5881
+      :lastmodtime '(25540 11490 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__glibcxx_requires_sorted_set_pred" (spp-arg-list ("_First1" "_Last1" "_First2" "_Pred") 2624 . 2654))
+          ("__glibcxx_requires_partitioned_upper_pred" (spp-arg-list ("_First" "_Last" "_Value" "_Pred") 2917 . 2944))
+          ("__glibcxx_requires_cond" (spp-arg-list ("_Cond" "_Msg") 2142 . 2154))
+          ("__glibcxx_requires_can_decrement_range" (spp-arg-list ("_First1" "_Last1" "_First2") 2384 . 2408))
+          ("__glibcxx_requires_heap" (spp-arg-list ("_First" "_Last") 2977 . 2991))
+          ("__glibcxx_requires_sorted_pred" (spp-arg-list ("_First" "_Last" "_Pred") 2497 . 2517))
+          ("__glibcxx_requires_partitioned_lower_pred" (spp-arg-list ("_First" "_Last" "_Value" "_Pred") 2839 . 2866))
+          ("_GLIBCXX_DEBUG_MACRO_SWITCH_H" . ((number "1" 1263 . 1264)))
+          ("__glibcxx_requires_can_increment_range" (spp-arg-list ("_First1" "_Last1" "_First2") 2312 . 2336))
+          ("__glibcxx_requires_string_len" (spp-arg-list ("_String" "_Len") 3132 . 3146))
+          ("__glibcxx_requires_partitioned_lower" (spp-arg-list ("_First" "_Last" "_Value") 2700 . 2721))
+          ("__glibcxx_requires_string" (spp-arg-list ("_String") 3084 . 3093))
+          ("__glibcxx_requires_valid_range" (spp-arg-list ("_First" "_Last") 2194 . 2208))
+          ("__glibcxx_requires_heap_pred" (spp-arg-list ("_First" "_Last" "_Pred") 3029 . 3049))
+          ("__glibcxx_requires_irreflexive" (spp-arg-list ("_First" "_Last") 3186 . 3200))
+          ("__glibcxx_requires_sorted_set" (spp-arg-list ("_First1" "_Last1" "_First2") 2556 . 2580))
+          ("__glibcxx_requires_irreflexive2" (spp-arg-list ("_First" "_Last") 3241 . 3255))
+          ("__glibcxx_requires_partitioned_upper" (spp-arg-list ("_First" "_Last" "_Value") 2767 . 2788))
+          ("__glibcxx_requires_sorted" (spp-arg-list ("_First" "_Last") 2443 . 2457))
+          ("__glibcxx_requires_irreflexive_pred" (spp-arg-list ("_First" "_Last" "_Pred") 3300 . 3320))
+          ("__glibcxx_requires_can_increment" (spp-arg-list ("_First" "_Size") 2250 . 2264))
+          ("__glibcxx_requires_irreflexive_pred2" (spp-arg-list ("_First" "_Last" "_Pred") 3366 . 3386))
+          )
+)
+    (semanticdb-table "semanticdb-table-1559592f602c"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_DEBUG_ASSERTIONS_H" variable (:constant-flag t) nil [1236 1263])
+            ("bits/c++config.h" include (:system-flag t) nil [1267 1294])
+            ("_GLIBCXX_DEBUG_ASSERT" variable (:constant-flag t) nil [1329 1350])
+            ("_GLIBCXX_DEBUG_PEDASSERT" variable (:constant-flag t) nil [1372 1396])
+            ("_GLIBCXX_DEBUG_ONLY" variable (:constant-flag t) nil [1418 1437])
+            ("__glibcxx_requires_non_empty_range" variable (:constant-flag t) nil [1496 1530])
+            ("__glibcxx_requires_nonempty" variable (:constant-flag t) nil [1554 1581])
+            ("__glibcxx_requires_subscript" variable (:constant-flag t) nil [1593 1621]))          
+      :file "assertions.h"
+      :pointmax 2369
+      :fsize 2368
+      :lastmodtime '(25540 11490 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_GLIBCXX_DEBUG_ASSERT" (spp-arg-list ("_Condition") 1350 . 1362))
+          ("__glibcxx_requires_non_empty_range" (spp-arg-list ("_First" "_Last") 1530 . 1544))
+          ("__glibcxx_requires_subscript" (spp-arg-list ("_N") 1621 . 1625))
+          ("_GLIBCXX_DEBUG_PEDASSERT" (spp-arg-list ("_Condition") 1396 . 1408))
+          ("_GLIBCXX_DEBUG_ONLY" (spp-arg-list ("_Statement") 1437 . 1449))
+          ("_GLIBCXX_DEBUG_ASSERTIONS_H" . ((number "1" 1264 . 1265)))
+          ("__glibcxx_requires_nonempty" (spp-arg-list nil 1581 . 1583))
+          )
+))
+  :file "!usr!include!c++!12.2.1!debug!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

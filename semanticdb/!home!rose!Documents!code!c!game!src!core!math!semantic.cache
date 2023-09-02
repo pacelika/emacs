@@ -1,0 +1,192 @@
+;; Object semanticdb-project-database-file-158c2a54b518
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-158c2a54b518"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158c29fb76a6"
+      :major-mode c-mode
+      :tags 
+        '( ("MATHVEC_H" variable (:constant-flag t) nil [27 36])
+            ("vec2" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("x" variable (:type "float") (reparse-symbol classsubparts) [59 69])
+                          ("y" variable (:type "float") (reparse-symbol classsubparts) [59 69]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [38 76])
+            ("vec3" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("x" variable (:type "float") (reparse-symbol classsubparts) [99 111])
+                          ("y" variable (:type "float") (reparse-symbol classsubparts) [99 111])
+                          ("z" variable (:type "float") (reparse-symbol classsubparts) [99 111]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [78 118])
+            ("vec4" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("x" variable (:type "float") (reparse-symbol classsubparts) [141 155])
+                          ("y" variable (:type "float") (reparse-symbol classsubparts) [141 155])
+                          ("z" variable (:type "float") (reparse-symbol classsubparts) [141 155])
+                          ("a" variable (:type "float") (reparse-symbol classsubparts) [141 155]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [120 162])
+            ("vec3_normalize" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("v" variable
+                       (:pointer 1
+                        :type ("vec3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [184 192]))                  
+                :type "void")
+                nil [164 193])
+            ("vec3_rotate" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("v" variable
+                       (:pointer 1
+                        :type ("vec3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [211 219]))                  
+                :type "void")
+                nil [194 220])
+            ("vec3_mag" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("v" variable
+                       (:pointer 1
+                        :type ("vec3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [237 245]))                  
+                :type "float")
+                nil [222 246])
+            ("vec3_dot" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("v1" variable
+                       (:pointer 1
+                        :type ("vec3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [262 271])
+                    ("v2" variable
+                       (:pointer 1
+                        :type ("vec3" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [271 280]))                  
+                :type "float")
+                nil [247 281]))          
+      :file "mathvec.h"
+      :pointmax 290
+      :fsize 289
+      :lastmodtime '(25709 35076 237342 429000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MATHVEC_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-158c29fb76c6"
+      :major-mode c-mode
+      :tags 
+        '( ("CORE_MATH_H" variable (:constant-flag t) nil [29 40])
+            ("mathvec.h" include nil nil [42 62])
+            ("mathmat.h" include nil nil [63 83]))          
+      :file "math.h"
+      :pointmax 92
+      :fsize 91
+      :lastmodtime '(25698 56290 585631 123000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("CORE_MATH_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-158c2a54b4f8"
+      :major-mode c-mode
+      :tags 
+        '( ("mat2" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("data" variable
+                             (:dereference 2
+                              :type "float")
+                              (reparse-symbol classsubparts) [36 53]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [15 60])
+            ("mat3" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("data" variable
+                             (:dereference 2
+                              :type "float")
+                              (reparse-symbol classsubparts) [83 100]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [62 107])
+            ("mat4" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("data" variable
+                             (:dereference 2
+                              :type "float")
+                              (reparse-symbol classsubparts) [130 147]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [109 154])
+            ("mat_ptr" variable (:constant-flag t) nil [164 171])
+            ("mat4_zeros" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [206 214]))                  
+                :type "void")
+                nil [190 215])
+            ("mat4_identity" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [235 243]))                  
+                :type "void")
+                nil [216 244])
+            ("mat4_translate" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("out" variable
+                       (:pointer 1
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [265 275])
+                    ("a" variable
+                       (:pointer 1
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [276 284]))                  
+                :type "void")
+                nil [245 285])
+            ("mat4_rotate" function
+               (:prototype-flag t
+                :type "void")
+                nil [286 305])
+            ("mat4_scale" function
+               (:prototype-flag t
+                :type "void")
+                nil [306 324]))          
+      :file "mathmat.h"
+      :pointmax 325
+      :fsize 324
+      :lastmodtime '(25709 35086 229598 657000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("mat_ptr" (spp-arg-list ("m") 171 . 174) . 
+              ((punctuation "&" 175 . 176) (symbol "m" 176 . 177) (punctuation "." 177 . 178) (symbol "data" 178 . 182) (semantic-list "[0]" 182 . 185) (semantic-list "[0]" 185 . 188)))
+          )
+))
+  :file "!home!rose!Documents!code!c!game!src!core!math!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

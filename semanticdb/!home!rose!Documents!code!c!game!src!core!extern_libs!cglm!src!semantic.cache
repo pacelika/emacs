@@ -1,0 +1,192 @@
+;; Object semanticdb-project-database-file-1591ef501232
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1591ef501232"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1591ef553e38"
+      :major-mode c-mode
+      :tags 
+        '( ("../include/cglm/cglm.h" include nil nil [152 185])
+            ("../include/cglm/call.h" include nil nil [186 219])
+            ("glmc_mat4_ucopy" function
+               (:arguments 
+                  ( ("mat" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [254 263])
+                    ("dest" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [264 274]))                  
+                :type "void")
+                nil [233 306])
+            ("glmc_mat4_copy" function
+               (:arguments 
+                  ( ("mat" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [340 349])
+                    ("dest" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [350 360]))                  
+                :type "void")
+                nil [320 392])
+            ("glmc_mat4_identity" function
+               (:arguments 
+                  ( ("mat" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [430 439]))                  
+                :type "void")
+                nil [406 469])
+            ("glmc_mat4_identity_array" function
+               (:arguments 
+                  ( ("mat" variable
+                       (:pointer 1
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [513 535])
+                    ("count" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [536 549]))                  
+                :type "void")
+                nil [483 592])
+            ("glmc_mat4_zero" function
+               (:arguments 
+                  ( ("mat" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [626 635]))                  
+                :type "void")
+                nil [606 661])
+            ("glmc_mat4_pick3" function
+               (:arguments 
+                  ( ("mat" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [696 705])
+                    ("dest" variable (:type ("mat3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [706 716]))                  
+                :type "void")
+                nil [675 749])
+            ("glmc_mat4_pick3t" function
+               (:arguments 
+                  ( ("mat" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [785 794])
+                    ("dest" variable (:type ("mat3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [795 805]))                  
+                :type "void")
+                nil [763 839])
+            ("glmc_mat4_ins3" function
+               (:arguments 
+                  ( ("mat" variable (:type ("mat3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [873 882])
+                    ("dest" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [883 893]))                  
+                :type "void")
+                nil [853 925])
+            ("glmc_mat4_mul" function
+               (:arguments 
+                  ( ("m1" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [958 966])
+                    ("m2" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [967 975])
+                    ("dest" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [976 986]))                  
+                :type "void")
+                nil [939 1020])
+            ("glmc_mat4_mulN" function
+               (:arguments 
+                  ( ("matrices" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type ("mat4" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1054 1083])
+                    ("len" variable (:type ("uint32_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1084 1097])
+                    ("dest" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1098 1108]))                  
+                :type "void")
+                nil [1034 1150])
+            ("glmc_mat4_mulv" function
+               (:arguments 
+                  ( ("m" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1184 1191])
+                    ("v" variable (:type ("vec4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1192 1199])
+                    ("dest" variable (:type ("vec4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1200 1210]))                  
+                :type "void")
+                nil [1164 1243])
+            ("glmc_mat4_mulv3" function
+               (:arguments 
+                  ( ("m" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1278 1285])
+                    ("v" variable (:type ("vec3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1286 1293])
+                    ("last" variable (:type "float") (reparse-symbol arg-sub-list) [1294 1305])
+                    ("dest" variable (:type ("vec3" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1306 1316]))                  
+                :type "void")
+                nil [1257 1356])
+            ("glmc_mat4_trace" function
+               (:arguments 
+                  ( ("m" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1392 1399]))                  
+                :type "float")
+                nil [1370 1431])
+            ("glmc_mat4_trace3" function
+               (:arguments 
+                  ( ("m" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1468 1475]))                  
+                :type "float")
+                nil [1445 1508])
+            ("glmc_mat4_quat" function
+               (:arguments 
+                  ( ("m" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1542 1549])
+                    ("dest" variable (:type ("versor" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1550 1562]))                  
+                :type "void")
+                nil [1522 1592])
+            ("glmc_mat4_transpose_to" function
+               (:arguments 
+                  ( ("m" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1634 1641])
+                    ("dest" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1642 1652]))                  
+                :type "void")
+                nil [1606 1690])
+            ("glmc_mat4_transpose" function
+               (:arguments 
+                  ( ("m" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1729 1736]))                  
+                :type "void")
+                nil [1704 1765])
+            ("glmc_mat4_scale_p" function
+               (:arguments 
+                  ( ("m" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1802 1809])
+                    ("s" variable (:type "float") (reparse-symbol arg-sub-list) [1810 1818]))                  
+                :type "void")
+                nil [1779 1848])
+            ("glmc_mat4_scale" function
+               (:arguments 
+                  ( ("m" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1883 1890])
+                    ("s" variable (:type "float") (reparse-symbol arg-sub-list) [1891 1899]))                  
+                :type "void")
+                nil [1862 1927])
+            ("glmc_mat4_det" function
+               (:arguments 
+                  ( ("mat" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1961 1970]))                  
+                :type "float")
+                nil [1941 2002])
+            ("glmc_mat4_inv" function
+               (:arguments 
+                  ( ("mat" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2035 2044])
+                    ("dest" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2045 2055]))                  
+                :type "void")
+                nil [2016 2086])
+            ("glmc_mat4_inv_precise" function
+               (:arguments 
+                  ( ("mat" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2127 2136])
+                    ("dest" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2137 2147]))                  
+                :type "void")
+                nil [2100 2186])
+            ("glmc_mat4_inv_fast" function
+               (:arguments 
+                  ( ("mat" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2224 2233])
+                    ("dest" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2234 2244]))                  
+                :type "void")
+                nil [2200 2280])
+            ("glmc_mat4_swap_col" function
+               (:arguments 
+                  ( ("mat" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2318 2327])
+                    ("col1" variable (:type "int") (reparse-symbol arg-sub-list) [2328 2337])
+                    ("col2" variable (:type "int") (reparse-symbol arg-sub-list) [2338 2347]))                  
+                :type "void")
+                nil [2294 2389])
+            ("glmc_mat4_swap_row" function
+               (:arguments 
+                  ( ("mat" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2427 2436])
+                    ("row1" variable (:type "int") (reparse-symbol arg-sub-list) [2437 2446])
+                    ("row2" variable (:type "int") (reparse-symbol arg-sub-list) [2447 2456]))                  
+                :type "void")
+                nil [2403 2498])
+            ("glmc_mat4_rmc" function
+               (:arguments 
+                  ( ("r" variable (:type ("vec4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2532 2539])
+                    ("m" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2540 2547])
+                    ("c" variable (:type ("vec4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2548 2555]))                  
+                :type "float")
+                nil [2512 2591])
+            ("glmc_mat4_make" function
+               (:arguments 
+                  ( ("src" variable
+                       (:pointer 1
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [2625 2648])
+                    ("dest" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2649 2659]))                  
+                :type "void")
+                nil [2605 2691]))          
+      :file "mat4.c"
+      :pointmax 2692
+      :fsize 2691
+      :lastmodtime '(25715 4495 144389 408000)
+      :unmatched-syntax '((symbol 2593 . 2604) (symbol 2500 . 2511) (symbol 2391 . 2402) (symbol 2282 . 2293) (symbol 2188 . 2199) (symbol 2088 . 2099) (symbol 2004 . 2015) (symbol 1929 . 1940) (symbol 1850 . 1861) (symbol 1767 . 1778) (symbol 1692 . 1703) (symbol 1594 . 1605) (symbol 1510 . 1521) (symbol 1433 . 1444) (symbol 1358 . 1369) (symbol 1245 . 1256) (symbol 1152 . 1163) (symbol 1022 . 1033) (symbol 927 . 938) (symbol 841 . 852) (symbol 751 . 762) (symbol 663 . 674) (symbol 594 . 605) (symbol 471 . 482) (symbol 394 . 405) (symbol 308 . 319) (symbol 221 . 232))))
+  :file "!home!rose!Documents!code!c!game!src!core!extern_libs!cglm!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

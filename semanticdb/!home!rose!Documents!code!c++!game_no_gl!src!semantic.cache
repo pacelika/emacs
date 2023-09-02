@@ -1,0 +1,410 @@
+;; Object semanticdb-project-database-file-155ea3bdd2b0
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-155ea3bdd2b0"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-155ea3b68894"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("renderer/texture.h" include nil nil [21 50])
+            ("window.h" include nil nil [51 70])
+            ("SDL2/SDL_ttf.h" include (:system-flag t) nil [71 96])
+            ("ecs.h" include nil nil [97 113])
+            ("WIDTH" variable (:constant-flag t) nil [123 128])
+            ("HEIGHT" variable (:constant-flag t) nil [141 147])
+            ("Engine::Window" using (:type ("Engine::Window" type
+                 (:prototype t
+                  :type "class")
+                  nil nil)) nil [153 174])
+            ("main" function (:type "int") nil [176 324]))          
+      :file "main.cpp"
+      :pointmax 325
+      :fsize 324
+      :lastmodtime '(25671 63996 384196 306000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("HEIGHT" . ((number "600" 148 . 151)))
+          ("WIDTH" . ((number "800" 129 . 132)))
+          )
+)
+    (semanticdb-table "semanticdb-table-155ea3b688b4"
+      :major-mode c++-mode
+      :tags 
+        '( ("WINDOW_H" variable (:constant-flag t) nil [26 34])
+            ("SDL2/SDL.h" include (:system-flag t) nil [36 57])
+            ("iostream" include (:system-flag t) nil [58 77])
+            ("unordered_map" include (:system-flag t) nil [78 102])
+            ("vector" include (:system-flag t) nil [103 120])
+            ("renderer/texture.h" include nil nil [121 150])
+            ("Engine" type
+               (:members 
+                  ( ("Window" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [192 199])
+                            ("init" function
+                               (:prototype-flag t
+                                :typemodifiers ("static")
+                                :type "void")
+                                (reparse-symbol classsubparts) [208 227])
+                            ("renderer" variable
+                               (:pointer 1
+                                :typemodifiers ("static")
+                                :type ("SDL_Renderer" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [236 266])
+                            ("title" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol classsubparts) [304 322])
+                            ("handle" variable
+                               (:pointer 1
+                                :type ("SDL_Window" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [331 350])
+                            ("event" variable (:type ("SDL_Event" type (:type "class") nil nil)) (reparse-symbol classsubparts) [359 375])
+                            ("width" variable (:type "unsigned int") (reparse-symbol classsubparts) [384 403])
+                            ("height" variable (:type "unsigned int") (reparse-symbol classsubparts) [412 432])
+                            ("should_exit" variable (:type "int") (reparse-symbol classsubparts) [441 457])
+                            ("handlers" variable (:type ("std::unordered_map" type
+                                 (:template-specifier 
+                                    ( ("char" type
+                                         (:pointer 1
+                                          :constant-flag t)
+                                          nil nil)
+                                      ("std::vector" type (:template-specifier 
+                                        ( ("void" type (:typevar "*") nil nil))                                        ) nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [467 531])
+                            ("closing" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("f" function
+                                       (:function-pointer t
+                                        :arguments "void"
+                                        :type "void")
+                                        nil nil))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [540 565])
+                            ("w_title" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("title" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type "char")
+                                        (reparse-symbol arg-sub-list) [591 609]))                                  
+                                :type ("Window" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [575 610])
+                            ("with_size" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("w" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [637 652])
+                                    ("h" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [652 667]))                                  
+                                :type ("Window" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [619 668])
+                            ("as_full_screen" function
+                               (:prototype-flag t
+                                :type ("Window" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [677 702])
+                            ("build" function
+                               (:prototype-flag t
+                                :type ("Window" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [711 727])
+                            ("mainloop" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [737 753])
+                            ("handle_input" function
+                               (:prototype-flag t
+                                :typemodifiers ("inline")
+                                :arguments 
+                                  ( ("rect" variable
+                                       (:pointer 1
+                                        :type ("SDL_Rect" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [787 802])
+                                    ("" variable
+                                       (:pointer 1
+                                        :type ("Engine::Text" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [802 816]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [762 817])
+                            ("destroy" function
+                               (:prototype-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [826 841])
+                            ("set_fps_cap" function
+                               (:prototype-flag t
+                                :arguments 
+                                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [868 872]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [851 873])
+                            ("get_fps_cap" function
+                               (:prototype-flag t
+                                :type "int")
+                                (reparse-symbol classsubparts) [882 900])
+                            ("reduce_sysres_usage" function
+                               (:prototype-flag t
+                                :typemodifiers ("inline")
+                                :type "void")
+                                (reparse-symbol classsubparts) [909 943])
+                            ("private" label nil (reparse-symbol classsubparts) [948 956])
+                            ("GameSysResLimiter" type
+                               (:members 
+                                  ( ("public" label nil (reparse-symbol classsubparts) [998 1005])
+                                    ("fps_cap" variable
+                                       (:default-value "60.0f"
+                                        :type "float")
+                                        (reparse-symbol classsubparts) [1018 1040])
+                                    ("cap_in_sec" variable
+                                       (:default-value "1000 / fps_cap"
+                                        :type "float")
+                                        (reparse-symbol classsubparts) [1053 1087])
+                                    ("start_t" variable (:type "float") (reparse-symbol classsubparts) [1100 1114])
+                                    ("frame_t" variable (:type "float") (reparse-symbol classsubparts) [1127 1141]))                                  
+                                :type "class")
+                                (reparse-symbol classsubparts) [965 1152])
+                            ("_sysres_limiter" variable (:type ("GameSysResLimiter" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1161 1195]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [174 1202]))                  
+                :type "namespace")
+                nil [152 1204]))          
+      :file "window.h"
+      :pointmax 1214
+      :fsize 1213
+      :lastmodtime '(25671 63996 384196 306000)
+      :unmatched-syntax '((punctuation 1204 . 1205) (punctuation 293 . 294) (DEFAULT 286 . 293) (punctuation 284 . 285) (semantic-list 281 . 283) (symbol 275 . 281))
+      :lexical-table 
+        '(("WINDOW_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-155ea3b688d4"
+      :major-mode c++-mode
+      :tags 
+        '( ("ECS_H_" variable (:constant-flag t) nil [24 30])
+            ("iostream" include (:system-flag t) nil [32 51])
+            ("vector" include (:system-flag t) nil [52 69])
+            ("memory" include (:system-flag t) nil [70 87])
+            ("algorithm" include (:system-flag t) nil [88 108])
+            ("bitset" include (:system-flag t) nil [109 126])
+            ("array" include (:system-flag t) nil [127 143])
+            ("Component" type
+               (:prototype t
+                :type "class")
+                nil [145 161])
+            ("Entity" type
+               (:prototype t
+                :type "class")
+                nil [162 175])
+            ("std::size_t" variable (:type "int") nil [197 209])
+            ("getComponentTypeID" function
+               (:typemodifiers ("inline")
+                :type ("ComponentID" type (:type "class") nil nil))
+                nil [211 310])
+            ("maxComponents" variable
+               (:default-value "32"
+                :type ("std::size_t" type (:type "class") nil nil))
+                nil [471 502])
+            ("std::bitset" variable (:type "int") nil [528 555])
+            ("std::array" variable (:type "int") nil [579 617])
+            ("Component" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [637 644])
+                    ("entity" variable
+                       (:pointer 1
+                        :type ("Entity" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [649 664])
+                    ("init" function
+                       (:typemodifiers ("virtual")
+                        :type "void")
+                        (reparse-symbol classsubparts) [670 692])
+                    ("update" function
+                       (:typemodifiers ("virtual")
+                        :type "void")
+                        (reparse-symbol classsubparts) [697 720])
+                    ("draw" function
+                       (:typemodifiers ("virtual")
+                        :type "void")
+                        (reparse-symbol classsubparts) [725 747])
+                    ("Component" function
+                       (:destructor-flag t
+                        :typemodifiers ("virtual")
+                        :type "void")
+                        (reparse-symbol classsubparts) [753 775]))                  
+                :type "class")
+                nil [619 778])
+            ("Entity" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [795 803])
+                    ("active" variable
+                       (:default-value "true"
+                        :type "bool")
+                        (reparse-symbol classsubparts) [808 827])
+                    ("components" variable (:type ("std::vector" type
+                         (:template-specifier 
+                            ( ("std::unique_ptr" type (:template-specifier 
+                                ( ("Component" type nil nil nil))                                ) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [832 883])
+                    ("component_array" variable (:type ("ComponentArray" type (:type "class") nil nil)) (reparse-symbol classsubparts) [889 920])
+                    ("component_bitset" variable (:type ("ComponentBitSet" type (:type "class") nil nil)) (reparse-symbol classsubparts) [925 958])
+                    ("public" label nil (reparse-symbol classsubparts) [960 967])
+                    ("update" function (:type "void") (reparse-symbol classsubparts) [972 1088])
+                    ("draw" function (:type "void") (reparse-symbol classsubparts) [1093 1106])
+                    ("is_active" function
+                       (:methodconst-flag t
+                        :type "bool")
+                        (reparse-symbol classsubparts) [1112 1153])
+                    ("destroy" function (:type "void") (reparse-symbol classsubparts) [1159 1192])
+                    ("has_component" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "bool"
+                        :methodconst-flag t)
+                        (reparse-symbol classsubparts) [1199 1317])
+                    ("add_component" function
+                       (:arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("TArgs" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1385 1392])
+                            ("" variable (:type ("mArgs" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1396 1402]))                          
+                        :type ("T" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1368 1738])
+                    ("get_component" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type ("T" type (:type "class") nil nil)
+                        :methodconst-flag t)
+                        (reparse-symbol classsubparts) [1744 1899])
+                    ("remove_component" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1905 2365]))                  
+                :type "class")
+                nil [780 2368]))          
+      :file "ecs.h"
+      :pointmax 2387
+      :fsize 2386
+      :lastmodtime '(25671 63996 384196 306000)
+      :unmatched-syntax '((punctuation 1394 . 1395) (punctuation 1393 . 1394) (punctuation 1392 . 1393) (punctuation 1391 . 1392) (punctuation 1362 . 1363) (symbol 1357 . 1362) (punctuation 1355 . 1356) (punctuation 1354 . 1355) (punctuation 1353 . 1354) (TYPENAME 1345 . 1353) (punctuation 1343 . 1344) (symbol 1342 . 1343) (TYPENAME 1333 . 1341) (punctuation 1332 . 1333) (TEMPLATE 1323 . 1331) (punctuation 1192 . 1193) (punctuation 1153 . 1154) (punctuation 1106 . 1107) (USING 556 . 561) (USING 504 . 509) (symbol 461 . 470) (semantic-list 383 . 459) (symbol 374 . 382) (semantic-list 371 . 373) (symbol 353 . 371) (symbol 341 . 352) (INLINE 334 . 340) (punctuation 332 . 333) (symbol 331 . 332) (TYPENAME 322 . 330) (punctuation 321 . 322) (TEMPLATE 312 . 320) (USING 177 . 182))
+      :lexical-table 
+        '(("ECS_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table-155ea3b68910"
+      :major-mode c++-mode
+      :tags 
+        '( ("SDL2/SDL_keyboard.h" include (:system-flag t) nil [1 31])
+            ("SDL2/SDL_rect.h" include (:system-flag t) nil [32 58])
+            ("iostream" include (:system-flag t) nil [59 78])
+            ("vector" include (:system-flag t) nil [79 96])
+            ("string.h" include (:system-flag t) nil [97 116])
+            ("SDL2/SDL.h" include (:system-flag t) nil [117 138])
+            ("SDL2/SDL_ttf.h" include (:system-flag t) nil [139 164])
+            ("stdint.h" include (:system-flag t) nil [165 184])
+            ("window.h" include nil nil [185 204])
+            ("renderer/texture.h" include nil nil [205 234])
+            ("Engine::Window::renderer" variable
+               (:pointer 1
+                :default-value "nullptr"
+                :type ("SDL_Renderer" type (:type "class") nil nil))
+                nil [236 285])
+            ("Engine::Text::curr_font" variable
+               (:pointer 1
+                :default-value "nullptr"
+                :type ("TTF_Font" type (:type "class") nil nil))
+                nil [286 330])
+            ("fail_counter" variable
+               (:default-value "0"
+                :type "int")
+                nil [332 353])
+            ("keystate" variable
+               (:pointer 1
+                :constant-flag t
+                :default-value "SDL_GetKeyboardState(0)"
+                :type ("Uint8" type (:type "class") nil nil))
+                nil [354 402])
+            ("with_size" function
+               (:parent "Engine::Window"
+                :arguments 
+                  ( ("w" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [446 461])
+                    ("h" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [462 477]))                  
+                :type ("Engine::Window" type (:type "class") nil nil))
+                nil [404 542])
+            ("reduce_sysres_usage" function
+               (:parent "Engine::Window"
+                :type "void")
+                nil [544 797])
+            ("as_full_screen" function
+               (:parent "Engine::Window"
+                :type ("Engine::Window" type (:type "class") nil nil))
+                nil [799 985])
+            ("init" function
+               (:parent "Engine::Window"
+                :type "void")
+                nil [987 1522])
+            ("w_title" function
+               (:parent "Engine::Window"
+                :arguments 
+                  ( ("title" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1564 1582]))                  
+                :type ("Engine::Window" type (:type "class") nil nil))
+                nil [1524 1628])
+            ("build" function
+               (:parent "Engine::Window"
+                :type ("Engine::Window" type (:type "class") nil nil))
+                nil [1630 2093])
+            ("destroy" function
+               (:parent "Engine::Window"
+                :type "void")
+                nil [2095 2245])
+            ("update_rect" function
+               (:typemodifiers ("inline")
+                :arguments 
+                  ( ("rect" variable
+                       (:pointer 1
+                        :type ("SDL_Rect" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2271 2286])
+                    ("dir_x" variable (:type "int") (reparse-symbol arg-sub-list) [2286 2296]))                  
+                :type "void")
+                nil [2247 2389])
+            ("handle_input" function
+               (:parent "Engine::Window"
+                :arguments 
+                  ( ("rect" variable
+                       (:pointer 1
+                        :type ("SDL_Rect" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2425 2440])
+                    ("text" variable
+                       (:pointer 1
+                        :type ("Engine::Text" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2440 2459]))                  
+                :type "void")
+                nil [2391 2921])
+            ("Entity" variable (:type "int") nil [2942 2949])
+            ("mainloop" function
+               (:parent "Engine::Window"
+                :type "void")
+                nil [2951 3974])
+            ("closing" function
+               (:parent "Engine::Window"
+                :arguments 
+                  ( ("f" function
+                       (:function-pointer t
+                        :arguments "void"
+                        :type "void")
+                        nil nil))                  
+                :type "void")
+                nil [3976 4057]))          
+      :file "window.cpp"
+      :pointmax 4058
+      :fsize 4057
+      :lastmodtime '(25671 64226 179233 771000)
+      :unmatched-syntax nil))
+  :file "!home!rose!Documents!code!c++!game_no_gl!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

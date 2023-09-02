@@ -1,0 +1,28 @@
+;; Object semanticdb-project-database-file-1556b25171ca
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1556b25171ca"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1556b25171aa"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("memory.h" include (:system-flag t) nil [20 39])
+            ("stdlib.h" include (:system-flag t) nil [40 59])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [70 79])
+                    ("argv" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [80 92]))                  
+                :type "int")
+                nil [61 148]))          
+      :file "main.c"
+      :pointmax 149
+      :fsize 148
+      :lastmodtime '(25682 52207 580548 659000)
+      :unmatched-syntax nil))
+  :file "!home!rose!Documents!code!c!testing!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

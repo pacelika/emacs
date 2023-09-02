@@ -1,0 +1,144 @@
+;; Object semanticdb-project-database-file-15595d3fedbc
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15595d3fedbc"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15595d3fedf6"
+      :major-mode c-mode
+      :tags 
+        '( ("SDL2/SDL.h" include (:system-flag t) nil [14 35])
+            ("Renderer" type
+               (:typedef ("" type (:type "struct") nil nil)
+                :type "typedef")
+                nil [37 63])
+            ("Window" type
+               (:members 
+                  ( ("win_width" variable
+                       (:default-value "800"
+                        :type "int")
+                        (reparse-symbol classsubparts) [84 104])
+                    ("win_height" variable
+                       (:default-value "600"
+                        :type "int")
+                        (reparse-symbol classsubparts) [109 130])
+                    ("handle_input" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [135 155])
+                    ("paint" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [160 173])
+                    ("Window" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("title" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [186 204])
+                            ("w" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type "unsigned int")
+                                (reparse-symbol arg-sub-list) [204 226])
+                            ("h" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type "unsigned int")
+                                (reparse-symbol arg-sub-list) [226 248]))                          
+                        :type ("Window" type (:type "struct") nil nil))
+                        (reparse-symbol classsubparts) [179 249])
+                    ("Window" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :arguments 
+                          ( ("title" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [261 279]))                          
+                        :type ("Window" type (:type "struct") nil nil))
+                        (reparse-symbol classsubparts) [254 280])
+                    ("create_gl_window" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("title" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [307 325]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [285 326])
+                    ("cleanup_gl_window" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [331 356])
+                    ("VAO" variable (:type "unsigned int") (reparse-symbol classsubparts) [362 383])
+                    ("VBO" variable (:type "unsigned int") (reparse-symbol classsubparts) [362 383])
+                    ("shader_program" variable (:type "unsigned int") (reparse-symbol classsubparts) [388 416])
+                    ("private" label nil (reparse-symbol classsubparts) [417 425])
+                    ("_should_exit" variable (:type "bool") (reparse-symbol classsubparts) [430 448])
+                    ("_event" variable (:type ("SDL_Event" type (:type "class") nil nil)) (reparse-symbol classsubparts) [453 470])
+                    ("_window_handle" variable
+                       (:pointer 1
+                        :type ("SDL_Window" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [475 502])
+                    ("_renderer" variable (:type ("Renderer" type (:type "class") nil nil)) (reparse-symbol classsubparts) [507 526]))                  
+                :type "struct")
+                nil [65 529]))          
+      :file "window.h"
+      :pointmax 530
+      :fsize 529
+      :lastmodtime '(25594 18996 69995 776000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table-15595d4335ee"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [14 33])
+            ("memory" include (:system-flag t) nil [34 51])
+            ("File" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("buf_size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol classsubparts) [74 90])
+                          ("buf" variable (:type ("std::unique_ptr" type
+                               (:template-specifier 
+                                  ( ("char" type (:pointer 1) nil nil))                                  
+                                :type "class")
+                                nil nil)) (reparse-symbol classsubparts) [95 122])
+                          ("is_ok" variable (:type "bool") (reparse-symbol classsubparts) [127 138]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [53 145])
+            ("get_file" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [161 178]))                  
+                :type ("File" type (:type "class") nil nil))
+                nil [147 179])
+            ("get_file_content" function
+               (:prototype-flag t
+                :pointer 1
+                :constant-flag t
+                :arguments 
+                  ( ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [209 226]))                  
+                :type "char")
+                nil [180 227]))          
+      :file "fs.h"
+      :pointmax 228
+      :fsize 227
+      :lastmodtime '(25594 18996 69995 776000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2))))
+  :file "!home!hword!Documents!lil_gl_game!src!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

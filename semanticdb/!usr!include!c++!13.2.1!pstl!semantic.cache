@@ -1,0 +1,412 @@
+;; Object semanticdb-project-database-file-156a5742c8e4
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156a5742c8e4"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156a5742c91e"
+      :major-mode c++-mode
+      :tags 
+        '( ("_PSTL_GLUE_MEMORY_DEFS_H" variable (:constant-flag t) nil [427 451])
+            ("execution_defs.h" include nil nil [453 480])
+            ("std" type
+               (:members 
+                  ( ("uninitialized_copy" function
+                       (:template 
+                          ( ("_ExecutionPolicy" type (:type "class") nil nil)
+                            ("_InputIterator" type (:type "class") nil nil)
+                            ("_ForwardIterator" type (:type "class") nil nil))                          
+                        :type ("__pstl::__internal::__enable_if_execution_policy" type
+                             (:template-specifier 
+                                ( ("_ExecutionPolicy" type nil nil nil)
+                                  ("_ForwardIterator" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("_ExecutionPolicy" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [708 726])
+                            ("" variable (:type ("__exec" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [727 734])
+                            ("__first" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [735 758])
+                            ("__last" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [759 781])
+                            ("__result" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [782 808]))                          
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [524 809])
+                    ("uninitialized_copy_n" function
+                       (:template 
+                          ( ("_ExecutionPolicy" type (:type "class") nil nil)
+                            ("_InputIterator" type (:type "class") nil nil)
+                            ("_Size" type (:type "class") nil nil)
+                            ("_ForwardIterator" type (:type "class") nil nil))                          
+                        :type ("__pstl::__internal::__enable_if_execution_policy" type
+                             (:template-specifier 
+                                ( ("_ExecutionPolicy" type nil nil nil)
+                                  ("_ForwardIterator" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("_ExecutionPolicy" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1010 1028])
+                            ("" variable (:type ("__exec" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1029 1036])
+                            ("__first" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1037 1060])
+                            ("__n" variable (:type ("_Size" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1061 1071])
+                            ("__result" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1072 1098]))                          
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [811 1099])
+                    ("uninitialized_move" function
+                       (:template 
+                          ( ("_ExecutionPolicy" type (:type "class") nil nil)
+                            ("_InputIterator" type (:type "class") nil nil)
+                            ("_ForwardIterator" type (:type "class") nil nil))                          
+                        :type ("__pstl::__internal::__enable_if_execution_policy" type
+                             (:template-specifier 
+                                ( ("_ExecutionPolicy" type nil nil nil)
+                                  ("_ForwardIterator" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("_ExecutionPolicy" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1310 1328])
+                            ("" variable (:type ("__exec" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1329 1336])
+                            ("__first" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1337 1360])
+                            ("__last" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1361 1383])
+                            ("__result" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1384 1410]))                          
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [1126 1411])
+                    ("uninitialized_move_n" function
+                       (:template 
+                          ( ("_ExecutionPolicy" type (:type "class") nil nil)
+                            ("_InputIterator" type (:type "class") nil nil)
+                            ("_Size" type (:type "class") nil nil)
+                            ("_ForwardIterator" type (:type "class") nil nil))                          
+                        :type ("__pstl::__internal::__enable_if_execution_policy" type
+                             (:template-specifier 
+                                ( ("_ExecutionPolicy" type nil nil nil)
+                                  ("_ForwardIterator" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("_ExecutionPolicy" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1612 1630])
+                            ("" variable (:type ("__exec" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1631 1638])
+                            ("__first" variable (:type ("_InputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1639 1662])
+                            ("__n" variable (:type ("_Size" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1663 1673])
+                            ("__result" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1674 1700]))                          
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [1413 1701])
+                    ("uninitialized_fill" function
+                       (:template 
+                          ( ("_ExecutionPolicy" type (:type "class") nil nil)
+                            ("_ForwardIterator" type (:type "class") nil nil)
+                            ("_Tp" type (:type "class") nil nil))                          
+                        :type ("__pstl::__internal::__enable_if_execution_policy" type
+                             (:template-specifier 
+                                ( ("_ExecutionPolicy" type nil nil nil)
+                                  ("void" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("_ExecutionPolicy" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1889 1907])
+                            ("" variable (:type ("__exec" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1908 1915])
+                            ("__first" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1916 1941])
+                            ("__last" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1942 1966])
+                            ("__value" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("_Tp" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1967 1986]))                          
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [1728 1987])
+                    ("uninitialized_fill_n" function
+                       (:template 
+                          ( ("_ExecutionPolicy" type (:type "class") nil nil)
+                            ("_ForwardIterator" type (:type "class") nil nil)
+                            ("_Size" type (:type "class") nil nil)
+                            ("_Tp" type (:type "class") nil nil))                          
+                        :type ("__pstl::__internal::__enable_if_execution_policy" type
+                             (:template-specifier 
+                                ( ("_ExecutionPolicy" type nil nil nil)
+                                  ("_ForwardIterator" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("_ExecutionPolicy" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2177 2195])
+                            ("" variable (:type ("__exec" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2196 2203])
+                            ("__first" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2204 2229])
+                            ("__n" variable (:type ("_Size" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2230 2240])
+                            ("__value" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("_Tp" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2241 2260]))                          
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [1989 2261])
+                    ("destroy" function
+                       (:template 
+                          ( ("_ExecutionPolicy" type (:type "class") nil nil)
+                            ("_ForwardIterator" type (:type "class") nil nil))                          
+                        :type ("__pstl::__internal::__enable_if_execution_policy" type
+                             (:template-specifier 
+                                ( ("_ExecutionPolicy" type nil nil nil)
+                                  ("void" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("_ExecutionPolicy" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2428 2446])
+                            ("" variable (:type ("__exec" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2447 2454])
+                            ("__first" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2455 2480])
+                            ("__last" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2481 2505]))                          
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [2289 2506])
+                    ("destroy_n" function
+                       (:template 
+                          ( ("_ExecutionPolicy" type (:type "class") nil nil)
+                            ("_ForwardIterator" type (:type "class") nil nil)
+                            ("_Size" type (:type "class") nil nil))                          
+                        :type ("__pstl::__internal::__enable_if_execution_policy" type
+                             (:template-specifier 
+                                ( ("_ExecutionPolicy" type nil nil nil)
+                                  ("_ForwardIterator" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("_ExecutionPolicy" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2674 2692])
+                            ("" variable (:type ("__exec" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2693 2700])
+                            ("__first" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2701 2726])
+                            ("__n" variable (:type ("_Size" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2727 2737]))                          
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [2508 2738])
+                    ("uninitialized_default_construct" function
+                       (:template 
+                          ( ("_ExecutionPolicy" type (:type "class") nil nil)
+                            ("_ForwardIterator" type (:type "class") nil nil))                          
+                        :type ("__pstl::__internal::__enable_if_execution_policy" type
+                             (:template-specifier 
+                                ( ("_ExecutionPolicy" type nil nil nil)
+                                  ("void" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("_ExecutionPolicy" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [2941 2959])
+                            ("" variable (:type ("__exec" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2960 2967])
+                            ("__first" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2968 2993])
+                            ("__last" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2994 3018]))                          
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [2778 3019])
+                    ("uninitialized_default_construct_n" function
+                       (:template 
+                          ( ("_ExecutionPolicy" type (:type "class") nil nil)
+                            ("_ForwardIterator" type (:type "class") nil nil)
+                            ("_Size" type (:type "class") nil nil))                          
+                        :type ("__pstl::__internal::__enable_if_execution_policy" type
+                             (:template-specifier 
+                                ( ("_ExecutionPolicy" type nil nil nil)
+                                  ("_ForwardIterator" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("_ExecutionPolicy" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3211 3229])
+                            ("" variable (:type ("__exec" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3230 3237])
+                            ("__first" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3238 3263])
+                            ("__n" variable (:type ("_Size" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3264 3274]))                          
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [3021 3275])
+                    ("uninitialized_value_construct" function
+                       (:template 
+                          ( ("_ExecutionPolicy" type (:type "class") nil nil)
+                            ("_ForwardIterator" type (:type "class") nil nil))                          
+                        :type ("__pstl::__internal::__enable_if_execution_policy" type
+                             (:template-specifier 
+                                ( ("_ExecutionPolicy" type nil nil nil)
+                                  ("void" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("_ExecutionPolicy" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3474 3492])
+                            ("" variable (:type ("__exec" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3493 3500])
+                            ("__first" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3501 3526])
+                            ("__last" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3527 3551]))                          
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [3313 3552])
+                    ("uninitialized_value_construct_n" function
+                       (:template 
+                          ( ("_ExecutionPolicy" type (:type "class") nil nil)
+                            ("_ForwardIterator" type (:type "class") nil nil)
+                            ("_Size" type (:type "class") nil nil))                          
+                        :type ("__pstl::__internal::__enable_if_execution_policy" type
+                             (:template-specifier 
+                                ( ("_ExecutionPolicy" type nil nil nil)
+                                  ("_ForwardIterator" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("" variable
+                               (:reference 1
+                                :type ("_ExecutionPolicy" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3742 3760])
+                            ("" variable (:type ("__exec" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3761 3768])
+                            ("__first" variable (:type ("_ForwardIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3769 3794])
+                            ("__n" variable (:type ("_Size" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3795 3805]))                          
+                        :prototype-flag t)
+                        (reparse-symbol namespacesubparts) [3554 3806]))                  
+                :type "namespace")
+                nil [482 3809]))          
+      :file "glue_memory_defs.h"
+      :pointmax 3866
+      :fsize 3865
+      :lastmodtime '(25799 27846 0 0)
+      :unmatched-syntax '((punctuation 3759 . 3760) (punctuation 3491 . 3492) (punctuation 3228 . 3229) (punctuation 2958 . 2959) (punctuation 2691 . 2692) (punctuation 2445 . 2446) (punctuation 2194 . 2195) (punctuation 1906 . 1907) (punctuation 1629 . 1630) (punctuation 1327 . 1328) (punctuation 1027 . 1028) (punctuation 725 . 726))
+      :lexical-table 
+        '(("_PSTL_GLUE_MEMORY_DEFS_H")
+          )
+)
+    (semanticdb-table "semanticdb-table-156a57146ee6"
+      :major-mode c++-mode
+      :tags 
+        '( ("_PSTL_EXECUTION_POLICY_DEFS_H" variable (:constant-flag t) nil [432 461])
+            ("type_traits" include (:system-flag t) nil [463 485])
+            ("__pstl" type
+               (:members 
+                  ( ("execution" type
+                       (:members 
+                          ( ("v1" type
+                               (:members 
+                                  ( ("sequenced_policy" type
+                                       (:members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [614 621])
+                                            ("__allow_unsequenced" function (:type ("std::false_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [672 759])
+                                            ("__allow_vector" function (:type ("std::false_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [781 863])
+                                            ("__allow_parallel" function (:type ("std::false_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [885 969]))                                          
+                                        :type "class")
+                                        (reparse-symbol namespacesubparts) [587 972])
+                                    ("parallel_policy" type
+                                       (:members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [1034 1041])
+                                            ("__allow_unsequenced" function (:type ("std::false_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1092 1179])
+                                            ("__allow_vector" function (:type ("std::false_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1201 1283])
+                                            ("__allow_parallel" function (:type ("std::true_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1305 1387]))                                          
+                                        :type "class")
+                                        (reparse-symbol namespacesubparts) [1008 1390])
+                                    ("parallel_unsequenced_policy" type
+                                       (:members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [1471 1478])
+                                            ("__allow_unsequenced" function (:type ("std::true_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1529 1614])
+                                            ("__allow_vector" function (:type ("std::true_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1636 1716])
+                                            ("__allow_parallel" function (:type ("std::true_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1738 1820]))                                          
+                                        :type "class")
+                                        (reparse-symbol namespacesubparts) [1433 1823])
+                                    ("unsequenced_policy" type
+                                       (:members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [1854 1861])
+                                            ("__allow_unsequenced" function (:type ("std::true_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1912 1997])
+                                            ("__allow_vector" function (:type ("std::true_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2019 2099])
+                                            ("__allow_parallel" function (:type ("std::false_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2121 2205]))                                          
+                                        :type "class")
+                                        (reparse-symbol namespacesubparts) [1825 2208])
+                                    ("seq" variable (:type ("sequenced_policy" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [2271 2294])
+                                    ("par" variable (:type ("parallel_policy" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [2323 2345])
+                                    ("par_unseq" variable (:type ("parallel_unsequenced_policy" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [2374 2414])
+                                    ("unseq" variable (:type ("unsequenced_policy" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [2443 2470])
+                                    ("is_execution_policy" type
+                                       (:template 
+                                          ( ("_Tp" type (:type "class") nil nil))                                          
+                                        :type "struct"
+                                        :superclasses 
+                                          ( ("std::false_type" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [2508 2578])
+                                    ("is_execution_policy" type
+                                       (:type "struct"
+                                        :superclasses 
+                                          ( ("std::true_type" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("__pstl::execution::sequenced_policy" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [2580 2677])
+                                    ("is_execution_policy" type
+                                       (:type "struct"
+                                        :superclasses 
+                                          ( ("std::true_type" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("__pstl::execution::parallel_policy" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [2678 2774])
+                                    ("is_execution_policy" type
+                                       (:type "struct"
+                                        :superclasses 
+                                          ( ("std::true_type" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("__pstl::execution::parallel_unsequenced_policy" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [2775 2883])
+                                    ("is_execution_policy" type
+                                       (:type "struct"
+                                        :superclasses 
+                                          ( ("std::true_type" type
+                                               (:protection "unspecified"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :template-specifier 
+                                          ( ("__pstl::execution::unsequenced_policy" type nil nil nil))                                          )
+                                        (reparse-symbol namespacesubparts) [2884 2983]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [535 3149]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [506 3167])
+                    ("__internal" type
+                       (:members 
+                          ( ("std::enable_if::type" variable
+                               (:typemodifiers ("typename")
+                                :type "int")
+                                (reparse-symbol namespacesubparts) [3322 3468]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [3192 3675]))                  
+                :type "namespace")
+                nil [487 3702]))          
+      :file "execution_defs.h"
+      :pointmax 3767
+      :fsize 3766
+      :lastmodtime '(25799 27846 0 0)
+      :unmatched-syntax '((punctuation 3316 . 3317) (symbol 3287 . 3315) (USING 3281 . 3286) (punctuation 3253 . 3254) (symbol 3250 . 3253) (CLASS 3244 . 3249) (punctuation 3242 . 3243) (symbol 3231 . 3242) (CLASS 3225 . 3230) (punctuation 3224 . 3225) (TEMPLATE 3215 . 3223) (symbol 2433 . 2442) (INLINE "inline" 2415 . 2432) (symbol 2364 . 2373) (INLINE "inline" 2346 . 2363) (symbol 2313 . 2322) (INLINE "inline" 2295 . 2312) (symbol 2261 . 2270) (INLINE "inline" 2243 . 2260) (symbol 2111 . 2120) (STATIC 2104 . 2110) (symbol 2009 . 2018) (STATIC 2002 . 2008) (symbol 1902 . 1911) (STATIC 1895 . 1901) (symbol 1728 . 1737) (STATIC 1721 . 1727) (symbol 1626 . 1635) (STATIC 1619 . 1625) (symbol 1519 . 1528) (STATIC 1512 . 1518) (symbol 1295 . 1304) (STATIC 1288 . 1294) (symbol 1191 . 1200) (STATIC 1184 . 1190) (symbol 1082 . 1091) (STATIC 1075 . 1081) (symbol 875 . 884) (STATIC 868 . 874) (symbol 771 . 780) (STATIC 764 . 770) (symbol 662 . 671) (STATIC 655 . 661) (INLINE 528 . 534))
+      :lexical-table 
+        '(("_PSTL_EXECUTION_POLICY_DEFS_H")
+          )
+))
+  :file "!usr!include!c++!13.2.1!pstl!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

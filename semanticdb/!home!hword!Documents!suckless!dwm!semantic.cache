@@ -1,0 +1,2640 @@
+;; Object semanticdb-project-database-file-158ba5d0c4bc
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-158ba5d0c4bc"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158ba59ea57e"
+      :major-mode c-mode
+      :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [59 78])
+            ("movestack.c" include nil nil [79 101])
+            ("borderpx" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "10"
+                :type "unsigned int")
+                nil [103 144])
+            ("gappx" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "50"
+                :type "unsigned int")
+                nil [182 223])
+            ("snap" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "32"
+                :type "unsigned int")
+                nil [258 299])
+            ("systraypinning" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "0"
+                :type "unsigned int")
+                nil [323 368])
+            ("systrayonleft" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "0"
+                :type "unsigned int")
+                nil [450 494])
+            ("systrayspacing" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "2"
+                :type "unsigned int")
+                nil [571 616])
+            ("topbar" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "1"
+                :type "int")
+                nil [641 681])
+            ("systraypinningfailfirst" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "0"
+                :type "int")
+                nil [711 756])
+            ("showsystray" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "1"
+                :type "int")
+                nil [866 906])
+            ("showbar" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "1"
+                :type "int")
+                nil [936 976])
+            ("fonts" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{ \"Symbols Nerd Font:size=10\" }"
+                :type "char")
+                nil [1003 1073])
+            ("dmenufont" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "\"monospace:size=10\""
+                :type "char")
+                nil [1143 1201])
+            ("col_gray1" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "\"#000\""
+                :type "char")
+                nil [1478 1523])
+            ("col_gray2" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "\"#444444\""
+                :type "char")
+                nil [1524 1572])
+            ("col_gray3" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "\"#bbbbbb\""
+                :type "char")
+                nil [1573 1621])
+            ("col_gray4" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "\"#eeeeee\""
+                :type "char")
+                nil [1622 1670])
+            ("col_cyan" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "\"#000000\""
+                :type "char")
+                nil [1671 1719])
+            ("colors" variable
+               (:pointer 1
+                :dereference 2
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+	/*               fg         bg         border   */
+	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
+	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+}"
+                :type "char")
+                nil [1997 2197])
+            ("tags" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{ \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\" }"
+                :type "char")
+                nil [2276 2352])
+            ("rules" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+	/* xprop(1):
+	 *	WM_CLASS(STRING) = instance, class
+	 *	WM_NAME(STRING) = title
+	 */
+	/* class      instance    title       tags mask     isfloating   monitor */
+	{ \"Gimp\",     NULL,       NULL,       0,            1,           -1 },
+	/* { \"Firefox\",  NULL,       NULL,       1 << 8,       0,           -1 }, */
+}"
+                :type ("Rule" type (:type "class") nil nil))
+                nil [2354 2699])
+            ("mfact" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "0.55"
+                :type "float")
+                nil [2717 2753])
+            ("nmaster" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "1"
+                :type "int")
+                nil [2800 2833])
+            ("resizehints" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "1"
+                :type "int")
+                nil [2876 2909])
+            ("lockfullscreen" variable
+               (:typemodifiers ("static")
+                :constant-flag t
+                :default-value "1"
+                :type "int")
+                nil [2964 3000])
+            ("layouts" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{
+	/* symbol     arrange function */
+	{ \"\",      tile },    /* first entry is default */
+	{ \"\",      NULL },    /* no layout function means floating behavior */
+	{ \"\",      monocle },
+}"
+                :type ("Layout" type (:type "class") nil nil))
+                nil [3052 3273])
+            ("MODKEY" variable (:constant-flag t) nil [3576 3582])
+            ("TAGKEYS" variable (:constant-flag t) nil [3600 3607])
+            ("SHCMD" variable (:constant-flag t) nil [4018 4023])
+            ("dmenumon" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :default-value "\"0\""
+                :type "char")
+                nil [4100 4130])
+            ("dmenucmd" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{ \"dmenu_run\", \"-m\", dmenumon, \"-fn\", dmenufont, \"-nb\", col_gray1, \"-nf\", col_gray3, \"-sb\", col_cyan, \"-sf\", col_gray4, NULL }"
+                :type "char")
+                nil [4183 4342])
+            ("termcmd" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{ \"st\", NULL }"
+                :type "char")
+                nil [4404 4451])
+            ("screenshot_select_cmd" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{\"maim\",\"-s\",\"~/Pictures/screenshots/$(date).png\", NULL}"
+                :type "char")
+                nil [4572 4674])
+            ("emacs_cmd" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{\"emacs\"}"
+                :type "char")
+                nil [4675 4718])
+            ("screenshot_cmd" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "{\"maim\",\"~/Pictures/$(date).png\",NULL}"
+                :type "char")
+                nil [4719 4796])
+            ("keys" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :default-value "{
+	/* modifier                     key        function        argument */
+	{ MODKEY,                       XK_d,      spawn,          {.v = dmenucmd } },
+	{ MODKEY|ShiftMask,             XK_s,      spawn,          {.v = screenshot_select_cmd} },
+	{ MODKEY,						XK_s,      spawn,          {.v = screenshot_cmd} },
+	{ MODKEY,						XK_Return, spawn,          {.v = termcmd } },
+	{ MODKEY,						XK_e,      spawn,          {.v = emacs_cmd } },
+	{ MODKEY,                       XK_b,      togglebar,      {0} },
+	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
+	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
+	{ MODKEY|ShiftMask,             XK_j,      movestack,      {.i = +1 } },
+	{ MODKEY|ShiftMask,             XK_k,      movestack,      {.i = -1 } },
+	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
+	{ MODKEY,                       XK_p,      incnmaster,     {.i = -1 } },
+	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
+	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
+	{ MODKEY|ShiftMask,             XK_Return, zoom,           {0} },
+	{ MODKEY,                       XK_Tab,    view,           {0} },
+	{ MODKEY,						XK_q,      killclient,     {0} },
+	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
+	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
+	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
+	{ MODKEY,                       XK_space,  setlayout,      {0} },
+	{ MODKEY|ShiftMask,             XK_space,  togglefloating, {0} },
+	{ MODKEY,                       XK_0,      view,           {.ui = ~0 } },
+	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
+	{ MODKEY,                       XK_comma,  focusmon,       {.i = -1 } },
+	{ MODKEY,                       XK_period, focusmon,       {.i = +1 } },
+	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
+	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
+	{ MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
+	{ MODKEY,                       XK_equal,  setgaps,        {.i = +1 } },
+	{ MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
+	TAGKEYS(                        XK_1,                      0)
+	TAGKEYS(                        XK_2,                      1)
+	TAGKEYS(                        XK_3,                      2)
+	TAGKEYS(                        XK_4,                      3)
+	TAGKEYS(                        XK_5,                      4)
+	TAGKEYS(                        XK_6,                      5)
+	TAGKEYS(                        XK_7,                      6)
+	TAGKEYS(                        XK_8,                      7)
+	TAGKEYS(                        XK_9,                      8)
+	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+}"
+                :type ("Key" type (:type "class") nil nil))
+                nil [4798 7789])
+            ("buttons" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :default-value "{
+	/* click                event mask      button          function        argument */
+	{ ClkLtSymbol,          0,              Button1,        setlayout,      {0} },
+	{ ClkLtSymbol,          0,              Button3,        setlayout,      {.v = &layouts[2]} },
+	{ ClkWinTitle,          0,              Button2,        zoom,           {0} },
+	{ ClkStatusText,        0,              Button2,        spawn,          {.v = termcmd } },
+	{ ClkClientWin,         MODKEY,         Button1,        movemouse,      {0} },
+	{ ClkClientWin,         MODKEY,         Button2,        togglefloating, {0} },
+	{ ClkClientWin,         MODKEY,         Button3,        resizemouse,    {0} },
+	{ ClkTagBar,            0,              Button1,        view,           {0} },
+	{ ClkTagBar,            0,              Button3,        toggleview,     {0} },
+	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0} },
+	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
+}"
+                :type ("Button" type (:type "class") nil nil))
+                nil [7915 8937]))          
+      :file "config.h"
+      :pointmax 8938
+      :fsize 8943
+      :lastmodtime '(25552 21715 313592 594000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SHCMD" (spp-arg-list ("cmd") 4023 . 4028) . ((semantic-list "{ .v = (const char*[]){ \"/bin/sh\", \"-c\", cmd, NULL } }" 4029 . 4083)))
+          ("MODKEY" . ((symbol "Mod4Mask" 3583 . 3591)))
+          ("TAGKEYS" (spp-arg-list ("KEY" "TAG") 3607 . 3616) . 
+              ((semantic-list "{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }" 3620 . 3696) (punctuation "," 3696 . 3697) (semantic-list "{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }" 3701 . 3777) (punctuation "," 3777 . 3778) (semantic-list "{ MODKEY|ShiftMask,             KEY,      tag,            {.ui = 1 << TAG} }" 3782 . 3858) (punctuation "," 3858 . 3859) (semantic-list "{ MODKEY|ControlMask|ShiftMask, KEY,      toggletag,      {.ui = 1 << TAG} }" 3863 . 3939) (punctuation "," 3939 . 3940)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158ba59ea59e"
+      :major-mode c-mode
+      :tags 
+        '( ("movestack" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16 31]))                  
+                :type "void")
+                nil [1 1231]))          
+      :file "movestack.c"
+      :pointmax 1231
+      :fsize 1230
+      :lastmodtime '(25271 36312 0 0)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-158ba59ea5be"
+      :major-mode c-mode
+      :tags 
+        '( ("errno.h" include (:system-flag t) nil [1043 1061])
+            ("locale.h" include (:system-flag t) nil [1062 1081])
+            ("signal.h" include (:system-flag t) nil [1082 1101])
+            ("stdarg.h" include (:system-flag t) nil [1102 1121])
+            ("stdio.h" include (:system-flag t) nil [1122 1140])
+            ("stdlib.h" include (:system-flag t) nil [1141 1160])
+            ("string.h" include (:system-flag t) nil [1161 1180])
+            ("unistd.h" include (:system-flag t) nil [1181 1200])
+            ("sys/types.h" include (:system-flag t) nil [1201 1223])
+            ("sys/wait.h" include (:system-flag t) nil [1224 1245])
+            ("X11/cursorfont.h" include (:system-flag t) nil [1246 1273])
+            ("X11/keysym.h" include (:system-flag t) nil [1274 1297])
+            ("X11/Xatom.h" include (:system-flag t) nil [1298 1320])
+            ("X11/Xlib.h" include (:system-flag t) nil [1321 1342])
+            ("X11/Xproto.h" include (:system-flag t) nil [1343 1366])
+            ("X11/Xutil.h" include (:system-flag t) nil [1367 1389])
+            ("X11/Xft/Xft.h" include (:system-flag t) nil [1465 1489])
+            ("drw.h" include nil nil [1491 1507])
+            ("util.h" include nil nil [1508 1525])
+            ("BUTTONMASK" variable (:constant-flag t) nil [1548 1558])
+            ("CLEANMASK" variable (:constant-flag t) nil [1616 1625])
+            ("INTERSECT" variable (:constant-flag t) nil [1752 1761])
+            ("ISVISIBLE" variable (:constant-flag t) nil [1933 1942])
+            ("LENGTH" variable (:constant-flag t) nil [2011 2017])
+            ("MOUSEMASK" variable (:constant-flag t) nil [2068 2077])
+            ("WIDTH" variable (:constant-flag t) nil [2131 2136])
+            ("HEIGHT" variable (:constant-flag t) nil [2186 2192])
+            ("TAGMASK" variable (:constant-flag t) nil [2241 2248])
+            ("TEXTW" variable (:constant-flag t) nil [2299 2304])
+            ("" type
+               (:members 
+                  ( ("CurNormal" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2384 2394])
+                    ("CurResize" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2395 2405])
+                    ("CurMove" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2406 2414])
+                    ("CurLast" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2415 2424]))                  
+                :type "enum")
+                nil [2377 2425])
+            ("" type
+               (:members 
+                  ( ("SchemeNorm" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2446 2457])
+                    ("SchemeSel" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2458 2469]))                  
+                :type "enum")
+                nil [2439 2470])
+            ("" type
+               (:members 
+                  ( ("NetSupported" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2498 2511])
+                    ("NetWMName" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2512 2522])
+                    ("NetWMState" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2523 2534])
+                    ("NetWMCheck" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2535 2546])
+                    ("NetWMFullscreen" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2554 2570])
+                    ("NetActiveWindow" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2571 2587])
+                    ("NetWMWindowType" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2588 2604])
+                    ("NetWMWindowTypeDialog" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2612 2634])
+                    ("NetClientList" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2635 2649])
+                    ("NetLast" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2650 2659]))                  
+                :type "enum")
+                nil [2491 2660])
+            ("" type
+               (:members 
+                  ( ("WMProtocols" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2685 2697])
+                    ("WMDelete" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2698 2707])
+                    ("WMState" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2708 2716])
+                    ("WMTakeFocus" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2717 2729])
+                    ("WMLast" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2730 2738]))                  
+                :type "enum")
+                nil [2678 2739])
+            ("" type
+               (:members 
+                  ( ("ClkTagBar" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2767 2777])
+                    ("ClkLtSymbol" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2778 2790])
+                    ("ClkStatusText" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2791 2805])
+                    ("ClkWinTitle" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2806 2818])
+                    ("ClkClientWin" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2826 2839])
+                    ("ClkRootWin" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2840 2851])
+                    ("ClkLast" variable
+                       (:constant-flag t
+                        :type "int")
+                        (reparse-symbol enumsubparts) [2852 2861]))                  
+                :type "enum")
+                nil [2760 2862])
+            ("Arg" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("i" variable (:type "int") (reparse-symbol classsubparts) [2894 2900])
+                          ("ui" variable (:type "unsigned int") (reparse-symbol classsubparts) [2902 2918])
+                          ("f" variable (:type "float") (reparse-symbol classsubparts) [2920 2928])
+                          ("v" variable
+                             (:pointer 1
+                              :constant-flag t
+                              :type "void")
+                              (reparse-symbol classsubparts) [2930 2944]))                        
+                      :type "union")
+                      nil nil)
+                :type "typedef")
+                nil [2877 2951])
+            ("Button" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("click" variable (:type "unsigned int") (reparse-symbol classsubparts) [2971 2990])
+                          ("mask" variable (:type "unsigned int") (reparse-symbol classsubparts) [2992 3010])
+                          ("button" variable (:type "unsigned int") (reparse-symbol classsubparts) [3012 3032])
+                          ("func" function
+                             (:prototype-flag t
+                              :function-pointer t
+                              :arguments 
+                                ( ("arg" variable
+                                     (:pointer 1
+                                      :constant-flag t
+                                      :type ("Arg" type (:type "class") nil nil))
+                                      (reparse-symbol arg-sub-list) [3047 3062]))                                
+                              :type "void")
+                              (reparse-symbol classsubparts) [3034 3063])
+                          ("arg" variable
+                             (:constant-flag t
+                              :type ("Arg" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [3065 3079]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [2953 3089])
+            ("Monitor" type
+               (:typedef ("Monitor" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [3091 3122])
+            ("Client" type
+               (:typedef ("Client" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [3123 3152])
+            ("Client" type
+               (:members 
+                  ( ("name" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [3170 3185])
+                    ("mina" variable (:type "float") (reparse-symbol classsubparts) [3187 3204])
+                    ("maxa" variable (:type "float") (reparse-symbol classsubparts) [3187 3204])
+                    ("x" variable (:type "int") (reparse-symbol classsubparts) [3206 3221])
+                    ("y" variable (:type "int") (reparse-symbol classsubparts) [3206 3221])
+                    ("w" variable (:type "int") (reparse-symbol classsubparts) [3206 3221])
+                    ("h" variable (:type "int") (reparse-symbol classsubparts) [3206 3221])
+                    ("oldx" variable (:type "int") (reparse-symbol classsubparts) [3223 3250])
+                    ("oldy" variable (:type "int") (reparse-symbol classsubparts) [3223 3250])
+                    ("oldw" variable (:type "int") (reparse-symbol classsubparts) [3223 3250])
+                    ("oldh" variable (:type "int") (reparse-symbol classsubparts) [3223 3250])
+                    ("basew" variable (:type "int") (reparse-symbol classsubparts) [3252 3317])
+                    ("baseh" variable (:type "int") (reparse-symbol classsubparts) [3252 3317])
+                    ("incw" variable (:type "int") (reparse-symbol classsubparts) [3252 3317])
+                    ("inch" variable (:type "int") (reparse-symbol classsubparts) [3252 3317])
+                    ("maxw" variable (:type "int") (reparse-symbol classsubparts) [3252 3317])
+                    ("maxh" variable (:type "int") (reparse-symbol classsubparts) [3252 3317])
+                    ("minw" variable (:type "int") (reparse-symbol classsubparts) [3252 3317])
+                    ("minh" variable (:type "int") (reparse-symbol classsubparts) [3252 3317])
+                    ("hintsvalid" variable (:type "int") (reparse-symbol classsubparts) [3252 3317])
+                    ("bw" variable (:type "int") (reparse-symbol classsubparts) [3319 3333])
+                    ("oldbw" variable (:type "int") (reparse-symbol classsubparts) [3319 3333])
+                    ("tags" variable (:type "unsigned int") (reparse-symbol classsubparts) [3335 3353])
+                    ("isfixed" variable (:type "int") (reparse-symbol classsubparts) [3355 3425])
+                    ("isfloating" variable (:type "int") (reparse-symbol classsubparts) [3355 3425])
+                    ("isurgent" variable (:type "int") (reparse-symbol classsubparts) [3355 3425])
+                    ("neverfocus" variable (:type "int") (reparse-symbol classsubparts) [3355 3425])
+                    ("oldstate" variable (:type "int") (reparse-symbol classsubparts) [3355 3425])
+                    ("isfullscreen" variable (:type "int") (reparse-symbol classsubparts) [3355 3425])
+                    ("next" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3427 3440])
+                    ("snext" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3442 3456])
+                    ("mon" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [3458 3471])
+                    ("win" variable (:type ("Window" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3473 3484]))                  
+                :type "struct")
+                nil [3153 3487])
+            ("Key" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("mod" variable (:type "unsigned int") (reparse-symbol classsubparts) [3507 3524])
+                          ("keysym" variable (:type ("KeySym" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3526 3540])
+                          ("func" function
+                             (:prototype-flag t
+                              :function-pointer t
+                              :arguments 
+                                ( ("" variable
+                                     (:pointer 1
+                                      :constant-flag t
+                                      :type ("Arg" type (:type "class") nil nil))
+                                      (reparse-symbol arg-sub-list) [3555 3567]))                                
+                              :type "void")
+                              (reparse-symbol classsubparts) [3542 3568])
+                          ("arg" variable
+                             (:constant-flag t
+                              :type ("Arg" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [3570 3584]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [3489 3591])
+            ("Layout" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("symbol" variable
+                             (:pointer 1
+                              :constant-flag t
+                              :type "char")
+                              (reparse-symbol classsubparts) [3611 3630])
+                          ("arrange" function
+                             (:prototype-flag t
+                              :function-pointer t
+                              :arguments 
+                                ( ("" variable
+                                     (:pointer 1
+                                      :type ("Monitor" type (:type "class") nil nil))
+                                      (reparse-symbol arg-sub-list) [3648 3658]))                                
+                              :type "void")
+                              (reparse-symbol classsubparts) [3632 3659]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [3593 3669])
+            ("Monitor" type
+               (:members 
+                  ( ("ltsymbol" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [3689 3707])
+                    ("mfact" variable (:type "float") (reparse-symbol classsubparts) [3709 3721])
+                    ("nmaster" variable (:type "int") (reparse-symbol classsubparts) [3723 3735])
+                    ("num" variable (:type "int") (reparse-symbol classsubparts) [3737 3745])
+                    ("by" variable (:type "int") (reparse-symbol classsubparts) [3747 3754])
+                    ("mx" variable (:type "int") (reparse-symbol classsubparts) [3789 3808])
+                    ("my" variable (:type "int") (reparse-symbol classsubparts) [3789 3808])
+                    ("mw" variable (:type "int") (reparse-symbol classsubparts) [3789 3808])
+                    ("mh" variable (:type "int") (reparse-symbol classsubparts) [3789 3808])
+                    ("wx" variable (:type "int") (reparse-symbol classsubparts) [3830 3849])
+                    ("wy" variable (:type "int") (reparse-symbol classsubparts) [3830 3849])
+                    ("ww" variable (:type "int") (reparse-symbol classsubparts) [3830 3849])
+                    ("wh" variable (:type "int") (reparse-symbol classsubparts) [3830 3849])
+                    ("gappx" variable (:type "int") (reparse-symbol classsubparts) [3872 3882])
+                    ("seltags" variable (:type "unsigned int") (reparse-symbol classsubparts) [3922 3943])
+                    ("sellt" variable (:type "unsigned int") (reparse-symbol classsubparts) [3945 3964])
+                    ("tagset" variable
+                       (:dereference 1
+                        :type "unsigned int")
+                        (reparse-symbol classsubparts) [3966 3989])
+                    ("showbar" variable (:type "int") (reparse-symbol classsubparts) [3991 4003])
+                    ("topbar" variable (:type "int") (reparse-symbol classsubparts) [4005 4016])
+                    ("clients" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [4018 4034])
+                    ("sel" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [4036 4048])
+                    ("stack" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [4050 4064])
+                    ("next" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [4066 4080])
+                    ("barwin" variable (:type ("Window" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4082 4096])
+                    ("lt" variable
+                       (:pointer 1
+                        :dereference 1
+                        :constant-flag t
+                        :type ("Layout" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [4098 4118]))                  
+                :type "struct")
+                nil [3671 4121])
+            ("Rule" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("" type
+                             (:prototype t
+                              :type "class")
+                              (reparse-symbol classsubparts) [4153 4159])
+                          ("instance" variable
+                             (:pointer 1
+                              :constant-flag t
+                              :type "char")
+                              (reparse-symbol classsubparts) [4161 4182])
+                          ("title" variable
+                             (:pointer 1
+                              :constant-flag t
+                              :type "char")
+                              (reparse-symbol classsubparts) [4184 4202])
+                          ("tags" variable (:type "unsigned int") (reparse-symbol classsubparts) [4204 4222])
+                          ("isfloating" variable (:type "int") (reparse-symbol classsubparts) [4224 4239])
+                          ("monitor" variable (:type "int") (reparse-symbol classsubparts) [4241 4253]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [4123 4261])
+            ("applyrules" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4314 4324]))                  
+                :type "void")
+                nil [4291 4325])
+            ("applysizehints" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4352 4362])
+                    ("x" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [4363 4370])
+                    ("y" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [4371 4378])
+                    ("w" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [4379 4386])
+                    ("h" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [4387 4394])
+                    ("interact" variable (:type "int") (reparse-symbol arg-sub-list) [4395 4408]))                  
+                :type "int")
+                nil [4326 4409])
+            ("arrange" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4430 4441]))                  
+                :type "void")
+                nil [4410 4442])
+            ("arrangemon" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4466 4477]))                  
+                :type "void")
+                nil [4443 4478])
+            ("attach" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4498 4508]))                  
+                :type "void")
+                nil [4479 4509])
+            ("attachBelow" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4534 4544]))                  
+                :type "void")
+                nil [4510 4545])
+            ("attachstack" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4570 4580]))                  
+                :type "void")
+                nil [4546 4581])
+            ("buttonpress" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4606 4616]))                  
+                :type "void")
+                nil [4582 4617])
+            ("checkotherwm" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4643 4648]))                  
+                :type "void")
+                nil [4618 4649])
+            ("cleanup" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4670 4675]))                  
+                :type "void")
+                nil [4650 4676])
+            ("cleanupmon" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("mon" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4700 4713]))                  
+                :type "void")
+                nil [4677 4714])
+            ("clientmessage" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4741 4751]))                  
+                :type "void")
+                nil [4715 4752])
+            ("configure" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4775 4785]))                  
+                :type "void")
+                nil [4753 4786])
+            ("configurenotify" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4815 4825]))                  
+                :type "void")
+                nil [4787 4826])
+            ("configurerequest" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4856 4866]))                  
+                :type "void")
+                nil [4827 4867])
+            ("createmon" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4894 4899]))                  
+                :type ("Monitor" type (:type "class") nil nil))
+                nil [4868 4900])
+            ("destroynotify" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4927 4937]))                  
+                :type "void")
+                nil [4901 4938])
+            ("detach" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4958 4968]))                  
+                :type "void")
+                nil [4939 4969])
+            ("detachstack" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4994 5004]))                  
+                :type "void")
+                nil [4970 5005])
+            ("dirtomon" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("dir" variable (:type "int") (reparse-symbol arg-sub-list) [5031 5039]))                  
+                :type ("Monitor" type (:type "class") nil nil))
+                nil [5006 5040])
+            ("drawbar" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5061 5072]))                  
+                :type "void")
+                nil [5041 5073])
+            ("drawbars" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5095 5100]))                  
+                :type "void")
+                nil [5074 5101])
+            ("enternotify" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5126 5136]))                  
+                :type "void")
+                nil [5102 5137])
+            ("expose" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5157 5167]))                  
+                :type "void")
+                nil [5138 5168])
+            ("focus" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5187 5197]))                  
+                :type "void")
+                nil [5169 5198])
+            ("focusin" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5219 5229]))                  
+                :type "void")
+                nil [5199 5230])
+            ("focusmon" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5252 5267]))                  
+                :type "void")
+                nil [5231 5268])
+            ("focusstack" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5292 5307]))                  
+                :type "void")
+                nil [5269 5308])
+            ("getatomprop" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5333 5343])
+                    ("prop" variable (:type ("Atom" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5344 5354]))                  
+                :type ("Atom" type (:type "class") nil nil))
+                nil [5309 5355])
+            ("getrootptr" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("x" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [5378 5385])
+                    ("y" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [5386 5393]))                  
+                :type "int")
+                nil [5356 5394])
+            ("getstate" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("w" variable (:type ("Window" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5416 5425]))                  
+                :type "long")
+                nil [5395 5426])
+            ("gettextprop" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("w" variable (:type ("Window" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5450 5459])
+                    ("atom" variable (:type ("Atom" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5460 5470])
+                    ("text" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5471 5482])
+                    ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [5483 5501]))                  
+                :type "int")
+                nil [5427 5502])
+            ("grabbuttons" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5527 5537])
+                    ("focused" variable (:type "int") (reparse-symbol arg-sub-list) [5538 5550]))                  
+                :type "void")
+                nil [5503 5551])
+            ("grabkeys" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5573 5578]))                  
+                :type "void")
+                nil [5552 5579])
+            ("incnmaster" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5603 5618]))                  
+                :type "void")
+                nil [5580 5619])
+            ("keypress" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5641 5651]))                  
+                :type "void")
+                nil [5620 5652])
+            ("killclient" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5676 5691]))                  
+                :type "void")
+                nil [5653 5692])
+            ("manage" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("w" variable (:type ("Window" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5712 5721])
+                    ("wa" variable
+                       (:pointer 1
+                        :type ("XWindowAttributes" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5722 5744]))                  
+                :type "void")
+                nil [5693 5745])
+            ("mappingnotify" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5772 5782]))                  
+                :type "void")
+                nil [5746 5783])
+            ("maprequest" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5807 5817]))                  
+                :type "void")
+                nil [5784 5818])
+            ("monocle" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5839 5850]))                  
+                :type "void")
+                nil [5819 5851])
+            ("motionnotify" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5877 5887]))                  
+                :type "void")
+                nil [5852 5888])
+            ("movemouse" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5911 5926]))                  
+                :type "void")
+                nil [5889 5927])
+            ("nexttiled" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5953 5963]))                  
+                :type ("Client" type (:type "class") nil nil))
+                nil [5928 5964])
+            ("pop" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5981 5990]))                  
+                :type "void")
+                nil [5965 5991])
+            ("propertynotify" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6019 6029]))                  
+                :type "void")
+                nil [5992 6030])
+            ("quit" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6048 6063]))                  
+                :type "void")
+                nil [6031 6064])
+            ("recttomon" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [6091 6097])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [6098 6104])
+                    ("w" variable (:type "int") (reparse-symbol arg-sub-list) [6105 6111])
+                    ("h" variable (:type "int") (reparse-symbol arg-sub-list) [6112 6118]))                  
+                :type ("Monitor" type (:type "class") nil nil))
+                nil [6065 6119])
+            ("resize" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6139 6149])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [6150 6156])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [6157 6163])
+                    ("w" variable (:type "int") (reparse-symbol arg-sub-list) [6164 6170])
+                    ("h" variable (:type "int") (reparse-symbol arg-sub-list) [6171 6177])
+                    ("interact" variable (:type "int") (reparse-symbol arg-sub-list) [6178 6191]))                  
+                :type "void")
+                nil [6120 6192])
+            ("resizeclient" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6218 6228])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [6229 6235])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [6236 6242])
+                    ("w" variable (:type "int") (reparse-symbol arg-sub-list) [6243 6249])
+                    ("h" variable (:type "int") (reparse-symbol arg-sub-list) [6250 6256]))                  
+                :type "void")
+                nil [6193 6257])
+            ("resizemouse" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6282 6297]))                  
+                :type "void")
+                nil [6258 6298])
+            ("restack" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6319 6330]))                  
+                :type "void")
+                nil [6299 6331])
+            ("run" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6348 6353]))                  
+                :type "void")
+                nil [6332 6354])
+            ("scan" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6372 6377]))                  
+                :type "void")
+                nil [6355 6378])
+            ("sendevent" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6400 6410])
+                    ("proto" variable (:type ("Atom" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6411 6422]))                  
+                :type "int")
+                nil [6379 6423])
+            ("sendmon" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6444 6454])
+                    ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6455 6466]))                  
+                :type "void")
+                nil [6424 6467])
+            ("setclientstate" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6495 6505])
+                    ("state" variable (:type "long") (reparse-symbol arg-sub-list) [6506 6517]))                  
+                :type "void")
+                nil [6468 6518])
+            ("setfocus" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6540 6550]))                  
+                :type "void")
+                nil [6519 6551])
+            ("setfullscreen" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6578 6588])
+                    ("fullscreen" variable (:type "int") (reparse-symbol arg-sub-list) [6589 6604]))                  
+                :type "void")
+                nil [6552 6605])
+            ("setgaps" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6626 6641]))                  
+                :type "void")
+                nil [6606 6642])
+            ("setlayout" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6665 6680]))                  
+                :type "void")
+                nil [6643 6681])
+            ("setmfact" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6703 6718]))                  
+                :type "void")
+                nil [6682 6719])
+            ("setup" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6738 6743]))                  
+                :type "void")
+                nil [6720 6744])
+            ("seturgent" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6767 6777])
+                    ("urg" variable (:type "int") (reparse-symbol arg-sub-list) [6778 6786]))                  
+                :type "void")
+                nil [6745 6787])
+            ("showhide" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6809 6819]))                  
+                :type "void")
+                nil [6788 6820])
+            ("sigchld" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("unused" variable (:type "int") (reparse-symbol arg-sub-list) [6841 6852]))                  
+                :type "void")
+                nil [6821 6853])
+            ("spawn" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6872 6887]))                  
+                :type "void")
+                nil [6854 6888])
+            ("tag" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6905 6920]))                  
+                :type "void")
+                nil [6889 6921])
+            ("tagmon" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6941 6956]))                  
+                :type "void")
+                nil [6922 6957])
+            ("tile" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6975 6985]))                  
+                :type "void")
+                nil [6958 6986])
+            ("togglebar" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7009 7024]))                  
+                :type "void")
+                nil [6987 7025])
+            ("togglefloating" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7053 7068]))                  
+                :type "void")
+                nil [7026 7069])
+            ("toggletag" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7092 7107]))                  
+                :type "void")
+                nil [7070 7108])
+            ("toggleview" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7132 7147]))                  
+                :type "void")
+                nil [7109 7148])
+            ("unfocus" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7169 7179])
+                    ("setfocus" variable (:type "int") (reparse-symbol arg-sub-list) [7180 7193]))                  
+                :type "void")
+                nil [7149 7194])
+            ("unmanage" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7216 7226])
+                    ("destroyed" variable (:type "int") (reparse-symbol arg-sub-list) [7227 7241]))                  
+                :type "void")
+                nil [7195 7242])
+            ("unmapnotify" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7267 7277]))                  
+                :type "void")
+                nil [7243 7278])
+            ("updatebarpos" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7304 7315]))                  
+                :type "void")
+                nil [7279 7316])
+            ("updatebars" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7340 7345]))                  
+                :type "void")
+                nil [7317 7346])
+            ("updateclientlist" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7376 7381]))                  
+                :type "void")
+                nil [7347 7382])
+            ("updategeom" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7405 7410]))                  
+                :type "int")
+                nil [7383 7411])
+            ("updatenumlockmask" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7442 7447]))                  
+                :type "void")
+                nil [7412 7448])
+            ("updatesizehints" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7477 7487]))                  
+                :type "void")
+                nil [7449 7488])
+            ("updatestatus" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7514 7519]))                  
+                :type "void")
+                nil [7489 7520])
+            ("updatetitle" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7545 7555]))                  
+                :type "void")
+                nil [7521 7556])
+            ("updatewindowtype" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7586 7596]))                  
+                :type "void")
+                nil [7557 7597])
+            ("updatewmhints" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7624 7634]))                  
+                :type "void")
+                nil [7598 7635])
+            ("view" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7653 7668]))                  
+                :type "void")
+                nil [7636 7669])
+            ("wintoclient" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("w" variable (:type ("Window" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7697 7706]))                  
+                :type ("Client" type (:type "class") nil nil))
+                nil [7670 7707])
+            ("wintomon" function
+               (:prototype-flag t
+                :pointer 1
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("w" variable (:type ("Window" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7733 7742]))                  
+                :type ("Monitor" type (:type "class") nil nil))
+                nil [7708 7743])
+            ("xerror" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("dpy" variable
+                       (:pointer 1
+                        :type ("Display" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7762 7775])
+                    ("ee" variable
+                       (:pointer 1
+                        :type ("XErrorEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7776 7792]))                  
+                :type "int")
+                nil [7744 7793])
+            ("xerrordummy" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("dpy" variable
+                       (:pointer 1
+                        :type ("Display" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7817 7830])
+                    ("ee" variable
+                       (:pointer 1
+                        :type ("XErrorEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7831 7847]))                  
+                :type "int")
+                nil [7794 7848])
+            ("xerrorstart" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("dpy" variable
+                       (:pointer 1
+                        :type ("Display" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7872 7885])
+                    ("ee" variable
+                       (:pointer 1
+                        :type ("XErrorEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7886 7902]))                  
+                :type "int")
+                nil [7849 7903])
+            ("zoom" function
+               (:prototype-flag t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7921 7936]))                  
+                :type "void")
+                nil [7904 7937])
+            ("broken" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :constant-flag t
+                :default-value "\"broken\""
+                :type "char")
+                nil [7955 7993])
+            ("stext" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :type "char")
+                nil [7994 8017])
+            ("screen" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [8018 8036])
+            ("sw" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [8037 8055])
+            ("sh" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [8037 8055])
+            ("bh" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [8112 8135])
+            ("blw" variable
+               (:typemodifiers ("static")
+                :default-value "0"
+                :type "int")
+                nil [8112 8135])
+            ("lrpad" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [8160 8177])
+            ("vp" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [8234 8248])
+            ("sp" variable
+               (:typemodifiers ("static")
+                :type "int")
+                nil [8294 8308])
+            ("xerrorxlib" function
+               (:prototype-flag t
+                :function-pointer t
+                :typemodifiers ("static")
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Display" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8375 8385])
+                    ("" variable
+                       (:pointer 1
+                        :type ("XErrorEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [8386 8400]))                  
+                :type "int")
+                nil [8350 8401])
+            ("numlockmask" variable
+               (:typemodifiers ("static")
+                :default-value "0"
+                :type "unsigned int")
+                nil [8402 8438])
+            ("wmatom" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :type ("Atom" type (:type "class") nil nil))
+                nil [8922 8967])
+            ("netatom" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :type ("Atom" type (:type "class") nil nil))
+                nil [8922 8967])
+            ("running" variable
+               (:typemodifiers ("static")
+                :default-value "1"
+                :type "int")
+                nil [8968 8991])
+            ("cursor" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :type ("Cur" type (:type "class") nil nil))
+                nil [8992 9020])
+            ("scheme" variable
+               (:pointer 2
+                :typemodifiers ("static")
+                :type ("Clr" type (:type "class") nil nil))
+                nil [9021 9041])
+            ("dpy" variable
+               (:pointer 1
+                :typemodifiers ("static")
+                :type ("Display" type (:type "class") nil nil))
+                nil [9042 9062])
+            ("drw" variable
+               (:pointer 1
+                :typemodifiers ("static")
+                :type ("Drw" type (:type "class") nil nil))
+                nil [9063 9079])
+            ("mons" variable
+               (:pointer 1
+                :typemodifiers ("static")
+                :type ("Monitor" type (:type "class") nil nil))
+                nil [9080 9110])
+            ("selmon" variable
+               (:pointer 1
+                :typemodifiers ("static")
+                :type ("Monitor" type (:type "class") nil nil))
+                nil [9080 9110])
+            ("root" variable
+               (:typemodifiers ("static")
+                :type ("Window" type (:type "class") nil nil))
+                nil [9111 9142])
+            ("wmcheckwin" variable
+               (:typemodifiers ("static")
+                :type ("Window" type (:type "class") nil nil))
+                nil [9111 9142])
+            ("config.h" include nil nil [9210 9229])
+            ("NumTags" type
+               (:members 
+                  ( ("limitexceeded" variable
+                       (:dereference 1
+                        :type "char")
+                        (reparse-symbol classsubparts) [9321 9368]))                  
+                :type "struct")
+                nil [9304 9371])
+            ("applyrules" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [9420 9430]))                  
+                :type "void")
+                nil [9404 10255])
+            ("applysizehints" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10276 10286])
+                    ("x" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [10287 10294])
+                    ("y" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [10295 10302])
+                    ("w" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [10303 10310])
+                    ("h" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [10311 10318])
+                    ("interact" variable (:type "int") (reparse-symbol arg-sub-list) [10319 10332]))                  
+                :type "int")
+                nil [10257 11902])
+            ("arrange" function
+               (:arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [11917 11928]))                  
+                :type "void")
+                nil [11904 12118])
+            ("arrangemon" function
+               (:arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12136 12147]))                  
+                :type "void")
+                nil [12120 12281])
+            ("attach" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12295 12305]))                  
+                :type "void")
+                nil [12283 12359])
+            ("attachBelow" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12377 12387]))                  
+                :type "void")
+                nil [12360 12797])
+            ("attachstack" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12816 12826]))                  
+                :type "void")
+                nil [12799 12877])
+            ("buttonpress" function
+               (:arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12896 12906]))                  
+                :type "void")
+                nil [12879 13960])
+            ("checkotherwm" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [13980 13985]))                  
+                :type "void")
+                nil [13962 14239])
+            ("cleanup" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [14254 14259]))                  
+                :type "void")
+                nil [14241 14868])
+            ("cleanupmon" function
+               (:arguments 
+                  ( ("mon" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14886 14899]))                  
+                :type "void")
+                nil [14870 15122])
+            ("clientmessage" function
+               (:arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15143 15153]))                  
+                :type "void")
+                nil [15124 15675])
+            ("configure" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15692 15702]))                  
+                :type "void")
+                nil [15677 16025])
+            ("configurenotify" function
+               (:arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16048 16058]))                  
+                :type "void")
+                nil [16027 16675])
+            ("configurerequest" function
+               (:arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16699 16709]))                  
+                :type "void")
+                nil [16677 18061])
+            ("createmon" function
+               (:pointer 1
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [18083 18088]))                  
+                :type ("Monitor" type (:type "class") nil nil))
+                nil [18063 18420])
+            ("destroynotify" function
+               (:arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18441 18451]))                  
+                :type "void")
+                nil [18422 18569])
+            ("detach" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18583 18593]))                  
+                :type "void")
+                nil [18571 18694])
+            ("detachstack" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18713 18723]))                  
+                :type "void")
+                nil [18696 18937])
+            ("dirtomon" function
+               (:pointer 1
+                :arguments 
+                  ( ("dir" variable (:type "int") (reparse-symbol arg-sub-list) [18958 18966]))                  
+                :type ("Monitor" type (:type "class") nil nil))
+                nil [18939 19182])
+            ("drawbar" function
+               (:arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19197 19208]))                  
+                :type "void")
+                nil [19184 20709])
+            ("drawbars" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [20725 20730]))                  
+                :type "void")
+                nil [20711 20794])
+            ("enternotify" function
+               (:arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [20813 20823]))                  
+                :type "void")
+                nil [20796 21175])
+            ("expose" function
+               (:arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21189 21199]))                  
+                :type "void")
+                nil [21177 21315])
+            ("focus" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21328 21338]))                  
+                :type "void")
+                nil [21317 21891])
+            ("focusin" function
+               (:arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [21981 21991]))                  
+                :type "void")
+                nil [21968 22110])
+            ("focusmon" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [22126 22141]))                  
+                :type "void")
+                nil [22112 22289])
+            ("focusstack" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [22307 22322]))                  
+                :type "void")
+                nil [22291 22802])
+            ("getatomprop" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [22821 22831])
+                    ("prop" variable (:type ("Atom" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22832 22842]))                  
+                :type ("Atom" type (:type "class") nil nil))
+                nil [22804 23095])
+            ("getrootptr" function
+               (:arguments 
+                  ( ("x" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [23112 23119])
+                    ("y" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [23120 23127]))                  
+                :type "int")
+                nil [23097 23247])
+            ("getstate" function
+               (:arguments 
+                  ( ("w" variable (:type ("Window" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23263 23272]))                  
+                :type "long")
+                nil [23249 23585])
+            ("gettextprop" function
+               (:arguments 
+                  ( ("w" variable (:type ("Window" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23603 23612])
+                    ("atom" variable (:type ("Atom" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [23613 23623])
+                    ("text" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [23624 23635])
+                    ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [23636 23654]))                  
+                :type "int")
+                nil [23587 24134])
+            ("grabbuttons" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [24153 24163])
+                    ("focused" variable (:type "int") (reparse-symbol arg-sub-list) [24164 24176]))                  
+                :type "void")
+                nil [24136 24781])
+            ("grabkeys" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [24797 24802]))                  
+                :type "void")
+                nil [24783 25237])
+            ("incnmaster" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [25255 25270]))                  
+                :type "void")
+                nil [25239 25345])
+            ("keypress" function
+               (:arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [25673 25683]))                  
+                :type "void")
+                nil [25659 25982])
+            ("killclient" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [26000 26015]))                  
+                :type "void")
+                nil [25984 26301])
+            ("manage" function
+               (:arguments 
+                  ( ("w" variable (:type ("Window" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [26315 26324])
+                    ("wa" variable
+                       (:pointer 1
+                        :type ("XWindowAttributes" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [26325 26347]))                  
+                :type "void")
+                nil [26303 28246])
+            ("mappingnotify" function
+               (:arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [28267 28277]))                  
+                :type "void")
+                nil [28248 28398])
+            ("maprequest" function
+               (:arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [28416 28426]))                  
+                :type "void")
+                nil [28400 28657])
+            ("monocle" function
+               (:arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [28672 28683]))                  
+                :type "void")
+                nil [28659 29012])
+            ("motionnotify" function
+               (:arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [29032 29042]))                  
+                :type "void")
+                nil [29014 29294])
+            ("movemouse" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [29311 29326]))                  
+                :type "void")
+                nil [29296 30924])
+            ("nexttiled" function
+               (:pointer 1
+                :arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [30945 30955]))                  
+                :type ("Client" type (:type "class") nil nil))
+                nil [30926 31031])
+            ("pop" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [31042 31052]))                  
+                :type "void")
+                nil [31033 31109])
+            ("propertynotify" function
+               (:arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [31131 31141]))                  
+                :type "void")
+                nil [31111 31945])
+            ("quit" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [31957 31972]))                  
+                :type "void")
+                nil [31947 31990])
+            ("recttomon" function
+               (:pointer 1
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [32012 32018])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [32019 32025])
+                    ("w" variable (:type "int") (reparse-symbol arg-sub-list) [32026 32032])
+                    ("h" variable (:type "int") (reparse-symbol arg-sub-list) [32033 32039]))                  
+                :type ("Monitor" type (:type "class") nil nil))
+                nil [31992 32205])
+            ("resize" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [32219 32229])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [32230 32236])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [32237 32243])
+                    ("w" variable (:type "int") (reparse-symbol arg-sub-list) [32244 32250])
+                    ("h" variable (:type "int") (reparse-symbol arg-sub-list) [32251 32257])
+                    ("interact" variable (:type "int") (reparse-symbol arg-sub-list) [32258 32271]))                  
+                :type "void")
+                nil [32207 32356])
+            ("resizeclient" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [32376 32386])
+                    ("x" variable (:type "int") (reparse-symbol arg-sub-list) [32387 32393])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [32394 32400])
+                    ("w" variable (:type "int") (reparse-symbol arg-sub-list) [32401 32407])
+                    ("h" variable (:type "int") (reparse-symbol arg-sub-list) [32408 32414]))                  
+                :type "void")
+                nil [32358 32722])
+            ("resizemouse" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [32741 32756]))                  
+                :type "void")
+                nil [32724 34404])
+            ("restack" function
+               (:arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [34419 34430]))                  
+                :type "void")
+                nil [34406 34936])
+            ("run" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [34947 34952]))                  
+                :type "void")
+                nil [34938 35122])
+            ("scan" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [35134 35139]))                  
+                :type "void")
+                nil [35124 35834])
+            ("sendmon" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [35849 35859])
+                    ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [35860 35871]))                  
+                :type "void")
+                nil [35836 36151])
+            ("setclientstate" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [36173 36183])
+                    ("state" variable (:type "long") (reparse-symbol arg-sub-list) [36184 36195]))                  
+                :type "void")
+                nil [36153 36346])
+            ("sendevent" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [36362 36372])
+                    ("proto" variable (:type ("Atom" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [36373 36384]))                  
+                :type "int")
+                nil [36348 36868])
+            ("setfocus" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [36884 36894]))                  
+                :type "void")
+                nil [36870 37151])
+            ("setfullscreen" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [37172 37182])
+                    ("fullscreen" variable (:type "int") (reparse-symbol arg-sub-list) [37183 37198]))                  
+                :type "void")
+                nil [37153 37941])
+            ("setgaps" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [37956 37971]))                  
+                :type "void")
+                nil [37943 38099])
+            ("setlayout" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [38116 38131]))                  
+                :type "void")
+                nil [38101 38436])
+            ("setmfact" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [38494 38509]))                  
+                :type "void")
+                nil [38480 38718])
+            ("setup" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [38731 38736]))                  
+                :type "void")
+                nil [38720 41650])
+            ("seturgent" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [41668 41678])
+                    ("urg" variable (:type "int") (reparse-symbol arg-sub-list) [41679 41687]))                  
+                :type "void")
+                nil [41653 41903])
+            ("showhide" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [41919 41929]))                  
+                :type "void")
+                nil [41905 42303])
+            ("sigchld" function
+               (:arguments 
+                  ( ("unused" variable (:type "int") (reparse-symbol arg-sub-list) [42318 42329]))                  
+                :type "void")
+                nil [42305 42457])
+            ("spawn" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [42470 42485]))                  
+                :type "void")
+                nil [42459 42779])
+            ("tag" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [42790 42805]))                  
+                :type "void")
+                nil [42781 42928])
+            ("tagmon" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [42942 42957]))                  
+                :type "void")
+                nil [42930 43046])
+            ("tile" function
+               (:arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [43058 43069]))                  
+                :type "void")
+                nil [43048 43752])
+            ("togglebar" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [43769 43784]))                  
+                :type "void")
+                nil [43754 43966])
+            ("togglefloating" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [43988 44003]))                  
+                :type "void")
+                nil [43968 44336])
+            ("toggletag" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [44353 44368]))                  
+                :type "void")
+                nil [44338 44561])
+            ("toggleview" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [44579 44594]))                  
+                :type "void")
+                nil [44563 44782])
+            ("unfocus" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [44797 44807])
+                    ("setfocus" variable (:type "int") (reparse-symbol arg-sub-list) [44808 44821]))                  
+                :type "void")
+                nil [44784 45072])
+            ("unmanage" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [45088 45098])
+                    ("destroyed" variable (:type "int") (reparse-symbol arg-sub-list) [45099 45113]))                  
+                :type "void")
+                nil [45074 45616])
+            ("unmapnotify" function
+               (:arguments 
+                  ( ("e" variable
+                       (:pointer 1
+                        :type ("XEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [45635 45645]))                  
+                :type "void")
+                nil [45618 45820])
+            ("updatebars" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [45838 45843]))                  
+                :type "void")
+                nil [45822 46450])
+            ("updatebarpos" function
+               (:arguments 
+                  ( ("m" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [46470 46481]))                  
+                :type "void")
+                nil [46452 46688])
+            ("updateclientlist" function (:type "void") nil [46690 46993])
+            ("updategeom" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [47010 47015]))                  
+                :type "int")
+                nil [46995 48784])
+            ("updatenumlockmask" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [48809 48814]))                  
+                :type "void")
+                nil [48786 49146])
+            ("updatesizehints" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [49169 49179]))                  
+                :type "void")
+                nil [49148 50318])
+            ("updatestatus" function
+               (:arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [50338 50343]))                  
+                :type "void")
+                nil [50320 50456])
+            ("updatetitle" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [50475 50485]))                  
+                :type "void")
+                nil [50458 50707])
+            ("updatewindowtype" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [50731 50741]))                  
+                :type "void")
+                nil [50709 50983])
+            ("updatewmhints" function
+               (:arguments 
+                  ( ("c" variable
+                       (:pointer 1
+                        :type ("Client" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [51004 51014]))                  
+                :type "void")
+                nil [50985 51368])
+            ("view" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [51380 51395]))                  
+                :type "void")
+                nil [51370 51628])
+            ("wintoclient" function
+               (:pointer 1
+                :arguments 
+                  ( ("w" variable (:type ("Window" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [51651 51660]))                  
+                :type ("Client" type (:type "class") nil nil))
+                nil [51630 51809])
+            ("wintomon" function
+               (:pointer 1
+                :arguments 
+                  ( ("w" variable (:type ("Window" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [51830 51839]))                  
+                :type ("Monitor" type (:type "class") nil nil))
+                nil [51811 52077])
+            ("xerror" function
+               (:arguments 
+                  ( ("dpy" variable
+                       (:pointer 1
+                        :type ("Display" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [52294 52307])
+                    ("ee" variable
+                       (:pointer 1
+                        :type ("XErrorEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [52308 52324]))                  
+                :type "int")
+                nil [52283 53107])
+            ("xerrordummy" function
+               (:arguments 
+                  ( ("dpy" variable
+                       (:pointer 1
+                        :type ("Display" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [53125 53138])
+                    ("ee" variable
+                       (:pointer 1
+                        :type ("XErrorEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [53139 53155]))                  
+                :type "int")
+                nil [53109 53170])
+            ("xerrorstart" function
+               (:arguments 
+                  ( ("dpy" variable
+                       (:pointer 1
+                        :type ("Display" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [53274 53287])
+                    ("ee" variable
+                       (:pointer 1
+                        :type ("XErrorEvent" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [53288 53304]))                  
+                :type "int")
+                nil [53258 53376])
+            ("zoom" function
+               (:arguments 
+                  ( ("arg" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("Arg" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [53388 53403]))                  
+                :type "void")
+                nil [53378 53628])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [53639 53648])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [53649 53662]))                  
+                :type "int")
+                nil [53630 54197]))          
+      :file "dwm.c"
+      :pointmax 54198
+      :fsize 54197
+      :lastmodtime '(25546 37226 0 0)
+      :unmatched-syntax '((punctuation 8920 . 8921) (semantic-list 8486 . 8920) (punctuation 8484 . 8485) (semantic-list 8473 . 8483) (semantic-list 8451 . 8472) (VOID 8446 . 8450) (STATIC 8439 . 8445) (punctuation 4152 . 4153) (CHAR 4147 . 4151) (CONST 4141 . 4146))
+      :lexical-table 
+        '(("CLEANMASK" (spp-arg-list ("mask") 1625 . 1631) . ((semantic-list "(mask & ~(numlockmask|LockMask) & (ShiftMask|ControlMask|Mod1Mask|Mod2Mask|Mod3Mask|Mod4Mask|Mod5Mask))" 1640 . 1743)))
+          ("INTERSECT" (spp-arg-list ("x" "y" "w" "h" "m") 1761 . 1772) . ((semantic-list "(MAX(0, MIN((x)+(w),(m)->wx+(m)->ww) - MAX((x),(m)->wx)) \\
+                               * MAX(0, MIN((y)+(h),(m)->wy+(m)->wh) - MAX((y),(m)->wy)))" 1776 . 1924)))
+          ("LENGTH" (spp-arg-list ("X") 2017 . 2020) . ((semantic-list "(sizeof X / sizeof X[0])" 2035 . 2059)))
+          ("HEIGHT" (spp-arg-list ("X") 2192 . 2195) . ((semantic-list "((X)->h + 2 * (X)->bw)" 2210 . 2232)))
+          ("WIDTH" (spp-arg-list ("X") 2136 . 2139) . ((semantic-list "((X)->w + 2 * (X)->bw)" 2155 . 2177)))
+          ("TEXTW" (spp-arg-list ("X") 2304 . 2307) . ((semantic-list "(drw_fontset_getwidth(drw, (X)) + lrpad)" 2323 . 2363)))
+          ("BUTTONMASK" . ((semantic-list "(ButtonPressMask|ButtonReleaseMask)" 1572 . 1607)))
+          ("TAGMASK" . ((semantic-list "((1 << LENGTH(tags)) - 1)" 2265 . 2290)))
+          ("ISVISIBLE" (spp-arg-list ("C") 1942 . 1945) . ((semantic-list "((C->tags & C->mon->tagset[C->mon->seltags]))" 1957 . 2002)))
+          ("MOUSEMASK" . ((semantic-list "(BUTTONMASK|PointerMotionMask)" 2092 . 2122)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158ba59ea5de"
+      :file "drw.h"
+      :fsize 1755
+      :lastmodtime '(25257 15112 0 0))
+    (semanticdb-table "semanticdb-table-158ba59ea5fe"
+      :file "util.h"
+      :fsize 305
+      :lastmodtime '(25257 15112 0 0)))
+  :file "!home!hword!Documents!suckless!dwm!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

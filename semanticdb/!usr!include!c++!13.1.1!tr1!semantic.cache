@@ -1,0 +1,1123 @@
+;; Object semanticdb-project-database-file-158f1b97ac00
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-158f1b97ac00"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158f1b97ac3a"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_TR1_GAMMA_TCC" variable (:constant-flag t) nil [1863 1885])
+            ("tr1/special_function_util.h" include (:system-flag t) nil [1889 1927])
+            ("std" type
+               (:members 
+                  ( ("_GLIBCXX_MATH_NS" variable (:constant-flag t) (reparse-symbol namespacesubparts) [2049 2065])
+                    ("__detail" type
+                       (:members 
+                          ( ("__bernoulli_series" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2644 2661]))                                  )
+                                (reparse-symbol namespacesubparts) [2589 4281])
+                            ("__bernoulli" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "int") (reparse-symbol arg-sub-list) [4530 4538]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [4476 4583])
+                            ("__log_gamma_bernoulli" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4968 4976]))                                  )
+                                (reparse-symbol namespacesubparts) [4911 5448])
+                            ("__log_gamma_lanczos" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5801 5809]))                                  )
+                                (reparse-symbol namespacesubparts) [5746 6873])
+                            ("__log_gamma" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7300 7308]))                                  )
+                                (reparse-symbol namespacesubparts) [7253 7858])
+                            ("__log_gamma_sign" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8158 8166]))                                  )
+                                (reparse-symbol namespacesubparts) [8106 8526])
+                            ("__log_bincoef" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [8973 8990])
+                                    ("__k" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [8991 9008]))                                  )
+                                (reparse-symbol namespacesubparts) [8924 9591])
+                            ("__bincoef" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [10017 10034])
+                                    ("__k" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [10035 10052]))                                  )
+                                (reparse-symbol namespacesubparts) [9972 10465])
+                            ("__gamma" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10681 10689]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [10631 10732])
+                            ("__psi_series" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11178 11186]))                                  )
+                                (reparse-symbol namespacesubparts) [11130 11595])
+                            ("__psi_asymp" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12056 12064]))                                  )
+                                (reparse-symbol namespacesubparts) [12009 12548])
+                            ("__psi" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12935 12943]))                                  )
+                                (reparse-symbol namespacesubparts) [12894 13512])
+                            ("__psi" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [13807 13824])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13825 13833]))                                  )
+                                (reparse-symbol namespacesubparts) [13766 14455]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2281 14459]))                  
+                :type "namespace")
+                nil [1929 14630]))          
+      :file "gamma.tcc"
+      :pointmax 14683
+      :fsize 14682
+      :lastmodtime '(25678 16070 0 0)
+      :unmatched-syntax '((symbol 14620 . 14628) (punctuation 2235 . 2236) (symbol 2230 . 2235) (punctuation 2229 . 2230) (symbol 2226 . 2229) (punctuation 2225 . 2226) (symbol 2222 . 2224) (punctuation 2220 . 2221) (symbol 2215 . 2220) (punctuation 2214 . 2215) (symbol 2210 . 2213) (punctuation 2208 . 2209) (symbol 2200 . 2208) (symbol 2193 . 2199) (symbol 2188 . 2192) (symbol 2180 . 2187) (symbol 2176 . 2179) (DO 2173 . 2175) (symbol 2167 . 2172) (punctuation 2165 . 2166))
+      :lexical-table 
+        '(("_GLIBCXX_TR1_GAMMA_TCC" . ((number "1" 1886 . 1887)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158f1b97ac9a"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_TR1_BESSEL_FUNCTION_TCC" variable (:constant-flag t) nil [1957 1989])
+            ("tr1/special_function_util.h" include (:system-flag t) nil [1993 2031])
+            ("std" type
+               (:members 
+                  ( ("_GLIBCXX_MATH_NS" variable (:constant-flag t) (reparse-symbol namespacesubparts) [2153 2169])
+                    ("__detail" type
+                       (:members 
+                          ( ("__gamma_temme" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("__mu" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3593 3602])
+                                    ("__gam1" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3621 3634])
+                                    ("__gam2" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3635 3648])
+                                    ("__gampl" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3649 3663])
+                                    ("__gammi" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3664 3678]))                                  )
+                                (reparse-symbol namespacesubparts) [3542 4220])
+                            ("__bessel_jn" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("__nu" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5049 5058])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5059 5067])
+                                    ("__Jnu" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5084 5096])
+                                    ("__Nnu" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5097 5109])
+                                    ("__Jpnu" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5110 5123])
+                                    ("__Npnu" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5124 5137]))                                  )
+                                (reparse-symbol namespacesubparts) [5000 12618])
+                            ("__cyl_bessel_jn_asymp" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("__nu" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13383 13392])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13393 13401])
+                                    ("__Jnu" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13402 13414])
+                                    ("__Nnu" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13415 13427]))                                  )
+                                (reparse-symbol namespacesubparts) [13324 14702])
+                            ("__cyl_bessel_ij_series" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__nu" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15938 15947])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15948 15956])
+                                    ("__sgn" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15957 15967])
+                                    ("__max_iter" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [15995 16019]))                                  )
+                                (reparse-symbol namespacesubparts) [15879 16742])
+                            ("__cyl_bessel_j" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__nu" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17279 17288])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17289 17297]))                                  )
+                                (reparse-symbol namespacesubparts) [17229 18023])
+                            ("__cyl_neumann_n" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__nu" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18661 18670])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [18671 18679]))                                  )
+                                (reparse-symbol namespacesubparts) [18610 19288])
+                            ("__sph_bessel_jn" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [20019 20036])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20037 20045])
+                                    ("__j_n" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [20066 20078])
+                                    ("__n_n" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [20079 20091])
+                                    ("__jp_n" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [20092 20105])
+                                    ("__np_n" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [20106 20119]))                                  )
+                                (reparse-symbol namespacesubparts) [19966 20597])
+                            ("__sph_bessel" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [21121 21138])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [21139 21147]))                                  )
+                                (reparse-symbol namespacesubparts) [21072 21689])
+                            ("__sph_neumann" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [22208 22225])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22226 22234]))                                  )
+                                (reparse-symbol namespacesubparts) [22158 22718]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2415 22722]))                  
+                :type "namespace")
+                nil [2033 22893]))          
+      :file "bessel_function.tcc"
+      :pointmax 22938
+      :fsize 22937
+      :lastmodtime '(25678 16070 0 0)
+      :unmatched-syntax '((symbol 22883 . 22891) (punctuation 2339 . 2340) (symbol 2334 . 2339) (punctuation 2333 . 2334) (symbol 2330 . 2333) (punctuation 2329 . 2330) (symbol 2326 . 2328) (punctuation 2324 . 2325) (symbol 2319 . 2324) (punctuation 2318 . 2319) (symbol 2314 . 2317) (punctuation 2312 . 2313) (symbol 2304 . 2312) (symbol 2297 . 2303) (symbol 2292 . 2296) (symbol 2284 . 2291) (symbol 2280 . 2283) (DO 2277 . 2279) (symbol 2271 . 2276) (punctuation 2269 . 2270))
+      :lexical-table 
+        '(("_GLIBCXX_TR1_BESSEL_FUNCTION_TCC" . ((number "1" 1990 . 1991)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158f1b97acfa"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_TR1_BETA_FUNCTION_TCC" variable (:constant-flag t) nil [1879 1909])
+            ("std" type
+               (:members 
+                  ( ("_GLIBCXX_MATH_NS" variable (:constant-flag t) (reparse-symbol namespacesubparts) [2033 2049])
+                    ("__detail" type
+                       (:members 
+                          ( ("__beta_gamma" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2744 2752])
+                                    ("__y" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2753 2761]))                                  )
+                                (reparse-symbol namespacesubparts) [2696 3477])
+                            ("__beta_lgamma" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3952 3960])
+                                    ("__y" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3961 3969]))                                  )
+                                (reparse-symbol namespacesubparts) [3903 4338])
+                            ("__beta_product" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4808 4816])
+                                    ("__y" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4817 4825]))                                  )
+                                (reparse-symbol namespacesubparts) [4758 5173])
+                            ("__beta" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5604 5612])
+                                    ("__y" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5613 5621]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [5555 5778]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2295 5782]))                  
+                :type "namespace")
+                nil [1913 5953]))          
+      :file "beta_function.tcc"
+      :pointmax 5996
+      :fsize 5995
+      :lastmodtime '(25678 16070 0 0)
+      :unmatched-syntax '((symbol 5943 . 5951) (punctuation 2219 . 2220) (symbol 2214 . 2219) (punctuation 2213 . 2214) (symbol 2210 . 2213) (punctuation 2209 . 2210) (symbol 2206 . 2208) (punctuation 2204 . 2205) (symbol 2199 . 2204) (punctuation 2198 . 2199) (symbol 2194 . 2197) (punctuation 2192 . 2193) (symbol 2184 . 2192) (symbol 2177 . 2183) (symbol 2172 . 2176) (symbol 2164 . 2171) (symbol 2160 . 2163) (DO 2157 . 2159) (symbol 2151 . 2156) (punctuation 2149 . 2150))
+      :lexical-table 
+        '(("_GLIBCXX_TR1_BETA_FUNCTION_TCC" . ((number "1" 1910 . 1911)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158f1b97ad5a"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_TR1_ELL_INTEGRAL_TCC" variable (:constant-flag t) nil [1762 1791])
+            ("std" type
+               (:members 
+                  ( ("__detail" type
+                       (:members 
+                          ( ("__ellint_rf" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2798 2806])
+                                    ("__y" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2807 2815])
+                                    ("__z" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2816 2824]))                                  )
+                                (reparse-symbol namespacesubparts) [2751 5066])
+                            ("__comp_ellint_1_series" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__k" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5802 5810]))                                  )
+                                (reparse-symbol namespacesubparts) [5744 6268])
+                            ("__comp_ellint_1" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__k" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6963 6971]))                                  )
+                                (reparse-symbol namespacesubparts) [6912 7231])
+                            ("__ellint_1" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__k" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7876 7884])
+                                    ("__phi" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7885 7895]))                                  )
+                                (reparse-symbol namespacesubparts) [7830 8805])
+                            ("__comp_ellint_2_series" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__k" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9485 9493]))                                  )
+                                (reparse-symbol namespacesubparts) [9427 10033])
+                            ("__ellint_rd" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11103 11111])
+                                    ("__y" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11112 11120])
+                                    ("__z" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11121 11129]))                                  )
+                                (reparse-symbol namespacesubparts) [11056 13885])
+                            ("__comp_ellint_2" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__k" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14413 14421]))                                  )
+                                (reparse-symbol namespacesubparts) [14362 14892])
+                            ("__ellint_2" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__k" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15483 15491])
+                                    ("__phi" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15492 15502]))                                  )
+                                (reparse-symbol namespacesubparts) [15437 16665])
+                            ("__ellint_rc" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17556 17564])
+                                    ("__y" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [17565 17573]))                                  )
+                                (reparse-symbol namespacesubparts) [17509 19046])
+                            ("__ellint_rj" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20055 20063])
+                                    ("__y" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20064 20072])
+                                    ("__z" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20073 20081])
+                                    ("__p" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [20082 20090]))                                  )
+                                (reparse-symbol namespacesubparts) [20008 23586])
+                            ("__comp_ellint_3" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__k" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24299 24307])
+                                    ("__nu" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [24308 24317]))                                  )
+                                (reparse-symbol namespacesubparts) [24248 24876])
+                            ("__ellint_3" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__k" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25682 25690])
+                                    ("__nu" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25691 25700])
+                                    ("__phi" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25701 25711]))                                  )
+                                (reparse-symbol namespacesubparts) [25636 26940]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2108 26944]))                  
+                :type "namespace")
+                nil [1795 27091]))          
+      :file "ell_integral.tcc"
+      :pointmax 27134
+      :fsize 27133
+      :lastmodtime '(25678 16070 0 0)
+      :unmatched-syntax '((symbol 27081 . 27089) (punctuation 2032 . 2033) (symbol 2027 . 2032) (punctuation 2026 . 2027) (symbol 2023 . 2026) (punctuation 2022 . 2023) (symbol 2019 . 2021) (punctuation 2017 . 2018) (symbol 2012 . 2017) (punctuation 2011 . 2012) (symbol 2007 . 2010) (punctuation 2005 . 2006) (symbol 1997 . 2005) (symbol 1990 . 1996) (symbol 1985 . 1989) (symbol 1977 . 1984) (symbol 1973 . 1976) (DO 1970 . 1972) (symbol 1964 . 1969) (punctuation 1962 . 1963))
+      :lexical-table 
+        '(("_GLIBCXX_TR1_ELL_INTEGRAL_TCC" . ((number "1" 1792 . 1793)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158f1b97adba"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_TR1_EXP_INTEGRAL_TCC" variable (:constant-flag t) nil [1806 1835])
+            ("tr1/special_function_util.h" include (:system-flag t) nil [1839 1877])
+            ("std" type
+               (:members 
+                  ( ("__detail" type
+                       (:members 
+                          ( ("__expint_E1" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2258 2262]))                                  
+                                :prototype-flag t)
+                                (reparse-symbol namespacesubparts) [2219 2263])
+                            ("__expint_E1_series" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2780 2788]))                                  )
+                                (reparse-symbol namespacesubparts) [2726 3377])
+                            ("__expint_E1_asymp" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3840 3848]))                                  )
+                                (reparse-symbol namespacesubparts) [3787 4361])
+                            ("__expint_En_series" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [4893 4910])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4911 4919]))                                  )
+                                (reparse-symbol namespacesubparts) [4839 5962])
+                            ("__expint_En_cont_frac" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [6500 6517])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6518 6526]))                                  )
+                                (reparse-symbol namespacesubparts) [6443 7439])
+                            ("__expint_En_recursion" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [8078 8095])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8096 8104]))                                  )
+                                (reparse-symbol namespacesubparts) [8021 8915])
+                            ("__expint_Ei_series" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9370 9378]))                                  )
+                                (reparse-symbol namespacesubparts) [9316 9793])
+                            ("__expint_Ei_asymp" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10252 10260]))                                  )
+                                (reparse-symbol namespacesubparts) [10199 10709])
+                            ("__expint_Ei" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11122 11130]))                                  )
+                                (reparse-symbol namespacesubparts) [11075 11360])
+                            ("__expint_E1" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11777 11785]))                                  )
+                                (reparse-symbol namespacesubparts) [11730 12100])
+                            ("__expint_asymp" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [12679 12696])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12697 12705]))                                  )
+                                (reparse-symbol namespacesubparts) [12629 13058])
+                            ("__expint_large_n" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [13643 13660])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13661 13669]))                                  )
+                                (reparse-symbol namespacesubparts) [13591 14132])
+                            ("__expint" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [14662 14679])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14680 14688]))                                  )
+                                (reparse-symbol namespacesubparts) [14618 15283])
+                            ("__expint" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15679 15687]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [15628 15821]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2192 15825]))                  
+                :type "namespace")
+                nil [1879 15972]))          
+      :file "exp_integral.tcc"
+      :pointmax 16014
+      :fsize 16013
+      :lastmodtime '(25678 16070 0 0)
+      :unmatched-syntax '((symbol 15962 . 15970) (punctuation 2116 . 2117) (symbol 2111 . 2116) (punctuation 2110 . 2111) (symbol 2107 . 2110) (punctuation 2106 . 2107) (symbol 2103 . 2105) (punctuation 2101 . 2102) (symbol 2096 . 2101) (punctuation 2095 . 2096) (symbol 2091 . 2094) (punctuation 2089 . 2090) (symbol 2081 . 2089) (symbol 2074 . 2080) (symbol 2069 . 2073) (symbol 2061 . 2068) (symbol 2057 . 2060) (DO 2054 . 2056) (symbol 2048 . 2053) (punctuation 2046 . 2047))
+      :lexical-table 
+        '(("_GLIBCXX_TR1_EXP_INTEGRAL_TCC" . ((number "1" 1836 . 1837)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158f1bab022a"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_TR1_HYPERGEOMETRIC_TCC" variable (:constant-flag t) nil [1621 1652])
+            ("std" type
+               (:members 
+                  ( ("_GLIBCXX_MATH_NS" variable (:constant-flag t) (reparse-symbol namespacesubparts) [1776 1792])
+                    ("__detail" type
+                       (:members 
+                          ( ("__conf_hyperg_series" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__a" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2979 2987])
+                                    ("__c" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2988 2996])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2997 3005]))                                  )
+                                (reparse-symbol namespacesubparts) [2923 3668])
+                            ("__conf_hyperg_luke" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__a" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4167 4175])
+                                    ("__c" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4176 4184])
+                                    ("__xin" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4185 4195]))                                  )
+                                (reparse-symbol namespacesubparts) [4113 7346])
+                            ("__conf_hyperg" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__a" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7838 7846])
+                                    ("__c" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7847 7855])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7856 7864]))                                  )
+                                (reparse-symbol namespacesubparts) [7789 8506])
+                            ("__hyperg_series" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__a" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9350 9358])
+                                    ("__b" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9359 9367])
+                                    ("__c" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9368 9376])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9377 9385]))                                  )
+                                (reparse-symbol namespacesubparts) [9299 10065])
+                            ("__hyperg_luke" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__a" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10348 10356])
+                                    ("__b" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10357 10365])
+                                    ("__c" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10366 10374])
+                                    ("__xin" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10375 10385]))                                  )
+                                (reparse-symbol namespacesubparts) [10299 14100])
+                            ("__hyperg_reflect" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__a" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15449 15457])
+                                    ("__b" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15458 15466])
+                                    ("__c" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15467 15475])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15476 15484]))                                  )
+                                (reparse-symbol namespacesubparts) [15397 24960])
+                            ("__hyperg" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__a" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25717 25725])
+                                    ("__b" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25726 25734])
+                                    ("__c" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25735 25743])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [25744 25752]))                                  )
+                                (reparse-symbol namespacesubparts) [25673 27848]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2038 27852]))                  
+                :type "namespace")
+                nil [1656 28023]))          
+      :file "hypergeometric.tcc"
+      :pointmax 28067
+      :fsize 28066
+      :lastmodtime '(25678 16070 0 0)
+      :unmatched-syntax '((symbol 28013 . 28021) (punctuation 1962 . 1963) (symbol 1957 . 1962) (punctuation 1956 . 1957) (symbol 1953 . 1956) (punctuation 1952 . 1953) (symbol 1949 . 1951) (punctuation 1947 . 1948) (symbol 1942 . 1947) (punctuation 1941 . 1942) (symbol 1937 . 1940) (punctuation 1935 . 1936) (symbol 1927 . 1935) (symbol 1920 . 1926) (symbol 1915 . 1919) (symbol 1907 . 1914) (symbol 1903 . 1906) (DO 1900 . 1902) (symbol 1894 . 1899) (punctuation 1892 . 1893))
+      :lexical-table 
+        '(("_GLIBCXX_TR1_HYPERGEOMETRIC_TCC" . ((number "1" 1653 . 1654)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158f1bab028a"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_TR1_LEGENDRE_FUNCTION_TCC" variable (:constant-flag t) nil [1803 1837])
+            ("tr1/special_function_util.h" include (:system-flag t) nil [1841 1879])
+            ("std" type
+               (:members 
+                  ( ("_GLIBCXX_MATH_NS" variable (:constant-flag t) (reparse-symbol namespacesubparts) [2001 2017])
+                    ("__detail" type
+                       (:members 
+                          ( ("__poly_legendre_p" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__l" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2817 2834])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2835 2843]))                                  )
+                                (reparse-symbol namespacesubparts) [2764 3716])
+                            ("__assoc_legendre_p" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__l" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [4603 4620])
+                                    ("__m" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [4621 4638])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4639 4647])
+                                    ("__phase" variable
+                                       (:default-value "_Tp(+1)"
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4657 4678]))                                  )
+                                (reparse-symbol namespacesubparts) [4549 5991])
+                            ("__sph_legendre" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__l" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [7450 7467])
+                                    ("__m" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [7468 7485])
+                                    ("__theta" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7486 7498]))                                  )
+                                (reparse-symbol namespacesubparts) [7399 10440]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2263 10444]))                  
+                :type "namespace")
+                nil [1881 10615]))          
+      :file "legendre_function.tcc"
+      :pointmax 10662
+      :fsize 10661
+      :lastmodtime '(25678 16070 0 0)
+      :unmatched-syntax '((symbol 10605 . 10613) (punctuation 2187 . 2188) (symbol 2182 . 2187) (punctuation 2181 . 2182) (symbol 2178 . 2181) (punctuation 2177 . 2178) (symbol 2174 . 2176) (punctuation 2172 . 2173) (symbol 2167 . 2172) (punctuation 2166 . 2167) (symbol 2162 . 2165) (punctuation 2160 . 2161) (symbol 2152 . 2160) (symbol 2145 . 2151) (symbol 2140 . 2144) (symbol 2132 . 2139) (symbol 2128 . 2131) (DO 2125 . 2127) (symbol 2119 . 2124) (punctuation 2117 . 2118))
+      :lexical-table 
+        '(("_GLIBCXX_TR1_LEGENDRE_FUNCTION_TCC" . ((number "1" 1838 . 1839)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158f1bab02ea"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_TR1_MODIFIED_BESSEL_FUNC_TCC" variable (:constant-flag t) nil [1843 1880])
+            ("tr1/special_function_util.h" include (:system-flag t) nil [1884 1922])
+            ("std" type
+               (:members 
+                  ( ("__detail" type
+                       (:members 
+                          ( ("__bessel_ik" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("__nu" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3134 3143])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3144 3152])
+                                    ("__Inu" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3169 3181])
+                                    ("__Knu" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3182 3194])
+                                    ("__Ipnu" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3195 3208])
+                                    ("__Kpnu" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3209 3222]))                                  )
+                                (reparse-symbol namespacesubparts) [3085 8809])
+                            ("__cyl_bessel_i" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__nu" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9424 9433])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9434 9442]))                                  )
+                                (reparse-symbol namespacesubparts) [9374 10001])
+                            ("__cyl_bessel_k" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__nu" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10723 10732])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10733 10741]))                                  )
+                                (reparse-symbol namespacesubparts) [10673 11182])
+                            ("__sph_bessel_ik" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [12078 12095])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12096 12104])
+                                    ("__i_n" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [12125 12137])
+                                    ("__k_n" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [12138 12150])
+                                    ("__ip_n" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [12151 12164])
+                                    ("__kp_n" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [12165 12178]))                                  )
+                                (reparse-symbol namespacesubparts) [12025 12656])
+                            ("__airy" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type "void"
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13346 13354])
+                                    ("__Ai" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13355 13366])
+                                    ("__Bi" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13367 13378])
+                                    ("__Aip" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13379 13391])
+                                    ("__Bip" variable
+                                       (:reference 1
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13392 13404]))                                  )
+                                (reparse-symbol namespacesubparts) [13302 16060]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2237 16064]))                  
+                :type "namespace")
+                nil [1924 16211]))          
+      :file "modified_bessel_func.tcc"
+      :pointmax 16261
+      :fsize 16260
+      :lastmodtime '(25678 16070 0 0)
+      :unmatched-syntax '((symbol 16201 . 16209) (punctuation 2161 . 2162) (symbol 2156 . 2161) (punctuation 2155 . 2156) (symbol 2152 . 2155) (punctuation 2151 . 2152) (symbol 2148 . 2150) (punctuation 2146 . 2147) (symbol 2141 . 2146) (punctuation 2140 . 2141) (symbol 2136 . 2139) (punctuation 2134 . 2135) (symbol 2126 . 2134) (symbol 2119 . 2125) (symbol 2114 . 2118) (symbol 2106 . 2113) (symbol 2102 . 2105) (DO 2099 . 2101) (symbol 2093 . 2098) (punctuation 2091 . 2092))
+      :lexical-table 
+        '(("_GLIBCXX_TR1_MODIFIED_BESSEL_FUNC_TCC" . ((number "1" 1881 . 1882)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158f1bab034a"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_TR1_POLY_HERMITE_TCC" variable (:constant-flag t) nil [1542 1571])
+            ("std" type
+               (:members 
+                  ( ("__detail" type
+                       (:members 
+                          ( ("__poly_hermite_recursion" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2476 2493])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2494 2502]))                                  )
+                                (reparse-symbol namespacesubparts) [2416 3008])
+                            ("__poly_hermite" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [3555 3572])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3573 3581]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [3498 3733]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1888 3737]))                  
+                :type "namespace")
+                nil [1575 3884]))          
+      :file "poly_hermite.tcc"
+      :pointmax 3926
+      :fsize 3925
+      :lastmodtime '(25678 16070 0 0)
+      :unmatched-syntax '((symbol 3874 . 3882) (punctuation 1812 . 1813) (symbol 1807 . 1812) (punctuation 1806 . 1807) (symbol 1803 . 1806) (punctuation 1802 . 1803) (symbol 1799 . 1801) (punctuation 1797 . 1798) (symbol 1792 . 1797) (punctuation 1791 . 1792) (symbol 1787 . 1790) (punctuation 1785 . 1786) (symbol 1777 . 1785) (symbol 1770 . 1776) (symbol 1765 . 1769) (symbol 1757 . 1764) (symbol 1753 . 1756) (DO 1750 . 1752) (symbol 1744 . 1749) (punctuation 1742 . 1743))
+      :lexical-table 
+        '(("_GLIBCXX_TR1_POLY_HERMITE_TCC" . ((number "1" 1572 . 1573)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158f1bab03aa"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_TR1_POLY_LAGUERRE_TCC" variable (:constant-flag t) nil [1647 1677])
+            ("std" type
+               (:members 
+                  ( ("_GLIBCXX_MATH_NS" variable (:constant-flag t) (reparse-symbol namespacesubparts) [1801 1817])
+                    ("__detail" type
+                       (:members 
+                          ( ("__poly_laguerre_large_n" function
+                               (:template 
+                                  ( ("_Tpa" type (:type "class") nil nil)
+                                    ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [2721 2734])
+                                    ("__alpha1" variable (:type ("_Tpa" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2735 2749])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2750 2758]))                                  )
+                                (reparse-symbol namespacesubparts) [2647 4176])
+                            ("__poly_laguerre_hyperg" function
+                               (:template 
+                                  ( ("_Tpa" type (:type "class") nil nil)
+                                    ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [4864 4881])
+                                    ("__alpha1" variable (:type ("_Tpa" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4882 4896])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4897 4905]))                                  )
+                                (reparse-symbol namespacesubparts) [4791 5560])
+                            ("__poly_laguerre_recursion" function
+                               (:template 
+                                  ( ("_Tpa" type (:type "class") nil nil)
+                                    ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [6821 6838])
+                                    ("__alpha1" variable (:type ("_Tpa" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6839 6853])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6854 6862]))                                  )
+                                (reparse-symbol namespacesubparts) [6745 7544])
+                            ("__poly_laguerre" function
+                               (:template 
+                                  ( ("_Tpa" type (:type "class") nil nil)
+                                    ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [8756 8773])
+                                    ("__alpha1" variable (:type ("_Tpa" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8774 8788])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8789 8797]))                                  )
+                                (reparse-symbol namespacesubparts) [8690 9852])
+                            ("__assoc_laguerre" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [10707 10724])
+                                    ("__m" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [10725 10742])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10743 10751]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [10648 10817])
+                            ("__laguerre" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__n" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [11369 11386])
+                                    ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11387 11395]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [11316 11459]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2063 11463]))                  
+                :type "namespace")
+                nil [1681 11634]))          
+      :file "poly_laguerre.tcc"
+      :pointmax 11677
+      :fsize 11676
+      :lastmodtime '(25678 16070 0 0)
+      :unmatched-syntax '((symbol 11624 . 11632) (punctuation 1987 . 1988) (symbol 1982 . 1987) (punctuation 1981 . 1982) (symbol 1978 . 1981) (punctuation 1977 . 1978) (symbol 1974 . 1976) (punctuation 1972 . 1973) (symbol 1967 . 1972) (punctuation 1966 . 1967) (symbol 1962 . 1965) (punctuation 1960 . 1961) (symbol 1952 . 1960) (symbol 1945 . 1951) (symbol 1940 . 1944) (symbol 1932 . 1939) (symbol 1928 . 1931) (DO 1925 . 1927) (symbol 1919 . 1924) (punctuation 1917 . 1918))
+      :lexical-table 
+        '(("_GLIBCXX_TR1_POLY_LAGUERRE_TCC" . ((number "1" 1678 . 1679)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158f1bab040a"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_TR1_RIEMANN_ZETA_TCC" variable (:constant-flag t) nil [1709 1738])
+            ("tr1/special_function_util.h" include (:system-flag t) nil [1742 1780])
+            ("std" type
+               (:members 
+                  ( ("_GLIBCXX_MATH_NS" variable (:constant-flag t) (reparse-symbol namespacesubparts) [1902 1918])
+                    ("__detail" type
+                       (:members 
+                          ( ("__riemann_zeta_sum" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__s" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2660 2668]))                                  )
+                                (reparse-symbol namespacesubparts) [2606 3181])
+                            ("__riemann_zeta_alt" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__s" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3668 3676]))                                  )
+                                (reparse-symbol namespacesubparts) [3614 4092])
+                            ("__riemann_zeta_glob" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__s" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4941 4949]))                                  )
+                                (reparse-symbol namespacesubparts) [4886 7423])
+                            ("__riemann_zeta_product" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__s" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8061 8069]))                                  )
+                                (reparse-symbol namespacesubparts) [8003 8844])
+                            ("__riemann_zeta" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__s" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9392 9400]))                                  )
+                                (reparse-symbol namespacesubparts) [9342 10977])
+                            ("__hurwitz_zeta_glob" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__a" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11725 11733])
+                                    ("__s" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11734 11742]))                                  )
+                                (reparse-symbol namespacesubparts) [11670 13334])
+                            ("__hurwitz_zeta" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type ("_Tp" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("__a" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13788 13796])
+                                    ("__s" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [13797 13805]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [13731 13851]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [2164 13855]))                  
+                :type "namespace")
+                nil [1782 14026]))          
+      :file "riemann_zeta.tcc"
+      :pointmax 14068
+      :fsize 14067
+      :lastmodtime '(25678 16070 0 0)
+      :unmatched-syntax '((symbol 14016 . 14024) (punctuation 2088 . 2089) (symbol 2083 . 2088) (punctuation 2082 . 2083) (symbol 2079 . 2082) (punctuation 2078 . 2079) (symbol 2075 . 2077) (punctuation 2073 . 2074) (symbol 2068 . 2073) (punctuation 2067 . 2068) (symbol 2063 . 2066) (punctuation 2061 . 2062) (symbol 2053 . 2061) (symbol 2046 . 2052) (symbol 2041 . 2045) (symbol 2033 . 2040) (symbol 2029 . 2032) (DO 2026 . 2028) (symbol 2020 . 2025) (punctuation 2018 . 2019))
+      :lexical-table 
+        '(("_GLIBCXX_TR1_RIEMANN_ZETA_TCC" . ((number "1" 1739 . 1740)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158f1b633f86"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_TR1_SPECIAL_FUNCTION_UTIL_H" variable (:constant-flag t) nil [1430 1466])
+            ("std" type
+               (:members 
+                  ( ("__detail" type
+                       (:members 
+                          ( ("__floating_point_constant" type
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("__value" variable
+                                       (:typemodifiers ("static")
+                                        :constant-flag t
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [1965 1990]))                                  )
+                                (reparse-symbol namespacesubparts) [1893 1997])
+                            ("__numeric_constants" type
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type "struct"
+                                :members 
+                                  ( ("__pi" function
+                                       (:typemodifiers ("static")
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2154 2255])
+                                    ("__pi_2" function
+                                       (:typemodifiers ("static")
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2303 2406])
+                                    ("__pi_3" function
+                                       (:typemodifiers ("static")
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2454 2557])
+                                    ("__pi_4" function
+                                       (:typemodifiers ("static")
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2605 2708])
+                                    ("__1_pi" function
+                                       (:typemodifiers ("static")
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2756 2859])
+                                    ("__2_sqrtpi" function
+                                       (:typemodifiers ("static")
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [2914 3021])
+                                    ("__sqrt2" function
+                                       (:typemodifiers ("static")
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3070 3174])
+                                    ("__sqrt3" function
+                                       (:typemodifiers ("static")
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3223 3327])
+                                    ("__sqrtpio2" function
+                                       (:typemodifiers ("static")
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3380 3487])
+                                    ("__sqrt1_2" function
+                                       (:typemodifiers ("static")
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3539 3645])
+                                    ("__lnpi" function
+                                       (:typemodifiers ("static")
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3695 3798])
+                                    ("__gamma_e" function
+                                       (:typemodifiers ("static")
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [3864 3970])
+                                    ("__euler" function
+                                       (:typemodifiers ("static")
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol classsubparts) [4028 4132]))                                  )
+                                (reparse-symbol namespacesubparts) [2047 4141])
+                            ("__isnan" function
+                               (:template 
+                                  ( ("_Tp" type (:type "class") nil nil))                                  
+                                :type "bool"
+                                :arguments 
+                                  ( ("__x" variable (:type ("_Tp" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4492 4500]))                                  
+                                :typemodifiers ("inline"))
+                                (reparse-symbol namespacesubparts) [4445 4532]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1718 4859]))                  
+                :type "namespace")
+                nil [1470 5006]))          
+      :file "special_function_util.h"
+      :pointmax 5056
+      :fsize 5055
+      :lastmodtime '(25678 16070 0 0)
+      :unmatched-syntax '((symbol 4996 . 5004) (punctuation 1707 . 1708) (symbol 1702 . 1707) (punctuation 1701 . 1702) (symbol 1698 . 1701) (punctuation 1697 . 1698) (symbol 1694 . 1696) (punctuation 1692 . 1693) (symbol 1687 . 1692) (punctuation 1686 . 1687) (symbol 1682 . 1685) (punctuation 1680 . 1681) (symbol 1672 . 1680) (symbol 1665 . 1671) (symbol 1660 . 1664) (symbol 1652 . 1659) (symbol 1648 . 1651) (DO 1645 . 1647) (symbol 1639 . 1644) (punctuation 1637 . 1638))
+      :lexical-table 
+        '(("_GLIBCXX_TR1_SPECIAL_FUNCTION_UTIL_H" . ((number "1" 1467 . 1468)))
+          )
+))
+  :file "!usr!include!c++!13.1.1!tr1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

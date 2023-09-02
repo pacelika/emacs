@@ -1,0 +1,337 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/rose/Documents/code/lua/" . "some_project/")
+ ("/home/rose/Documents/games/test_game/" . "scripts/")
+ ("/home/rose/.config/" . "stumpwm/")
+ ("/home/rose/Documents/code/c/game/" . "shaders/")
+ ("/home/rose/Documents/code/js/" . "some_project/")
+ ("/home/rose/Documents/code/pascal/" . "some_project/")
+ ("/home/rose/Documents/code/c/game/src/core/extern_libs/" . "glad/")
+ ("/home/rose/Documents/code/c/game/src/core/" . "extern_libs/")
+ ("/home/rose/Documents/code/assembly/" . "testing/")
+ ("/home/rose/Documents/code/c/game/src/" . "renderer/")
+ ("/home/rose/Documents/code/c/" . "some_lang/")
+ ("/home/rose/" . ".emacs.d/")
+ ("/home/rose/Documents/code/c++/" . "some_project/")
+ ("/home/rose/Documents/games/" . "test_game/")
+ ("/usr/share/" . "xsessions/")
+ ("/home/rose/Documents/code/rust/" . "bevy_game/")
+ ("/home/rose/Documents/code/python/" . "some_project/")
+ ("/home/rose/Documents/code/web/some_project/" . "client/")
+ ("/home/rose/Documents/" . "TLauncher/")
+ ("/home/rose/Documents/code/web/" . "testing/")
+ ("/home/rose/Documents/code/" . "python/")
+ ("/home/hword/Documents/mygames/game/" . "shaders/")
+ ("/home/hword/Documents/code/c++/croak/src/" . "includes/")
+ ("/home/hword/Documents/code/lua/" . "ex/")
+ ("/home/hword/Documents/code/lisp/" . "some_project/")
+ ("/home/hword/Documents/code/web/" . "webgl/")
+ ("/home/hword/Documents/project/res/" . "headers/")
+ ("/home/hword/Documents/project/" . "bin/")
+ ("/home/hword/Documents/mygames/test_game/" . "scripts/")
+ ("/home/hword/Documents/lil_gl_game/" . "shaders/")
+ ("/home/hword/Documents/mygames/game/src/extern_libs/" . "glad/")
+ ("/home/hword/Documents/code/lua/source_code/" . "lua-5.4.4/")
+ ("/home/hword/Documents/mygames/game/src/" . "renderer/")
+ ("/home/hword/Documents/mygames/" . "game_no_gl/")
+ ("/home/hword/Documents/backups/awesomes/" . "awesome/")
+ ("/home/hword/Documents/backups/" . "awesomes/")
+ ("/home/hword/.config/awesome/themes/" . "default/")
+ ("/home/hword/.config/" . "awesome/")
+ ("/home/hword/.config/awesome/" . "battery-widget/")
+ ("/home/hword/Documents/code/rust/" . "some_project/")
+ ("/home/hword/Documents/code/c++/some_compiler/src/" . "includes/")
+ ("/home/hword/Documents/code/c++/" . "some_project/")
+ ("/home/hword/Documents/" . "mygames/")
+ ("/home/hword/Documents/code/assembly/some_project/" . "py_test/")
+ ("/home/hword/Documents/code/assembly/" . "some_project/")
+ ("/home/hword/" . ".emacs.d/")
+ ("/home/hword/Documents/code/python/some_project/" . "build/")
+ ("/home/hword/Documents/code/python/" . "some_project/")
+ ("/home/hword/Documents/code/" . "web/")
+ ("/home/crul/Documents/code/lisp/" . "some_project/")
+ ("/home/crul/Documents/code/" . "lisp/")
+ ("/home/crul/Documents/my_games/" . "opengl_game/")
+ ("/home/crul/Documents/" . "my_games/")
+ ("/home/crul/Documents/code/c++/" . "some_project/")
+ ("/home/crul/" . "Documents/")
+ ("/home/crul/Documents/code/python/" . "some_project/")
+ ("/home/crul/.config/" . "stumpwm/")
+ ("/home/crul/Documents/code/rust/" . "some_project/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/rose/.emacs.d/"
+ "/home/rose/Documents/code/lua/some_project/"
+ "/home/rose/Documents/code/c++/text_editor/src/os/"
+ "/home/rose/Documents/code/c++/text_editor/src/"
+ "/home/rose/Documents/code/c++/text_editor/src/renderer/"
+ "/home/rose/Documents/code/c++/text_editor/shaders/"
+ "/home/rose/Documents/"
+ "/home/rose/Documents/code/rust/opengl_game/src/"
+ "/home/rose/Documents/code/c/game/src/"
+ "/home/rose/Documents/code/c/game/shaders/"
+ "/home/rose/Documents/code/c/game/"
+ "/home/rose/Documents/code/c/game/src/renderer/"
+ "/home/rose/Documents/code/rust/some_project/src/"
+ "/home/rose/Documents/code/rust/raylib_game/src/"
+ "/home/rose/Documents/code/rust/bevy_game/src/"
+ "/home/rose/Documents/code/rust/"
+ "/home/rose/Documents/games/test_game/scripts/"
+ "/home/rose/Documents/code/python/some_project/"
+ "/home/rose/Documents/code/lisp/some_project/"
+ "/home/rose/Documents/code/rust/game/src/"
+ "/home/rose/Documents/code/c/game/src/fs/"
+ "/home/rose/"
+ "/home/rose/Documents/code/c/game/src/os/"
+ "/home/rose/Documents/code/c++/some_project/"
+ "/home/rose/Documents/code/c++/game/src/"
+ "/home/rose/Documents/code/c/game/src/core/extern_libs/cglm/src/"
+ "/home/rose/Documents/code/python/some_lang/"
+ "/home/rose/Documents/code/c/some_lang/testing/"
+ "/home/rose/Documents/code/c/some_lang/"
+ "/home/rose/Documents/code/c/some_lang/src/"
+ "/home/rose/.config/stumpwm/"
+ "/home/rose/Documents/code/c/raylib_test/"
+ "/home/rose/Documents/code/c/game/src/core/math/"
+ "/home/rose/.config/i3/"
+ "/home/rose/Documents/code/rust/game/"
+ "/home/rose/Documents/code/rust/some_project/"
+ "/home/rose/Documents/code/web/testing/"
+ "/home/rose/Documents/code/js/some_project/"
+ "/home/rose/Documents/code/pascal/some_project/"
+ "/home/rose/Documents/code/c/testing/src/"
+ "/home/rose/Documents/code/c/game/src/core/extern_libs/glad/"
+ "/home/rose/Documents/code/c/game/src/core/"
+ "/home/rose/Documents/code/assembly/testing/src/"
+ "/home/rose/Documents/code/assembly/testing/"
+ "/home/rose/Documents/code/c/testing/"
+ "/home/rose/Documents/code/c++/game_no_gl/src/"
+ "/home/rose/Documents/code/web/some_project/server/"
+ "/home/rose/Documents/code/c++/game/src/headers/"
+ "/usr/share/xsessions/"
+ "/home/rose/Documents/code/web/some_project/client/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "discordrpc.el"
+ "main.lua"
+ "window.h"
+ "window.cpp"
+ "texture.h"
+ "buffers.cpp"
+ "vert.glsl"
+ "buffers.h"
+ "texture.cpp"
+ "backup_code.txt"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/rose/.emacs.d/" (25842 39288 267341 237000) "multi_cursor.el" "../" "discordrpc.el" "ac-comphist.dat" "set_modes.el" "semanticdb/" "ido.last" "README.md" ".lsp-session-v1" "lsp.el" ".gitignore" "recentf.txt" "rustlsp.el" "elpa/" "./" ".mc-lists.el" "auto-save-list/" "init.el")
+
+ ("/home/rose/Documents/code/lua/some_project/" (25818 33591 910474 741000) "../" "main.lua" "./")
+
+ ("/home/rose/Documents/" (25823 47481 912248 480000) "TLauncher/" "../" "code/" "godot/" "i3status/" "minecraft/" "stripe_backup_code.txt" "memes/" "./" "games/")
+
+ ("/home/rose/" (25823 48217 65085 204000) "Documents/" "Music/" "Videos/" ".java/" "../" ".gtkrc-2.0" "go/" ".bash_profile" ".gnupg/" ".cache/" ".config/" ".bash_logout" ".dotfiles/" ".TabNine/" ".nuget/" ".tmux.conf" ".mozilla/" "Public/" ".rnd" ".dotnet/" ".icons/" ".tmux/" "Desktop/" "yay-git/" ".wget-hsts" ".degit/" ".bashrc" ".xsession-errors" ".profile" ".vscode-oss/" ".bash_history" ".android/" ".rustup/" ".npm/" ".stumpwm.d/" ".local/" "Templates/" ".minecraft/" ".python_history" ".Xauthority" ".viminfo" ".tlauncher/" "rust-analyzer/" ".emacs.d/" "./" ".vim/" "Pictures/" ".cargo/" "Downloads/" ".gitconfig" ".gnome/" ".pki/")
+
+ ("/home/rose/Downloads/" (25823 47567 405914 386000) "Ft9iFIWaQAE5964.jpg" "cKOz0Ko8MDA-HD.jpg" "Herta.600.3941431.jpg" "57f27767a3c54b64ad52060ea70be692_opt.png" "m2MTN1FxgEU-SD.jpg" "tumblr_680534c5f2daef598deab285187b7751_f1bacee4_540.webp" "jungon-kim-0603.jpg" "uploads_files_2033848_OBJ.zip" "alone_anime_girl_with_a_whole_body_by_ienvyou_dfx5r5x-400t.jpg" "_.jpeg" "tumblr_2d694c93c765dbcfc506aa605c4dac9c_27236be2_540.jpg" "20221012_181748.gif" "EuRDNbzVoAMmBJB.jpeg" "public (1).avif" "25fdf0ece01b394cf319d366255eaf22.jpg" "uP7fpVEQxdI-MQ.jpg" "20230527_104048.gif" "purple-anime-gif-5.gif" "20230704_174311.gif" "cute-cartoon-girls-wallpapers-for-mobile (1).jpg" "l_backup_shii/" "T8Ef58kG.jpg" "5995065f4bdf3937fe8117b4694de027.jpg" "hmk1izBdG35Khc3aznblSrw8sQwojMPGfQ4P3BtDz8puXkoS2K5vYUgHLCapM8jhS1ufpKlc.jpg" "unnamed.jpg" "fa8131d493506279b0b095efbf10ed3b.jpg" "20221117_200745.gif" "lJ9WM0W0NVc-SD.jpg" "ezgif.com-gif-maker(1).gif" "ARIEL1932e760.png" "65f4a7d12a14fc6b54c300f7cb24f06c.jpg" "f7762db0-3ecd-42b9-acd7-b48a8f991d00(1).jpg" "5lRrcABRH2I.jpg" "1373875-cute-anime-girl-art-4k-pc-wallpaper.jpg" "HD-wallpaper-haifuri-thigh-highs-anime-girls-anime-hat.jpg" "hutao-hu_tao.gif" "giphy.gif" "724695_16d4119f5ae52a3e483f06a4f89674da.jpeg" "pQnoI52Gi5cygu_g04__ln5dV8KZLH_7H-zAuSil2-av0WgbW_kDGi1yGsoh-trSu5o_5FqYresxtzwiSIE-dnGT.jpg" "884376f7ef83785ccecb85b746e1d421.jpg" "zxddt1s3of4a1.png" "OBJ/" "e9e9735fc7855853afae9766f2028805 (1).jpg" "dcac53d695d444fae06f4e4564e59d4e.png" "overwatch-nice-dva-Favim.com-6550889.jpg" "shy-hide-face.gif" "H4KWS2EDjVA-HD.jpg" "E4DmQ06WQAIhx9H.jpg" "static-assets-upload1085026674571994614.webp" "uP7fpVEQxdI-SD.jpg" "364736.webp" "5nIPQWgCVzI.jpg" "giphy (2).gif" "e9e9735fc7855853afae9766f2028805.jpg" "maxresdefault.jpg" "E8NK5t8VkAQxN7Y.jpg" "20230527_104232.gif" "FFVskbnXIAI31z1(1).jpg" "Кирара.jpg" "fdsjfdsjkjfdjsjkfkjdsjkdsf.webp" "f92e968d-1f53-4195-ab0e-308b8bd2d175.jpg" "4ec0f88466b4dd125beb8ed493c3341a1b637ea5r1-1317-734v2_uhq.jpg" "dijor-98-d-5.jpg" "nooarth-witchanimegirl.gif" "girl-animestyle-baseball-cap_763713-3315.avif" "dijor-98-m-12-1.jpg" "2863.mp4" "8emrox7vW5I-HD.jpg" "qmtkorz4fin31.png" "CyKlOGWW8AAme9K.jpg" "2420c02b9b93e96f187ea4171031bc2b(1).png" "dsakdsj.webp" "1j7t2e.jpg" "hydra ed overlord.png" "anime-cute-girl-animation-character-260nw-2166445365 (1).png" "Herta.600.3946787.jpg" "2-YObFdBHxH2KbYEbmact0y47kCo7XiqV-Du4yAGU5v0GOsps5wQEmFdX9BnJMcvbeKwgOD8NeUkBnclcqzttZ3M.jpg" "ai-generated-7925787_1280.jpg" "citYoci27d2jcWd00tnBUF0ngIlUFr5tmrSPxKCIpSVRkx-SSdsw8-CUqAOKeo-S5vnmZPjJYRPKgJBU4BuVKtLC.jpg" "7ef6bac20c6b1f531141bf98190f2f3b.jpg" "EnCX4GbUcAAwivS.jpeg" "68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f735136356d57464e6462375874773d3d2d3632393032373733322e313535323961373065303536643830643332343336373739323037362e6a7067.jpg" "74aee80f5fb8426a119636d346958a35.jpg" "EfPNwruXgAASeW4.jpg" "sample-21931cfa34e0a7111633e620729171c8.jpg" "Blonde-Hair-Anime-Girls-Mary-Saotome-Kakegurui-Compulsive-Gambler-.jpg" "W1a-Jc991lCLrDuURME2NS4UqmvwxYMKSY-8RvykGxCJTDK34SrXMkEX2voPkWs2szzYOUMx2hMlJ3opCdpbeYoNRViYC0hRmjwUqe1AfAMy0PO4EwOcB7noE9TnNnNN.gif" "dsajdjksajkjkdsa.jpg" "sdahdshahjjhdsa.jpg" "1525550810-0edb9abc25b68132e4a09166fe2364f2.gif" "Polish_20230606_000047438.jpg" "1674243327_animeshka-org-p-fallen-angel-anime-girl-vkontakte-1.jpg" "XaerosWorldMap_1.30.0_Forge_1.19.1.jar" "schoolgirl-hu-tao-genshin-impact-v0-spteo7gzgee81.webp" "9a591d83399a7d219584d2eca5bcf601.jpg" "desktop-wallpaper-anime-anime-girls-nurse-outfit-gokou-ruri-anime-nurse.jpg" "dsajkjkjkdsa.png" "tumblr_b04e5a979efe23dd63ce4243c6459bba_133a06f7_1280.jpg" "himeno icon.jpg" "202210021716908264.jpg" "QGvVaW4Hng.jpg" "pxfuel.jpg" "20230505_220629.gif" "15bab20ad607fe0b08ba74a285cb9689.jpg" "ʚ Princess Peach ɞ.jpg" "Monogatari Mememe GIF - Monogatari Mememe Meme - Discover & Share GIFs(1).gif" "Minecraft And Girl.jpg" "J6CSpch2.jpg" "𝓣𝓸𝓴𝓲𝓼𝓪𝓴𝓲 𝓚𝓾𝓻𝓾𝓶𝓲.jpg" "Fmr0zJdXEAErlRn.jpg" "20230427_191911869.jpg" "ETJOfOVUEAAMrdi.jpeg" "IMG_20210314_172203_458.jpg" "20230428_120257.gif" "peakpx (2).jpg" "FOMxNQKaMAIRGI7.jpg" "pog-frog-frog.gif" "gklgfklgkfd.webp" "20220629_115245.jpg" "KL2kMlF.jpg" "ssstik.io_1689574213209.mp4" "236622.jpg" "unnamed (3).jpg" "i (5).webp" "8cc6e77f48a7a0b062d0ec1174a90b10_bp.gif" "RB2 on Twitter.png" "screen-5.png" "EAhMG_FXoAA3_7w_1.gif" "hoobamon-artist-hi-res--6915692.jpeg" "NfOqcY2c8XQ.jpg" "20230505_215140.gif" "amber___genshin_impact_by_awesomeportal_dg042ni-fullview.jpg" "Zv81KW6.jpg" "hf4c5pnsm5n4qtfx43jp0876libe.webp" "fantasy-girl-anime-girls-2129189-wallhere.com.jpg" "57f27767a3c54b64ad52060ea70be692_opt.webp" "clezgz4fq0001l908hhjjgmib_1.jpg" "dsajkjkjkdsa.webp" "4019a289891ff61925b32e2b55c69cba.png" "images (1).jpeg" "Eltia%282%29.webp" "3c954e71afa477ea2b7ae1e24e1a6d41.jpg" "Polish_20230717_022250809.jpg" "FooFdtoWcAA7rqG.jpg" "emacs.d-20230416T162701Z-001.zip" "HD-wallpaper-anime-original-nurse-pink-eyes-syringe-twintails.jpg" "th.jpg" "0b-r3Vhzh9M-HD.jpg" "sample_fe165d43006bf6d154e2f4c281da62ae6a50be92.jpg" "20230704_174311-min.gif" "FNAa1HlUcAIcS6p.jpg" "293507.jpg" "07eda99a2a9c2d168f56dd0acbf5665d.jpg" "EyNlJhcVIAEf9jp.jpg" "3f2ad3069528983f0909eb0eb1f3f28d.gif" "wallhaven-z8movv.jpg" "1648212954813.png" "Xaeros_Minimap_23.4.0_Forge_1.19.1.jar" "ezgif.com-optimize.gif" "Tumblr.png" "1.jpg" "FDkTwEuaAAAzD8j.jpg" "206-2060533_view-samegoogleiqdbsaucenao-3595-rhl3yty1-anime-girl-elf-ears.png" "de4919f52066c07cc5ccd68cf529c858.mp4" "anime-girls-school-swimsuits-thigh-highs-original-characters-1080P-wallpaper.jpg" "freezing-slice.avif" "wp5127551.webp" "FOV1W4RaQAIOp8m.jpg" "dijor-98-z-9-rohy-normal.jpg" "996k5KJSqX8.jpg" "b_thumb_62a057dacde01_20220608_050338.png" "image-076f87c503a47ec1f17b8a50ff4e8c6e.jpg" "1cb.gif" "316942-blue-sky-with-clouds_1024x1024.webp" "3ac04732912f58b6b197fa343af67af4.jpg" "clezhnxvd0001lb08hy7f3zmy_1.jpg" "Illumi%27s_Killing_Intent_Hunter_X_Hunter.webp" "20230816_224052.gif" "Dragonball-Anime-dragon-ball-porn-r34-6619290.gif" "ddt1eni-03120d10-1232-412f-903b-1bd623474b04(1).png" "Fjy_xbqXkCYi_mg.jpeg" "ai-arts-2023-01-18-04-03-14-02-1981735879-scale11-00-k-euler-a-model.jpg" "desktop-wallpaper-pin-on-gawr-gura-pfp-anime-girl.jpg" "70df5e04cebf8c9d026358440c549568.png" "20221117_203335.gif" "lXOt88pf6glKbH_RGAihygOMkDoE7kC3JTeq6f4iSalHfNIxYq2_JG1__0fpVMg2QxtP9PSCCfR0DdmQQeJxh480.jpg" "fc6cebfaafa2c601cebdba63e7814894.jpg" "360_F_201289558_RCIMKiSZkHQIrf2nPGERo12wYJZFE1WV.jpg" "20220421195956734.jpg" "E6UjKp8VIAA1l1J.jpeg" "catgirl_hu_tao_by_nagini321_df4h5tt-pre.jpg" "sdaklkdskl.png" "Nelly.webp" "ezgif.com-optimize(1).gif" "clf8s5dyr0001mn08fbretrl3_1.jpg" "Screenshot 2023-06-05 at 22-45-08 Sedona Sky (@sedonaskyxo) on Instagram.png" "Tifa-Lockhart-Final-Fantasy-VII-1024x576.jpeg.png" "Gq-3EugTFjd7zmPMDo6LxLyv25KDQlATBcbThV1vSbfIGP8ynTthgZnBnBqNOwJf8vgOKDSTi-qkE1m3338eeuDu.jpg" "𝐤𝐚𝐫𝐤𝐨𝐧𝐢𝐚 “︎ 𝐊𝐈𝐑𝐀𝐑𝐀 ”︎.jpg" "Free hd wallpapers for desktop, ipad, tablets, iphone, android phone.jpg" "f7762db0-3ecd-42b9-acd7-b48a8f991d00.jpg" "0ac04b49e0bcd8684dd2767993bfe01389b93231_hq.gif" "farsight-1.19.2-2.1.jar" "yoru icon.jpg" "yande.re 742065 sample kazano_hiori ryouta_(ryouta335) seifuku the_idolm@ster the_idolm@ster_shiny_colors.jpg" "clfxvsyek000wma088sjoqisw_1.jpg" "63a9682b-6c50.png" "hjhjhhj.webp" "kagura_by_sayhanawork_dascw7z-fullview.jpg" "Most-Cute-Anime-Girls-5.jpg" "E_YXtBcVEAMRbNe.png" "dflefwg-1376497b-6f59-45a1-be82-2bf7d5fa74d3.jpg" "Valkyrie-Drive-Mermaid-Anime-Cast-Preview-Images-Character-Designs-Revealed.jpg" "E8TKkF4WQAgx1HL.png" "tounge-out-pppplbh.jpg" "ugly.png" "steam_latest.deb" "yjlispgc5heb1.gif" "103023273.jpg" "196e8f9c30f9c27652568b19525f2131.png" "916812d93bd9acbd910f88327f37e69f.jpg" "raf,750x1000,075,t,FFFFFF_97ab1c12de.jpg" "9746445ea6ea2778711c43d5d1952b61.jpg" "original.jpg" "big-sexy.gif" "anime/" "2925212358.jpg" "cool-anime-girl-pfp-tsukatsuki-rio-ol6rks39rb6jra1v.webp" "FMl3MeeagAoNkcI.jpg" "ZxzV29-7hsc.jpg" "May+guilty+gear_706270_7358412.jpg" "ddd07388076b6aec8d2db26c7a73a47f4439bc21_2000x2000.webp" "Tickle.mov" "9fuxO2SFjWE.jpg" "nahuel-meza-meguminweb.jpg" "drink-juice-juice-box.gif" "-Xpomo2c.jpg" "hhjjkjk.png" "158880751-256-k216388.jpg" "41564403.jpg" "20220730_203808.jpg" "f0c0cce00889434c80a0a64d12833289.jpg" "BcYiw3.gif" "caac2a2f25667f8aa5a6982efdb2bd017be378ea_2000x2000.png" "r8bqmzmm4q581.png" "unnamed (8).jpg" "screaming_kitty.jpg" "dsakdsj.png" "Sciamano240-artist-Hu-Tao-(Genshin-Impact)-Genshin-Impact-7016379.jpeg" "vid_720p.mp4" "1645978825138639020.png" "desktop-wallpaper-noragami-episode-2-hiyori-the-cat-noragami-anime-noragami-hiyori-hiyori-iki.jpg" "images(1).jpeg" "valkyrie-drive-i-know-its-the-tamest-gif-possible-1q1va2dj1b-540x303.jpg" "kjkkj(1).png" "1b72ac250d77bea547049a8040534efe.jpg" "eYzLJKw8wn4.jpg" "4e6ff110-8c2e-4c29-ad43-77033d6acd97.jpeg" "s-l500.jpg" "public(1).png" "24a38d717a925c4b99a2897b1e54dd4c.jpg" "1235-goth-grunge-black-aesthetic-hello-kitty-chains-girl-egirl-anime.png" "2420c02b9b93e96f187ea4171031bc2b(2).png" "1643670358780.jpg" "images (3).jpeg" "dsakjkjdkjsa.jpg" "13773_286881.jpg" "5b7927a5f314fe0edc1fc33fc43966ae.jpg" "woman_by_jazzjafunk_dg20vkw-fullview.jpg" "4c5b46c2b8fc75be2fb50ef687f56f91.jpg" "0d58805f0707fbcb5f5658764d50ef88.jpg" "public.png" "natures-healer-custom.webp" "image.png" "Rr84D4sPwHk.jpg" "J6kd2wT__400x400.jpg" "242876.webp" "anime-girl-sexy-blonde-hair-long-hair-orange-eyes-bikini-swi.jpg" "FKRUKxZVkAA7CWJ.jpeg" "e89bef0a3da40ab2ba9a6122d32e416a1483369234_full.jpg" "dsakjdskkjdsa.jpg" "20221117_185013.gif" "tumblr_3cb5d5625a39e1c037cb75702a388228_aba4bfbd_540.jpg" "ExNI1ohVIAUqzjA.jpg" "9kq6oyfamgaa1.png" "hhjjkjk.webp" "OIP.jpg" "gif-r34-r34--r34-with-sound-5451697.webm" "0ac04b49e0bcd8684dd2767993bfe01389b93231_hq(1).gif" "z_2ca3456f.jpg" "stumpwm-20230528T145133Z-001.zip" "untitled-61019-sexy-girl-with-zentangle-drawings-marco-paludet.jpg" "papers.co-bl99-art-girl-anime-cute-40-wallpaper.jpg" "Boney M - Daddy Cool (Remix) - Best Shuffle Dance (Music Video) HD.mp4" "alex-hostinariu-v2.jpg" "Make Up Sex With Pawg Teen Girlfriend - Isabel Moon - Perfect Girlfriend - [www.saveporn.net].mp4" "__original_generated_by_fluffymammoth__sample-1d20f61358f722216400fc362c2b398e.jpg" "3dd943a509871d7e7a9f4347a329ccd4_waifu2x_art_noise3_scale_tta_1-1024x582.jpg" "Polish_20221106_015825783(1).jpg" "20221117_200745(1).gif" "Kyockcho-lanca-Crowdfunding-para-JAV-de-Maid-Kyouiku_waifu2x_art_noise3_scale_tta_1-1.png" "clf2xdzta000klb08b2u37ywg_1.jpg" "EMAN on Twitter.jpg" "！★ 詳細 ❞.jpg" "192950933_298156338608939_5898083257324730435_n.jpg" "princess-azula-hentai-261115.jpg" "ZVg07Ta1.jpg" "911-9116313_taylor-alesia-tayloralesia-freetoedit-girl.jpg" "do_you_like_b.mp3" "7697e01b39cc2cc1e3a41942cc0f7192.png" "clfxvxaf90009l50777yygswm_1.jpg" "Funni.mp4" "tamura x reader.jpg" "icon __ dark.jpg" "200px-Th145Mokou.png" "DdkLNbLX4AAEtDc (1).jpg" "2e098785-1759-48f1-befe-107c3b01383f.webp" "post-2842755-1474383174.jpg" "688c21622702a40874ff6618b02ff643.jpg" "fw7pevstqf771.webp" "unnamed (7).jpg" "dmenu-20230414T043452Z-001.zip" "DW8-igWq.jpg" "eba37b304f19d2c6e01c44390950d216.jpg" "Evj75GLUcAUjijm.jpg" "c57a75ed5b7ffc6b3d48c3b899c65c74.jpg" "unnamed (1).jpg" "46b54d17-0645-40f6-9d0b-9f29f338a03b.png" "7a4de7d9e0424de2f2d1126edb20c7e1d7dfd945.mp4" "4513f760-6e13-4c53-8cb2-55e010eb3c3c.jpeg" "68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f716343654e7676517646313353513d3d2d313238323035353330392e313732326665393730306534666166353331333430383239383330342e6a7067.jpg" "Polish_20230717_003119395.jpg" "dijor-98-blacky-chan.jpg" "anQRdrq_700b.jpg" "Polish_20221031_232148350.jpg" "8bitOperatorPlus8-Regular.ttf" "20230717123382101.jpg" "85e41168abe6c8f646e7ced16f2a8402.webp" "th (16).jpg" "Zero two.png" "Cute Girl.jpg" "NoobSubs-VALKYRIE-DRIVE-MERMAID-03-720p-Blu-ray-8bit-AAC-3-Web.gif" "i (3).webp" "E7JhwqSVoAA1hJ_.jpg" "anime-cute-girl-animation-character-260nw-2166445365.png" "NIKKE-The-Goddess-of-Victory-trailer-nong-bong-khac-cua-shift-up-1.jpg" "aeb964c15be546f40a8ba7ad9cefe842-removebg-preview (1)(1).jpg" "20220422_063655.jpg" "EWyYXcbXQAEQZSG.jpeg" "hjhjhhj.png" "dasjkjdsa.webp" "dsakkdsakdsa.jpg" "cool-anime-pfp-2-20.jpg" "20230428_123807.gif" "short-baby-font.zip" "i (1).webp" "Naruto-Apollo-Mod-1.11.1.jar" "girl-animestyle-baseball-cap_763713-3316.avif" "uhum-fubuki.gif" "EvItFXaVEAMw-V5.jpg" "caac2a2f25667f8aa5a6982efdb2bd017be378ea_2000x2000.webp" "Amane.Kanata.600.3518752.jpg" "uypXxYxJAic.jpg" "flat,750x,075,f-pad,750x1000,f8f8f8.u1.jpg" "kjkkj.png" "Suguha Kirigaya.jpg" "i.webp" "ai-generated-7693402_1280.jpg" "FQmtKmuXMAU3KMm.jpg" "public.avif" "20230414_060115.gif" "DdkLNbLX4AAEtDc.jpg_large" "20230505_221102.gif" "CcTLmlYWoAAZmfS.jpg" "fdcf6ff55c90be130f2e67b354e5e28514376f25_2000x2000.png" "9mASvINK9efDeiH7YQIEU9cTtnj91_qnszsxq6KygUoa3EMRGtnVTP9yR4wedarjT6ilcTGoEzX4RotY0WQwfbh9.jpg" "dsajkdkjsakjdasjk.jpg" "hutao.gif" "st-20230414T043531Z-001.zip" "FAhTFM0VcAEGHBw.jpg" "sexy-girl-4-nenad-vasic.jpg" "6131266-blond-hd-sena-beautiful-adorable-kashiwazaki-sena-anime-hot-beauty-anime-girl-sena-kashiwazaki-female-blonde-blonde-hair-sexy-blond-hair-cute-kawaii-girl.jpeg" "Konachan.com - 352949 sample.jpg" "65ccc8623747a9e0e503efbeace59f97.png" "NarutoAnimeModPlus.jar" "E8oULqnVkAE65uy.jpg" "Polish_20221031_232148350(1).jpg" "chrome_feiajNTvQB.gif" "Une nouvelle a fairy tail ! - Deuxième jours des GJIM.jpg" "tenor-gif.gif" "dfrik0z-05be0c6e-3aa3-42ce-b03a-47659364849b.jpg" "061e7d436de6aec2e3f1df3f40660c3e.gif" "clienttweaks-forge-1.19.2-8.1.2.jar" "E8n7uAxWYAMwRIx.jpg" "ezgif.com-gif-maker.gif" "sakura-nova-1280x720.webp" "8dfa24f89dab622c805027f84bdd52b5.jpg" "dragon-ball-porn-r34--Dragonball-6353229.jpeg" "17545c0eaee6c905e5e07f057be4027edc56ebf1.jpg" "EopgW5uVoAg6xJV.jpg" "cleum0zxj001xmh08oyl7ngex_1.jpg" "c1d05fe603415c856e19d9d5b2f7b187ce83f3b6.png" "images (6).jpeg" "0b18f8032f28441c25e0ad5aca9ad92e.jpg" "E6IIngfWYAYcMjm.jpeg" "33b153df17a30e09b3cd750bd6245d7c.jpg" "FA3e2qsVgAgVpGe.png" "jdaskjkjdsajk.webp" "copia_de_07.webp" "dsakjjkdjksa.jpg" "dijor-98-3.jpg" "natures-healer-custom.png" "c79ce3957a22728b5769ab537eb240bd.jpg" "Polish_20220608_201108187.png" "merida-v-waifu-diffusion.jpg" "345088881046201.jpg" "E_vf-ibVkAAySLw.jpg" "jkkjjkkjjpg" "71123332.jpg" "adore on Twitter.jpg" "_iSB9CvbORIuur10ltz_0pGz6LDm_I3l3N-FgsyvvKebdb1av1qIsrYrJP58YTpcJHG5NIYC-oUH7jC31ntVHm2h.jpg" "c8190e1378de6d4f9bc97154ac94172a.jpg" "Polish_20221106_015825783(2).jpg" "emirhan-24.jpg" "E4r3mF0UcAAVQrW.jpg" "thumb-1920-1218570.png" "20230427801753555.jpg" "anime-leg-anime-aesthetic-anime-body-Favim.com-6001689.jpg" "9b2e93d8-c971-4fcf-954a-8a7c2d3e146c.png" "ddx58l2-d18125ae-cd36-4e71-8875-07dd0c079c1c.jpg" "7zu0gmrbirz71.png" "70.jpg" "pole-dance.gif" "Herta.600.3943243.jpg" "Theme♡-.jpg" "sexy-girl-niti-is-a-painter.jpg" "i (2).webp" "Polish_20230717_004314932.jpg" "anime-cute-girl-animation-character-260nw-2166445365.webp" "20230505_221756.gif" "UserPremium.png" "8ce1b7e4-bb3b-40c2-9377-fd3c25234663.jpeg" "70fe7eda8ea616c59a93e4371a527977.jpg" "Godot_v4.0.2-stable_linux.x86_64.zip" "gif-dragon-ball-z-porno-16.webp" "steamuserimages-a.akamaihd.jpg" "i (6).webp" "fsdkfdsjkjkfsd.webp" "d80b7788c08f5017ee0dc415fb90ab20.jpg" "86e0f9f59f1d3c0a3d243a6f40bc93530cd55bac_2000x2000.webp" "569423dc19313fb6101d23db4741244d1343419076_full.jpg" "dsadjksajkdsa.avif" "TvRwi6a.jpg" "poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg" "n9LBBShIMtWwZI46Q41fzlrVFllrVYTei4FNQD_mTvZ-mDALxv7fGhS4L0qfSaR05hbHj8qWIshNEWoHnyj9AHhK.jpg" "adrian-vollbracht-28-b.jpg" "d4a7fa26-320d-48fc-b662-86745abbd6b9.jpg" "vitaly-rozhkov-reed-2.jpg" "desktop-wallpaper-toedit-here-is-a-cute-for-tomboys-tomboy-anime.jpg" "balm-forge-1.19.2-4.5.7.jar" "E7wYJV3VIAEmFVG.jpg" "BsiXCnNIMAAYwod.png" "aeb964c15be546f40a8ba7ad9cefe842-removebg-preview (1).jpg" "videoplayback.mp4" "20230717_012150.gif" "e315a68419cf323108de5b0cb2d05005.jpg" "Screenshot 2023-06-05 at 23-17-07 Sedona Sky (@sedonaskyxo) on Instagram.png" "hold-up-let-him-cook.gif" "Wood_Crate_001_basecolor.jpg" "HD-wallpaper-bubble-gum-pretty-checker-bubblegum-eat-sweet-nice-emotional-anime-grey-anime-girl-long-hair-blue-eyes-female-lovely-purple-hair-girl-purple-eating-serious-maiden.jpg" "avetetsuya-studios-297579147-194868862968701-5117749540904313728-n.jpg" "H2x1_NSwitchDS_SakuraNova_image1600w.jpg" "20220730_203353.jpg" "＊— 𝐥𝐚𝐯𝐞𝐧𝐝𝐞𝐫𝐦𝐞𝐥𝐢𝐚.jpg" "2022-11-15 14-56-03.png" "FG_RnzDaUAAOex8.jpg" "beauty_by_otonaberu_dg0u0t7-fullview.jpg" "dsa.jpg" "2bd8f572b8502c84b5883a4c19433bcd.jpg" "photo-1613742631162-cdba058776b9.jpeg" "linux-reddit.gif" "clezgzp2z0001l708jyl2puff_1.jpg" "Polish_20230427_172355988.jpg" "E4TARUGXwAMMu_0.jpg" "EywYWDKVEAAzn4s.jpg" "popoFtr3Lh4-HD.jpg" "xebqKmwlv5Y.jpg" "8e400d423130550db26c86e7e41fe03e.jpg" "obeaDstU4M3GMipEcTBq--4--n5dxw_6x.webp" "c090813f1ceb9ee7580d49a311901cb6.jpg" "emacs.d-20230716T103037Z-001.zip" "102667663.jpg" "FYHdkGdWIAA_bYL.jpg" "85e41168abe6c8f646e7ced16f2a8402.png" "0efiJ-ex.jpg" "12679-ラピ-removebg-preview.png" "e18b103898dd37327ba60906f191671bcaf5bb5e_00.jpg" "0b-r3Vhzh9M-HD(1).jpg" "вояж-frog.gif" "HDcc04Kz.jpg" "rdWH2hiw.jpg" "☂𝓘𝓬𝓸𝓷 𝓫𝔂 𝓴𝓲𝓵𝓵↶.jpg" "02683EDEC0592001F284A3D73AB757FBA561433F.png" "Hegao #11.jpg" "1588840-HSC00001-32.jpg" "D546Ae-WkAA7Pud.jpg" "v12044gd0000ci74ghbc77u39a13stag.mp4" "Polish_20220912_223747103-EDIT.jpg" "wp5127551.png" "NarutoDojutsuMod2.jar" "PtMedO41RTQH1RYk1f4QaSv0VGar5QqbOFGE62RfXtyRfna_WF3hl5GBHPTmXnQ8Yx4iMqof.jpg" "KOFnNtmG7aVAXWp0kUuscAk3KWylTH.jpeg" "Melantha - Anime Wallpaper.jpg" "Polish_20220912_223747103(1).jpg" "irina-shidou-in-kimono-highschool-dxd-2mg2ycuqwv-640x800.jpg" "7saMtUh5xWo.jpg" "daskjjdsajkkjd.jpg" "dijor-98-d-3.jpg" "💛 𝔸𝕝𝕡𝕙𝕒 💛.jpg" "7ab09528664ae6f69a74d599967ff45c-EDIT.jpg" "Herta.600.3870632.jpg" "4256efbf8546031c9a7918b0def029df.jpg" "dflefwg-1376497b-6f59-45a1-be82-2bf7d5fa74d3 (1).jpg" "c6aa73403a755bbbdcde97d27f6251b5.jpg" "2s_Qm-q3.jpg" "1669027470178033423.jpg" "dfrj0hj-dba4b495-a096-4a52-a9d6-e292613bf9b3.jpg" "E3WnrYZVcAU15iY.jpg" "1664905672151880456.png" "f389e8724efb84b3a35b8c84556a03f4.jpg" "20230428_134437.gif" "7b842f242a382ff4ad1452d61dd75d1e.jpg" "Aesthetic-Anime-Girl-PNG-Download-Image.png" "3N29ZwzaywE.jpg" "Htx9ngph8uU-HD.jpg" "c3aba0791f7091086c1a4991367f6ca2.gif" "FEGxursL.jpg" "hf4c5pnsm5n4qtfx43jp0876libe.png" "FPpO5IMVIAQgKnU.png" "30255578.jpg" "dsakkdsajk.webp" "Essential-forge_1-18-2.jar" "Dragonball-Anime-dragon-ball-porn-r34-6660956.gif" "FGlK9oPXMAEtpzO.jpg" "cute-anime-girl-pfp-3d-artwork-12i39bravptyd383.jpg" "dsadjksajkdsa.png" "111cd41dab571d765267f2427eb2afee.jpg" "desktop-wallpaper-wonder-woman-animated-art-wonder-woman-amoled.jpg" "p4KW0uDqq2ml0eHh.jpg" "Grey Wolf Kemono Friends.jpg" "shemail-hentai-3d80.jpg" "its-been84years-titanic.gif" "26fabcb1a9725a8a4ae66e02dd36157c.png" "9aefa914-d5b7-4c14-a8b2-7830009a0095.png" "ssrco_baseball_cap_product_000000_44f0b734a5_front_square_600x600-bg_f8f8f8.u2-removebg-preview.png" "tumblr_2163cc1b34e96b267f3b28d759bfa61e_278f0bda_540.gif" "bba5f0_5741aa450b93433d9bd51b0d4436e7fe.jpg" "efcd07fb6234ed5c807c40b76f6551bf.jpg" "bf6bb4dbd469d4daa738674279f80331.jpg" "FLl5zBcVUAIAlyv.jpg" "MiniaturePowerfulAnteater-max-1mb.gif" "amber___genshin_impact_by_awesomeportal_dg042qe-fullview.jpg" "full.png" "20230414_060505.gif" "69dc68c55755a304261bb92c988ec108.gif" "Tifa-Lockhart-Final-Fantasy-VII-1024x576.jpeg.webp" "f3290bc0916c6665a691de4267d6265c.jpg" "ddt1eni-03120d10-1232-412f-903b-1bd623474b04.png" "uQmFyAP.gif" "BXNtFGqUkgM.jpg" "gjzeo7 (1).jpg" "anime-unknown--drugoe-vzglyad-fon-devush-1170297.jpg" "hentai_001-4.gif" "i-12.jpg" "Nelly.png" "36226-971627114.png" "screaming_kitty.png" "impregnating-azula-mrpotatopa.jpg" "FlgMTtYXgAADwIr.jpeg" "300764112_461977519276545_3621471407372749185_n.jpg" "20220706_045152.jpg" "cFjJzrE0ckECc5UTdNmgRUFFRo7.jpg" "HliB9szT.jpg" "E7wYJV4VcAEop7a.jpg" "De0MslV8_400x400.jpg" "DOrJ9a1XUAEz6Yr.jpg" "go1.20.5.linux-amd64.tar.gz" "nvim-20230622T200729Z-001.zip" "8K0z2bVaYUW_6vOSJccauDQNtwpSm--8yBtB6kBCXCcJUAEE3HlPjoT-lYRiGclqnmM6OnsH.jpg" "8OI5lU6UWhBoQLoakDmjLoqdTemQVKh8f4Ezf4bIdQgzE77EUfnyMRl5KbvjD-jgHUWOHeMLUG54MYxK_qkrVRIm.jpg" "40bc6f2765b31383300587a9d2039b1c.jpg" "1637594798160986581.png" "1af5e59c91c53f3b2cb236be6b90a26c.jpg" "sakura-swim-club-17fef165-a1ff-4156-ab33-1e0188ccf36c_1200.jpg" "tumblr_3e8d0c08e42a06e2ef7c01dccd8ee451_316a3425_500.webp" "63a9682b-6c50.webp" "970a852ba0275d1443c85986dfafd3bd.png" "dwmblocks-distrotube-20230414T080632Z-001.zip" "f7762db0-3ecd-42b9-acd7-b48a8f991d00(2).jpg" "i (2).png" "l_backup_shii-20230414T041738Z-001.zip" "modern_hu_tao__genshin_impact__by_minifaith_dfd6bj2-300w.jpg" "dAQDKMv4.jpg" "Cute-Anime-Girl-Wallpaper-Kiss-me.jpg" "stella-colorado-asset.jpg" "hottest-girls-in-games-d972.jpg" "FooFdtoWcAA7rqG(1).jpg" "unnamed (4).jpg" "FIA7XvyXEAcwMfk.jpeg" "uploads_files_2033848_Unity+Textures.zip" "Dxs-iHZU8AA8hjk.png" "Polish_20230330_185454690.png" "static-assets-upload1085026674571994614.png" "Polish_20230427_163623456.jpg" "fnp7dzwnenr81.png" "615ff67932fd298106dbf83d812589eb.jpg" "cool-anime-girl-pfp-tsukatsuki-rio-ol6rks39rb6jra1v-1.webp" "EWh4gbdUcAA0dRd.jpg" "sdaklkdskl.webp" "vKlucX7vbVM.jpg" "c8bff0ef5e65e2c6ad8367f9d9b429992dcaa1d8r1-500-500v2_uhq.jpg" "d827da4e939ffd1ff4d7bcca6b279409.jpg" "rapunzel_tangle-9354.jpg" "Kurumi.jpg" "sadhhjdshahjdsa.jpg" "e08612bd32283e7a99f08a3fce27d02e.png" "61fOSlHc1kL._AC_SL1024_.jpg" "main-qimg-53572a5a175a1a9d8914a6a941cd92ad.jpg" "images (5).jpeg" "butterflies_by_ladowska_dda5zp2-pre.jpg" "200w.gif" "a1024x1024l_FFFFFFFF.jpg" "Polish_20230717_020352649.jpg" "300843.jpg" "1b997d319c98e32846bb304ee8ec64e6.jpg" "Polish_20230427_162608580.jpg" "anime-pfp-cheerful-yumeko-jabami-2n6w436eulp15g57.gif" "イラスト オリジナル 2522x3600 613774 ja.png" "idk.obj" "Screenshot from 2022-11-15 00-56-03.png" "EngVITIVoAILq3f.jpg" "wtf.mp4" "20220214_035517.gif" "ice_realistic.jpg" "iR6QN4EVT5o.jpg" "gerWsDcR_big_poster.jpg" "a3004184-e3f0-4bb3-a8a0-71c801da2770.jpeg" "04c4a8d1d84247a89daf2e9f023d7d06.jpg" "5e5f50da082a738b48290c216e72fe5e.jpg" "2e97122334e7ac94569645c69018f8bb.jpg" "1036263.jpg" "FRzpjd9VEAYgnpn.jpeg" "clfj5e9ex001xmd08frthtt9b_1.jpg" "images (4).jpeg" "4fc18f72-e815-460a-8f44-51c0b9b1f74a.jpeg" "dijor-98-l-13.jpg" "181893c1477f77472d2aafb57a048497.gif" "girl-animestyle-baseball-cap_763713-3319.avif" "8422733e9c6cfc7743c4faf091506483.jpg" "111cd41dab571d765267f2427eb2afee (1).jpg" "20230611_220928.gif" "dijor-98-m-4.jpg" "yes.png" "brown-corrugated-paper-textured-background.jpg" "defpvqy-67cc38ce-e67b-4471-966c-41a063c0c652.jpg" "0fxmezoidch81.png" "7852.gif" "Polish_20220912_223747103.jpg" "939ebd733cde2d3d0163e207369c4bf0.png" "7e95805215e0ee0132ef7f64bb4ca3bbc1d8e924r1-720-1440v2_hq.jpg" "Polish_20230614_112313129.jpg" "1607582234_Artwork_Middle (1).gif" "e2633a169a9217049f481c46c5235056.png" "dsajkjkdsa.png" "Polish_20230427_135649957.jpg" "12679-ラピ.jpg" "273913646_1269487553460750_2908435508259028485_n.mp4" "tumblr_39c7dd8ad0d0f4c6d0973f584bce25b5_9dd942c3_540.jpg" "wp4602821.jpg" "Monogatari Mememe GIF - Monogatari Mememe Meme - Discover & Share GIFs.gif" "clg6jge7l0004lb08bddi6yfi_1.jpg" "ass-to-ass-lesbian-hentai-09737.jpg" "hqdefault.jpg" "blonde-anime-girl-shooting-fiery-arrow-from-the-video-game-genshin-impact-wallpaper-2048x1536_26.jpg" "202207142113912882.jpg" "•FEROCIOUS• (DISCONTINUED) - CHAPTER 4.jpg" "7537682965567427f393a15090074c9c.jpg" "107_Videl_Bully.jpg" "Godot_v4.0.3-stable_linux.x86_64.zip" "Polish_20230424_072843448.jpg" "desktop-wallpaper-frog-girl-frog-pfp-thumbnail.jpg" "images.jpeg" "shyiy8581y3a1.gif" "Polish_20230614_112313129(1).jpg" "amber-001.webp" "skyblue_573262585_1000.jpg" "d7zz3gd-5130c075-371b-4862-8489-7d226f542882.gif" "NarutoDestinyPlus.jar" "GUAYANDO.mp4" "eaf1defcc0d8c811fbde1f5bf7f3ece0.jpg" "06_qua02.jpg" "20220317_005047.png" "FGqDQJxUYAg1e0P.jpg" "EwRiLAdUcAE9MrI.jpg" "51bb44d69b338dbcffdd681685ce87a6.jpg" "20230611_210450.gif" "JjGF0Ev8fd8-HD.jpg" "EqerbneXYAExj3y.jpg" "tl_skin_cape_forge_1.19_1.19.2-1.28.jar" "EEbB6w7VAAEb8-U.jpg_large" "black-hole-up-close-min.png" "crate front.svg" "16e0ebf531c0b37f370cd5b074b41956.jpg" "sakura-swim-club-0cb628bf-fa4c-4941-8832-ee0fb02dd7ff_1200.jpg" "cat.png" "beauty_by_otonaberu_dg1c7ky-fullview.jpg" "202204081044911570.jpg" "20230427851083174.jpg" "ecb0e1b82839421720045ab0a3e8bfb794b3ce335209c27ddad7fa03e5963cab_thumb.webp" "201.gif" "7d1b719cb5e4be750b4fee200567b2b6.jpg" "p3kOr_w3.jpg" "V4L_b92IqW1-O3VIf9MyQULhV_tuIsfhYFtPgNZgW7zs2JAhAAiCNtKYUlB5HX-CzllixcD7.jpg" "unnamed.png" "EvZ-sYKU4AQtKhJ.jpg" "Screenshot_20230205-192406.jpg" "7ab09528664ae6f69a74d599967ff45c.png" "20210831_054802.jpg" "aece2a1c8c17eebbb6ef5f06af7fe398.jpg" "f3b9bcbd355950866b735a940a0a7c96.mp4" "giphy-31.gif" "1.19.2SecurityCraftv1.9.4.jar" "1.gif" "My dr self.jpeg" "desktop-wallpaper-anime-girl-cat-hoodie-anime-hoodie-girl.jpg" "wich.jpg" "1f84412a-65b2-40dd-bf85-873b076cd67f.jpeg" "f4ce9bac903eb6c9e3d065d41e152c00.jpg" "0e378da9-becc-4329-9636-63083846cb2d.webp" "something_nice_by_ladowska_de5czm6-pre.jpg" "cute-cartoon-girls-wallpapers-for-mobile.jpg" "hbe63wvajhe51.png" "7zu0gmrbirz71.webp" "TLauncher-2.879.zip" "valkyrie_drive_charlotte_w_dustin_by_deviantfantastic_deekanv-pre.jpg" "fdcf6ff55c90be130f2e67b354e5e28514376f25_2000x2000.webp" "i (4).webp" "zBsAKT6dlCw-HD.jpg" "6fbf7fd216d89c0dad72fd9d0b22bedf_5050790739007927995.webp" "db6f40046f36d3fcae5310e56a568d88.jpg" "93120b6e92567ea7675a7d35bf1f1b9fc64004edr1-768-768v2_hq.jpg" "nX4Dvs8.jpg" "CE903F1E-D5AE-4F2B-AE04-4F9668D57898.png" "images (2).jpeg" "cubes-with-vertex-arrays.c" "c2cfd209778efd8af8d4c5fb8a0445c5.png" "12826-813191227-__megumin, standing, looking at viewer, (no headwear), brown hair, short hair, red eyes, blush, black choker, red dress, (brown.jpeg" "mascara-expressive-female-portrait-with-freesias-marco-paludet.jpg" "FKScltrxgBk.jpg" "20230429_040124.gif" "sarah-lee-final-1.jpg" "FNp-XMQVcAELnUW.jpeg" "busty_blonde_anime_girl_in_beautiful_setting_by_kolhoarts_dfhz08v-400t.jpg" "ddrzfii-b2ca21f8-65be-41d7-ad29-a548e76626a7.jpg" "EggnRX6UYAEA8hu.jpeg" "anime-anime-girls-red-eyes-twintails-wallpaper-thumb.jpg" "20230414_061634(1).gif" "2b07665ce4b81441808df9a8d82819361659287170_main.jpg" "dijor-98-d-4.jpg" "channels4_profile.jpg" "bd0d66bbaeb1e11d6374eace2b765c4f9431d3f5_2000x2000.webp" "amber___genshin_impact_by_awesomeportal_dg0431h-fullview.jpg" "sr200cc8514992e.png" "96f66dee7233f2c3bb3eaaaf1404dc43--valkyrie-drive-mermaid-artists.jpg" "unnamed (2).jpg" "20230428_115337.gif" "clfbzx0n3002hjn08fu6h70v1_1.jpg" "neko-hu-tao-daily-hu-tao-day-277-by-rapi-v0-hnu2briantu91.webp" "FJMNoEZXsAU5tBQ.jpg" "tayi-mo-asset.jpg" "FWtIFhnaQAANFPK.jpg" "unnamed (5).jpg" "1674398182285484061.png" "EhveIj3U0AA3Moy.jpg" "1315896097585wxcvwxhtgr_medium.jpg" "20230414_061634.gif" "20230428_120822.gif" "rG9jRGs.gif" "nvim-20230608T200447Z-001.zip" "images (7).jpg" "tumblr_91c3fa9cead3dbad1c4ddddf1b091ab4_4edf7cb6_640.jpg" "nutaku-sakura-sale_abe807ef.jpg" "flywheel-forge-1.19.2-0.6.8.a.jar" "227088.png" "FE7A_wmaAAAflV9.jpg" "C5qsvpD8bk79f9Oh1gYJ__tMwH5bc7fh1Eklq0sTyC8tE5XtboYivH8IGCaYwmyoKIQyvCup.jpg" "341542-Amber-Genshin-Impact-Video-Game-Anime-Girls-Art.jpg" "m03OGw6_.jpg" "cheme-leon-cheme-leon-untitled.jpg" "sdahhjdsahjdsa.jpg" "20221030_041449.jpg" "foxy-foxplushy.gif" "2420c02b9b93e96f187ea4171031bc2b.png" "ddd07388076b6aec8d2db26c7a73a47f4439bc21_2000x2000.png" "68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f376b3359737741376442345554513d3d2d313030303631333635352e313636323637316166303135653161363632303332313531343735352e6a7067.jpg" "unisex-baby-names-24.webp" "364738.webp" "81dbd89510b83afa54818a54df6c0dc4.jpg" "00236-1653369763.jpeg" "genshin-impact-hu-tao-hu-tao-dance.gif" "dasjkjdsakjkdjsa.jpg" "bf0b60665963d3d86935a2641feaacdd305d2e8cr1-720-1256v2_uhq.jpg" "FMoBfILagAE5wqP.jpg" "85b35be2d91b73133bab620fb21118f8.png" "1655233110_2-papik-pro-p-anime-drawing-sticking-out-his-tongue-2.jpg" "FFVskbnXIAI31z1.jpg" "d8a19b5beef4624b0860d6b20bf6765d.jpg" "Videl-Dragonball-Anime-dragon-ball-porn-6434253.jpeg" "05878224c2ffb6c.png" "dsadsalldsa.jpg" "ee5085552bfa9632f049ed72301edc5b.jpg" "hbe63wvajhe51.webp" "__tohsaka_rin_fate_and_1_more_drawn_by_the_atko__sample-28268e8e2063026a946f275d91abccde.jpg" "6102ea843888ed1e833b39e6364dd3c0--female-character-concept-character-design.jpg" "813bf248ce53aad7ab7108d0baff46c0.jpg" "Munkres_-_Topology.pdf" "ssstik.io_1689573893551.mp4" "20230605_235652.gif" "kjkkj.webp" "Polish_20230717_022631006.jpg" "85d6a1ea-56eb-4f42-aca6-9c3748fefa36.png" "images.jpg" "1ace376a38bbd1ad85d9f8c5f217c654.jpg" "i-1.webp" "1688590791301.jpg" "7kbIz7__.jpg" "i (1).png" "unnamed (6).jpg" "29738c933018b35016a93671079983f9.jpg" "dsadsdsa.jpg" "202207061080370222.jpg" "ocr.jpeg" "stumpwm-20230528T144738Z-001.zip" "dsajkjkdsa.webp" "dskjajkjkdsa.jpg" "dijor-98-l-3.jpg" "Polish_20230427_131705528.jpg" "Polish_20221106_015825783.jpg" "giphy (1).gif" "../" "./")
+
+ ("/home/rose/Documents/code/c++/text_editor/src/os/" (25812 33285 414486 391000) "../" "window.h" "./")
+
+ ("/home/rose/Documents/code/c++/text_editor/src/" (25816 41010 50860 312000) "core/" "texture.cpp" "prelude.h" "basicdefs.h" "../" "buffers.h" "camera.cpp" "fs.cpp" "fs/" "window.cpp" "draw.cpp" "glad.c" "os/" "shader.cpp" "main.cpp" "./" "renderer/" "renderer.h" "buffers.cpp" ".clangd")
+
+ ("/home/rose/Documents/code/c++/text_editor/" (25812 37309 309112 125000) "mat3.o" "ivec3.o" "draw.o" "vec2.o" "curve.o" "../" "mat4.o" "euler.o" "affine.o" "bezier.o" "project.o" "quat.o" "ray.o" "ease.o" "plane.o" "cam.o" "glad.o" "main.o" "camera.o" "ivec2.o" "temp.txt" "mat2.o" "shader.o" "vec4.o" "ivec4.o" "shaders/" "texture.o" "vec3.o" "test/" "sphere.o" "io.o" "src/" "frustum.o" "assets/" "./" "box.o" "buffers.o" "maths.o" "bin/" "fs.o" "affine2d.o" "window.o" "Makefile")
+
+ ("/home/rose/Documents/code/c++/text_editor/shaders/" (25812 33285 324486 28000) "../" "frag.glsl" "vert.glsl" "./")
+
+ ("/home/rose/Documents/code/c++/text_editor/src/renderer/" (25812 35968 76144 177000) "../" "texture.h" "camera.h" "draw.h" "./" "shader.h")
+
+ ("/home/rose/Documents/code/c/game/" (25795 62337 821852 244000) "mat3.o" "ivec3.o" "draw.o" "vec2.o" "curve.o" "../" "mat4.o" "euler.o" "affine.o" ".ccls-cache/" "bezier.o" "README.md" "project.o" "quat.o" "ray.o" ".gitignore" "ease.o" "plane.o" "cam.o" "glad.o" "main.o" "camera.o" "ivec2.o" "temp.txt" "mat2.o" ".git/" "shader.o" "vec4.o" "ivec4.o" "shaders/" "texture.o" "vec3.o" "sphere.o" "io.o" "src/" "frustum.o" "assets/" "./" "box.o" "buffers.o" "maths.o" "bin/" ".clangd" "fs.o" "affine2d.o" "window.o" "Makefile")
+
+ ("/home/rose/Documents/code/c/game/src/" (25795 62318 501802 126000) "core/" "texture.cpp" "prelude.h" "basicdefs.h" "../" "buffers.h" "camera.cpp" "fs.cpp" "fs/" "window.cpp" "draw.cpp" "glad.c" "os/" "shader.cpp" "main.cpp" "./" "renderer/" "renderer.h" "buffers.cpp" ".clangd")
+
+ ("/home/rose/Documents/code/rust/opengl_game/src/" (25795 62717 309419 578000) "../" "main.rs" "shader.rs" "texture.rs" "buffers.rs" "./" "draw.rs")
+
+ ("/home/rose/Documents/code/lua/" (25731 18890 201872 394000) "../" "./" "some_project/")
+
+ ("/home/rose/Documents/code/c/game/src/renderer/" (25795 60436 81873 407000) "../" "texture.h" "camera.h" "draw.h" "./" "shader.h")
+
+ ("/home/rose/Documents/games/test_game/scripts/" (25784 32379 49943 431000) "../" "#player.gd#" "health.gd" "player.gd" "./")
+
+ ("/home/rose/Documents/code/rust/" (25784 36544 497112 533000) "opengl_game/" "../" "bevy_game/" "./" "some_project/" "raylib_game/")
+
+ ("/home/rose/Documents/code/rust/bevy_game/src/" (25784 34457 305140 118000) "../" "main.rs" "./")
+
+ ("/home/rose/Documents/code/rust/raylib_game/src/" (25784 44848 503589 440000) "../" "main.rs" "./")
+
+ ("/home/rose/Documents/code/rust/some_project/src/" (25787 34774 301155 508000) "test.txt" "../" "main.rs" "./")
+
+ ("/home/rose/Documents/code/rust/opengl_game/" (25787 35272 679767 252000) "../" "Cargo.toml" "screaming_kitty.jpg" ".gitignore" "target/" ".git/" "Cargo.lock" "src/" "./")
+
+ ("/home/rose/Documents/code/rust/raylib_game/" (25784 37251 43575 544000) "../" "Cargo.toml" ".gitignore" "target/" ".git/" "screaming_kitty.png" "Cargo.lock" "src/" "./")
+
+ ("/home/rose/Documents/code/rust/bevy_game/" (25781 51529 129213 965000) "../" "Cargo.toml" ".gitignore" "target/" ".git/" "Cargo.lock" "src/" "./")
+
+ ("/home/rose/Documents/code/rust/some_project/" (25784 33564 785252 888000) "test.txt" "../" "Cargo.toml" ".gitignore" "target/" ".git/" "Cargo.lock" "src/" "./")
+
+ ("/home/rose/Documents/games/test_game/" (25784 31778 339042 254000) "select_net.tscn" "../" "scripts/" ".godot/" ".gitignore" "world.tscn" "icon.svg" ".gitattributes" "project.godot" "./" "icon.svg.import")
+
+ ("/usr/share/xsessions/" (25779 49208 711483 970000) "../" "i3.desktop" "plasma.desktop" "dwm.desktop" "i3-with-shmlog.desktop" "stumpwm.desktop" "./")
+
+ ("/home/rose/Documents/code/lisp/some_project/" (25781 52769 607902 365000) "../" "main.lisp" "#main.lisp#" "./")
+
+ ("/home/rose/Documents/games/" (25755 47965 72484 633000) "../" ".godot/" ".gitignore" ".gitattributes" "test_game/" "./")
+
+ ("/home/rose/Documents/code/python/some_project/" (25781 1386 347351 820000) "../" "main.py" "./")
+
+ ("/home/rose/Documents/code/python/" (25774 9144 410749 430000) "../" "./" "some_project/")
+
+ ("/home/rose/Documents/code/" (25780 42929 453167 18000) "../" "web/" "go/" "rust/" "js/" "python/" "c/" "c++/" "lua/" "assembly/" "lisp/" "pascal/" "./")
+
+ ("/home/rose/Documents/code/rust/game/src/" (25773 49527 83582 713000) "../" "main.rs" "shader.rs" "texture.rs" "buffers.rs" "./" "draw.rs")
+
+ ("/home/rose/Documents/TLauncher/" (25679 24568 266797 126000) "../" "TLauncher-2.879/" "./")
+
+ ("/home/rose/Documents/code/rust/game/" (25757 48840 939633 938000) "../" "Cargo.toml" "screaming_kitty.jpg" ".gitignore" "target/" ".git/" "Cargo.lock" "src/" "./")
+
+ ("/home/rose/Documents/code/assembly/testing/src/" (25751 25048 664859 79000) "../" "main.o" "main.asm" "./")
+
+ ("/home/rose/.config/i3/" (25749 11419 674948 581000) "../" "config" "./")
+
+ ("/home/rose/Documents/code/c++/some_project/" (25751 58992 317806 56000) "../" "main" "main.cpp" "./" "build.sh")
+
+ ("/home/rose/Documents/code/c/game/shaders/" (25751 61675 804837 799000) "../" "frag.glsl" "vert.glsl" "./")
+
+ ("/home/rose/Documents/code/c/game/src/fs/" (25757 12015 319891 837000) "../" "fs.h" "./")
+
+ ("/home/rose/.emacs.d/elpa/" (25756 61033 684964 852000) "beacon-1.3.4/" "lv-20200507.1518/" "bind-key-20221209.2013/" "god-mode-20221230.708/" "cfrs-20220129.1149/" "../" "pos-tip-20220715.1020/" "archives/" "multiple-cursors-20230113.835/" "flycheck-20221213.107/" "pkg-info-20150517.1143/" "elcord-20221031.1726/" "dash-20221013.836/" "popup-20221231.1634/" "clippy-20161028.1954/" "use-package-20221209.2013/" "xref-1.6.1/" "hydra-20220910.1206/" "gruber-darker-theme-0.7/" "night-owl-theme-20200622.1943/" "xelb-0.18.signed" "gruber-darker-theme-0.7.signed" "lsp-mode-20230113.1327/" "markdown-mode-20230102.9/" "all-the-icons-20220929.2303/" "gdscript-mode-20220721.547/" "eldoc-1.13.0/" "posframe-20221220.544/" "project-0.9.4.signed" "gnupg/" "company-20230106.54/" "beacon-1.3.4.signed" "rustic-20221229.1543/" "lua-mode-20221218.605/" "shrink-path-20190208.1335/" "compat-29.1.2.0/" "auto-complete-20221231.1633/" "xref-1.6.1.signed" "s-20220902.1511/" "ht-20221031.705/" "go-mode-20221228.1706/" "spinner-1.7.4/" "racer-20210307.243/" "pfuture-20220913.1401/" "doom-modeline-20230117.955/" "xelb-0.18/" "project-0.9.4/" "eldoc-1.13.0.signed" "avy-20220910.1936/" "compat-29.1.2.0.signed" "names-20221227.1825/" "./" "epl-20180205.2049/" "rust-mode-20230112.27/" "autothemer-20220905.1550/" "spinner-1.7.4.signed" "f-20230112.1240/" "xterm-color-20200605.2017/" "typescript-mode-20230116.1533/")
+
+ ("/home/rose/Documents/code/c/game/src/os/" (25746 11422 435561 538000) "../" "window.h" "./")
+
+ ("/home/rose/Documents/code/c++/game/" (25672 2638 557315 11000) "draw.o" "../" "screen-5.png" "README.md" "V3cIzckz.jpg" ".gitignore" "glad.o" "main.o" "camera.o" "temp.txt" ".git/" "shader.o" "shaders/" "texture.o" "src/" "images.jpeg" "./" "867.jpg" "bin/" "fs.o" "window.o" "Makefile")
+
+ ("/home/rose/Documents/code/c/game/src/core/extern_libs/cglm/src/" (25715 4495 144389 408000) "swift/" "ivec3.c" "ease.c" "vec2.c" "../" "clipspace/" "vec4.c" "vec3.c" "affine.c" "ivec2.c" "ray.c" "mat2.c" "ivec4.c" "affine2d.c" "plane.c" "mat4.c" "mat3.c" "curve.c" "bezier.c" "cam.c" "euler.c" "io.c" "./" "box.c" "frustum.c" "quat.c" "config.h" "project.c" "sphere.c")
+
+ ("/home/rose/Documents/code/c/game/src/core/extern_libs/cglm/include/cglm/" (25715 4495 141055 759000) "box.h" "affine-post.h" "../" "clipspace/" "vec2-ext.h" "plane.h" "ray.h" "vec4.h" "struct.h" "quat.h" "ivec3.h" "ivec4.h" "vec3-ext.h" "types.h" "affine2d.h" "affine.h" "call.h" "common.h" "version.h" "ease.h" "cam.h" "affine-mat.h" "mat3.h" "sphere.h" "types-struct.h" "call/" "affine-pre.h" "frustum.h" "io.h" "vec4-ext.h" "cglm.h" "curve.h" "project.h" "util.h" "./" "applesimd.h" "color.h" "ivec2.h" "vec2.h" "simd/" "mat4.h" "vec3.h" "euler.h" "struct/" "bezier.h" "mat2.h")
+
+ ("/home/rose/Documents/code/c/game/src/core/extern_libs/cglm/include/" (25715 4495 141055 759000) "module.modulemap" "../" "cglm/" "./")
+
+ ("/home/rose/Documents/code/c/game/src/core/extern_libs/cglm/" (25715 4495 144389 408000) "win/" "cglm.png" "../" "autogen.sh" "LICENSE" "Makefile.am" "CMakeLists.txt" "README.md" "meson.build" ".gitignore" "docs/" "meson_options.txt" "CONTRIBUTING.md" "Package.swift" ".gitattributes" ".git/" "appveyor.yml" "CREDITS" ".travis.yml" "cglm.podspec" "test/" ".vscode/" "_config.yml" "src/" ".gitmodules" "./" "include/" "cglm.pc.in" ".github/" "configure.ac")
+
+ ("/home/rose/Documents/code/c/game/src/core/extern_libs/" (25715 4493 497566 669000) "../" "cglm/" "KHR/" "glad/" "./" "stb/" "glm/")
+
+ ("/home/rose/Documents/code/c/game/src/core/" (25722 49808 127515 550000) "../" "extern_libs/" "./")
+
+ ("/home/rose/Documents/code/c/" (25716 53682 575837 32000) "../" "raylib_test/" "game/" "./" "testing/")
+
+ ("/home/rose/Documents/code/python/some_lang/" (25716 53388 571294 691000) "../" "main.py" "./" "build.sh")
+
+ ("/home/rose/.config/stumpwm/" (25716 51081 995800 776000) "screen.png" "../" "swm-gaps.asd" "config" "swm-gaps.lisp" "package.lisp" "README.org" "./" "mode_line/")
+
+ ("/home/rose/Documents/code/c/some_lang/testing/" (25716 52361 363589 247000) "../" "./")
+
+ ("/home/rose/Documents/code/c/some_lang/" (25716 52598 691224 35000) "../" "src/" "./" "bin/" "testing/" "build.sh")
+
+ ("/home/rose/Documents/code/c/some_lang/src/" (25716 52740 885154 546000) "../" "main.c" "./")
+
+ ("/home/rose/.config/" (25715 27720 351518 154000) "pcmanfm/" "pulse/" "kscreenlockerrc" "systemmonitorrc" "ksmserverrc" "plasma-org.kde.plasma.desktop-appletsrc" "../" "discoverrc" "gtkrc-2.0" "konsolerc" "neofetch/" "libaccounts-glib/" "blender/" "plasma-localerc" "kmixrc" "i3/" "discord/" "stumpwm/" "kwinrc" "arkrc" "gtk-3.0/" "kde.org/" "menus/" "kcminputrc" "GIMP/" "dconf/" "KDE/" "kwalletrc" "xsettingsd/" "user-dirs.locale" "gtkrc" "gtk-4.0/" "ksplashrc" "kactivitymanagerd-statsrc" "Code - OSS/" "kwinrulesrc" "kdedefaults/" "kdeglobals" "gtk-2.0/" "yay/" "plasmanotifyrc" "plasmarc" "Trolltech.conf" "google-chrome/" "godot/" "plasmashellrc" "htop/" "kconf_updaterc" "kateschemarc" "konsolesshconfig" "i3status/" "khotkeysrc" "kactivitymanagerdrc" "kxkbrc" "plasma-nm" "kglobalshortcutsrc" "nitrogen/" "ranger/" "nvim/" "bluedevilglobalrc" "ktimezonedrc" "krunnerrc" "pavucontrol.ini" "baloofilerc" "kded5rc" "libfm/" "JetBrains/" "powermanagementprofilesrc" "./" "akregatorrc" "plasma.emojierrc" "session/" "dolphinrc" "plasma-welcomerc" "trashrc" "systemsettingsrc" "user-dirs.dirs" "QtProject.conf")
+
+ ("/home/rose/Documents/code/c/raylib_test/" (25714 64653 332752 959000) "OBJ/" "X2Download.app - Eric Skiff - Underclocked ♫ NO COPYRIGHT 8-bit Music + Background (128 kbps).mp3" "../" "X2Retro.mp3" "X2Download.app-Eric-Skiff-Underclocked-♫-NO-COPYRIGHT-8-bit-Music-Background-_128-kbps_.ogg" "brown-fabric-texture_1154-619.png" "main" "main.c" "Unity/" "./" "build.sh")
+
+ ("/home/rose/Documents/code/c/game/src/core/math/" (25709 35086 232931 639000) "../" "mathmat.h" "math.h" "mathvec.h" "./")
+
+ ("/etc/" (25700 65172 547333 126000) "pulse/" "ndctl/" "signond.conf" "opt/" "slsh.rc" "ld.so.conf" "avahi/" "xattr.conf" "../" "bash.bashrc" "request-key.d/" "ModemManager/" "vconsole.conf" "vdpau_wrapper.cfg" "pki/" "libaudit.conf" "inputrc" "paperspecs" "gshadow" "sudoers" "hostname" "polkit-1/" "subgid-" "gprofng.rc" "i3/" "iptables/" ".pwd.lock" "modprobe.d/" "profile" "gshadow-" "wgetrc" "machine-id" "resolv.conf" "modules-load.d/" "host.conf" "skel/" "mtab" "java-openjdk/" "gtk-3.0/" "libblockdev/" "shadow-" "services" "security/" "mkinitcpio.d/" "keyutils/" "sensors.d/" "xtables.conf" "binfmt.d/" "ppp/" "fonts/" "group-" "dconf/" "kernel/" "krb5.conf" "localtime" "pacman.conf" "openldap/" "java17-openjdk/" "iwd/" "nginx/" "mdadm.conf" "passwd-" "grub.d/" "request-key.conf" "gtk-2.0/" "libnl/" "debuginfod/" "sudo.conf" "credstore/" "locale.conf" "cifs-utils/" "passwd" "issue" "pacman.d/" "libinput/" "arch-release" "profile.d/" "fwupd/" "udev/" "xdg/" ".updated" "pipewire/" "mke2fs.conf" "protocols" "i3status.conf" "pam.d/" "makepkg.conf" "subuid" "systemd/" "shadow" "depmod.d/" "lvm/" "chromium/" "nsswitch.conf" "sensors3.conf" "ndctl.conf.d/" "appstream.conf" "pinentry/" "securetty" "daxctl.conf.d/" "environment" "libpaper.d/" "hosts" "nscd.conf" "ts.conf" "sudo_logsrvd.conf" "wpa_supplicant/" "sysctl.d/" "ssl/" "pkcs11/" "login.defs" "mailcap" "gdb/" "subgid" "UPower/" "crypttab" "locale.gen" "sudoers.d/" "mkinitcpio.conf" "smartd.conf" "tpm2-tss/" "credstore.encrypted/" "rc_keymaps/" "gimp/" "openmpi/" "subuid-" "ld.so.conf.d/" "tmpfiles.d/" "papersize" "shells" "vimrc" "default/" "bash.bash_logout" "healthd.conf" "iproute2/" "./" "udisks2/" "ethertypes" "NetworkManager/" "alsa/" "nanorc" "ssh/" "e2scrub.conf" "ld.so.cache" "netconfig" "conf.d/" "trusted-key.key" "fstab" "fuse.conf" "gai.conf" "ca-certificates/" "initcpio/" "bluetooth/" "audit/" "group" "X11/" "bindresvport.blacklist" "os-release" "libsmbios/" "rc_maps.cfg" "openpmix/" "rpc" "mime.types" "libva.conf")
+
+ ("/home/rose/Documents/code/web/testing/" (25688 8939 474878 759000) "../" "index.html" "main.html" "loginstyle.css" "login.html" "app.js" "style.css" "./")
+
+ ("/home/rose/Documents/code/web/some_project/client/src/" (25685 32067 182803 171000) "../" "App.jsx" "index.css" "logo.svg" "App.module.css" "assets/" "./" "index.jsx")
+
+ ("/home/rose/Documents/code/web/some_project/client/" (25685 17038 356362 343000) "jsconfig.json" "pnpm-lock.yaml" "../" "index.html" "README.md" ".gitignore" "package.json" "node_modules/" "vite.config.js" "package-lock.json" "src/" "./")
+
+ ("/home/rose/Documents/code/web/some_project/server/" (25685 25441 58741 764000) "../" "server.js" "package.json" "node_modules/" "package-lock.json" "./")
+
+ ("/home/rose/Documents/code/pascal/some_project/" (25684 25059 593574 848000) "../" "main.pas" "./")
+
+ ("/home/rose/Documents/code/web/" (25686 48467 957423 609000) "../" "./" "some_project/" "testing/")
+
+ ("/home/rose/Documents/code/js/some_project/" (25686 48384 687538 769000) "../" "main.js" "./")
+
+ ("/home/rose/Documents/code/js/" (25686 39500 664412 588000) "../" "./" "some_project/")
+
+ ("/home/rose/Documents/code/pascal/" (25684 24737 357543 241000) "../" "./" "some_project/")
+
+ ("/home/rose/Documents/code/c/testing/" (25682 52547 580255 980000) "../" "main.o" "src/" "./" "bin/" "Makefile")
+
+ ("/home/rose/Documents/code/c/testing/src/" (25682 52207 597165 738000) "../" "main.c" "./")
+
+ ("/home/rose/Documents/code/c/game/src/core/extern_libs/glad/" (25672 4757 842632 99000) "../" "glad.h" "./")
+
+ ("/home/rose/Documents/code/assembly/testing/" (25676 18323 375968 277000) "../" "main.o" "src/" "./" "bin/" "Makefile")
+
+ ("/home/rose/Documents/code/assembly/" (25675 11788 99529 442000) "../" "./" "testing/")
+
+ ("/home/rose/Documents/code/c/game/src/headers/" (25672 10834 484320 258000) "../" "fs.h" "util.h" "window.h" "./")
+
+ ("/home/rose/Documents/code/c++/game/src/" (25672 2634 130688 441000) "texture.cpp" "prelude.h" "../" "extern_libs/" "camera.cpp" "window.cpp" "draw.cpp" "fs.c" "glad.c" "shader.cpp" "main.cpp" "headers/" "./" "renderer/")
+
+ ("/home/rose/Documents/code/c++/game_no_gl/src/" (25671 64230 170570 307000) "texture.cpp" "../" "ecs.h" "window.cpp" "main.cpp" "window.h" "./" "renderer/" "t.c")
+
+ ("/home/rose/Documents/code/c++/game_no_gl/" (25671 64063 354025 774000) "hoodie_chick.jpg" "../" "t.o" "main.o" "texture.o" "src/" "assets/" "./" "867.jpg" "bin/" ".clangd" "window.o" "Makefile" "build.sh")
+
+ ("/home/rose/Documents/code/c++/" (25671 63996 374201 306000) "../" "game/" "game_no_gl/" "./" "some_project/")
+
+ ("/home/rose/Documents/code/c++/game/src/headers/" (25671 2608 666127 289000) "../" "fs.h" "util.h" "window.h" "./")
+
+ ("/usr/share/" (25660 8793 811737 7000) "makepkg-template/" "pcmanfm/" "wallpapers/" "git-core/" "kpackage/" "pacman/" "kservices5/" "kbd/" "i18n/" "gcc-12.2.1/" "doc/" "model/" "GConf/" "misc/" "fontconfig/" "terminfo/" "app-info/" "makepkg/" "vim/" "git-gui/" "avahi/" "guile/" "../" "icons/" "ksysguard/" "ModemManager/" "libftdi/" "info/" "media-player-info/" "xtables/" "xsessions/" "WebP/" "kservicetypes5/" "xdg-desktop-portal/" "awk/" "kcmmouse/" "solid/" "sddm/" "spa-0.2/" "polkit-1/" "zsh/" "glvnd/" "egl/" "kconf_update/" "tabset/" "iptables/" "pixmaps/" "kxmlgui5/" "icu/" "gtk-doc/" "kio/" "ss/" "groff/" "qalculate/" "hwdata/" "phonon4qt5/" "gtk-3.0/" "xfsprogs/" "slsh/" "kde4/" "krunner/" "gst-plugins-base/" "sounds/" "cmake/" "knotifications5/" "libwacom/" "color-schemes/" "keyutils/" "fonts/" "iso-codes/" "vulkan/" "libalpm/" "KDE/" "texinfo/" "luajit-2.1.0-beta3/" "daxctl/" "config.kcfg/" "nano/" "perl5/" "tracker3/" "openal/" "kgamma/" "wayland/" "kcmsolidactions/" "glib-2.0/" "drirc.d/" "kstyle/" "qt/" "kmenuedit/" "metainfo/" "kio_docfilter/" "kinfocenter/" "kio_bookmarks/" "bison/" "kwin/" "mdadm/" "emacs/" "zoneinfo/" "Thunar/" "emoticons/" "gtk-2.0/" "kglobalaccel/" "drkonqi/" "kfontinst/" "gnupg/" "kcmkeys/" "gettext/" "lv2specgen/" "QtCurve/" "kcm-gtk-module/" "khotkeys/" "libcamera/" "thumbnailers/" "iana-etc/" "desktop-directories/" "smartmontools/" "gitk/" "libinput/" "grub/" "fwupd/" "xml/" "katexmltools/" "plasma/" "m17n/" "pipewire/" "wayland-eglstream/" "libdrm/" "google-chrome/" "aclocal-1.16/" "mkinitcpio/" "org.kde.syntax-highlighting/" "systemd/" "gitweb/" "dolphin/" "kio_info/" "chromium/" "p11-kit/" "konsole/" "fish/" "lua/" "wireplumber/" "gettext-0.21.1/" "konqsidebartng/" "pavucontrol/" "mkspecs/" "bluedevilwizard/" "themes/" "man/" "bash-completion/" "java/" "aclocal/" "autoconf/" "katepart5/" "gdb/" "file/" "dbus-1/" "kcm_ufw/" "licenses/" "plasma-systemmonitor/" "libmysofa/" "appdata/" "automake-1.16/" "mime/" "installed-tests/" "nvim/" "kdevappwizard/" "qlogging-categories5/" "systemsettings/" "zoneinfo-posix/" "applications/" "kio_desktop/" "wayland-sessions/" "kf5/" "factory/" "libthai/" "libtool/" "defaults/" "pkgconfig/" "smbios-utils/" "libgpg-error/" "zoneinfo-leaps/" "mobile-broadband-provider-info/" "locale/" "libfm/" "vala/" "gstreamer-1.0/" "xcb/" "./" "purpose/" "kateproject/" "readline/" "et/" "common-lisp/" "blueman/" "tc/" "ksmserver/" "alsa/" "knsrcfiles/" "accountsservice/" "ffmpeg/" "graphite2/" "gir-1.0/" "ca-certificates/" "audit/" "source-highlight/" "konqueror/" "kcm_networkmanagement/" "X11/" "remoteview/" "accounts/" "libdiscover/" "alsa-card-profile/" "git/")
+
+ ("/usr/" (25666 42166 605902 49000) "../" "share/" "sbin/" "lib64/" "local/" "lib32/" "src/" "./" "include/" "bin/" "lib/")
+
+ ("/home/rose/Documents/school/math/" (25661 1785 468922 390000) "../" "./")
+
+ ("/home/rose/Documents/school/" (25661 1694 911880 135000) "../" "english/" "./" "math/")
+
+ ("/home/rose/Documents/code/web/some_project/" (25660 51634 683124 231000) "../" "client/" "./" "server/")
+
+ ("/home/hword/Documents/mygames/game_no_gl/src/renderer/" (25650 39457 26794 527000) "../" "tilemap.h" "texture.h" "./")
+
+ ("/home/hword/Documents/mygames/game/" (25650 27887 66370 140000) "Makefile" ".gitignore" "shader.o" "V3cIzckz.jpg" "fs.o" "../" "README.md" "camera.o" "867.jpg" "window.o" ".git/" "temp.txt" "src/" "bin/" "util.o" "images.jpeg" "shaders/" "glad.o" "main.o" "lmath.o" "texture.o" "draw.o" "screen-5.png" "./")
+
+ ("/home/hword/.emacs.d/" (25650 37911 56199 869000) "auto-save-list/" "elpa/" ".mc-lists.el" "../" "init.el~" "ac-comphist.dat" "ido.last" ".lsp-session-v1" "projects" "discordrpc.el" "init.el" "./" "semanticdb/")
+
+ ("/home/hword/Documents/mygames/game_no_gl/src/" (25650 36520 278789 685000) "window.cpp" "t.c" "../" "renderer/" "texture.cpp" "main.cpp" "window.h" "./")
+
+ ("/home/hword/Documents/mygames/game_no_gl/" (25650 36478 406991 924000) "Makefile" "../" "867.jpg" "window.o" "assets/" "src/" "bin/" "main.o" "texture.o" "./" "t.o")
+
+ ("/home/hword/Documents/mygames/" (25650 26149 181683 901000) "game/" ".gitignore" "../" ".godot/" "test_game/" "game_no_gl/" ".gitattributes" "./")
+
+ ("/home/hword/Documents/mygames/test_game/scripts/" (25649 6398 562227 861000) "../" "./")
+
+ ("/home/hword/Documents/code/c++/bws/src/" (25648 54475 121972 302000) "window.cpp" "fs.c" "prelude.h" "util.cpp" "../" "extern_libs/" "draw.cpp" "renderer/" "texture.cpp" "main.cpp" "camera.cpp" "glad.c" "shader.cpp" "headers/" "lmath.c" "./")
+
+ ("/home/hword/Documents/code/lua/ex/" (25649 8498 280412 567000) "../" "main.lua" ".vscode/" "entity.lua" "window.lua" "engine.lua" "./")
+
+ ("/home/hword/Documents/mygames/game/src/" (25650 25329 445287 167000) "window.cpp" "fs.c" "prelude.h" "util.cpp" "../" "extern_libs/" "draw.cpp" "renderer/" "texture.cpp" "main.cpp" "camera.cpp" "glad.c" "shader.cpp" "headers/" "lmath.c" "./")
+
+ ("/home/hword/" (25650 24131 663620 292000) "Videos/" ".bash_profile" "Downloads/" "../" "rust-analyzer/" ".ICEauthority" ".gtkrc-2.0" ".local/" "videos/" "Templates/" ".vmware/" "Documents/" ".bash_logout" ".wine/" ".npm/" ".plyintrc" ".cargo/" ".nuget/" ".xsession-errors.old" ".vscode-oss/" ".gnupg/" ".zshrc" "Pictures/" ".tmux.conf" ".cache/" ".emacs.d/" "Music/" ".screenrc" ".profile" ".Xauthority" ".mozilla/" ".viminfo" ".zshenv" ".rustup/" "omnisharp-server/" ".gnome/" ".bash_history" ".xsession-errors" ".gitconfig" ".config/" ".icons/" "Public/" ".rebornos-welcome/" ".python_history" "Desktop/" ".dmrc" ".pki/" "snap/" ".wget-hsts" ".pylintrc" ".bashrc" "./")
+
+ ("/home/hword/Documents/mygames/game/shaders/" (25650 22716 431611 371000) "../" "frag.glsl" "./" "vert.glsl")
+
+ ("/home/hword/Documents/code/lua/" (25637 18136 368211 837000) "source_code/" "ex/" "../" "hot_game/" "./")
+
+ ("/home/hword/Documents/" (25649 6228 441230 879000) "awesome/" "../" "code/" "grapejuice-git.tar.gz" "lil_gl_game/" "project/" "memes/" "backups/" "Godot_v4.0.2-stable_linux.x86_64" "#temp.lua#" "mygames/" "suckless/" "grapejuice-git/" "./" "gifs/")
+
+ ("/home/hword/Documents/code/c++/bws/src/headers/" (25648 53142 484839 78000) "../" "fs.h" "lmath.h" "util.h" "window.h" "./")
+
+ ("/home/hword/Documents/mygames/game/src/headers/" (25641 4041 391372 479000) "../" "fs.h" "lmath.h" "util.h" "window.h" "./")
+
+ ("/home/hword/Documents/code/c/vm/src/" (25646 2235 949404 196000) "../" "main.c" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

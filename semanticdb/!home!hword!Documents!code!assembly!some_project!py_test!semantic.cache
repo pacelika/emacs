@@ -1,0 +1,27 @@
+;; Object semanticdb-project-database-file-157e9b45a0ec
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-157e9b45a0ec"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-157e9b45a126"
+      :major-mode python-mode
+      :tags 
+        '( ("should_write" variable nil nil [1 20])
+            ("with" code nil nil [22 590]))          
+      :file "main.py"
+      :pointmax 590
+      :fsize 589
+      :lastmodtime '(25550 2635 8296 289000)
+      :unmatched-syntax '(($EOI 590 . 590) ($EOI 587 . 587) ($EOI 587 . 587) ($EOI 589 . 589)))
+    (semanticdb-table "semanticdb-table-157e9b44627a"
+      :major-mode makefile-gmake-mode
+      :tags 
+        '( ("all" function nil nil [1 66]))          
+      :file "Makefile"
+      :pointmax 66
+      :fsize 65
+      :lastmodtime '(25550 1168 923366 475000)
+      :unmatched-syntax '((shell-command 59 . 65) (bol 58 . 58))))
+  :file "!home!hword!Documents!code!assembly!some_project!py_test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
