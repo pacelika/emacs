@@ -1,27 +1,28 @@
-;; Object semanticdb-project-database-file-1556b25171ca
+;; Object semanticdb-project-database-file-1587ea89a03c
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-1556b25171ca"
+(semanticdb-project-database-file "semanticdb-project-database-file-1587ea89a03c"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-1556b25171aa"
+    (semanticdb-table "semanticdb-table-1587ea878b3e"
       :major-mode c-mode
       :tags 
-        '( ("stdio.h" include (:system-flag t) nil [1 19])
-            ("memory.h" include (:system-flag t) nil [20 39])
-            ("stdlib.h" include (:system-flag t) nil [40 59])
+        '( ("windows.h" include (:system-flag t) nil [1 21])
+            ("stdio.h" include (:system-flag t) nil [22 40])
+            ("memory.h" include (:system-flag t) nil [41 60])
+            ("stdlib.h" include (:system-flag t) nil [61 80])
             ("main" function
                (:arguments 
-                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [70 79])
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [91 100])
                     ("argv" variable
                        (:pointer 2
                         :type "char")
-                        (reparse-symbol arg-sub-list) [80 92]))                  
+                        (reparse-symbol arg-sub-list) [101 113]))                  
                 :type "int")
-                nil [61 148]))          
+                nil [82 121]))          
       :file "main.c"
-      :pointmax 149
-      :fsize 148
-      :lastmodtime '(25682 52207 580548 659000)
+      :pointmax 122
+      :fsize 121
+      :lastmodtime '(25844 21329 366277 165000)
       :unmatched-syntax nil))
   :file "!home!rose!Documents!code!c!testing!src!semantic.cache"
   :semantic-tag-version "2.0"

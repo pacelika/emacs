@@ -5,6 +5,8 @@
 (global-display-line-numbers-mode 1)
 (semantic-mode)
 
+(defalias 'yes-or-no-p 'y-or-n-p)
+
 (setq display-line-numbers-type 'relative)
 (setq inhibit-startup-message t
       initial-scratch-message ""
@@ -19,3 +21,7 @@
 (setq truncate-lines t)
 (setq inhibit-startup-message t)
 (setq make-backup-files nil)
+(setq make-backup-files nil) ; stop creating ~ files
+(setq ido-everywhere t)
+(setq ido-enable-flex-matching t)
+(ido-mode t)

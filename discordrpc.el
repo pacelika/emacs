@@ -15,7 +15,7 @@
 (require 'bindat)
 (require 'cl-lib)
 
-(defvar options (list "Spaghetti" "Cooking"))
+(defvar options (list "editing" "working on"))
 
 (defun get-random-action()
   (setf *random-state* (cl-make-random-state t))

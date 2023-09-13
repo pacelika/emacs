@@ -1,0 +1,109 @@
+;; Object semanticdb-project-database-file-156875607e06
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156875607e06"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156875608118"
+      :major-mode c-mode
+      :tags 
+        '( ("array.h" include nil nil [1 19])
+            ("memory.h" include (:system-flag t) nil [20 39])
+            ("array_new" variable (:constant-flag t) nil [49 58])
+            ("array_from" variable (:constant-flag t) nil [161 171])
+            ("array_free" variable (:constant-flag t) nil [334 344])
+            ("array_push" variable (:constant-flag t) nil [398 408])
+            ("float_array_new" function (:type ("float_array" type (:type "class") nil nil)) nil [537 638])
+            ("float_array_from" function
+               (:arguments 
+                  ( ("src" variable
+                       (:pointer 1
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [669 680])
+                    ("size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [680 692]))                  
+                :type ("float_array" type (:type "class") nil nil))
+                nil [640 774])
+            ("float_array_at" function
+               (:arguments 
+                  ( ("array" variable
+                       (:pointer 1
+                        :type ("float_array" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [797 816])
+                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [816 826]))                  
+                :type "float")
+                nil [776 927])
+            ("float_array_push" function
+               (:arguments 
+                  ( ("array" variable
+                       (:pointer 1
+                        :type ("float_array" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [951 970])
+                    ("element" variable (:type "float") (reparse-symbol arg-sub-list) [970 984]))                  
+                :type "void")
+                nil [929 1024])
+            ("float_array_free" function
+               (:arguments 
+                  ( ("array" variable
+                       (:pointer 1
+                        :type ("float_array" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1048 1067]))                  
+                :type "void")
+                nil [1026 1093])
+            ("int_array_new" function (:type ("int_array" type (:type "class") nil nil)) nil [1095 1188])
+            ("int_array_from" function
+               (:arguments 
+                  ( ("src" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [1215 1224])
+                    ("size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1224 1236]))                  
+                :type ("int_array" type (:type "class") nil nil))
+                nil [1190 1314])
+            ("int_array_at" function
+               (:arguments 
+                  ( ("array" variable
+                       (:pointer 1
+                        :type ("int_array" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1333 1350])
+                    ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1350 1360]))                  
+                :type "int")
+                nil [1316 1461])
+            ("int_array_push" function
+               (:arguments 
+                  ( ("array" variable
+                       (:pointer 1
+                        :type ("int_array" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1483 1500])
+                    ("element" variable (:type "int") (reparse-symbol arg-sub-list) [1500 1512]))                  
+                :type "void")
+                nil [1463 1550])
+            ("int_array_free" function
+               (:arguments 
+                  ( ("array" variable
+                       (:pointer 1
+                        :type ("int_array" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1572 1589]))                  
+                :type "void")
+                nil [1552 1615]))          
+      :file "array.c"
+      :pointmax 1616
+      :fsize 1615
+      :lastmodtime '(25842 38534 890680 393000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("array_from" (spp-arg-list ("T" "array" "src" "size") 171 . 189) . 
+              ((symbol "array" 192 . 197) (punctuation "." 197 . 198) (symbol "cap" 198 . 201) (punctuation "=" 202 . 203) (symbol "size" 204 . 208) (punctuation "+" 209 . 210) (semantic-list "(sizeof(T) * 4)" 211 . 226) (punctuation ";" 226 . 227) (symbol "array" 229 . 234) (punctuation "." 234 . 235) (symbol "ptr" 235 . 238) (punctuation "=" 239 . 240) (semantic-list "(T*)" 241 . 245) (symbol "malloc" 246 . 252) (semantic-list "(array.cap)" 252 . 263) (punctuation ";" 263 . 264) (symbol "memcpy" 265 . 271) (semantic-list "(array.ptr,src,size)" 271 . 291) (punctuation ";" 291 . 292) (symbol "array" 295 . 300) (punctuation "." 300 . 301) (symbol "len" 301 . 304) (punctuation "=" 305 . 306) (symbol "size" 307 . 311) (punctuation "/" 312 . 313) (SIZEOF "sizeof" 314 . 320) (semantic-list "(T)" 320 . 323) (punctuation ";" 323 . 324)))
+          ("array_push" (spp-arg-list ("T" "V" "E") 408 . 415) . 
+              ((IF "if" 416 . 418) (semantic-list "(V->len >= V->cap)" 419 . 437) (semantic-list "{V->ptr = (T*) realloc(V->ptr,(V->cap*2) * sizeof(T)); V->cap *= 2;}" 438 . 506) (symbol "V" 507 . 508) (punctuation "-" 508 . 509) (punctuation ">" 509 . 510) (symbol "ptr" 510 . 513) (semantic-list "[V->len]" 513 . 521) (punctuation "=" 522 . 523) (symbol "E" 524 . 525) (punctuation ";" 525 . 526) (symbol "V" 527 . 528) (punctuation "-" 528 . 529) (punctuation ">" 529 . 530) (symbol "len" 530 . 533) (punctuation "+" 533 . 534) (punctuation "+" 534 . 535)))
+          ("array_new" (spp-arg-list ("T" "array") 58 . 67) . 
+              ((symbol "array" 70 . 75) (punctuation "." 75 . 76) (symbol "cap" 76 . 79) (punctuation "=" 80 . 81) (number "4" 82 . 83) (punctuation "*" 84 . 85) (SIZEOF "sizeof" 86 . 92) (semantic-list "(T)" 92 . 95) (punctuation ";" 95 . 96) (symbol "array" 99 . 104) (punctuation "." 104 . 105) (symbol "len" 105 . 108) (punctuation "=" 109 . 110) (number "0" 111 . 112) (punctuation ";" 112 . 113) (symbol "array" 116 . 121) (punctuation "." 121 . 122) (symbol "ptr" 122 . 125) (punctuation "=" 126 . 127) (semantic-list "(T*)" 128 . 132) (symbol "malloc" 133 . 139) (semantic-list "(array.cap)" 139 . 150) (punctuation ";" 150 . 151)))
+          ("array_free" (spp-arg-list ("array") 344 . 351) . 
+              ((IF "if" 352 . 354) (semantic-list "(array->len > 0)" 355 . 371) (symbol "free" 372 . 376) (semantic-list "(array->ptr)" 376 . 388) (punctuation ";" 388 . 389)))
+          )
+)
+    (semanticdb-table "semanticdb-table-156875e8de5c"
+      :file "array.h"
+      :fsize 564
+      :lastmodtime '(25842 37722 630594 42000)))
+  :file "!home!rose!Documents!code!c!roselib!src!utils!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,9 +1,9 @@
-;; Object semanticdb-project-database-file-158cd256023a
+;; Object semanticdb-project-database-file-15761197ecba
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-158cd256023a"
+(semanticdb-project-database-file "semanticdb-project-database-file-15761197ecba"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-158cd256027c"
+    (semanticdb-table "semanticdb-table-15761197ec7a"
       :major-mode c-mode
       :tags 
         '( ("SDL2/SDL_video.h" include (:system-flag t) nil [1 28])
@@ -22,11 +22,11 @@
             ("HEIGHT" variable (:constant-flag t) nil [411 417])
             ("UNUSED" variable (:constant-flag t) nil [470 476])
             ("UNUSED" variable (:constant-flag t) nil [592 598])
-            ("main" function (:type "int") nil [612 3211]))          
+            ("main" function (:type "int") nil [612 3177]))          
       :file "main.c"
-      :pointmax 3212
-      :fsize 3211
-      :lastmodtime '(25842 38848 2053 917000)
+      :pointmax 3178
+      :fsize 3177
+      :lastmodtime '(25842 40160 251158 994000)
       :unmatched-syntax nil
       :lexical-table 
         '(("HEIGHT" . ((number "600" 418 . 421)))
@@ -34,7 +34,7 @@
           ("UNUSED" (spp-arg-list ("x") 598 . 601) . ((symbol "x" 602 . 603)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd21fe85a"
+    (semanticdb-table "semanticdb-table-15761197ec9a"
       :major-mode c-mode
       :tags 
         '( ("libs/glad/glad.h" include nil nil [14 41])
