@@ -1,40 +1,9 @@
-;; Object semanticdb-project-database-file-15761197ecba
+;; Object semanticdb-project-database-file-1593488d82d8
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-15761197ecba"
+(semanticdb-project-database-file "semanticdb-project-database-file-1593488d82d8"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-15761197ec7a"
-      :major-mode c-mode
-      :tags 
-        '( ("SDL2/SDL_video.h" include (:system-flag t) nil [1 28])
-            ("stdio.h" include (:system-flag t) nil [29 47])
-            ("stdlib.h" include (:system-flag t) nil [48 67])
-            ("libs/cglm/include/cglm/cam.h" include nil nil [68 107])
-            ("libs/cglm/include/cglm/mat4.h" include nil nil [108 148])
-            ("libs/cglm/include/cglm/vec3.h" include nil nil [149 189])
-            ("os/window.h" include nil nil [191 213])
-            ("renderer/draw.h" include nil nil [215 241])
-            ("renderer/shader.h" include nil nil [242 270])
-            ("renderer/texture.h" include nil nil [271 300])
-            ("libs/cglm/include/cglm/cglm.h" include nil nil [302 342])
-            ("libs/cglm/include/cglm/call.h" include nil nil [343 383])
-            ("WIDTH" variable (:constant-flag t) nil [393 398])
-            ("HEIGHT" variable (:constant-flag t) nil [411 417])
-            ("UNUSED" variable (:constant-flag t) nil [470 476])
-            ("UNUSED" variable (:constant-flag t) nil [592 598])
-            ("main" function (:type "int") nil [612 3177]))          
-      :file "main.c"
-      :pointmax 3178
-      :fsize 3177
-      :lastmodtime '(25842 40160 251158 994000)
-      :unmatched-syntax nil
-      :lexical-table 
-        '(("HEIGHT" . ((number "600" 418 . 421)))
-          ("WIDTH" . ((number "800" 399 . 402)))
-          ("UNUSED" (spp-arg-list ("x") 598 . 601) . ((symbol "x" 602 . 603)))
-          )
-)
-    (semanticdb-table "semanticdb-table-15761197ec9a"
+    (semanticdb-table "semanticdb-table-1593488d8198"
       :major-mode c-mode
       :tags 
         '( ("libs/glad/glad.h" include nil nil [14 41])
@@ -208,6 +177,792 @@
       :lexical-table 
         '(("VBO" . ((symbol "GPUBuffer" 162 . 171)))
           ("EBO" . ((symbol "GPUBuffer" 185 . 194)))
+          )
+)
+    (semanticdb-table "semanticdb-table-1593488d81b8"
+      :major-mode c++-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("buffers.h" include nil nil [40 60])
+            ("libs/cglm/include/cglm/cam.h" include nil nil [61 100])
+            ("libs/cglm/include/cglm/mat4.h" include nil nil [101 141])
+            ("libs/cglm/include/cglm/vec3.h" include nil nil [142 182])
+            ("os/window.h" include nil nil [184 206])
+            ("renderer/draw.h" include nil nil [208 234])
+            ("renderer/shader.h" include nil nil [235 263])
+            ("renderer/texture.h" include nil nil [264 293])
+            ("libs/cglm/include/cglm/cglm.h" include nil nil [295 335])
+            ("libs/cglm/include/cglm/call.h" include nil nil [336 376])
+            ("WIDTH" variable (:constant-flag t) nil [386 391])
+            ("HEIGHT" variable (:constant-flag t) nil [404 410])
+            ("speed" variable (:constant-flag t) nil [424 429])
+            ("main" function (:type "int") nil [436 3530]))          
+      :file "main.cxx"
+      :pointmax 3531
+      :fsize 3530
+      :lastmodtime '(25861 17439 949377 87000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1593488d81d8"
+      :major-mode c++-mode
+      :tags 
+        '( ("string.h" include (:system-flag t) nil [1 20])
+            ("libs/glad/glad.h" include nil nil [21 48])
+            ("renderer/shader.h" include nil nil [49 77])
+            ("fs/fs.h" include nil nil [78 96])
+            ("default_vertex_src" variable
+               (:pointer 1
+                :constant-flag t
+                :default-value "\"#version 400 core\\n\"
+\"layout (location = 0) in vec3 vert_pos;\"
+\"layout (location = 1) in vec2 tex;\"
+\"layout (location = 2) in vec3 acolor;\"
+\"out vec2 tex_coords;\"
+\"out vec3 color;\"
+
+\"uniform mat4 model_matrix;\"
+\"uniform mat4 view_matrix;\"
+\"uniform mat4 proj_matrix;\"
+
+\"void main(){\"
+    \"gl_Position = proj_matrix * view_matrix * model_matrix * vec4(vert_pos,1.0);\"
+\"    color = acolor;\"
+\"    tex_coords = tex;\"
+\"}\""
+                :type "char")
+                nil [98 548])
+            ("default_fragment_src" variable
+               (:pointer 1
+                :constant-flag t
+                :default-value "\"#version 400 core\\n\"
+\"out vec4 FragColor;\"
+\"in vec2 tex_coords;\"
+\"in vec3 color;\"
+\"uniform sampler2D tex0;\"
+\"uniform vec3 frag_color;\"
+
+\"void main(){\"
+\"    FragColor = texture(tex0,tex_coords);\"
+\"}\""
+                :type "char")
+                nil [550 785])
+            ("ERR_BUF_SIZE" variable (:constant-flag t) nil [795 807])
+            ("shader_link_map" variable
+               (:typemodifiers ("static")
+                :type ("std::unordered_map" type
+                     (:template-specifier 
+                        ( ("void" type (:pointer 1) nil nil)
+                          ("bool" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [813 867])
+            ("last_shader" variable
+               (:pointer 1
+                :default-value "NULL"
+                :type ("Shader" type (:type "class") nil nil))
+                nil [869 896])
+            ("_shader_query_compile_status" function
+               (:arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [932 948])
+                    ("is_vertex_shader" variable (:type "int") (reparse-symbol arg-sub-list) [948 969])
+                    ("flag" variable (:type ("ShaderSourceType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [969 991])
+                    ("success" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [991 1004])
+                    ("log_buffer" variable
+                       (:pointer 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1004 1021]))                  
+                :type "void")
+                nil [898 1276])
+            ("shader_link" function
+               (:arguments 
+                  ( ("shader" variable (:type ("std::shared_ptr" type
+                         (:template-specifier 
+                            ( ("Shader" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1316 1347]))                  
+                :type ("ShaderState" type (:type "class") nil nil))
+                nil [1292 1868])
+            ("load" function
+               (:parent "Shader"
+                :arguments 
+                  ( ("shader" variable (:type ("std::shared_ptr" type
+                         (:template-specifier 
+                            ( ("Shader" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1888 1919])
+                    ("flag" variable (:type ("ShaderSourceType" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1919 1941])
+                    ("v_shad" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1941 1960])
+                    ("f_shad" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1960 1979]))                  
+                :type "void")
+                nil [1870 4013])
+            ("shader_load_default" function
+               (:arguments 
+                  ( ("shader" variable (:type ("std::shared_ptr" type
+                         (:template-specifier 
+                            ( ("Shader" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [4040 4071]))                  
+                :type "void")
+                nil [4015 4293])
+            ("get_unif_loc" function
+               (:parent "Shader"
+                :arguments 
+                  ( ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [4343 4360]))                  
+                :type "unsigned int")
+                nil [4309 4673])
+            ("is_linked" function
+               (:parent "Shader"
+                :type "bool")
+                nil [4675 4736])
+            ("bind" function
+               (:parent "Shader"
+                :type "void")
+                nil [4738 4801])
+            ("unbind" function
+               (:parent "Shader"
+                :type "void")
+                nil [4803 4847])
+            ("unload" function
+               (:parent "Shader"
+                :type "void")
+                nil [4849 5016])
+            ("set_mat4" function
+               (:parent "Shader"
+                :arguments 
+                  ( ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5040 5057])
+                    ("data" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [5057 5075]))                  
+                :type "void")
+                nil [5018 5138])
+            ("set_float" function
+               (:parent "Shader"
+                :arguments 
+                  ( ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5163 5180])
+                    ("v" variable
+                       (:constant-flag t
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [5180 5194]))                  
+                :type "void")
+                nil [5140 5236])
+            ("set_int" function
+               (:parent "Shader"
+                :arguments 
+                  ( ("name" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [5259 5276])
+                    ("v" variable (:type "int") (reparse-symbol arg-sub-list) [5276 5282]))                  
+                :type "void")
+                nil [5238 5324])
+            ("Shader" function
+               (:destructor-flag t
+                :parent "Shader"
+                :type "void")
+                nil [5326 5360]))          
+      :file "shader.cxx"
+      :pointmax 5361
+      :fsize 5360
+      :lastmodtime '(25861 12440 626404 429000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("ERR_BUF_SIZE" . ((number "512" 809 . 812)))
+          )
+)
+    (semanticdb-table "semanticdb-table-1593488d81f8"
+      :major-mode c++-mode
+      :tags 
+        '( ("renderer/texture.h" include nil nil [1 30])
+            ("STB_IMAGE_IMPLEMENTATION" variable (:constant-flag t) nil [39 63])
+            ("libs/stb/stb_image.h" include nil nil [64 95])
+            ("load_bytes" function
+               (:parent "Texture"
+                :arguments 
+                  ( ("tex" variable (:type ("std::optional" type
+                         (:template-specifier 
+                            ( ("std::shared_ptr" type (:template-specifier 
+                                ( ("Texture" type nil nil nil))                                ) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [122 166])
+                    ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [166 183]))                  
+                :type "void")
+                nil [97 370])
+            ("Texture" function
+               (:destructor-flag t
+                :parent "Texture"
+                :type "void")
+                nil [372 408])
+            ("init" function
+               (:parent "Texture"
+                :arguments 
+                  ( ("tex" variable (:type ("std::shared_ptr" type
+                         (:template-specifier 
+                            ( ("Texture" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [429 458])
+                    ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [458 475])
+                    ("tex_type" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [475 491])
+                    ("slot" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [491 503])
+                    ("format" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [503 517])
+                    ("pixel_type" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [517 535]))                  
+                :type "void")
+                nil [410 1245])
+            ("load" function
+               (:parent "Texture"
+                :arguments 
+                  ( ("texture" variable (:type ("std::optional" type
+                         (:template-specifier 
+                            ( ("std::shared_ptr" type (:template-specifier 
+                                ( ("Texture" type nil nil nil))                                ) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1266 1314])
+                    ("shader" variable (:type ("std::shared_ptr" type
+                         (:template-specifier 
+                            ( ("Shader" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1314 1345])
+                    ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1345 1362]))                  
+                :type "void")
+                nil [1247 1624])
+            ("set_unit" function
+               (:parent "Texture"
+                :arguments 
+                  ( ("shader" variable (:type ("std::shared_ptr" type
+                         (:template-specifier 
+                            ( ("Shader" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol arg-sub-list) [1649 1680])
+                    ("value" variable (:type "int") (reparse-symbol arg-sub-list) [1680 1690]))                  
+                :type "void")
+                nil [1626 1772])
+            ("bind" function
+               (:parent "Texture"
+                :type "void")
+                nil [1774 1825])
+            ("unbind" function
+               (:parent "Texture"
+                :type "void")
+                nil [1827 1880])
+            ("unload" function
+               (:parent "Texture"
+                :type "void")
+                nil [1882 2128]))          
+      :file "texture.cxx"
+      :pointmax 2129
+      :fsize 2128
+      :lastmodtime '(25860 54531 341351 858000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("STB_IMAGE_IMPLEMENTATION")
+          )
+)
+    (semanticdb-table "semanticdb-table-1593488d8218"
+      :major-mode c++-mode
+      :tags 
+        '( ("os/window.h" include nil nil [1 23])
+            ("libs/glad/glad.h" include nil nil [24 51])
+            ("is_window_initilized" variable
+               (:typemodifiers ("static")
+                :default-value "0"
+                :type "int")
+                nil [53 89])
+            ("_window_init" function (:type "void") nil [91 548])
+            ("create" function
+               (:parent "Window"
+                :arguments 
+                  ( ("width" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [572 591])
+                    ("height" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [591 611])
+                    ("title" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [611 629]))                  
+                :type ("Window" type (:type "class") nil nil))
+                nil [550 1426])
+            ("close" function
+               (:parent "Window"
+                :type "void")
+                nil [1428 1498])
+            ("set_monitor_info" function
+               (:parent "Window"
+                :arguments 
+                  ( ("monitor" variable
+                       (:pointer 1
+                        :type ("Monitor" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1530 1547]))                  
+                :type "void")
+                nil [1500 1565]))          
+      :file "window.cxx"
+      :pointmax 1566
+      :fsize 1565
+      :lastmodtime '(25861 10117 138669 836000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1593488d8238"
+      :major-mode c-mode
+      :tags 
+        '( ("Model" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("vertices" variable
+                             (:pointer 1
+                              :type "float")
+                              (reparse-symbol classsubparts) [35 51])
+                          ("indices" variable
+                             (:pointer 1
+                              :type "float")
+                              (reparse-symbol classsubparts) [56 71]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [15 79])
+            ("model_load_obj" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [100 117]))                  
+                :type "int")
+                nil [81 118])
+            ("model_draw" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("model" variable
+                       (:pointer 1
+                        :type ("Model" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [135 148]))                  
+                :type "void")
+                nil [119 149]))          
+      :file "model.h"
+      :pointmax 150
+      :fsize 149
+      :lastmodtime '(25859 38175 41445 581000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1593488d8258"
+      :major-mode c++-mode
+      :tags 
+        '( ("renderer/draw.h" include nil nil [1 27])
+            ("default_vertex_src" variable
+               (:pointer 1
+                :constant-flag t
+                :default-value "\"#version 400 core\\n\"
+\"layout (location = 0) in vec3 vert_pos;\"
+\"layout (location = 1) in vec2 tex;\"
+\"layout (location = 2) in vec3 acolor;\"
+\"out vec2 tex_coords;\"
+\"out vec3 color;\"
+
+\"uniform mat4 model_matrix;\"
+\"uniform mat4 view_matrix;\"
+\"uniform mat4 proj_matrix;\"
+
+\"void main(){\"
+    \"gl_Position = proj_matrix * view_matrix * model_matrix * vec4(vert_pos,1.0);\"
+\"    color = acolor;\"
+\"    tex_coords = tex;\"
+\"}\""
+                :type "char")
+                nil [28 28])
+            ("default_fragment_src" variable
+               (:pointer 1
+                :constant-flag t
+                :default-value "\"#version 400 core\\n\"
+\"out vec4 FragColor;\"
+\"in vec2 tex_coords;\"
+\"in vec3 color;\"
+\"uniform sampler2D tex0;\"
+\"uniform vec3 frag_color;\"
+
+\"void main(){\"
+\"    FragColor = texture(tex0,tex_coords);\"
+\"}\""
+                :type "char")
+                nil [28 28])
+            ("pyramid_vertices" variable
+               (:dereference 1
+                :default-value "{ //     COORDINATES     /        COLORS      /   TexCoord  //
+	-0.5f, 0.0f,  0.5f,     0.83f, 0.70f, 0.44f,	0.0f, 0.0f,
+	-0.5f, 0.0f, -0.5f,     0.83f, 0.70f, 0.44f,	5.0f, 0.0f,
+	 0.5f, 0.0f, -0.5f,     0.83f, 0.70f, 0.44f,	0.0f, 0.0f,
+	 0.5f, 0.0f,  0.5f,     0.83f, 0.70f, 0.44f,	5.0f, 0.0f,
+	 0.0f, 0.8f,  0.0f,     0.92f, 0.86f, 0.76f,	2.5f, 5.0f
+}"
+                :type ("GLfloat" type (:type "class") nil nil))
+                nil [29 412])
+            ("pyramid_indices" variable
+               (:dereference 1
+                :default-value "{
+	0, 1, 2,
+	0, 2, 3,
+	0, 1, 4,
+	1, 2, 4,
+	2, 3, 4,
+	3, 0, 4
+}"
+                :type ("GLuint" type (:type "class") nil nil))
+                nil [414 504])
+            ("draw_pyramid" function
+               (:arguments 
+                  ( ("vao" variable
+                       (:pointer 1
+                        :type ("VAO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [532 541])
+                    ("vbo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [541 556])
+                    ("ebo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [556 571]))                  
+                :type "unsigned int")
+                nil [506 739]))          
+      :file "draw3d.cxx"
+      :pointmax 740
+      :fsize 739
+      :lastmodtime '(25860 7947 792008 158000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1593488d8278"
+      :major-mode c++-mode
+      :tags 
+        '( ("renderer/draw.h" include nil nil [1 27])
+            ("quad_vertices" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :default-value "{ //     COORDINATES     /        COLORS      /   TexCoord  //
+	-0.5f, -0.5f, 0.0f,     1.0f, 0.0f, 0.0f,	0.0f, 0.0f, // Lower left corner
+	-0.5f,  0.5f, 0.0f,     0.0f, 1.0f, 0.0f,	0.0f, 1.0f, // Upper left corner
+	 0.5f,  0.5f, 0.0f,     0.0f, 0.0f, 1.0f,	1.0f, 1.0f, // Upper right corner
+	 0.5f, -0.5f, 0.0f,     1.0f, 1.0f, 1.0f,	1.0f, 0.0f  // Lower right corner
+}"
+                :type ("GLfloat" type (:type "class") nil nil))
+                nil [29 433])
+            ("quad_indices" variable
+               (:dereference 1
+                :typemodifiers ("static")
+                :default-value "{
+	0, 2, 1, // Upper triangle
+	0, 3, 2 // Lower triangle
+}"
+                :type ("GLuint" type (:type "class") nil nil))
+                nil [435 525])
+            ("_init_draw_buf" function
+               (:arguments 
+                  ( ("vao" variable
+                       (:pointer 1
+                        :type ("VAO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [547 556])
+                    ("vbo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [556 571])
+                    ("ebo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [571 586])
+                    ("vertices" variable
+                       (:dereference 1
+                        :type ("GLfloat" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [586 605])
+                    ("indices" variable
+                       (:dereference 1
+                        :type ("GLuint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [605 622])
+                    ("v_size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [622 636])
+                    ("i_size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [636 650]))                  
+                :type "void")
+                nil [527 1089])
+            ("draw_triangle" function
+               (:arguments 
+                  ( ("vao" variable
+                       (:pointer 1
+                        :type ("VAO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1118 1127])
+                    ("vbo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1127 1142])
+                    ("ebo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1142 1157]))                  
+                :type "unsigned int")
+                nil [1091 1316])
+            ("draw_rectangle" function
+               (:arguments 
+                  ( ("vao" variable
+                       (:pointer 1
+                        :type ("VAO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1346 1355])
+                    ("vbo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1355 1370])
+                    ("ebo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1370 1385]))                  
+                :type "unsigned int")
+                nil [1318 1538]))          
+      :file "draw2d.cxx"
+      :pointmax 1539
+      :fsize 1538
+      :lastmodtime '(25843 43902 807969 257000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1593488d8298"
+      :major-mode c++-mode
+      :tags 
+        '( ("buffers.h" include nil nil [1 21])
+            ("stdio.h" include (:system-flag t) nil [22 40])
+            ("vbo_gen" function
+               (:arguments 
+                  ( ("vbo" variable
+                       (:pointer 1
+                        :type ("VBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [55 64]))                  
+                :type "void")
+                nil [42 97])
+            ("vbo_init" function
+               (:arguments 
+                  ( ("vbo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [113 128])
+                    ("data" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [128 145])
+                    ("size" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [146 158]))                  
+                :type "void")
+                nil [99 264])
+            ("vbo_bind" function
+               (:arguments 
+                  ( ("vbo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [280 295]))                  
+                :type "void")
+                nil [266 341])
+            ("vbo_unbind" function (:type "void") nil [343 400])
+            ("vbo_unload" function
+               (:arguments 
+                  ( ("vbo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [418 433]))                  
+                :type "void")
+                nil [402 469])
+            ("vao_gen" function
+               (:arguments 
+                  ( ("vao" variable
+                       (:pointer 1
+                        :type ("VAO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [484 493])
+                    ("stride" variable (:type ("GLsizeiptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [493 511]))                  
+                :type "void")
+                nil [471 575])
+            ("vao_bind" function
+               (:arguments 
+                  ( ("vao" variable
+                       (:pointer 1
+                        :type ("VAO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [591 600]))                  
+                :type "void")
+                nil [577 636])
+            ("vao_unbind" function (:type "void") nil [638 685])
+            ("vao_attr_data" function
+               (:arguments 
+                  ( ("vao" variable
+                       (:pointer 1
+                        :type ("VAO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [706 715])
+                    ("vbo" variable
+                       (:pointer 1
+                        :type ("VBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [715 724])
+                    ("layout" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [724 738])
+                    ("size" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [738 750])
+                    ("type" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [750 762])
+                    ("offset" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [762 775]))                  
+                :type "void")
+                nil [687 945])
+            ("vao_unload" function
+               (:arguments 
+                  ( ("vao" variable
+                       (:pointer 1
+                        :type ("VAO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [963 972]))                  
+                :type "void")
+                nil [947 1013])
+            ("ebo_gen" function
+               (:arguments 
+                  ( ("ebo" variable
+                       (:pointer 1
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1028 1037]))                  
+                :type "void")
+                nil [1015 1070])
+            ("ebo_init" function
+               (:arguments 
+                  ( ("ebo" variable
+                       (:pointer 1
+                        :type ("GPUBuffer" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1086 1101])
+                    ("indices" variable
+                       (:pointer 1
+                        :type ("GLuint" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1101 1117])
+                    ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1117 1135]))                  
+                :type "void")
+                nil [1072 1228])
+            ("ebo_bind" function
+               (:arguments 
+                  ( ("ebo" variable
+                       (:pointer 1
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1244 1253]))                  
+                :type "void")
+                nil [1230 1307])
+            ("ebo_unbind" function (:type "void") nil [1309 1374])
+            ("ebo_unload" function
+               (:arguments 
+                  ( ("ebo" variable
+                       (:pointer 1
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1392 1401]))                  
+                :type "void")
+                nil [1376 1437]))          
+      :file "buffers.cxx"
+      :pointmax 1438
+      :fsize 1437
+      :lastmodtime '(25839 60831 82999 586000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1593488d82b8"
+      :major-mode c++-mode
+      :tags 
+        '( ("fs/fs.h" include nil nil [1 19])
+            ("stdio.h" include (:system-flag t) nil [20 38])
+            ("stdlib.h" include (:system-flag t) nil [39 58])
+            ("memory.h" include (:system-flag t) nil [59 78])
+            ("string.h" include (:system-flag t) nil [79 98])
+            ("MAX_FILES_OPEN" variable (:constant-flag t) nil [108 122])
+            ("file_buffer" variable
+               (:pointer 1
+                :dereference 1
+                :typemodifiers ("static")
+                :type "char")
+                nil [127 168])
+            ("files_created_len" variable
+               (:typemodifiers ("static")
+                :default-value "0"
+                :type "unsigned int")
+                nil [169 211])
+            ("load_to_buffer" function
+               (:arguments 
+                  ( ("file" variable
+                       (:pointer 1
+                        :type ("File" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [232 243])
+                    ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [243 260]))                  
+                :type "int")
+                nil [213 672])
+            ("open" function
+               (:parent "File"
+                :arguments 
+                  ( ("filepath" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [705 726]))                  
+                :type ("std::optional" type
+                     (:template-specifier 
+                        ( ("File" type nil nil nil))                        
+                      :type "class")
+                      nil nil))
+                nil [674 991])
+            ("rd" function
+               (:pointer 1
+                :parent "File"
+                :constant-flag t
+                :type "char")
+                nil [993 1054])
+            ("refresh" function
+               (:parent "File"
+                :type "void")
+                nil [1056 1128])
+            ("write" function
+               (:parent "File"
+                :arguments 
+                  ( ("bytes" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1147 1165]))                  
+                :type "bool")
+                nil [1130 1309])
+            ("free" function
+               (:parent "File"
+                :type "void")
+                nil [1311 1422])
+            ("File" function
+               (:destructor-flag t
+                :parent "File"
+                :type "void")
+                nil [1424 1458]))          
+      :file "fs.cxx"
+      :pointmax 1459
+      :fsize 1458
+      :lastmodtime '(25861 12270 585808 886000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("MAX_FILES_OPEN" . ((number "10" 123 . 125)))
           )
 ))
   :file "!home!rose!Documents!code!c!roselib!src!semantic.cache"

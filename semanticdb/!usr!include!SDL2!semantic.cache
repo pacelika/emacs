@@ -1,9 +1,9 @@
-;; Object semanticdb-project-database-file-158cd26fbd34
+;; Object semanticdb-project-database-file-15704e8f03e0
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-158cd26fbd34"
+(semanticdb-project-database-file "semanticdb-project-database-file-15704e8f03e0"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-158cd276262a"
+    (semanticdb-table "semanticdb-table-15704e8e9f50"
       :major-mode c-mode
       :tags 
         '( ("SDL_h_" variable (:constant-flag t) nil [1037 1043])
@@ -121,7 +121,7 @@
       :file "SDL.h"
       :pointmax 8085
       :fsize 8084
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((VOID 7897 . 7901) (symbol 7888 . 7896) (EXTERN 7881 . 7887) (symbol 6918 . 6924) (symbol 6909 . 6917) (EXTERN 6902 . 6908) (VOID 6364 . 6368) (symbol 6355 . 6363) (EXTERN 6348 . 6354) (INT 5560 . 5563) (symbol 5551 . 5559) (EXTERN 5544 . 5550) (INT 5062 . 5065) (symbol 5053 . 5061) (EXTERN 5046 . 5052))
       :lexical-table 
         '(("SDL_INIT_HAPTIC" . ((symbol "0x00001000u" 2555 . 2566)))
@@ -140,7 +140,7 @@
           ("SDL_INIT_EVENTS" . ((symbol "0x00004000u" 2702 . 2713)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd276264a"
+    (semanticdb-table "semanticdb-table-15704e8e9f70"
       :major-mode c-mode
       :tags 
         '( ("SDL_main_h_" variable (:constant-flag t) nil [969 980])
@@ -183,14 +183,14 @@
       :file "SDL_main.h"
       :pointmax 8998
       :fsize 8997
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((VOID 5151 . 5155) (symbol 5142 . 5150) (EXTERN 5135 . 5141) (TYPEDEF 4599 . 4606))
       :lexical-table 
         '(("SDL_main_h_")
           ("SDLMAIN_DECLSPEC")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd276266a"
+    (semanticdb-table "semanticdb-table-15704e8e9f90"
       :major-mode c-mode
       :tags 
         '( ("SDL_stdinc_h_" variable (:constant-flag t) nil [1069 1082])
@@ -1866,7 +1866,7 @@
       :file "SDL_stdinc.h"
       :pointmax 29797
       :fsize 29796
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((symbol 28840 . 28856) (symbol 27822 . 27838) (symbol 27491 . 27507) (punctuation 25001 . 25002) (CHAR 24996 . 25000) (symbol 24987 . 24995) (EXTERN 24980 . 24986) (symbol 24559 . 24565) (symbol 24550 . 24558) (EXTERN 24543 . 24549) (INT 24498 . 24501) (symbol 24489 . 24497) (EXTERN 24482 . 24488) (symbol 24353 . 24364) (symbol 24344 . 24352) (EXTERN 24337 . 24343) (FLOAT 23962 . 23967) (symbol 23953 . 23961) (EXTERN 23946 . 23952) (DOUBLE 23912 . 23918) (symbol 23903 . 23911) (EXTERN 23896 . 23902) (FLOAT 23862 . 23867) (symbol 23853 . 23861) (EXTERN 23846 . 23852) (DOUBLE 23811 . 23817) (symbol 23802 . 23810) (EXTERN 23795 . 23801) (FLOAT 23762 . 23767) (symbol 23753 . 23761) (EXTERN 23746 . 23752) (DOUBLE 23712 . 23718) (symbol 23703 . 23711) (EXTERN 23696 . 23702) (FLOAT 23653 . 23658) (symbol 23644 . 23652) (EXTERN 23637 . 23643) (DOUBLE 23593 . 23599) (symbol 23584 . 23592) (EXTERN 23577 . 23583) (LONG 23542 . 23546) (symbol 23533 . 23541) (EXTERN 23526 . 23532) (LONG 23491 . 23495) (symbol 23482 . 23490) (EXTERN 23475 . 23481) (FLOAT 23440 . 23445) (symbol 23431 . 23439) (EXTERN 23424 . 23430) (DOUBLE 23388 . 23394) (symbol 23379 . 23387) (EXTERN 23372 . 23378) (FLOAT 23330 . 23335) (symbol 23321 . 23329) (EXTERN 23314 . 23320) (DOUBLE 23270 . 23276) (symbol 23261 . 23269) (EXTERN 23254 . 23260) (FLOAT 23219 . 23224) (symbol 23210 . 23218) (EXTERN 23203 . 23209) (DOUBLE 23167 . 23173) (symbol 23158 . 23166) (EXTERN 23151 . 23157) (FLOAT 23118 . 23123) (symbol 23109 . 23117) (EXTERN 23102 . 23108) (DOUBLE 23068 . 23074) (symbol 23059 . 23067) (EXTERN 23052 . 23058) (FLOAT 23009 . 23014) (symbol 23000 . 23008) (EXTERN 22993 . 22999) (DOUBLE 22948 . 22954) (symbol 22939 . 22947) (EXTERN 22932 . 22938) (FLOAT 22897 . 22902) (symbol 22888 . 22896) (EXTERN 22881 . 22887) (DOUBLE 22845 . 22851) (symbol 22836 . 22844) (EXTERN 22829 . 22835) (FLOAT 22794 . 22799) (symbol 22785 . 22793) (EXTERN 22778 . 22784) (DOUBLE 22742 . 22748) (symbol 22733 . 22741) (EXTERN 22726 . 22732) (FLOAT 22692 . 22697) (symbol 22683 . 22691) (EXTERN 22676 . 22682) (DOUBLE 22641 . 22647) (symbol 22632 . 22640) (EXTERN 22625 . 22631) (FLOAT 22592 . 22597) (symbol 22583 . 22591) (EXTERN 22576 . 22582) (DOUBLE 22542 . 22548) (symbol 22533 . 22541) (EXTERN 22526 . 22532) (FLOAT 22493 . 22498) (symbol 22484 . 22492) (EXTERN 22477 . 22483) (DOUBLE 22443 . 22449) (symbol 22434 . 22442) (EXTERN 22427 . 22433) (FLOAT 22380 . 22385) (symbol 22371 . 22379) (EXTERN 22364 . 22370) (DOUBLE 22315 . 22321) (symbol 22306 . 22314) (EXTERN 22299 . 22305) (FLOAT 22265 . 22270) (symbol 22256 . 22264) (EXTERN 22249 . 22255) (DOUBLE 22214 . 22220) (symbol 22205 . 22213) (EXTERN 22198 . 22204) (FLOAT 22154 . 22159) (symbol 22145 . 22153) (EXTERN 22138 . 22144) (DOUBLE 22092 . 22098) (symbol 22083 . 22091) (EXTERN 22076 . 22082) (FLOAT 22042 . 22047) (symbol 22033 . 22041) (EXTERN 22026 . 22032) (DOUBLE 21991 . 21997) (symbol 21982 . 21990) (EXTERN 21975 . 21981) (FLOAT 21941 . 21946) (symbol 21932 . 21940) (EXTERN 21925 . 21931) (DOUBLE 21890 . 21896) (symbol 21881 . 21889) (EXTERN 21874 . 21880) (FLOAT 21840 . 21845) (symbol 21831 . 21839) (EXTERN 21824 . 21830) (DOUBLE 21789 . 21795) (symbol 21780 . 21788) (EXTERN 21773 . 21779) (INT 21282 . 21285) (symbol 21273 . 21281) (EXTERN 21266 . 21272) (INT 21154 . 21157) (symbol 21145 . 21153) (EXTERN 21138 . 21144) (INT 21033 . 21036) (symbol 21024 . 21032) (EXTERN 21017 . 21023) (INT 20868 . 20871) (symbol 20859 . 20867) (EXTERN 20852 . 20858) (INT 20780 . 20783) (symbol 20771 . 20779) (EXTERN 20764 . 20770) (INT 20651 . 20654) (symbol 20642 . 20650) (EXTERN 20635 . 20641) (INT 20557 . 20560) (symbol 20548 . 20556) (EXTERN 20541 . 20547) (INT 20477 . 20480) (symbol 20468 . 20476) (EXTERN 20461 . 20467) (INT 20385 . 20388) (symbol 20376 . 20384) (EXTERN 20369 . 20375) (INT 20309 . 20312) (symbol 20300 . 20308) (EXTERN 20293 . 20299) (DOUBLE 20235 . 20241) (symbol 20226 . 20234) (EXTERN 20219 . 20225) (symbol 20150 . 20156) (symbol 20141 . 20149) (EXTERN 20134 . 20140) (symbol 20066 . 20072) (symbol 20057 . 20065) (EXTERN 20050 . 20056) (LONG 19984 . 19988) (UNSIGNED 19975 . 19983) (symbol 19966 . 19974) (EXTERN 19959 . 19965) (LONG 19894 . 19898) (symbol 19885 . 19893) (EXTERN 19878 . 19884) (DOUBLE 19836 . 19842) (symbol 19827 . 19835) (EXTERN 19820 . 19826) (INT 19781 . 19784) (symbol 19772 . 19780) (EXTERN 19765 . 19771) (punctuation 19707 . 19708) (CHAR 19702 . 19706) (symbol 19693 . 19701) (EXTERN 19686 . 19692) (punctuation 19630 . 19631) (CHAR 19625 . 19629) (symbol 19616 . 19624) (EXTERN 19609 . 19615) (punctuation 19546 . 19547) (CHAR 19541 . 19545) (symbol 19532 . 19540) (EXTERN 19525 . 19531) (punctuation 19472 . 19473) (CHAR 19467 . 19471) (symbol 19458 . 19466) (EXTERN 19451 . 19457) (punctuation 19389 . 19390) (CHAR 19384 . 19388) (symbol 19375 . 19383) (EXTERN 19368 . 19374) (punctuation 19316 . 19317) (CHAR 19311 . 19315) (symbol 19302 . 19310) (EXTERN 19295 . 19301) (symbol 19231 . 19237) (symbol 19222 . 19230) (EXTERN 19215 . 19221) (symbol 19167 . 19173) (symbol 19158 . 19166) (EXTERN 19151 . 19157) (punctuation 19087 . 19088) (CHAR 19082 . 19086) (symbol 19073 . 19081) (EXTERN 19066 . 19072) (punctuation 18999 . 19000) (CHAR 18994 . 18998) (symbol 18985 . 18993) (EXTERN 18978 . 18984) (punctuation 18915 . 18916) (CHAR 18910 . 18914) (symbol 18901 . 18909) (EXTERN 18894 . 18900) (punctuation 18848 . 18849) (CHAR 18843 . 18847) (symbol 18834 . 18842) (EXTERN 18827 . 18833) (punctuation 18782 . 18783) (CHAR 18777 . 18781) (symbol 18768 . 18776) (EXTERN 18761 . 18767) (punctuation 18729 . 18730) (CHAR 18724 . 18728) (symbol 18715 . 18723) (EXTERN 18708 . 18714) (punctuation 18676 . 18677) (CHAR 18671 . 18675) (symbol 18662 . 18670) (EXTERN 18655 . 18661) (punctuation 18623 . 18624) (CHAR 18618 . 18622) (symbol 18609 . 18617) (EXTERN 18602 . 18608) (punctuation 18564 . 18565) (CHAR 18559 . 18563) (symbol 18550 . 18558) (EXTERN 18543 . 18549) (symbol 18448 . 18454) (symbol 18439 . 18447) (EXTERN 18432 . 18438) (symbol 18329 . 18335) (symbol 18320 . 18328) (EXTERN 18313 . 18319) (symbol 18220 . 18226) (symbol 18211 . 18219) (EXTERN 18204 . 18210) (symbol 18160 . 18166) (symbol 18151 . 18159) (EXTERN 18144 . 18150) (INT 18060 . 18063) (symbol 18051 . 18059) (EXTERN 18044 . 18050) (INT 17974 . 17977) (symbol 17965 . 17973) (EXTERN 17958 . 17964) (INT 17876 . 17879) (symbol 17867 . 17875) (EXTERN 17860 . 17866) (INT 17794 . 17797) (symbol 17785 . 17793) (EXTERN 17778 . 17784) (punctuation 17708 . 17709) (WCHAR 17700 . 17707) (symbol 17691 . 17699) (EXTERN 17684 . 17690) (punctuation 17642 . 17643) (WCHAR 17634 . 17641) (symbol 17625 . 17633) (EXTERN 17618 . 17624) (symbol 17517 . 17523) (symbol 17508 . 17516) (EXTERN 17501 . 17507) (symbol 17402 . 17408) (symbol 17393 . 17401) (EXTERN 17386 . 17392) (symbol 17338 . 17344) (symbol 17329 . 17337) (EXTERN 17322 . 17328) (INT 17253 . 17256) (symbol 17244 . 17252) (EXTERN 17237 . 17243) (punctuation 17134 . 17135) (VOID 17129 . 17133) (symbol 17120 . 17128) (EXTERN 17113 . 17119) (punctuation 17010 . 17011) (VOID 17005 . 17009) (symbol 16996 . 17004) (EXTERN 16989 . 16995) (symbol 16202 . 16218) (punctuation 15617 . 15618) (VOID 15612 . 15616) (symbol 15603 . 15611) (EXTERN 15596 . 15602) (symbol 15527 . 15533) (symbol 15518 . 15526) (EXTERN 15511 . 15517) (symbol 15443 . 15449) (symbol 15434 . 15442) (EXTERN 15427 . 15433) (INT 15394 . 15397) (symbol 15385 . 15393) (EXTERN 15378 . 15384) (INT 15346 . 15349) (symbol 15337 . 15345) (EXTERN 15330 . 15336) (INT 15298 . 15301) (symbol 15289 . 15297) (EXTERN 15282 . 15288) (INT 15250 . 15253) (symbol 15241 . 15249) (EXTERN 15234 . 15240) (INT 15202 . 15205) (symbol 15193 . 15201) (EXTERN 15186 . 15192) (INT 15154 . 15157) (symbol 15145 . 15153) (EXTERN 15138 . 15144) (INT 15106 . 15109) (symbol 15097 . 15105) (EXTERN 15090 . 15096) (INT 15058 . 15061) (symbol 15049 . 15057) (EXTERN 15042 . 15048) (INT 15009 . 15012) (symbol 15000 . 15008) (EXTERN 14993 . 14999) (INT 14961 . 14964) (symbol 14952 . 14960) (EXTERN 14945 . 14951) (INT 14913 . 14916) (symbol 14904 . 14912) (EXTERN 14897 . 14903) (INT 14865 . 14868) (symbol 14856 . 14864) (EXTERN 14849 . 14855) (INT 14817 . 14820) (symbol 14808 . 14816) (EXTERN 14801 . 14807) (INT 14769 . 14772) (symbol 14760 . 14768) (EXTERN 14753 . 14759) (INT 14445 . 14448) (symbol 14436 . 14444) (EXTERN 14429 . 14435) (punctuation 14290 . 14291) (VOID 14285 . 14289) (symbol 14276 . 14284) (EXTERN 14269 . 14275) (VOID 14153 . 14157) (symbol 14144 . 14152) (EXTERN 14137 . 14143) (INT 14060 . 14063) (symbol 14051 . 14059) (EXTERN 14044 . 14050) (punctuation 14005 . 14006) (CHAR 14000 . 14004) (symbol 13991 . 13999) (EXTERN 13984 . 13990) (INT 13942 . 13945) (symbol 13933 . 13941) (EXTERN 13926 . 13932) (INT 13502 . 13505) (symbol 13493 . 13501) (EXTERN 13486 . 13492) (VOID 13046 . 13050) (symbol 13037 . 13045) (EXTERN 13030 . 13036) (VOID 12574 . 12578) (symbol 12565 . 12573) (EXTERN 12558 . 12564) (punctuation 12441 . 12442) (semantic-list 12430 . 12441) (semantic-list 12406 . 12430) (VOID 12401 . 12405) (TYPEDEF 12393 . 12400) (punctuation 12391 . 12392) (semantic-list 12367 . 12391) (semantic-list 12340 . 12367) (punctuation 12339 . 12340) (VOID 12334 . 12338) (TYPEDEF 12326 . 12333) (punctuation 12324 . 12325) (semantic-list 12297 . 12324) (semantic-list 12271 . 12297) (punctuation 12270 . 12271) (VOID 12265 . 12269) (TYPEDEF 12257 . 12264) (punctuation 12255 . 12256) (semantic-list 12242 . 12255) (semantic-list 12216 . 12242) (punctuation 12215 . 12216) (VOID 12210 . 12214) (TYPEDEF 12202 . 12209) (VOID 12167 . 12171) (symbol 12158 . 12166) (EXTERN 12151 . 12157) (punctuation 12105 . 12106) (VOID 12100 . 12104) (symbol 12091 . 12099) (EXTERN 12084 . 12090) (punctuation 12036 . 12037) (VOID 12031 . 12035) (symbol 12022 . 12030) (EXTERN 12015 . 12021) (punctuation 11981 . 11982) (VOID 11976 . 11980) (symbol 11967 . 11975) (EXTERN 11960 . 11966))
       :lexical-table 
         '(("_SDL_HAS_BUILTIN" (spp-arg-list ("x") 3165 . 3168) . ((number "0" 3169 . 3170)))
@@ -1949,7 +1949,7 @@
           ("SDL_iconv_utf8_locale" (spp-arg-list ("S") 25279 . 25282) . ((symbol "SDL_iconv_string" 25286 . 25302) (semantic-list "(\"\", \"UTF-8\", S, SDL_strlen(S)+1)" 25302 . 25335)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd276268a"
+    (semanticdb-table "semanticdb-table-15704e8e9fb0"
       :major-mode c-mode
       :tags 
         '( ("SDL_assert_h_" variable (:constant-flag t) nil [971 984])
@@ -1958,25 +1958,25 @@
             ("SDL_assert_data" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [12258 12273])
+                (reparse-symbol extern-c-contents) [12400 12415])
             ("SDL_assert_state" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [12217 12233])
+                (reparse-symbol extern-c-contents) [12359 12375])
             ("SDL_ResetAssertionReport" function
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
                 :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [12122 12127]))                  
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [12264 12269]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [12089 12128])
+                (reparse-symbol extern-c-contents) [12231 12270])
             ("SDL_GetAssertionReport" function
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
                 :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [11608 11613]))                  
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [11750 11755]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [11577 11614])
+                (reparse-symbol extern-c-contents) [11719 11756])
             ("SDL_GetAssertionHandler" function
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
@@ -1984,27 +1984,27 @@
                   ( ("puserdata" variable
                        (:pointer 2
                         :type "void")
-                        (reparse-symbol arg-sub-list) [10661 10678]))                  
+                        (reparse-symbol arg-sub-list) [10803 10820]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [10629 10679])
+                (reparse-symbol extern-c-contents) [10771 10821])
             ("SDL_GetDefaultAssertionHandler" function
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
                 :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9652 9657]))                  
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [9794 9799]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [9613 9658])
+                (reparse-symbol extern-c-contents) [9755 9800])
             ("SDL_SetAssertionHandler" function
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
                 :arguments 
-                  ( ("handler" variable (:type ("SDL_AssertionHandler" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8985 9014])
+                  ( ("handler" variable (:type ("SDL_AssertionHandler" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9127 9156])
                     ("userdata" variable
                        (:pointer 1
                         :type "void")
-                        (reparse-symbol arg-sub-list) [9059 9074]))                  
+                        (reparse-symbol arg-sub-list) [9201 9216]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [8908 9075])
+                (reparse-symbol extern-c-contents) [9050 9217])
             ("SDL_AssertState" function
                (:typemodifiers ("extern" "\"C\"")
                 :type "int"
@@ -2012,28 +2012,28 @@
                   ( ("SDL_AssertionHandler" variable
                        (:pointer 1
                         :type ("SDLCALL" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [7932 7962]))                  )
-                (reparse-symbol extern-c-contents) [7915 8040])
+                        (reparse-symbol arg-sub-list) [8074 8104]))                  )
+                (reparse-symbol extern-c-contents) [8057 8182])
             ("SDL_assert_always" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [7517 7534])
+                (reparse-symbol extern-c-contents) [7659 7676])
             ("SDL_assert_paranoid" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [7085 7104])
+                (reparse-symbol extern-c-contents) [7227 7246])
             ("SDL_assert_release" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [7014 7032])
+                (reparse-symbol extern-c-contents) [7156 7174])
             ("SDL_assert" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [6951 6961])
+                (reparse-symbol extern-c-contents) [7093 7103])
             ("SDL_enabled_assert" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [5690 5708])
+                (reparse-symbol extern-c-contents) [5832 5850])
             ("SDL_ReportAssertion" function
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
@@ -2041,47 +2041,47 @@
                   ( ("" variable
                        (:pointer 1
                         :type ("SDL_AssertData" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [4849 4866])
+                        (reparse-symbol arg-sub-list) [4991 5008])
                     ("" variable
                        (:pointer 1
                         :constant-flag t
                         :type "char")
-                        (reparse-symbol arg-sub-list) [4927 4940])
+                        (reparse-symbol arg-sub-list) [5069 5082])
                     ("" variable
                        (:pointer 1
                         :constant-flag t
                         :type "char")
-                        (reparse-symbol arg-sub-list) [5001 5014])
-                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [5015 5019]))                  
+                        (reparse-symbol arg-sub-list) [5143 5156])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [5157 5161]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [4821 5320])
+                (reparse-symbol extern-c-contents) [4963 5462])
             ("SDL_AssertData" type
                (:typemodifiers ("extern" "\"C\"")
                 :type "typedef"
                 :typedef ("SDL_AssertData" type (:type "struct") nil nil))
-                (reparse-symbol extern-c-contents) [4488 4727])
+                (reparse-symbol extern-c-contents) [4630 4869])
             ("SDL_AssertData" type
                (:typemodifiers ("extern" "\"C\"")
                 :type "struct"
                 :members 
-                  ( ("always_ignore" variable (:type "int") (reparse-symbol classsubparts) [4524 4542])
-                    ("trigger_count" variable (:type "unsigned int") (reparse-symbol classsubparts) [4547 4574])
+                  ( ("always_ignore" variable (:type "int") (reparse-symbol classsubparts) [4666 4684])
+                    ("trigger_count" variable (:type "unsigned int") (reparse-symbol classsubparts) [4689 4716])
                     ("condition" variable
                        (:pointer 1
                         :constant-flag t
                         :type "char")
-                        (reparse-symbol classsubparts) [4579 4601])
+                        (reparse-symbol classsubparts) [4721 4743])
                     ("filename" variable
                        (:pointer 1
                         :constant-flag t
                         :type "char")
-                        (reparse-symbol classsubparts) [4606 4627])
-                    ("linenum" variable (:type "int") (reparse-symbol classsubparts) [4632 4644])
+                        (reparse-symbol classsubparts) [4748 4769])
+                    ("linenum" variable (:type "int") (reparse-symbol classsubparts) [4774 4786])
                     ("function" variable
                        (:pointer 1
                         :constant-flag t
                         :type "char")
-                        (reparse-symbol classsubparts) [4649 4670])
+                        (reparse-symbol classsubparts) [4791 4812])
                     ("next" variable
                        (:pointer 1
                         :constant-flag t
@@ -2089,8 +2089,8 @@
                              (:prototype t
                               :type "struct")
                               nil nil))
-                        (reparse-symbol classsubparts) [4675 4709]))                  )
-                (reparse-symbol extern-c-contents) [4488 4727])
+                        (reparse-symbol classsubparts) [4817 4851]))                  )
+                (reparse-symbol extern-c-contents) [4630 4869])
             ("SDL_AssertState" type
                (:typemodifiers ("extern" "\"C\"")
                 :type "typedef"
@@ -2099,50 +2099,50 @@
                         ( ("SDL_ASSERTION_RETRY" variable
                              (:constant-flag t
                               :type "int")
-                              (reparse-symbol enumsubparts) [4151 4171])
+                              (reparse-symbol enumsubparts) [4293 4313])
                           ("SDL_ASSERTION_BREAK" variable
                              (:constant-flag t
                               :type "int")
-                              (reparse-symbol enumsubparts) [4215 4235])
+                              (reparse-symbol enumsubparts) [4357 4377])
                           ("SDL_ASSERTION_ABORT" variable
                              (:constant-flag t
                               :type "int")
-                              (reparse-symbol enumsubparts) [4289 4309])
+                              (reparse-symbol enumsubparts) [4431 4451])
                           ("SDL_ASSERTION_IGNORE" variable
                              (:constant-flag t
                               :type "int")
-                              (reparse-symbol enumsubparts) [4346 4367])
+                              (reparse-symbol enumsubparts) [4488 4509])
                           ("SDL_ASSERTION_ALWAYS_IGNORE" variable
                              (:constant-flag t
                               :type "int")
-                              (reparse-symbol enumsubparts) [4400 4469]))                        
+                              (reparse-symbol enumsubparts) [4542 4611]))                        
                       :type "enum")
                       nil nil))
-                (reparse-symbol extern-c-contents) [4132 4486])
+                (reparse-symbol extern-c-contents) [4274 4628])
             ("SDL_disabled_assert" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [4020 4039])
+                (reparse-symbol extern-c-contents) [4162 4181])
             ("SDL_NULL_WHILE_LOOP_CONDITION" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [3970 3999])
+                (reparse-symbol extern-c-contents) [4112 4141])
             ("SDL_LINE" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [3171 3179])
+                (reparse-symbol extern-c-contents) [3313 3321])
             ("SDL_FILE" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [3142 3150])
+                (reparse-symbol extern-c-contents) [3284 3292])
             ("SDL_FUNCTION" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [3065 3077])
+                (reparse-symbol extern-c-contents) [3207 3219])
             ("SDL_TriggerBreakpoint" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [2790 2811])
+                (reparse-symbol extern-c-contents) [2932 2953])
             ("SDL_TriggerBreakpoint" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
@@ -2151,15 +2151,15 @@
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
                 (reparse-symbol extern-c-contents) [1348 1364])
-            ("close_code.h" include nil nil [12368 12391]))          
+            ("close_code.h" include nil nil [12510 12533]))          
       :file "SDL_assert.h"
-      :pointmax 12456
-      :fsize 12455
-      :lastmodtime '(25806 9685 0 0)
-      :unmatched-syntax '((VOID 12084 . 12088) (symbol 12075 . 12083) (EXTERN 12068 . 12074) (punctuation 11575 . 11576) (symbol 11560 . 11574) (CONST 11554 . 11559) (symbol 11545 . 11553) (EXTERN 11538 . 11544) (symbol 10608 . 10628) (symbol 10599 . 10607) (EXTERN 10592 . 10598) (symbol 9592 . 9612) (symbol 9583 . 9591) (EXTERN 9576 . 9582) (VOID 8903 . 8907) (symbol 8894 . 8902) (EXTERN 8887 . 8893) (punctuation 8040 . 8041) (TYPEDEF 7907 . 7914) (punctuation 7446 . 7447) (symbol 7441 . 7446) (symbol 7431 . 7440) (symbol 7423 . 7430) (symbol 7417 . 7422) (punctuation 7413 . 7414) (symbol 4805 . 4820) (symbol 4796 . 4804) (EXTERN 4789 . 4795) (semantic-list 1294 . 1339))
+      :pointmax 12598
+      :fsize 12597
+      :lastmodtime '(25843 33778 0 0)
+      :unmatched-syntax '((VOID 12226 . 12230) (symbol 12217 . 12225) (EXTERN 12210 . 12216) (punctuation 11717 . 11718) (symbol 11702 . 11716) (CONST 11696 . 11701) (symbol 11687 . 11695) (EXTERN 11680 . 11686) (symbol 10750 . 10770) (symbol 10741 . 10749) (EXTERN 10734 . 10740) (symbol 9734 . 9754) (symbol 9725 . 9733) (EXTERN 9718 . 9724) (VOID 9045 . 9049) (symbol 9036 . 9044) (EXTERN 9029 . 9035) (punctuation 8182 . 8183) (TYPEDEF 8049 . 8056) (punctuation 7588 . 7589) (symbol 7583 . 7588) (symbol 7573 . 7582) (symbol 7565 . 7572) (symbol 7559 . 7564) (punctuation 7555 . 7556) (symbol 4947 . 4962) (symbol 4938 . 4946) (EXTERN 4931 . 4937) (semantic-list 1294 . 1339))
       :lexical-table 
-        '(("SDL_enabled_assert" (spp-arg-list ("condition") 5708 . 5719) . 
-              ((DO "do" 5726 . 5728) (semantic-list "{ \\
+        '(("SDL_enabled_assert" (spp-arg-list ("condition") 5850 . 5861) . 
+              ((DO "do" 5868 . 5870) (semantic-list "{ \\
         while ( !(condition) ) { \\
             static struct SDL_AssertData sdl_assert_data = { 0, 0, #condition, 0, 0, 0, 0 }; \\
             const SDL_AssertState sdl_assert_state = SDL_ReportAssertion(&sdl_assert_data, SDL_FUNCTION, SDL_FILE, SDL_LINE); \\
@@ -2170,25 +2170,25 @@
             } \\
             break; /* not retrying. */ \\
         } \\
-    }" 5729 . 6281) (WHILE "while" 6282 . 6287) (semantic-list "(SDL_NULL_WHILE_LOOP_CONDITION)" 6288 . 6319)))
-          ("SDL_assert_always" (spp-arg-list ("condition") 7534 . 7545) . ((symbol "SDL_enabled_assert" 7546 . 7564) (semantic-list "(condition)" 7564 . 7575)))
-          ("SDL_assert_data" . ((symbol "SDL_AssertData" 12274 . 12288)))
-          ("SDL_FILE" . ((symbol "__FILE__" 3154 . 3162)))
-          ("SDL_assert" (spp-arg-list ("condition") 6961 . 6972) . ((symbol "SDL_enabled_assert" 6973 . 6991) (semantic-list "(condition)" 6991 . 7002)))
-          ("SDL_NULL_WHILE_LOOP_CONDITION" . ((semantic-list "(0)" 4000 . 4003)))
-          ("SDL_assert_paranoid" (spp-arg-list ("condition") 7104 . 7115) . ((symbol "SDL_disabled_assert" 7116 . 7135) (semantic-list "(condition)" 7135 . 7146)))
-          ("SDL_LINE" . ((symbol "__LINE__" 3183 . 3191)))
-          ("SDL_TriggerBreakpoint" (spp-arg-list nil 2811 . 2813))
+    }" 5871 . 6423) (WHILE "while" 6424 . 6429) (semantic-list "(SDL_NULL_WHILE_LOOP_CONDITION)" 6430 . 6461)))
+          ("SDL_assert_always" (spp-arg-list ("condition") 7676 . 7687) . ((symbol "SDL_enabled_assert" 7688 . 7706) (semantic-list "(condition)" 7706 . 7717)))
+          ("SDL_assert_data" . ((symbol "SDL_AssertData" 12416 . 12430)))
+          ("SDL_FILE" . ((symbol "__FILE__" 3296 . 3304)))
+          ("SDL_assert" (spp-arg-list ("condition") 7103 . 7114) . ((symbol "SDL_enabled_assert" 7115 . 7133) (semantic-list "(condition)" 7133 . 7144)))
+          ("SDL_NULL_WHILE_LOOP_CONDITION" . ((semantic-list "(0)" 4142 . 4145)))
+          ("SDL_assert_paranoid" (spp-arg-list ("condition") 7246 . 7257) . ((symbol "SDL_disabled_assert" 7258 . 7277) (semantic-list "(condition)" 7277 . 7288)))
+          ("SDL_LINE" . ((symbol "__LINE__" 3325 . 3333)))
+          ("SDL_TriggerBreakpoint" (spp-arg-list nil 2953 . 2955))
           ("SDL_ASSERT_LEVEL" . ((number "2" 1365 . 1366)))
           ("SDL_assert_h_")
-          ("SDL_FUNCTION" . ((symbol "__FUNCTION__" 3078 . 3090)))
-          ("SDL_disabled_assert" (spp-arg-list ("condition") 4039 . 4050) . 
-              ((DO "do" 4057 . 4059) (semantic-list "{ (void) sizeof ((condition)); }" 4060 . 4092) (WHILE "while" 4093 . 4098) (semantic-list "(SDL_NULL_WHILE_LOOP_CONDITION)" 4099 . 4130)))
-          ("SDL_assert_release" (spp-arg-list ("condition") 7032 . 7043) . ((symbol "SDL_enabled_assert" 7044 . 7062) (semantic-list "(condition)" 7062 . 7073)))
-          ("SDL_assert_state" . ((symbol "SDL_AssertState" 12234 . 12249)))
+          ("SDL_FUNCTION" . ((symbol "__FUNCTION__" 3220 . 3232)))
+          ("SDL_disabled_assert" (spp-arg-list ("condition") 4181 . 4192) . 
+              ((DO "do" 4199 . 4201) (semantic-list "{ (void) sizeof ((condition)); }" 4202 . 4234) (WHILE "while" 4235 . 4240) (semantic-list "(SDL_NULL_WHILE_LOOP_CONDITION)" 4241 . 4272)))
+          ("SDL_assert_release" (spp-arg-list ("condition") 7174 . 7185) . ((symbol "SDL_enabled_assert" 7186 . 7204) (semantic-list "(condition)" 7204 . 7215)))
+          ("SDL_assert_state" . ((symbol "SDL_AssertState" 12376 . 12391)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd27626aa"
+    (semanticdb-table "semanticdb-table-15704e8e9fd0"
       :major-mode c-mode
       :tags 
         '( ("SDL_atomic_h_" variable (:constant-flag t) nil [2184 2197])
@@ -2375,7 +2375,7 @@
       :file "SDL_atomic.h"
       :pointmax 14703
       :fsize 14702
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((punctuation 14498 . 14499) (VOID 14494 . 14498) (symbol 14485 . 14493) (EXTERN 14478 . 14484) (punctuation 14102 . 14103) (VOID 14098 . 14102) (symbol 14089 . 14097) (EXTERN 14082 . 14088) (symbol 13641 . 13649) (symbol 13632 . 13640) (EXTERN 13625 . 13631) (INT 12674 . 12677) (symbol 12665 . 12673) (EXTERN 12658 . 12664) (INT 12163 . 12166) (symbol 12154 . 12162) (EXTERN 12147 . 12153) (INT 11772 . 11775) (symbol 11763 . 11771) (EXTERN 11756 . 11762) (symbol 11258 . 11266) (symbol 11249 . 11257) (EXTERN 11242 . 11248) (VOID 6328 . 6332) (symbol 6319 . 6327) (EXTERN 6312 . 6318) (VOID 6259 . 6263) (symbol 6250 . 6258) (EXTERN 6243 . 6249) (VOID 4334 . 4338) (symbol 4325 . 4333) (EXTERN 4318 . 4324) (VOID 3891 . 3895) (symbol 3882 . 3890) (EXTERN 3875 . 3881) (symbol 3460 . 3468) (symbol 3451 . 3459) (EXTERN 3444 . 3450))
       :lexical-table 
         '(("SDL_CPUPauseInstruction" (spp-arg-list nil 10537 . 10539))
@@ -2387,7 +2387,7 @@
           ("SDL_AtomicDecRef" (spp-arg-list ("a") 13110 . 13113) . ((semantic-list "(SDL_AtomicAdd(a, -1) == 1)" 13117 . 13144)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd27626ca"
+    (semanticdb-table "semanticdb-table-15704e8e9ff0"
       :major-mode c-mode
       :tags 
         '( ("SDL_audio_h_" variable (:constant-flag t) nil [1134 1146])
@@ -3074,7 +3074,7 @@
       :file "SDL_audio.h"
       :pointmax 59723
       :fsize 59722
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((VOID 59500 . 59504) (symbol 59491 . 59499) (EXTERN 59484 . 59490) (VOID 58574 . 58578) (symbol 58565 . 58573) (EXTERN 58558 . 58564) (VOID 58139 . 58143) (symbol 58130 . 58138) (EXTERN 58123 . 58129) (VOID 57771 . 57775) (symbol 57762 . 57770) (EXTERN 57755 . 57761) (VOID 57274 . 57278) (symbol 57265 . 57273) (EXTERN 57258 . 57264) (VOID 55540 . 55544) (symbol 55531 . 55539) (EXTERN 55524 . 55530) (VOID 54690 . 54694) (symbol 54681 . 54689) (EXTERN 54674 . 54680) (symbol 53267 . 53273) (symbol 53258 . 53266) (EXTERN 53251 . 53257) (symbol 51802 . 51808) (symbol 51793 . 51801) (EXTERN 51786 . 51792) (INT 49464 . 49467) (symbol 49455 . 49463) (EXTERN 49448 . 49454) (VOID 47015 . 47019) (symbol 47006 . 47014) (EXTERN 46999 . 47005) (VOID 45497 . 45501) (symbol 45488 . 45496) (EXTERN 45481 . 45487) (VOID 44739 . 44743) (symbol 44730 . 44738) (EXTERN 44723 . 44729) (VOID 44404 . 44408) (symbol 44395 . 44403) (EXTERN 44388 . 44394) (INT 44033 . 44036) (symbol 44024 . 44032) (EXTERN 44017 . 44023) (INT 43367 . 43370) (symbol 43358 . 43366) (EXTERN 43351 . 43357) (INT 42751 . 42754) (symbol 42742 . 42750) (EXTERN 42735 . 42741) (INT 42137 . 42140) (symbol 42128 . 42136) (EXTERN 42121 . 42127) (punctuation 41215 . 41216) (symbol 41199 . 41214) (symbol 41190 . 41198) (EXTERN 41183 . 41189) (INT 39982 . 39985) (symbol 39973 . 39981) (EXTERN 39966 . 39972) (INT 37611 . 37614) (symbol 37602 . 37610) (EXTERN 37595 . 37601) (VOID 36023 . 36027) (symbol 36014 . 36022) (EXTERN 36007 . 36013) (punctuation 34977 . 34978) (symbol 34963 . 34976) (symbol 34954 . 34962) (EXTERN 34947 . 34953) (VOID 31207 . 31211) (symbol 31198 . 31206) (EXTERN 31191 . 31197) (VOID 29835 . 29839) (symbol 29826 . 29834) (EXTERN 29819 . 29825) (symbol 28831 . 28846) (symbol 28822 . 28830) (EXTERN 28815 . 28821) (symbol 28431 . 28446) (symbol 28422 . 28430) (EXTERN 28415 . 28421) (symbol 27330 . 27347) (symbol 27321 . 27329) (EXTERN 27314 . 27320) (INT 21204 . 21207) (symbol 21195 . 21203) (EXTERN 21188 . 21194) (INT 19616 . 19619) (symbol 19607 . 19615) (EXTERN 19600 . 19606) (punctuation 18593 . 18594) (CHAR 18588 . 18592) (CONST 18582 . 18587) (symbol 18573 . 18581) (EXTERN 18566 . 18572) (INT 17436 . 17439) (symbol 17427 . 17435) (EXTERN 17420 . 17426) (INT 15220 . 15223) (symbol 15211 . 15219) (EXTERN 15204 . 15210) (punctuation 13117 . 13118) (CHAR 13112 . 13116) (CONST 13106 . 13111) (symbol 13097 . 13105) (EXTERN 13090 . 13096) (VOID 12468 . 12472) (symbol 12459 . 12467) (EXTERN 12452 . 12458) (INT 12018 . 12021) (symbol 12009 . 12017) (EXTERN 12002 . 12008) (punctuation 11119 . 11120) (CHAR 11114 . 11118) (CONST 11108 . 11113) (symbol 11099 . 11107) (EXTERN 11092 . 11098) (INT 10233 . 10236) (symbol 10224 . 10232) (EXTERN 10217 . 10223) (punctuation 6943 . 6944) (semantic-list 6850 . 6943) (semantic-list 6822 . 6849) (VOID 6817 . 6821) (TYPEDEF 6809 . 6816) (punctuation 5406 . 5407) (semantic-list 5321 . 5406) (semantic-list 5291 . 5320) (VOID 5286 . 5290) (TYPEDEF 5278 . 5285))
       :lexical-table 
         '(("SDL_AUDIO_ISLITTLEENDIAN" (spp-arg-list ("x") 2638 . 2641) . ((semantic-list "(!SDL_AUDIO_ISBIGENDIAN(x))" 2643 . 2670)))
@@ -3118,7 +3118,7 @@
           ("SDL_AUDIOCVT_MAX_FILTERS" . ((number "9" 7237 . 7238)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd27626ea"
+    (semanticdb-table "semanticdb-table-15704e8ea010"
       :major-mode c-mode
       :tags 
         '( ("SDL_clipboard_h_" variable (:constant-flag t) nil [1054 1070])
@@ -3178,13 +3178,13 @@
       :file "SDL_clipboard.h"
       :pointmax 4308
       :fsize 4307
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((symbol 4086 . 4094) (symbol 4077 . 4085) (EXTERN 4070 . 4076) (punctuation 3698 . 3699) (CHAR 3693 . 3697) (symbol 3684 . 3692) (EXTERN 3677 . 3683) (INT 3002 . 3005) (symbol 2993 . 3001) (EXTERN 2986 . 2992) (symbol 2578 . 2586) (symbol 2569 . 2577) (EXTERN 2562 . 2568) (punctuation 2243 . 2244) (CHAR 2238 . 2242) (symbol 2229 . 2237) (EXTERN 2222 . 2228) (INT 1596 . 1599) (symbol 1587 . 1595) (EXTERN 1580 . 1586))
       :lexical-table 
         '(("SDL_clipboard_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd276270a"
+    (semanticdb-table "semanticdb-table-15704e8ea030"
       :major-mode c-mode
       :tags 
         '( ("SDL_cpuinfo_h_" variable (:constant-flag t) nil [1043 1057])
@@ -3375,14 +3375,14 @@
       :file "SDL_cpuinfo.h"
       :pointmax 17459
       :fsize 17458
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((VOID 17254 . 17258) (symbol 17245 . 17253) (EXTERN 17238 . 17244) (punctuation 16355 . 16356) (VOID 16350 . 16354) (symbol 16341 . 16349) (EXTERN 16334 . 16340) (punctuation 15386 . 15387) (VOID 15381 . 15385) (symbol 15372 . 15380) (EXTERN 15365 . 15371) (symbol 13694 . 13700) (symbol 13685 . 13693) (EXTERN 13678 . 13684) (INT 12861 . 12864) (symbol 12852 . 12860) (EXTERN 12845 . 12851) (symbol 12626 . 12634) (symbol 12617 . 12625) (EXTERN 12610 . 12616) (symbol 12258 . 12266) (symbol 12249 . 12257) (EXTERN 12242 . 12248) (symbol 11891 . 11899) (symbol 11882 . 11890) (EXTERN 11875 . 11881) (symbol 11553 . 11561) (symbol 11544 . 11552) (EXTERN 11537 . 11543) (symbol 11114 . 11122) (symbol 11105 . 11113) (EXTERN 11098 . 11104) (symbol 10750 . 10758) (symbol 10741 . 10749) (EXTERN 10734 . 10740) (symbol 10232 . 10240) (symbol 10223 . 10231) (EXTERN 10216 . 10222) (symbol 9713 . 9721) (symbol 9704 . 9712) (EXTERN 9697 . 9703) (symbol 9190 . 9198) (symbol 9181 . 9189) (EXTERN 9174 . 9180) (symbol 8668 . 8676) (symbol 8659 . 8667) (EXTERN 8652 . 8658) (symbol 8149 . 8157) (symbol 8140 . 8148) (EXTERN 8133 . 8139) (symbol 7631 . 7639) (symbol 7622 . 7630) (EXTERN 7615 . 7621) (symbol 7112 . 7120) (symbol 7103 . 7111) (EXTERN 7096 . 7102) (symbol 6593 . 6601) (symbol 6584 . 6592) (EXTERN 6577 . 6583) (symbol 6072 . 6080) (symbol 6063 . 6071) (EXTERN 6056 . 6062) (symbol 5544 . 5552) (symbol 5535 . 5543) (EXTERN 5528 . 5534) (INT 5003 . 5006) (symbol 4994 . 5002) (EXTERN 4987 . 4993) (INT 4681 . 4684) (symbol 4672 . 4680) (EXTERN 4665 . 4671))
       :lexical-table 
         '(("SDL_cpuinfo_h_")
           ("SDL_CACHELINE_SIZE" . ((number "128" 4342 . 4345)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd276272a"
+    (semanticdb-table "semanticdb-table-15704e8ea050"
       :major-mode c-mode
       :tags 
         '( ("SDL_endian_h_" variable (:constant-flag t) nil [1067 1080])
@@ -3487,7 +3487,7 @@
       :file "SDL_endian.h"
       :pointmax 9866
       :fsize 9865
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((symbol 8574 . 8590) (symbol 8238 . 8254) (symbol 7912 . 7928) (symbol 7127 . 7143) (symbol 6307 . 6323) (symbol 5808 . 5824) (symbol 5152 . 5168) (symbol 3314 . 3324) (symbol 3302 . 3313) (symbol 3296 . 3301) (punctuation 3295 . 3296) (symbol 2445 . 2455) (symbol 2433 . 2444) (symbol 2427 . 2432) (punctuation 2426 . 2427))
       :lexical-table 
         '(("SDL_LIL_ENDIAN" . ((number "1234" 1700 . 1704)))
@@ -3505,7 +3505,7 @@
           ("SDL_SwapBE32" (spp-arg-list ("X") 9588 . 9591) . ((semantic-list "(X)" 9596 . 9599)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd276274a"
+    (semanticdb-table "semanticdb-table-15704e8ea070"
       :major-mode c-mode
       :tags 
         '( ("SDL_error_h_" variable (:constant-flag t) nil [1047 1059])
@@ -3596,7 +3596,7 @@
       :file "SDL_error.h"
       :pointmax 5178
       :fsize 5177
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((INT 4931 . 4934) (symbol 4922 . 4930) (EXTERN 4915 . 4921) (VOID 4376 . 4380) (symbol 4367 . 4375) (EXTERN 4360 . 4366) (punctuation 4145 . 4146) (CHAR 4140 . 4144) (symbol 4131 . 4139) (EXTERN 4124 . 4130) (punctuation 3544 . 3545) (CHAR 3539 . 3543) (CONST 3533 . 3538) (symbol 3524 . 3532) (EXTERN 3517 . 3523) (number 2008 . 2009) (semantic-list 1937 . 1984) (symbol 1925 . 1937) (symbol 1917 . 1924) (INT 1913 . 1916) (symbol 1904 . 1912) (EXTERN 1897 . 1903))
       :lexical-table 
         '(("SDL_OutOfMemory" (spp-arg-list nil 4560 . 4562) . ((symbol "SDL_Error" 4565 . 4574) (semantic-list "(SDL_ENOMEM)" 4574 . 4586)))
@@ -3605,7 +3605,7 @@
           ("SDL_Unsupported" (spp-arg-list nil 4610 . 4612) . ((symbol "SDL_Error" 4615 . 4624) (semantic-list "(SDL_UNSUPPORTED)" 4624 . 4641)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd276276a"
+    (semanticdb-table "semanticdb-table-15704e8ea090"
       :major-mode c-mode
       :tags 
         '( ("SDL_events_h_" variable (:constant-flag t) nil [1047 1060])
@@ -4710,7 +4710,7 @@
       :file "SDL_events.h"
       :pointmax 47285
       :fsize 47284
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((symbol 47069 . 47075) (symbol 47060 . 47068) (EXTERN 47053 . 47059) (symbol 46344 . 46349) (symbol 46335 . 46343) (EXTERN 46328 . 46334) (VOID 45402 . 45406) (symbol 45393 . 45401) (EXTERN 45386 . 45392) (VOID 44690 . 44694) (symbol 44681 . 44689) (EXTERN 44674 . 44680) (VOID 44131 . 44135) (symbol 44122 . 44130) (EXTERN 44115 . 44121) (symbol 42996 . 43004) (symbol 42987 . 42995) (EXTERN 42980 . 42986) (VOID 42313 . 42317) (symbol 42304 . 42312) (EXTERN 42297 . 42303) (punctuation 40589 . 40590) (semantic-list 40554 . 40589) (semantic-list 40526 . 40553) (INT 40522 . 40525) (TYPEDEF 40514 . 40521) (INT 40017 . 40020) (symbol 40008 . 40016) (EXTERN 40001 . 40007) (INT 38528 . 38531) (symbol 38519 . 38527) (EXTERN 38512 . 38518) (INT 37522 . 37525) (symbol 37513 . 37521) (EXTERN 37506 . 37512) (INT 36735 . 36738) (symbol 36726 . 36734) (EXTERN 36719 . 36725) (VOID 35102 . 35106) (symbol 35093 . 35101) (EXTERN 35086 . 35092) (VOID 34119 . 34123) (symbol 34110 . 34118) (EXTERN 34103 . 34109) (symbol 33310 . 33318) (symbol 33301 . 33309) (EXTERN 33294 . 33300) (symbol 32652 . 32660) (symbol 32643 . 32651) (EXTERN 32636 . 32642) (INT 31965 . 31968) (symbol 31956 . 31964) (EXTERN 31949 . 31955) (VOID 30131 . 30135) (symbol 30122 . 30130) (EXTERN 30115 . 30121) (semantic-list 29095 . 29125) (SIZEOF 29089 . 29095) (punctuation 29087 . 29088) (punctuation 29086 . 29087) (semantic-list 29074 . 29085) (SIZEOF 29068 . 29074))
       :lexical-table 
         '(("SDL_TEXTINPUTEVENT_TEXT_SIZE" . ((semantic-list "(32)" 11077 . 11081)))
@@ -4725,7 +4725,7 @@
           ("SDL_ENABLE" . ((number "1" 45619 . 45620)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd276278a"
+    (semanticdb-table "semanticdb-table-15704e8ea0b0"
       :major-mode c-mode
       :tags 
         '( ("SDL_filesystem_h_" variable (:constant-flag t) nil [1071 1088])
@@ -4758,13 +4758,13 @@
       :file "SDL_filesystem.h"
       :pointmax 5534
       :fsize 5533
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((punctuation 5304 . 5305) (CHAR 5299 . 5303) (symbol 5290 . 5298) (EXTERN 5283 . 5289) (punctuation 3057 . 3058) (CHAR 3052 . 3056) (symbol 3043 . 3051) (EXTERN 3036 . 3042))
       :lexical-table 
         '(("SDL_filesystem_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd27627aa"
+    (semanticdb-table "semanticdb-table-15704e8ea0d0"
       :major-mode c-mode
       :tags 
         '( ("SDL_gamecontroller_h_" variable (:constant-flag t) nil [1078 1099])
@@ -5643,14 +5643,14 @@
       :file "SDL_gamecontroller.h"
       :pointmax 40162
       :fsize 40161
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((punctuation 39864 . 39865) (CHAR 39860 . 39864) (CONST 39854 . 39859) (symbol 39845 . 39853) (EXTERN 39838 . 39844) (punctuation 39331 . 39332) (CHAR 39327 . 39331) (CONST 39321 . 39326) (symbol 39312 . 39320) (EXTERN 39305 . 39311) (VOID 38850 . 38854) (symbol 38841 . 38849) (EXTERN 38834 . 38840) (INT 38423 . 38426) (symbol 38414 . 38422) (EXTERN 38407 . 38413) (INT 37928 . 37931) (symbol 37919 . 37927) (EXTERN 37912 . 37918) (symbol 37455 . 37463) (symbol 37446 . 37454) (EXTERN 37439 . 37445) (symbol 37025 . 37033) (symbol 37016 . 37024) (EXTERN 37009 . 37015) (symbol 36626 . 36634) (symbol 36617 . 36625) (EXTERN 36610 . 36616) (INT 36204 . 36207) (symbol 36195 . 36203) (EXTERN 36188 . 36194) (INT 35055 . 35058) (symbol 35046 . 35054) (EXTERN 35039 . 35045) (INT 34134 . 34137) (symbol 34125 . 34133) (EXTERN 34118 . 34124) (INT 33280 . 33283) (symbol 33271 . 33279) (EXTERN 33264 . 33270) (FLOAT 32638 . 32643) (symbol 32629 . 32637) (EXTERN 32622 . 32628) (symbol 32199 . 32207) (symbol 32190 . 32198) (EXTERN 32183 . 32189) (INT 31757 . 31760) (symbol 31748 . 31756) (EXTERN 31741 . 31747) (symbol 31294 . 31302) (symbol 31285 . 31293) (EXTERN 31278 . 31284) (INT 30829 . 30832) (symbol 30820 . 30828) (EXTERN 30813 . 30819) (INT 30570 . 30573) (symbol 30561 . 30569) (EXTERN 30554 . 30560) (INT 30313 . 30316) (symbol 30304 . 30312) (EXTERN 30297 . 30303) (symbol 30007 . 30012) (symbol 29998 . 30006) (EXTERN 29991 . 29997) (symbol 29408 . 29416) (symbol 29399 . 29407) (EXTERN 29392 . 29398) (symbol 28748 . 28776) (symbol 28739 . 28747) (EXTERN 28732 . 28738) (punctuation 28132 . 28133) (CHAR 28128 . 28132) (CONST 28122 . 28127) (symbol 28113 . 28121) (EXTERN 28106 . 28112) (symbol 27519 . 27543) (symbol 27510 . 27518) (EXTERN 27503 . 27509) (symbol 25472 . 25478) (symbol 25463 . 25471) (EXTERN 25456 . 25462) (symbol 24753 . 24761) (symbol 24744 . 24752) (EXTERN 24737 . 24743) (symbol 24112 . 24140) (symbol 24103 . 24111) (EXTERN 24096 . 24102) (punctuation 23501 . 23502) (CHAR 23497 . 23501) (CONST 23491 . 23496) (symbol 23482 . 23490) (EXTERN 23475 . 23481) (symbol 22904 . 22926) (symbol 22895 . 22903) (EXTERN 22888 . 22894) (VOID 21336 . 21340) (symbol 21327 . 21335) (EXTERN 21320 . 21326) (INT 20972 . 20975) (symbol 20963 . 20971) (EXTERN 20956 . 20962) (punctuation 20188 . 20189) (symbol 20175 . 20187) (symbol 20166 . 20174) (EXTERN 20159 . 20165) (symbol 19270 . 19278) (symbol 19261 . 19269) (EXTERN 19254 . 19260) (punctuation 18734 . 18735) (CHAR 18729 . 18733) (CONST 18723 . 18728) (symbol 18714 . 18722) (EXTERN 18707 . 18713) (symbol 18282 . 18288) (symbol 18273 . 18281) (EXTERN 18266 . 18272) (symbol 17840 . 17846) (symbol 17831 . 17839) (EXTERN 17824 . 17830) (symbol 17416 . 17422) (symbol 17407 . 17415) (EXTERN 17400 . 17406) (symbol 17004 . 17010) (symbol 16995 . 17003) (EXTERN 16988 . 16994) (VOID 16574 . 16578) (symbol 16565 . 16573) (EXTERN 16558 . 16564) (INT 16142 . 16145) (symbol 16133 . 16141) (EXTERN 16126 . 16132) (symbol 15708 . 15730) (symbol 15699 . 15707) (EXTERN 15692 . 15698) (punctuation 15249 . 15250) (CHAR 15244 . 15248) (CONST 15238 . 15243) (symbol 15229 . 15237) (EXTERN 15222 . 15228) (punctuation 14538 . 14539) (CHAR 14533 . 14537) (CONST 14527 . 14532) (symbol 14518 . 14526) (EXTERN 14511 . 14517) (punctuation 13805 . 13806) (symbol 13786 . 13804) (symbol 13777 . 13785) (EXTERN 13770 . 13776) (punctuation 13212 . 13213) (symbol 13193 . 13211) (symbol 13184 . 13192) (EXTERN 13177 . 13183) (punctuation 12808 . 12809) (symbol 12789 . 12807) (symbol 12780 . 12788) (EXTERN 12773 . 12779) (punctuation 11918 . 11919) (CHAR 11913 . 11917) (symbol 11904 . 11912) (EXTERN 11897 . 11903) (symbol 11414 . 11436) (symbol 11405 . 11413) (EXTERN 11398 . 11404) (punctuation 11022 . 11023) (CHAR 11017 . 11021) (CONST 11011 . 11016) (symbol 11002 . 11010) (EXTERN 10995 . 11001) (punctuation 10356 . 10357) (CHAR 10351 . 10355) (CONST 10345 . 10350) (symbol 10336 . 10344) (EXTERN 10329 . 10335) (symbol 9635 . 9643) (symbol 9626 . 9634) (EXTERN 9619 . 9625) (punctuation 8983 . 8984) (CHAR 8978 . 8982) (symbol 8969 . 8977) (EXTERN 8962 . 8968) (punctuation 8306 . 8307) (CHAR 8301 . 8305) (symbol 8292 . 8300) (EXTERN 8285 . 8291) (punctuation 7793 . 7794) (CHAR 7788 . 7792) (symbol 7779 . 7787) (EXTERN 7772 . 7778) (INT 7494 . 7497) (symbol 7485 . 7493) (EXTERN 7478 . 7484) (INT 7263 . 7266) (symbol 7254 . 7262) (EXTERN 7247 . 7253) (INT 5578 . 5581) (symbol 5569 . 5577) (EXTERN 5562 . 5568))
       :lexical-table 
         '(("SDL_gamecontroller_h_")
           ("SDL_GameControllerAddMappingsFromFile" (spp-arg-list ("file") 5817 . 5823) . ((symbol "SDL_GameControllerAddMappingsFromRW" 5826 . 5861) (semantic-list "(SDL_RWFromFile(file, \"rb\"), 1)" 5861 . 5892)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd27627ca"
+    (semanticdb-table "semanticdb-table-15704e8f0000"
       :major-mode c-mode
       :tags 
         '( ("SDL_haptic_h_" variable (:constant-flag t) nil [3704 3717])
@@ -6243,7 +6243,7 @@
       :file "SDL_haptic.h"
       :pointmax 43269
       :fsize 43268
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((INT 43048 . 43051) (symbol 43039 . 43047) (EXTERN 43032 . 43038) (INT 42558 . 42561) (symbol 42549 . 42557) (EXTERN 42542 . 42548) (INT 41963 . 41966) (symbol 41954 . 41962) (EXTERN 41947 . 41953) (INT 41454 . 41457) (symbol 41445 . 41453) (EXTERN 41438 . 41444) (INT 40943 . 40946) (symbol 40934 . 40942) (EXTERN 40927 . 40933) (INT 40581 . 40584) (symbol 40572 . 40580) (EXTERN 40565 . 40571) (INT 40179 . 40182) (symbol 40170 . 40178) (EXTERN 40163 . 40169) (INT 39522 . 39525) (symbol 39513 . 39521) (EXTERN 39506 . 39512) (INT 38916 . 38919) (symbol 38907 . 38915) (EXTERN 38900 . 38906) (INT 38073 . 38076) (symbol 38064 . 38072) (EXTERN 38057 . 38063) (VOID 37393 . 37397) (symbol 37384 . 37392) (EXTERN 37377 . 37383) (INT 36885 . 36888) (symbol 36876 . 36884) (EXTERN 36869 . 36875) (INT 36261 . 36264) (symbol 36252 . 36260) (EXTERN 36245 . 36251) (INT 35150 . 35153) (symbol 35141 . 35149) (EXTERN 35134 . 35140) (INT 34207 . 34210) (symbol 34198 . 34206) (EXTERN 34191 . 34197) (INT 33472 . 33475) (symbol 33463 . 33471) (EXTERN 33456 . 33462) (INT 32956 . 32959) (symbol 32947 . 32955) (EXTERN 32940 . 32946) (INT 32491 . 32494) (UNSIGNED 32482 . 32490) (symbol 32473 . 32481) (EXTERN 32466 . 32472) (INT 32013 . 32016) (symbol 32004 . 32012) (EXTERN 31997 . 32003) (INT 31416 . 31419) (symbol 31407 . 31415) (EXTERN 31400 . 31406) (VOID 30755 . 30759) (symbol 30746 . 30754) (EXTERN 30739 . 30745) (punctuation 30406 . 30407) (symbol 30395 . 30405) (symbol 30386 . 30394) (EXTERN 30379 . 30385) (INT 29566 . 29569) (symbol 29557 . 29565) (EXTERN 29550 . 29556) (punctuation 29118 . 29119) (symbol 29107 . 29117) (symbol 29098 . 29106) (EXTERN 29091 . 29097) (INT 28765 . 28768) (symbol 28756 . 28764) (EXTERN 28749 . 28755) (INT 28459 . 28462) (symbol 28450 . 28458) (EXTERN 28443 . 28449) (INT 28048 . 28051) (symbol 28039 . 28047) (EXTERN 28032 . 28038) (punctuation 27624 . 27625) (symbol 27613 . 27623) (symbol 27604 . 27612) (EXTERN 27597 . 27603) (punctuation 26800 . 26801) (CHAR 26795 . 26799) (CONST 26789 . 26794) (symbol 26780 . 26788) (EXTERN 26773 . 26779) (INT 26308 . 26311) (symbol 26299 . 26307) (EXTERN 26292 . 26298))
       :lexical-table 
         '(("SDL_HAPTIC_INERTIA" . ((semantic-list "(1u<<9)" 6967 . 6974)))
@@ -6270,7 +6270,7 @@
           ("SDL_HAPTIC_AUTOCENTER" . ((semantic-list "(1u<<13)" 7753 . 7761)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd27627ea"
+    (semanticdb-table "semanticdb-table-15704e8f0020"
       :major-mode c-mode
       :tags 
         '( ("SDL_hidapi_h_" variable (:constant-flag t) nil [3021 3034])
@@ -6566,13 +6566,13 @@
       :file "SDL_hidapi.h"
       :pointmax 17843
       :fsize 17842
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((VOID 17623 . 17627) (symbol 17614 . 17622) (EXTERN 17607 . 17613) (INT 17284 . 17287) (symbol 17275 . 17283) (EXTERN 17268 . 17274) (INT 16753 . 16756) (symbol 16744 . 16752) (EXTERN 16737 . 16743) (INT 16294 . 16297) (symbol 16285 . 16293) (EXTERN 16278 . 16284) (INT 15836 . 15839) (symbol 15827 . 15835) (EXTERN 15820 . 15826) (VOID 15422 . 15426) (symbol 15413 . 15421) (EXTERN 15406 . 15412) (INT 15156 . 15159) (symbol 15147 . 15155) (EXTERN 15140 . 15146) (INT 14075 . 14078) (symbol 14066 . 14074) (EXTERN 14059 . 14065) (INT 12876 . 12879) (symbol 12867 . 12875) (EXTERN 12860 . 12866) (INT 12148 . 12151) (symbol 12139 . 12147) (EXTERN 12132 . 12138) (INT 11272 . 11275) (symbol 11263 . 11271) (EXTERN 11256 . 11262) (INT 10343 . 10346) (symbol 10334 . 10342) (EXTERN 10327 . 10333) (punctuation 9133 . 9134) (symbol 9118 . 9132) (symbol 9109 . 9117) (EXTERN 9102 . 9108) (punctuation 8600 . 8601) (symbol 8585 . 8599) (symbol 8576 . 8584) (EXTERN 8569 . 8575) (VOID 7912 . 7916) (symbol 7903 . 7911) (EXTERN 7896 . 7902) (punctuation 7537 . 7538) (symbol 7517 . 7536) (symbol 7508 . 7516) (EXTERN 7501 . 7507) (symbol 6567 . 6573) (symbol 6558 . 6566) (EXTERN 6551 . 6557) (INT 5732 . 5735) (symbol 5723 . 5731) (EXTERN 5716 . 5722) (INT 5374 . 5377) (symbol 5365 . 5373) (EXTERN 5358 . 5364))
       :lexical-table 
         '(("SDL_hidapi_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fb954"
+    (semanticdb-table "semanticdb-table-15704e8f0040"
       :major-mode c-mode
       :tags 
         '( ("SDL_hints_h_" variable (:constant-flag t) nil [1581 1593])
@@ -6582,9 +6582,9 @@
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
                 :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [112122 112127]))                  
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [112529 112534]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [112099 112128])
+                (reparse-symbol extern-c-contents) [112506 112535])
             ("SDL_DelHintCallback" function
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
@@ -6593,14 +6593,14 @@
                        (:pointer 1
                         :constant-flag t
                         :type "char")
-                        (reparse-symbol arg-sub-list) [111468 111485])
-                    ("callback" variable (:type ("SDL_HintCallback" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [111535 111561])
+                        (reparse-symbol arg-sub-list) [111875 111892])
+                    ("callback" variable (:type ("SDL_HintCallback" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [111942 111968])
                     ("userdata" variable
                        (:pointer 1
                         :type "void")
-                        (reparse-symbol arg-sub-list) [111611 111626]))                  
+                        (reparse-symbol arg-sub-list) [112018 112033]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [111440 111627])
+                (reparse-symbol extern-c-contents) [111847 112034])
             ("SDL_AddHintCallback" function
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
@@ -6609,14 +6609,14 @@
                        (:pointer 1
                         :constant-flag t
                         :type "char")
-                        (reparse-symbol arg-sub-list) [110891 110908])
-                    ("callback" variable (:type ("SDL_HintCallback" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [110958 110984])
+                        (reparse-symbol arg-sub-list) [111298 111315])
+                    ("callback" variable (:type ("SDL_HintCallback" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [111365 111391])
                     ("userdata" variable
                        (:pointer 1
                         :type "void")
-                        (reparse-symbol arg-sub-list) [111034 111049]))                  
+                        (reparse-symbol arg-sub-list) [111441 111456]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [110863 111050])
+                (reparse-symbol extern-c-contents) [111270 111457])
             ("SDL_GetHintBoolean" function
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
@@ -6625,10 +6625,10 @@
                        (:pointer 1
                         :constant-flag t
                         :type "char")
-                        (reparse-symbol arg-sub-list) [110025 110042])
-                    ("default_value" variable (:type ("SDL_bool" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [110043 110066]))                  
+                        (reparse-symbol arg-sub-list) [110432 110449])
+                    ("default_value" variable (:type ("SDL_bool" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [110450 110473]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [109998 110067])
+                (reparse-symbol extern-c-contents) [110405 110474])
             ("SDL_GetHint" function
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
@@ -6637,16 +6637,16 @@
                        (:pointer 1
                         :constant-flag t
                         :type "char")
-                        (reparse-symbol arg-sub-list) [109552 109569]))                  
+                        (reparse-symbol arg-sub-list) [109959 109976]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [109532 109570])
+                (reparse-symbol extern-c-contents) [109939 109977])
             ("SDL_ResetHints" function
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
                 :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [109243 109248]))                  
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [109650 109655]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [109220 109249])
+                (reparse-symbol extern-c-contents) [109627 109656])
             ("SDL_ResetHint" function
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
@@ -6655,9 +6655,9 @@
                        (:pointer 1
                         :constant-flag t
                         :type "char")
-                        (reparse-symbol arg-sub-list) [108828 108845]))                  
+                        (reparse-symbol arg-sub-list) [109235 109252]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [108806 108846])
+                (reparse-symbol extern-c-contents) [109213 109253])
             ("SDL_SetHint" function
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
@@ -6666,14 +6666,14 @@
                        (:pointer 1
                         :constant-flag t
                         :type "char")
-                        (reparse-symbol arg-sub-list) [108288 108305])
+                        (reparse-symbol arg-sub-list) [108695 108712])
                     ("value" variable
                        (:pointer 1
                         :constant-flag t
                         :type "char")
-                        (reparse-symbol arg-sub-list) [108351 108369]))                  
+                        (reparse-symbol arg-sub-list) [108758 108776]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [108268 108370])
+                (reparse-symbol extern-c-contents) [108675 108777])
             ("SDL_SetHintWithPriority" function
                (:typemodifiers ("extern" "\"C\"")
                 :type ("SDLCALL" type (:type "class") nil nil)
@@ -6682,15 +6682,15 @@
                        (:pointer 1
                         :constant-flag t
                         :type "char")
-                        (reparse-symbol arg-sub-list) [107560 107577])
+                        (reparse-symbol arg-sub-list) [107967 107984])
                     ("value" variable
                        (:pointer 1
                         :constant-flag t
                         :type "char")
-                        (reparse-symbol arg-sub-list) [107635 107653])
-                    ("priority" variable (:type ("SDL_HintPriority" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [107711 107737]))                  
+                        (reparse-symbol arg-sub-list) [108042 108060])
+                    ("priority" variable (:type ("SDL_HintPriority" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [108118 108144]))                  
                 :prototype-flag t)
-                (reparse-symbol extern-c-contents) [107528 107738])
+                (reparse-symbol extern-c-contents) [107935 108145])
             ("SDL_HintPriority" type
                (:typemodifiers ("extern" "\"C\"")
                 :type "typedef"
@@ -6699,270 +6699,274 @@
                         ( ("SDL_HINT_DEFAULT" variable
                              (:constant-flag t
                               :type "int")
-                              (reparse-symbol enumsubparts) [106851 106868])
+                              (reparse-symbol enumsubparts) [107258 107275])
                           ("SDL_HINT_NORMAL" variable
                              (:constant-flag t
                               :type "int")
-                              (reparse-symbol enumsubparts) [106873 106889])
+                              (reparse-symbol enumsubparts) [107280 107296])
                           ("SDL_HINT_OVERRIDE" variable
                              (:constant-flag t
                               :type "int")
-                              (reparse-symbol enumsubparts) [106894 106913]))                        
+                              (reparse-symbol enumsubparts) [107301 107320]))                        
                       :type "enum")
                       nil nil))
-                (reparse-symbol extern-c-contents) [106832 106931])
+                (reparse-symbol extern-c-contents) [107239 107338])
             ("SDL_HINT_TRACKPAD_IS_TOUCH_ONLY" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [106715 106746])
+                (reparse-symbol extern-c-contents) [107122 107153])
             ("SDL_HINT_KMSDRM_DEVICE_INDEX" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [105850 105878])
+                (reparse-symbol extern-c-contents) [106257 106285])
             ("SDL_HINT_AUDIODRIVER" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [105382 105402])
+                (reparse-symbol extern-c-contents) [105789 105809])
             ("SDL_HINT_VIDEODRIVER" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [104315 104335])
+                (reparse-symbol extern-c-contents) [104722 104742])
             ("SDL_HINT_QUIT_ON_LAST_WINDOW_CLOSE" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [103226 103260])
+                (reparse-symbol extern-c-contents) [103633 103667])
             ("SDL_HINT_X11_WINDOW_TYPE" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [102170 102194])
+                (reparse-symbol extern-c-contents) [102577 102601])
             ("SDL_HINT_AUDIO_INCLUDE_MONITORS" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [101303 101334])
+                (reparse-symbol extern-c-contents) [101710 101741])
             ("SDL_HINT_XINPUT_USE_OLD_JOYSTICK_MAPPING" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [100494 100534])
+                (reparse-symbol extern-c-contents) [100901 100941])
             ("SDL_HINT_DIRECTINPUT_ENABLED" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [100166 100194])
+                (reparse-symbol extern-c-contents) [100573 100601])
             ("SDL_HINT_XINPUT_ENABLED" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [99815 99838])
+                (reparse-symbol extern-c-contents) [100222 100245])
             ("SDL_HINT_X11_FORCE_OVERRIDE_REDIRECT" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [99454 99490])
+                (reparse-symbol extern-c-contents) [99861 99897])
             ("SDL_HINT_WINRT_PRIVACY_POLICY_URL" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [98989 99022])
+                (reparse-symbol extern-c-contents) [99396 99429])
             ("SDL_HINT_WINRT_PRIVACY_POLICY_LABEL" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [97677 97712])
+                (reparse-symbol extern-c-contents) [98084 98119])
             ("SDL_HINT_WINRT_HANDLE_BACK_BUTTON" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [96684 96717])
+                (reparse-symbol extern-c-contents) [97091 97124])
             ("SDL_HINT_WINDOW_NO_ACTIVATION_WHEN_SHOWN" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [93683 93723])
+                (reparse-symbol extern-c-contents) [94090 94130])
             ("SDL_HINT_WINDOW_FRAME_USABLE_WHILE_CURSOR_HIDDEN" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [93145 93193])
+                (reparse-symbol extern-c-contents) [93552 93600])
             ("SDL_HINT_WINDOWS_DPI_SCALING" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [92628 92656])
+                (reparse-symbol extern-c-contents) [93035 93063])
             ("SDL_HINT_WINDOWS_DPI_AWARENESS" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [91414 91444])
+                (reparse-symbol extern-c-contents) [91821 91851])
             ("SDL_HINT_WINDOWS_USE_D3D9EX" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [89756 89783])
+                (reparse-symbol extern-c-contents) [90163 90190])
             ("SDL_HINT_WINDOWS_NO_CLOSE_ON_ALT_F4" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [88742 88777])
+                (reparse-symbol extern-c-contents) [89149 89184])
             ("SDL_HINT_WINDOWS_INTRESOURCE_ICON_SMALL" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [88371 88410])
+                (reparse-symbol extern-c-contents) [88778 88817])
             ("SDL_HINT_WINDOWS_INTRESOURCE_ICON" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [88292 88325])
+                (reparse-symbol extern-c-contents) [88699 88732])
             ("SDL_HINT_WINDOWS_FORCE_SEMAPHORE_KERNEL" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [88109 88148])
+                (reparse-symbol extern-c-contents) [88516 88555])
             ("SDL_HINT_WINDOWS_FORCE_MUTEX_CRITICAL_SECTIONS" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [87340 87386])
+                (reparse-symbol extern-c-contents) [87747 87793])
             ("SDL_HINT_WINDOWS_ENABLE_MESSAGELOOP" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [86683 86718])
+                (reparse-symbol extern-c-contents) [87090 87125])
             ("SDL_HINT_WINDOWS_ENABLE_MENU_MNEMONICS" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [86258 86296])
+                (reparse-symbol extern-c-contents) [86665 86703])
             ("SDL_HINT_WINDOWS_DISABLE_THREAD_NAMING" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [85152 85190])
+                (reparse-symbol extern-c-contents) [85559 85597])
             ("SDL_HINT_WAVE_TRUNCATION" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [84274 84298])
+                (reparse-symbol extern-c-contents) [84681 84705])
             ("SDL_HINT_WAVE_RIFF_CHUNK_SIZE" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [83559 83588])
+                (reparse-symbol extern-c-contents) [83966 83995])
             ("SDL_HINT_WAVE_FACT_CHUNK" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [82469 82493])
+                (reparse-symbol extern-c-contents) [82876 82900])
             ("SDL_HINT_VIDEO_X11_XVIDMODE" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [81119 81146])
+                (reparse-symbol extern-c-contents) [81526 81553])
             ("SDL_HINT_VIDEO_X11_XRANDR" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [80714 80739])
+                (reparse-symbol extern-c-contents) [81121 81146])
             ("SDL_HINT_VIDEO_X11_XINERAMA" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [80391 80418])
+                (reparse-symbol extern-c-contents) [80798 80825])
             ("SDL_HINT_VIDEO_X11_WINDOW_VISUALID" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [79972 80006])
+                (reparse-symbol extern-c-contents) [80379 80413])
             ("SDL_HINT_VIDEO_X11_NET_WM_PING" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [79816 79846])
+                (reparse-symbol extern-c-contents) [80223 80253])
             ("SDL_HINT_VIDEO_X11_NET_WM_BYPASS_COMPOSITOR" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [79210 79253])
+                (reparse-symbol extern-c-contents) [79617 79660])
             ("SDL_HINT_VIDEO_X11_FORCE_EGL" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [78842 78870])
+                (reparse-symbol extern-c-contents) [79249 79277])
             ("SDL_HINT_VIDEO_WIN_D3DCOMPILER" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [78528 78558])
+                (reparse-symbol extern-c-contents) [78935 78965])
             ("SDL_HINT_VIDEO_FOREIGN_WINDOW_VULKAN" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [77751 77787])
+                (reparse-symbol extern-c-contents) [78158 78194])
             ("SDL_HINT_VIDEO_FOREIGN_WINDOW_OPENGL" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [77325 77361])
+                (reparse-symbol extern-c-contents) [77732 77768])
             ("SDL_HINT_VIDEO_WINDOW_SHARE_PIXEL_FORMAT" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [76888 76928])
+                (reparse-symbol extern-c-contents) [77295 77335])
             ("SDL_HINT_VIDEO_WAYLAND_EMULATE_MOUSE_WARP" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [75990 76031])
+                (reparse-symbol extern-c-contents) [76397 76438])
             ("SDL_HINT_VIDEO_WAYLAND_MODE_EMULATION" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [75113 75150])
+                (reparse-symbol extern-c-contents) [75520 75557])
             ("SDL_HINT_VIDEO_WAYLAND_PREFER_LIBDECOR" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [74451 74489])
+                (reparse-symbol extern-c-contents) [74858 74896])
             ("SDL_HINT_VIDEO_WAYLAND_ALLOW_LIBDECOR" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [73762 73799])
+                (reparse-symbol extern-c-contents) [74169 74206])
             ("SDL_HINT_VIDEO_MINIMIZE_ON_FOCUS_LOSS" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [73337 73374])
+                (reparse-symbol extern-c-contents) [73744 73781])
             ("SDL_HINT_VIDEO_MAC_FULLSCREEN_SPACES" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [72983 73019])
+                (reparse-symbol extern-c-contents) [73390 73426])
             ("SDL_HINT_VIDEO_HIGHDPI_DISABLED" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [72239 72270])
+                (reparse-symbol extern-c-contents) [72646 72677])
             ("SDL_HINT_VIDEO_EXTERNAL_CONTEXT" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [72072 72103])
+                (reparse-symbol extern-c-contents) [72479 72510])
             ("SDL_HINT_VIDEO_EGL_ALLOW_TRANSPARENCY" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [71214 71251])
+                (reparse-symbol extern-c-contents) [71621 71658])
             ("SDL_HINT_VIDEO_DOUBLE_BUFFER" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [70746 70774])
+                (reparse-symbol extern-c-contents) [71153 71181])
             ("SDL_HINT_VIDEO_ALLOW_SCREENSAVER" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [69909 69941])
+                (reparse-symbol extern-c-contents) [70316 70348])
             ("SDL_HINT_TV_REMOTE_AS_JOYSTICK" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [69578 69608])
+                (reparse-symbol extern-c-contents) [69985 70015])
             ("SDL_HINT_VITA_TOUCH_MOUSE_DEVICE" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [69139 69171])
+                (reparse-symbol extern-c-contents) [69546 69578])
             ("SDL_HINT_TOUCH_MOUSE_EVENTS" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [68643 68670])
+                (reparse-symbol extern-c-contents) [69050 69077])
             ("SDL_HINT_TIMER_RESOLUTION" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [68239 68264])
+                (reparse-symbol extern-c-contents) [68646 68671])
             ("SDL_HINT_THREAD_STACK_SIZE" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [67588 67614])
+                (reparse-symbol extern-c-contents) [67995 68021])
             ("SDL_HINT_THREAD_PRIORITY_POLICY" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [66845 66876])
+                (reparse-symbol extern-c-contents) [67252 67283])
             ("SDL_HINT_THREAD_FORCE_REALTIME_TIME_CRITICAL" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [65936 65980])
+                (reparse-symbol extern-c-contents) [66343 66387])
             ("SDL_HINT_SCREENSAVER_INHIBIT_ACTIVITY_NAME" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [64912 64954])
+                (reparse-symbol extern-c-contents) [65319 65361])
             ("SDL_HINT_RPI_VIDEO_LAYER" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [64026 64050])
+                (reparse-symbol extern-c-contents) [64433 64457])
             ("SDL_HINT_RETURN_KEY_HIDES_IME" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [63781 63810])
+                (reparse-symbol extern-c-contents) [64188 64217])
             ("SDL_HINT_PS2_DYNAMIC_VSYNC" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
-                (reparse-symbol extern-c-contents) [63267 63293])
+                (reparse-symbol extern-c-contents) [63674 63700])
+            ("SDL_HINT_RENDER_METAL_PREFER_LOW_POWER_DEVICE" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [63166 63211])
             ("SDL_HINT_RENDER_VSYNC" variable
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
@@ -7411,12 +7415,12 @@
                (:typemodifiers ("extern" "\"C\"")
                 :constant-flag t)
                 (reparse-symbol extern-c-contents) [2094 2128])
-            ("close_code.h" include nil nil [112208 112231]))          
+            ("close_code.h" include nil nil [112615 112638]))          
       :file "SDL_hints.h"
-      :pointmax 112295
-      :fsize 112294
-      :lastmodtime '(25806 9685 0 0)
-      :unmatched-syntax '((VOID 112094 . 112098) (symbol 112085 . 112093) (EXTERN 112078 . 112084) (VOID 111435 . 111439) (symbol 111426 . 111434) (EXTERN 111419 . 111425) (VOID 110858 . 110862) (symbol 110849 . 110857) (EXTERN 110842 . 110848) (punctuation 110485 . 110486) (semantic-list 110407 . 110485) (semantic-list 110380 . 110407) (VOID 110375 . 110379) (TYPEDEF 110367 . 110374) (symbol 109989 . 109997) (symbol 109980 . 109988) (EXTERN 109973 . 109979) (punctuation 109530 . 109531) (CHAR 109525 . 109529) (CONST 109519 . 109524) (symbol 109510 . 109518) (EXTERN 109503 . 109509) (VOID 109215 . 109219) (symbol 109206 . 109214) (EXTERN 109199 . 109205) (symbol 108797 . 108805) (symbol 108788 . 108796) (EXTERN 108781 . 108787) (symbol 108259 . 108267) (symbol 108250 . 108258) (EXTERN 108243 . 108249) (symbol 107519 . 107527) (symbol 107510 . 107518) (EXTERN 107503 . 107509))
+      :pointmax 112702
+      :fsize 112701
+      :lastmodtime '(25843 33778 0 0)
+      :unmatched-syntax '((VOID 112501 . 112505) (symbol 112492 . 112500) (EXTERN 112485 . 112491) (VOID 111842 . 111846) (symbol 111833 . 111841) (EXTERN 111826 . 111832) (VOID 111265 . 111269) (symbol 111256 . 111264) (EXTERN 111249 . 111255) (punctuation 110892 . 110893) (semantic-list 110814 . 110892) (semantic-list 110787 . 110814) (VOID 110782 . 110786) (TYPEDEF 110774 . 110781) (symbol 110396 . 110404) (symbol 110387 . 110395) (EXTERN 110380 . 110386) (punctuation 109937 . 109938) (CHAR 109932 . 109936) (CONST 109926 . 109931) (symbol 109917 . 109925) (EXTERN 109910 . 109916) (VOID 109622 . 109626) (symbol 109613 . 109621) (EXTERN 109606 . 109612) (symbol 109204 . 109212) (symbol 109195 . 109203) (EXTERN 109188 . 109194) (symbol 108666 . 108674) (symbol 108657 . 108665) (EXTERN 108650 . 108656) (symbol 107926 . 107934) (symbol 107917 . 107925) (EXTERN 107910 . 107916))
       :lexical-table 
         '(("SDL_HINT_ALLOW_TOPMOST" . ((string "\"SDL_ALLOW_TOPMOST\"" 3205 . 3224)))
           ("SDL_HINT_APPLE_TV_CONTROLLER_UI_EVENTS" . ((string "\"SDL_APPLE_TV_CONTROLLER_UI_EVENTS\"" 7514 . 7549)))
@@ -7429,11 +7433,11 @@
           ("SDL_HINT_MOUSE_RELATIVE_MODE_WARP" . ((string "\"SDL_MOUSE_RELATIVE_MODE_WARP\"" 49698 . 49728)))
           ("SDL_HINT_OPENGL_ES_DRIVER" . ((string "\"SDL_OPENGL_ES_DRIVER\"" 54461 . 54483)))
           ("SDL_HINT_RENDER_OPENGL_SHADERS" . ((string "\"SDL_RENDER_OPENGL_SHADERS\"" 61971 . 61998)))
-          ("SDL_HINT_RPI_VIDEO_LAYER" . ((string "\"SDL_RPI_VIDEO_LAYER\"" 64061 . 64082)))
-          ("SDL_HINT_THREAD_STACK_SIZE" . ((string "\"SDL_THREAD_STACK_SIZE\"" 67628 . 67651)))
-          ("SDL_HINT_TOUCH_MOUSE_EVENTS" . ((string "\"SDL_TOUCH_MOUSE_EVENTS\"" 68674 . 68698)))
-          ("SDL_HINT_VIDEO_WAYLAND_EMULATE_MOUSE_WARP" . ((string "\"SDL_VIDEO_WAYLAND_EMULATE_MOUSE_WARP\"" 76032 . 76070)))
-          ("SDL_HINT_WINRT_HANDLE_BACK_BUTTON" . ((string "\"SDL_WINRT_HANDLE_BACK_BUTTON\"" 96718 . 96748)))
+          ("SDL_HINT_RPI_VIDEO_LAYER" . ((string "\"SDL_RPI_VIDEO_LAYER\"" 64468 . 64489)))
+          ("SDL_HINT_THREAD_STACK_SIZE" . ((string "\"SDL_THREAD_STACK_SIZE\"" 68035 . 68058)))
+          ("SDL_HINT_TOUCH_MOUSE_EVENTS" . ((string "\"SDL_TOUCH_MOUSE_EVENTS\"" 69081 . 69105)))
+          ("SDL_HINT_VIDEO_WAYLAND_EMULATE_MOUSE_WARP" . ((string "\"SDL_VIDEO_WAYLAND_EMULATE_MOUSE_WARP\"" 76439 . 76477)))
+          ("SDL_HINT_WINRT_HANDLE_BACK_BUTTON" . ((string "\"SDL_WINRT_HANDLE_BACK_BUTTON\"" 97125 . 97155)))
           ("SDL_HINT_AUDIO_CATEGORY" . ((string "\"SDL_AUDIO_CATEGORY\"" 8604 . 8624)))
           ("SDL_HINT_AUTO_UPDATE_JOYSTICKS" . ((string "\"SDL_AUTO_UPDATE_JOYSTICKS\"" 12913 . 12940)))
           ("SDL_HINT_BMP_SAVE_LEGACY_FORMAT" . ((string "\"SDL_BMP_SAVE_LEGACY_FORMAT\"" 14269 . 14297)))
@@ -7447,10 +7451,10 @@
           ("SDL_HINT_QTWAYLAND_CONTENT_ORIENTATION" . ((string "\"SDL_QTWAYLAND_CONTENT_ORIENTATION\"" 57034 . 57069)))
           ("SDL_HINT_RENDER_DIRECT3D_THREADSAFE" . ((string "\"SDL_RENDER_DIRECT3D_THREADSAFE\"" 60430 . 60462)))
           ("SDL_HINT_RENDER_LOGICAL_SIZE_MODE" . ((string "\"SDL_RENDER_LOGICAL_SIZE_MODE\"" 61599 . 61629)))
-          ("SDL_HINT_VIDEO_HIGHDPI_DISABLED" . ((string "\"SDL_VIDEO_HIGHDPI_DISABLED\"" 72271 . 72299)))
-          ("SDL_HINT_VIDEO_X11_WINDOW_VISUALID" . ((string "\"SDL_VIDEO_X11_WINDOW_VISUALID\"" 80012 . 80043)))
-          ("SDL_HINT_WINDOWS_USE_D3D9EX" . ((string "\"SDL_WINDOWS_USE_D3D9EX\"" 89784 . 89808)))
-          ("SDL_HINT_XINPUT_USE_OLD_JOYSTICK_MAPPING" . ((string "\"SDL_XINPUT_USE_OLD_JOYSTICK_MAPPING\"" 100535 . 100572)))
+          ("SDL_HINT_VIDEO_HIGHDPI_DISABLED" . ((string "\"SDL_VIDEO_HIGHDPI_DISABLED\"" 72678 . 72706)))
+          ("SDL_HINT_VIDEO_X11_WINDOW_VISUALID" . ((string "\"SDL_VIDEO_X11_WINDOW_VISUALID\"" 80419 . 80450)))
+          ("SDL_HINT_WINDOWS_USE_D3D9EX" . ((string "\"SDL_WINDOWS_USE_D3D9EX\"" 90191 . 90215)))
+          ("SDL_HINT_XINPUT_USE_OLD_JOYSTICK_MAPPING" . ((string "\"SDL_XINPUT_USE_OLD_JOYSTICK_MAPPING\"" 100942 . 100979)))
           ("SDL_HINT_APP_NAME" . ((string "\"SDL_APP_NAME\"" 6761 . 6775)))
           ("SDL_HINT_AUDIO_DEVICE_APP_NAME" . ((string "\"SDL_AUDIO_DEVICE_APP_NAME\"" 9582 . 9609)))
           ("SDL_HINT_AUDIO_RESAMPLING_MODE" . ((string "\"SDL_AUDIO_RESAMPLING_MODE\"" 12492 . 12519)))
@@ -7459,27 +7463,27 @@
           ("SDL_HINT_JOYSTICK_HIDAPI_PS4" . ((string "\"SDL_JOYSTICK_HIDAPI_PS4\"" 32037 . 32062)))
           ("SDL_HINT_JOYSTICK_HIDAPI_PS5_RUMBLE" . ((string "\"SDL_JOYSTICK_HIDAPI_PS5_RUMBLE\"" 34536 . 34568)))
           ("SDL_HINT_JOYSTICK_RAWINPUT_CORRELATE_XINPUT" . ((string "\"SDL_JOYSTICK_RAWINPUT_CORRELATE_XINPUT\"" 41742 . 41782)))
-          ("SDL_HINT_SCREENSAVER_INHIBIT_ACTIVITY_NAME" . ((string "\"SDL_SCREENSAVER_INHIBIT_ACTIVITY_NAME\"" 64955 . 64994)))
-          ("SDL_HINT_THREAD_FORCE_REALTIME_TIME_CRITICAL" . ((string "\"SDL_THREAD_FORCE_REALTIME_TIME_CRITICAL\"" 65981 . 66022)))
-          ("SDL_HINT_WINDOW_NO_ACTIVATION_WHEN_SHOWN" . ((string "\"SDL_WINDOW_NO_ACTIVATION_WHEN_SHOWN\"" 93727 . 93764)))
+          ("SDL_HINT_SCREENSAVER_INHIBIT_ACTIVITY_NAME" . ((string "\"SDL_SCREENSAVER_INHIBIT_ACTIVITY_NAME\"" 65362 . 65401)))
+          ("SDL_HINT_THREAD_FORCE_REALTIME_TIME_CRITICAL" . ((string "\"SDL_THREAD_FORCE_REALTIME_TIME_CRITICAL\"" 66388 . 66429)))
+          ("SDL_HINT_WINDOW_NO_ACTIVATION_WHEN_SHOWN" . ((string "\"SDL_WINDOW_NO_ACTIVATION_WHEN_SHOWN\"" 94134 . 94171)))
           ("SDL_HINT_GAMECONTROLLERCONFIG_FILE" . ((string "\"SDL_GAMECONTROLLERCONFIG_FILE\"" 20233 . 20264)))
           ("SDL_HINT_JOYSTICK_HIDAPI_PS5" . ((string "\"SDL_JOYSTICK_HIDAPI_PS5\"" 33322 . 33347)))
           ("SDL_HINT_JOYSTICK_HIDAPI_XBOX_360" . ((string "\"SDL_JOYSTICK_HIDAPI_XBOX_360\"" 38936 . 38966)))
           ("SDL_HINT_JOYSTICK_HIDAPI_XBOX_360_PLAYER_LED" . ((string "\"SDL_JOYSTICK_HIDAPI_XBOX_360_PLAYER_LED\"" 39329 . 39370)))
           ("SDL_HINT_JOYSTICK_HIDAPI_XBOX_360_WIRELESS" . ((string "\"SDL_JOYSTICK_HIDAPI_XBOX_360_WIRELESS\"" 39754 . 39793)))
           ("SDL_HINT_POLL_SENTINEL" . ((string "\"SDL_POLL_SENTINEL\"" 55498 . 55517)))
-          ("SDL_HINT_WINDOWS_INTRESOURCE_ICON" . ((string "\"SDL_WINDOWS_INTRESOURCE_ICON\"" 88332 . 88362)))
-          ("SDL_HINT_WINRT_PRIVACY_POLICY_URL" . ((string "\"SDL_WINRT_PRIVACY_POLICY_URL\"" 99023 . 99053)))
-          ("SDL_HINT_XINPUT_ENABLED" . ((string "\"SDL_XINPUT_ENABLED\"" 99839 . 99859)))
-          ("SDL_HINT_AUDIODRIVER" . ((string "\"SDL_AUDIODRIVER\"" 105403 . 105420)))
+          ("SDL_HINT_WINDOWS_INTRESOURCE_ICON" . ((string "\"SDL_WINDOWS_INTRESOURCE_ICON\"" 88739 . 88769)))
+          ("SDL_HINT_WINRT_PRIVACY_POLICY_URL" . ((string "\"SDL_WINRT_PRIVACY_POLICY_URL\"" 99430 . 99460)))
+          ("SDL_HINT_XINPUT_ENABLED" . ((string "\"SDL_XINPUT_ENABLED\"" 100246 . 100266)))
+          ("SDL_HINT_AUDIODRIVER" . ((string "\"SDL_AUDIODRIVER\"" 105810 . 105827)))
           ("SDL_HINT_ANDROID_BLOCK_ON_PAUSE_PAUSEAUDIO" . ((string "\"SDL_ANDROID_BLOCK_ON_PAUSE_PAUSEAUDIO\"" 5035 . 5074)))
           ("SDL_HINT_JOYSTICK_HIDAPI_WII" . ((string "\"SDL_JOYSTICK_HIDAPI_WII\"" 37760 . 37785)))
           ("SDL_HINT_JOYSTICK_WGI" . ((string "\"SDL_JOYSTICK_WGI\"" 42853 . 42871)))
           ("SDL_HINT_LINUX_JOYSTICK_DEADZONES" . ((string "\"SDL_LINUX_JOYSTICK_DEADZONES\"" 46122 . 46152)))
           ("SDL_HINT_RENDER_DRIVER" . ((string "\"SDL_RENDER_DRIVER\"" 61137 . 61156)))
-          ("SDL_HINT_VIDEO_MINIMIZE_ON_FOCUS_LOSS" . ((string "\"SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS\"" 73377 . 73411)))
-          ("SDL_HINT_WINDOWS_ENABLE_MESSAGELOOP" . ((string "\"SDL_WINDOWS_ENABLE_MESSAGELOOP\"" 86719 . 86751)))
-          ("SDL_HINT_WINDOWS_NO_CLOSE_ON_ALT_F4" . ((string "\"SDL_WINDOWS_NO_CLOSE_ON_ALT_F4\"" 88778 . 88810)))
+          ("SDL_HINT_VIDEO_MINIMIZE_ON_FOCUS_LOSS" . ((string "\"SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS\"" 73784 . 73818)))
+          ("SDL_HINT_WINDOWS_ENABLE_MESSAGELOOP" . ((string "\"SDL_WINDOWS_ENABLE_MESSAGELOOP\"" 87126 . 87158)))
+          ("SDL_HINT_WINDOWS_NO_CLOSE_ON_ALT_F4" . ((string "\"SDL_WINDOWS_NO_CLOSE_ON_ALT_F4\"" 89185 . 89217)))
           ("SDL_HINT_ANDROID_BLOCK_ON_PAUSE" . ((string "\"SDL_ANDROID_BLOCK_ON_PAUSE\"" 4629 . 4657)))
           ("SDL_HINT_GAMECONTROLLER_IGNORE_DEVICES_EXCEPT" . ((string "\"SDL_GAMECONTROLLER_IGNORE_DEVICES_EXCEPT\"" 21774 . 21816)))
           ("SDL_HINT_JOYSTICK_HIDAPI_GAMECUBE" . ((string "\"SDL_JOYSTICK_HIDAPI_GAMECUBE\"" 27480 . 27510)))
@@ -7488,8 +7492,8 @@
           ("SDL_HINT_JOYSTICK_RAWINPUT" . ((string "\"SDL_JOYSTICK_RAWINPUT\"" 41121 . 41144)))
           ("SDL_HINT_MOUSE_DOUBLE_CLICK_RADIUS" . ((string "\"SDL_MOUSE_DOUBLE_CLICK_RADIUS\"" 47720 . 47751)))
           ("SDL_HINT_MOUSE_DOUBLE_CLICK_TIME" . ((string "\"SDL_MOUSE_DOUBLE_CLICK_TIME\"" 47876 . 47905)))
-          ("SDL_HINT_VIDEO_DOUBLE_BUFFER" . ((string "\"SDL_VIDEO_DOUBLE_BUFFER\"" 70780 . 70805)))
-          ("SDL_HINT_VIDEODRIVER" . ((string "\"SDL_VIDEODRIVER\"" 104336 . 104353)))
+          ("SDL_HINT_VIDEO_DOUBLE_BUFFER" . ((string "\"SDL_VIDEO_DOUBLE_BUFFER\"" 71187 . 71212)))
+          ("SDL_HINT_VIDEODRIVER" . ((string "\"SDL_VIDEODRIVER\"" 104743 . 104760)))
           ("SDL_HINT_ANDROID_TRAP_BACK_BUTTON" . ((string "\"SDL_ANDROID_TRAP_BACK_BUTTON\"" 5974 . 6004)))
           ("SDL_HINT_DISPLAY_USABLE_BOUNDS" . ((string "\"SDL_DISPLAY_USABLE_BOUNDS\"" 14849 . 14876)))
           ("SDL_HINT_EMSCRIPTEN_ASYNCIFY" . ((string "\"SDL_EMSCRIPTEN_ASYNCIFY\"" 15447 . 15472)))
@@ -7497,12 +7501,13 @@
           ("SDL_HINT_JOYSTICK_HIDAPI_JOY_CONS" . ((string "\"SDL_JOYSTICK_HIDAPI_JOY_CONS\"" 28748 . 28778)))
           ("SDL_HINT_LINUX_DIGITAL_HATS" . ((string "\"SDL_LINUX_DIGITAL_HATS\"" 44807 . 44831)))
           ("SDL_HINT_MOUSE_RELATIVE_WARP_MOTION" . ((string "\"SDL_MOUSE_RELATIVE_WARP_MOTION\"" 51508 . 51540)))
-          ("SDL_HINT_TV_REMOTE_AS_JOYSTICK" . ((string "\"SDL_TV_REMOTE_AS_JOYSTICK\"" 69609 . 69636)))
-          ("SDL_HINT_VIDEO_ALLOW_SCREENSAVER" . ((string "\"SDL_VIDEO_ALLOW_SCREENSAVER\"" 69945 . 69974)))
-          ("SDL_HINT_VIDEO_MAC_FULLSCREEN_SPACES" . ((string "\"SDL_VIDEO_MAC_FULLSCREEN_SPACES\"" 73023 . 73056)))
-          ("SDL_HINT_VIDEO_WINDOW_SHARE_PIXEL_FORMAT" . ((string "\"SDL_VIDEO_WINDOW_SHARE_PIXEL_FORMAT\"" 76932 . 76969)))
-          ("SDL_HINT_VIDEO_X11_XINERAMA" . ((string "\"SDL_VIDEO_X11_XINERAMA\"" 80427 . 80451)))
-          ("SDL_HINT_VIDEO_X11_XRANDR" . ((string "\"SDL_VIDEO_X11_XRANDR\"" 80750 . 80772)))
+          ("SDL_HINT_RENDER_METAL_PREFER_LOW_POWER_DEVICE" . ((string "\"SDL_RENDER_METAL_PREFER_LOW_POWER_DEVICE\"" 63212 . 63254)))
+          ("SDL_HINT_TV_REMOTE_AS_JOYSTICK" . ((string "\"SDL_TV_REMOTE_AS_JOYSTICK\"" 70016 . 70043)))
+          ("SDL_HINT_VIDEO_ALLOW_SCREENSAVER" . ((string "\"SDL_VIDEO_ALLOW_SCREENSAVER\"" 70352 . 70381)))
+          ("SDL_HINT_VIDEO_MAC_FULLSCREEN_SPACES" . ((string "\"SDL_VIDEO_MAC_FULLSCREEN_SPACES\"" 73430 . 73463)))
+          ("SDL_HINT_VIDEO_WINDOW_SHARE_PIXEL_FORMAT" . ((string "\"SDL_VIDEO_WINDOW_SHARE_PIXEL_FORMAT\"" 77339 . 77376)))
+          ("SDL_HINT_VIDEO_X11_XINERAMA" . ((string "\"SDL_VIDEO_X11_XINERAMA\"" 80834 . 80858)))
+          ("SDL_HINT_VIDEO_X11_XRANDR" . ((string "\"SDL_VIDEO_X11_XRANDR\"" 81157 . 81179)))
           ("SDL_HINT_FRAMEBUFFER_ACCELERATION" . ((string "\"SDL_FRAMEBUFFER_ACCELERATION\"" 19274 . 19304)))
           ("SDL_HINT_GAMECONTROLLERCONFIG" . ((string "\"SDL_GAMECONTROLLERCONFIG\"" 19758 . 19784)))
           ("SDL_HINT_GAMECONTROLLER_USE_BUTTON_LABELS" . ((string "\"SDL_GAMECONTROLLER_USE_BUTTON_LABELS\"" 22502 . 22540)))
@@ -7510,21 +7515,21 @@
           ("SDL_HINT_JOYSTICK_HIDAPI_XBOX" . ((string "\"SDL_JOYSTICK_HIDAPI_XBOX\"" 38548 . 38574)))
           ("SDL_HINT_MAC_CTRL_CLICK_EMULATE_RIGHT_CLICK" . ((string "\"SDL_MAC_CTRL_CLICK_EMULATE_RIGHT_CLICK\"" 46607 . 46647)))
           ("SDL_HINT_RENDER_DIRECT3D11_DEBUG" . ((string "\"SDL_RENDER_DIRECT3D11_DEBUG\"" 60007 . 60036)))
-          ("SDL_HINT_THREAD_PRIORITY_POLICY" . ((string "\"SDL_THREAD_PRIORITY_POLICY\"" 66885 . 66913)))
-          ("SDL_HINT_VIDEO_EGL_ALLOW_TRANSPARENCY" . ((string "\"SDL_VIDEO_EGL_ALLOW_TRANSPARENCY\"" 71252 . 71286)))
-          ("SDL_HINT_VIDEO_EXTERNAL_CONTEXT" . ((string "\"SDL_VIDEO_EXTERNAL_CONTEXT\"" 72107 . 72135)))
-          ("SDL_HINT_VIDEO_WAYLAND_PREFER_LIBDECOR" . ((string "\"SDL_VIDEO_WAYLAND_PREFER_LIBDECOR\"" 74490 . 74525)))
-          ("SDL_HINT_WAVE_RIFF_CHUNK_SIZE" . ((string "\"SDL_WAVE_RIFF_CHUNK_SIZE\"" 83591 . 83617)))
-          ("SDL_HINT_WINDOWS_DISABLE_THREAD_NAMING" . ((string "\"SDL_WINDOWS_DISABLE_THREAD_NAMING\"" 85191 . 85226)))
-          ("SDL_HINT_AUDIO_INCLUDE_MONITORS" . ((string "\"SDL_AUDIO_INCLUDE_MONITORS\"" 101335 . 101363)))
-          ("SDL_HINT_KMSDRM_DEVICE_INDEX" . ((string "\"SDL_KMSDRM_DEVICE_INDEX\"" 105879 . 105904)))
+          ("SDL_HINT_THREAD_PRIORITY_POLICY" . ((string "\"SDL_THREAD_PRIORITY_POLICY\"" 67292 . 67320)))
+          ("SDL_HINT_VIDEO_EGL_ALLOW_TRANSPARENCY" . ((string "\"SDL_VIDEO_EGL_ALLOW_TRANSPARENCY\"" 71659 . 71693)))
+          ("SDL_HINT_VIDEO_EXTERNAL_CONTEXT" . ((string "\"SDL_VIDEO_EXTERNAL_CONTEXT\"" 72514 . 72542)))
+          ("SDL_HINT_VIDEO_WAYLAND_PREFER_LIBDECOR" . ((string "\"SDL_VIDEO_WAYLAND_PREFER_LIBDECOR\"" 74897 . 74932)))
+          ("SDL_HINT_WAVE_RIFF_CHUNK_SIZE" . ((string "\"SDL_WAVE_RIFF_CHUNK_SIZE\"" 83998 . 84024)))
+          ("SDL_HINT_WINDOWS_DISABLE_THREAD_NAMING" . ((string "\"SDL_WINDOWS_DISABLE_THREAD_NAMING\"" 85598 . 85633)))
+          ("SDL_HINT_AUDIO_INCLUDE_MONITORS" . ((string "\"SDL_AUDIO_INCLUDE_MONITORS\"" 101742 . 101770)))
+          ("SDL_HINT_KMSDRM_DEVICE_INDEX" . ((string "\"SDL_KMSDRM_DEVICE_INDEX\"" 106286 . 106311)))
           ("SDL_HINT_ACCELEROMETER_AS_JOYSTICK" . ((string "\"SDL_ACCELEROMETER_AS_JOYSTICK\"" 2129 . 2160)))
           ("SDL_HINT_JOYSTICK_GAMECUBE_RUMBLE_BRAKE" . ((string "\"SDL_JOYSTICK_GAMECUBE_RUMBLE_BRAKE\"" 28345 . 28381)))
           ("SDL_HINT_JOYSTICK_THREAD" . ((string "\"SDL_JOYSTICK_THREAD\"" 42547 . 42568)))
           ("SDL_HINT_ORIENTATIONS" . ((string "\"SDL_IOS_ORIENTATIONS\"" 54867 . 54889)))
           ("SDL_HINT_QTWAYLAND_WINDOW_FLAGS" . ((string "\"SDL_QTWAYLAND_WINDOW_FLAGS\"" 57536 . 57564)))
-          ("SDL_HINT_DIRECTINPUT_ENABLED" . ((string "\"SDL_DIRECTINPUT_ENABLED\"" 100195 . 100220)))
-          ("SDL_HINT_X11_WINDOW_TYPE" . ((string "\"SDL_X11_WINDOW_TYPE\"" 102195 . 102216)))
+          ("SDL_HINT_DIRECTINPUT_ENABLED" . ((string "\"SDL_DIRECTINPUT_ENABLED\"" 100602 . 100627)))
+          ("SDL_HINT_X11_WINDOW_TYPE" . ((string "\"SDL_X11_WINDOW_TYPE\"" 102602 . 102623)))
           ("SDL_hints_h_")
           ("SDL_HINT_AUDIO_DEVICE_STREAM_NAME" . ((string "\"SDL_AUDIO_DEVICE_STREAM_NAME\"" 10580 . 10610)))
           ("SDL_HINT_EVENT_LOGGING" . ((string "\"SDL_EVENT_LOGGING\"" 17973 . 17992)))
@@ -7537,15 +7542,15 @@
           ("SDL_HINT_MOUSE_AUTO_CAPTURE" . ((string "\"SDL_MOUSE_AUTO_CAPTURE\"" 52531 . 52555)))
           ("SDL_HINT_RENDER_LINE_METHOD" . ((string "\"SDL_RENDER_LINE_METHOD\"" 59570 . 59594)))
           ("SDL_HINT_RENDER_VSYNC" . ((string "\"SDL_RENDER_VSYNC\"" 62829 . 62847)))
-          ("SDL_HINT_TIMER_RESOLUTION" . ((string "\"SDL_TIMER_RESOLUTION\"" 68265 . 68287)))
-          ("SDL_HINT_VIDEO_FOREIGN_WINDOW_OPENGL" . ((string "\"SDL_VIDEO_FOREIGN_WINDOW_OPENGL\"" 77362 . 77395)))
-          ("SDL_HINT_VIDEO_FOREIGN_WINDOW_VULKAN" . ((string "\"SDL_VIDEO_FOREIGN_WINDOW_VULKAN\"" 77788 . 77821)))
-          ("SDL_HINT_VIDEO_X11_NET_WM_BYPASS_COMPOSITOR" . ((string "\"SDL_VIDEO_X11_NET_WM_BYPASS_COMPOSITOR\"" 79254 . 79294)))
-          ("SDL_HINT_WINDOWS_FORCE_SEMAPHORE_KERNEL" . ((string "\"SDL_WINDOWS_FORCE_SEMAPHORE_KERNEL\"" 88149 . 88185)))
-          ("SDL_HINT_WINDOWS_INTRESOURCE_ICON_SMALL" . ((string "\"SDL_WINDOWS_INTRESOURCE_ICON_SMALL\"" 88411 . 88447)))
-          ("SDL_HINT_WINDOWS_DPI_AWARENESS" . ((string "\"SDL_WINDOWS_DPI_AWARENESS\"" 91445 . 91472)))
-          ("SDL_HINT_X11_FORCE_OVERRIDE_REDIRECT" . ((string "\"SDL_X11_FORCE_OVERRIDE_REDIRECT\"" 99491 . 99524)))
-          ("SDL_HINT_TRACKPAD_IS_TOUCH_ONLY" . ((string "\"SDL_TRACKPAD_IS_TOUCH_ONLY\"" 106747 . 106775)))
+          ("SDL_HINT_TIMER_RESOLUTION" . ((string "\"SDL_TIMER_RESOLUTION\"" 68672 . 68694)))
+          ("SDL_HINT_VIDEO_FOREIGN_WINDOW_OPENGL" . ((string "\"SDL_VIDEO_FOREIGN_WINDOW_OPENGL\"" 77769 . 77802)))
+          ("SDL_HINT_VIDEO_FOREIGN_WINDOW_VULKAN" . ((string "\"SDL_VIDEO_FOREIGN_WINDOW_VULKAN\"" 78195 . 78228)))
+          ("SDL_HINT_VIDEO_X11_NET_WM_BYPASS_COMPOSITOR" . ((string "\"SDL_VIDEO_X11_NET_WM_BYPASS_COMPOSITOR\"" 79661 . 79701)))
+          ("SDL_HINT_WINDOWS_FORCE_SEMAPHORE_KERNEL" . ((string "\"SDL_WINDOWS_FORCE_SEMAPHORE_KERNEL\"" 88556 . 88592)))
+          ("SDL_HINT_WINDOWS_INTRESOURCE_ICON_SMALL" . ((string "\"SDL_WINDOWS_INTRESOURCE_ICON_SMALL\"" 88818 . 88854)))
+          ("SDL_HINT_WINDOWS_DPI_AWARENESS" . ((string "\"SDL_WINDOWS_DPI_AWARENESS\"" 91852 . 91879)))
+          ("SDL_HINT_X11_FORCE_OVERRIDE_REDIRECT" . ((string "\"SDL_X11_FORCE_OVERRIDE_REDIRECT\"" 99898 . 99931)))
+          ("SDL_HINT_TRACKPAD_IS_TOUCH_ONLY" . ((string "\"SDL_TRACKPAD_IS_TOUCH_ONLY\"" 107154 . 107182)))
           ("SDL_HINT_GRAB_KEYBOARD" . ((string "\"SDL_GRAB_KEYBOARD\"" 22913 . 22932)))
           ("SDL_HINT_JOYSTICK_HIDAPI_LUNA" . ((string "\"SDL_JOYSTICK_HIDAPI_LUNA\"" 30249 . 30275)))
           ("SDL_HINT_JOYSTICK_HIDAPI_STEAM" . ((string "\"SDL_JOYSTICK_HIDAPI_STEAM\"" 35411 . 35438)))
@@ -7553,13 +7558,13 @@
           ("SDL_HINT_KMSDRM_REQUIRE_DRM_MASTER" . ((string "\"SDL_KMSDRM_REQUIRE_DRM_MASTER\"" 44046 . 44077)))
           ("SDL_HINT_MAC_OPENGL_ASYNC_DISPATCH" . ((string "\"SDL_MAC_OPENGL_ASYNC_DISPATCH\"" 47566 . 47597)))
           ("SDL_HINT_MOUSE_FOCUS_CLICKTHROUGH" . ((string "\"SDL_MOUSE_FOCUS_CLICKTHROUGH\"" 48292 . 48322)))
-          ("SDL_HINT_VIDEO_WAYLAND_MODE_EMULATION" . ((string "\"SDL_VIDEO_WAYLAND_MODE_EMULATION\"" 75151 . 75185)))
-          ("SDL_HINT_VIDEO_X11_NET_WM_PING" . ((string "\"SDL_VIDEO_X11_NET_WM_PING\"" 79852 . 79879)))
-          ("SDL_HINT_VIDEO_X11_XVIDMODE" . ((string "\"SDL_VIDEO_X11_XVIDMODE\"" 81155 . 81179)))
-          ("SDL_HINT_WAVE_FACT_CHUNK" . ((string "\"SDL_WAVE_FACT_CHUNK\"" 82496 . 82517)))
-          ("SDL_HINT_WINDOWS_FORCE_MUTEX_CRITICAL_SECTIONS" . ((string "\"SDL_WINDOWS_FORCE_MUTEX_CRITICAL_SECTIONS\"" 87387 . 87430)))
-          ("SDL_HINT_WINDOWS_DPI_SCALING" . ((string "\"SDL_WINDOWS_DPI_SCALING\"" 92657 . 92682)))
-          ("SDL_HINT_QUIT_ON_LAST_WINDOW_CLOSE" . ((string "\"SDL_QUIT_ON_LAST_WINDOW_CLOSE\"" 103261 . 103292)))
+          ("SDL_HINT_VIDEO_WAYLAND_MODE_EMULATION" . ((string "\"SDL_VIDEO_WAYLAND_MODE_EMULATION\"" 75558 . 75592)))
+          ("SDL_HINT_VIDEO_X11_NET_WM_PING" . ((string "\"SDL_VIDEO_X11_NET_WM_PING\"" 80259 . 80286)))
+          ("SDL_HINT_VIDEO_X11_XVIDMODE" . ((string "\"SDL_VIDEO_X11_XVIDMODE\"" 81562 . 81586)))
+          ("SDL_HINT_WAVE_FACT_CHUNK" . ((string "\"SDL_WAVE_FACT_CHUNK\"" 82903 . 82924)))
+          ("SDL_HINT_WINDOWS_FORCE_MUTEX_CRITICAL_SECTIONS" . ((string "\"SDL_WINDOWS_FORCE_MUTEX_CRITICAL_SECTIONS\"" 87794 . 87837)))
+          ("SDL_HINT_WINDOWS_DPI_SCALING" . ((string "\"SDL_WINDOWS_DPI_SCALING\"" 93064 . 93089)))
+          ("SDL_HINT_QUIT_ON_LAST_WINDOW_CLOSE" . ((string "\"SDL_QUIT_ON_LAST_WINDOW_CLOSE\"" 103668 . 103699)))
           ("SDL_HINT_ANDROID_APK_EXPANSION_MAIN_FILE_VERSION" . ((string "\"SDL_ANDROID_APK_EXPANSION_MAIN_FILE_VERSION\"" 3717 . 3762)))
           ("SDL_HINT_ANDROID_APK_EXPANSION_PATCH_FILE_VERSION" . ((string "\"SDL_ANDROID_APK_EXPANSION_PATCH_FILE_VERSION\"" 4256 . 4302)))
           ("SDL_HINT_APPLE_TV_REMOTE_ALLOW_ROTATION" . ((string "\"SDL_APPLE_TV_REMOTE_ALLOW_ROTATION\"" 7964 . 8000)))
@@ -7573,9 +7578,9 @@
           ("SDL_HINT_PREFERRED_LOCALES" . ((string "\"SDL_PREFERRED_LOCALES\"" 56107 . 56130)))
           ("SDL_HINT_RENDER_BATCHING" . ((string "\"SDL_RENDER_BATCHING\"" 58885 . 58906)))
           ("SDL_HINT_RENDER_SCALE_QUALITY" . ((string "\"SDL_RENDER_SCALE_QUALITY\"" 62402 . 62428)))
-          ("SDL_HINT_VIDEO_WAYLAND_ALLOW_LIBDECOR" . ((string "\"SDL_VIDEO_WAYLAND_ALLOW_LIBDECOR\"" 73800 . 73834)))
-          ("SDL_HINT_WINDOWS_ENABLE_MENU_MNEMONICS" . ((string "\"SDL_WINDOWS_ENABLE_MENU_MNEMONICS\"" 86297 . 86332)))
-          ("SDL_HINT_WINDOW_FRAME_USABLE_WHILE_CURSOR_HIDDEN" . ((string "\"SDL_WINDOW_FRAME_USABLE_WHILE_CURSOR_HIDDEN\"" 93197 . 93242)))
+          ("SDL_HINT_VIDEO_WAYLAND_ALLOW_LIBDECOR" . ((string "\"SDL_VIDEO_WAYLAND_ALLOW_LIBDECOR\"" 74207 . 74241)))
+          ("SDL_HINT_WINDOWS_ENABLE_MENU_MNEMONICS" . ((string "\"SDL_WINDOWS_ENABLE_MENU_MNEMONICS\"" 86704 . 86739)))
+          ("SDL_HINT_WINDOW_FRAME_USABLE_WHILE_CURSOR_HIDDEN" . ((string "\"SDL_WINDOW_FRAME_USABLE_WHILE_CURSOR_HIDDEN\"" 93604 . 93649)))
           ("SDL_HINT_ALLOW_ALT_TAB_WHILE_GRABBED" . ((string "\"SDL_ALLOW_ALT_TAB_WHILE_GRABBED\"" 2787 . 2820)))
           ("SDL_HINT_ENABLE_SCREEN_KEYBOARD" . ((string "\"SDL_ENABLE_SCREEN_KEYBOARD\"" 16467 . 16495)))
           ("SDL_HINT_GAMECONTROLLERTYPE" . ((string "\"SDL_GAMECONTROLLERTYPE\"" 20780 . 20804)))
@@ -7587,16 +7592,16 @@
           ("SDL_HINT_JOYSTICK_DEVICE" . ((string "\"SDL_JOYSTICK_DEVICE\"" 44265 . 44286)))
           ("SDL_HINT_MOUSE_RELATIVE_SYSTEM_SCALE" . ((string "\"SDL_MOUSE_RELATIVE_SYSTEM_SCALE\"" 50908 . 50941)))
           ("SDL_HINT_NO_SIGNAL_HANDLERS" . ((string "\"SDL_NO_SIGNAL_HANDLERS\"" 53033 . 53057)))
-          ("SDL_HINT_PS2_DYNAMIC_VSYNC" . ((string "\"SDL_PS2_DYNAMIC_VSYNC\"" 63297 . 63320)))
-          ("SDL_HINT_RETURN_KEY_HIDES_IME" . ((string "\"SDL_RETURN_KEY_HIDES_IME\"" 63811 . 63837)))
-          ("SDL_HINT_VITA_TOUCH_MOUSE_DEVICE" . ((string "\"SDL_HINT_VITA_TOUCH_MOUSE_DEVICE\"" 69175 . 69209)))
-          ("SDL_HINT_VIDEO_WIN_D3DCOMPILER" . ((string "\"SDL_VIDEO_WIN_D3DCOMPILER\"" 78572 . 78599)))
-          ("SDL_HINT_VIDEO_X11_FORCE_EGL" . ((string "\"SDL_VIDEO_X11_FORCE_EGL\"" 78871 . 78896)))
-          ("SDL_HINT_WAVE_TRUNCATION" . ((string "\"SDL_WAVE_TRUNCATION\"" 84301 . 84322)))
-          ("SDL_HINT_WINRT_PRIVACY_POLICY_LABEL" . ((string "\"SDL_WINRT_PRIVACY_POLICY_LABEL\"" 97713 . 97745)))
+          ("SDL_HINT_PS2_DYNAMIC_VSYNC" . ((string "\"SDL_PS2_DYNAMIC_VSYNC\"" 63704 . 63727)))
+          ("SDL_HINT_RETURN_KEY_HIDES_IME" . ((string "\"SDL_RETURN_KEY_HIDES_IME\"" 64218 . 64244)))
+          ("SDL_HINT_VITA_TOUCH_MOUSE_DEVICE" . ((string "\"SDL_HINT_VITA_TOUCH_MOUSE_DEVICE\"" 69582 . 69616)))
+          ("SDL_HINT_VIDEO_WIN_D3DCOMPILER" . ((string "\"SDL_VIDEO_WIN_D3DCOMPILER\"" 78979 . 79006)))
+          ("SDL_HINT_VIDEO_X11_FORCE_EGL" . ((string "\"SDL_VIDEO_X11_FORCE_EGL\"" 79278 . 79303)))
+          ("SDL_HINT_WAVE_TRUNCATION" . ((string "\"SDL_WAVE_TRUNCATION\"" 84708 . 84729)))
+          ("SDL_HINT_WINRT_PRIVACY_POLICY_LABEL" . ((string "\"SDL_WINRT_PRIVACY_POLICY_LABEL\"" 98120 . 98152)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fb974"
+    (semanticdb-table "semanticdb-table-15704e8f0060"
       :major-mode c-mode
       :tags 
         '( ("SDL_joystick_h_" variable (:constant-flag t) nil [1986 2001])
@@ -8377,7 +8382,7 @@
       :file "SDL_joystick.h"
       :pointmax 39115
       :fsize 39114
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((symbol 38861 . 38883) (symbol 38852 . 38860) (EXTERN 38845 . 38851) (VOID 38473 . 38477) (symbol 38464 . 38472) (EXTERN 38457 . 38463) (INT 38162 . 38165) (symbol 38153 . 38161) (EXTERN 38146 . 38152) (INT 37713 . 37716) (symbol 37704 . 37712) (EXTERN 37697 . 37703) (symbol 37159 . 37167) (symbol 37150 . 37158) (EXTERN 37143 . 37149) (symbol 36794 . 36802) (symbol 36785 . 36793) (EXTERN 36778 . 36784) (symbol 36460 . 36468) (symbol 36451 . 36459) (EXTERN 36444 . 36450) (INT 35981 . 35984) (symbol 35972 . 35980) (EXTERN 35965 . 35971) (INT 34880 . 34883) (symbol 34871 . 34879) (EXTERN 34864 . 34870) (symbol 34034 . 34039) (symbol 34025 . 34033) (EXTERN 34018 . 34024) (INT 33492 . 33495) (symbol 33483 . 33491) (EXTERN 33476 . 33482) (symbol 32630 . 32635) (symbol 32621 . 32629) (EXTERN 32614 . 32620) (symbol 31418 . 31426) (symbol 31409 . 31417) (EXTERN 31402 . 31408) (symbol 30768 . 30774) (symbol 30759 . 30767) (EXTERN 30752 . 30758) (INT 29552 . 29555) (symbol 29543 . 29551) (EXTERN 29536 . 29542) (VOID 28665 . 28669) (symbol 28656 . 28664) (EXTERN 28649 . 28655) (INT 28347 . 28350) (symbol 28338 . 28346) (EXTERN 28331 . 28337) (INT 27892 . 27895) (symbol 27883 . 27891) (EXTERN 27876 . 27882) (INT 27437 . 27440) (symbol 27428 . 27436) (EXTERN 27421 . 27427) (INT 26840 . 26843) (symbol 26831 . 26839) (EXTERN 26824 . 26830) (symbol 26147 . 26161) (symbol 26138 . 26146) (EXTERN 26131 . 26137) (symbol 25690 . 25698) (symbol 25681 . 25689) (EXTERN 25674 . 25680) (VOID 25210 . 25214) (symbol 25201 . 25209) (EXTERN 25194 . 25200) (symbol 24432 . 24448) (symbol 24423 . 24431) (EXTERN 24416 . 24422) (VOID 23867 . 23871) (symbol 23858 . 23866) (EXTERN 23851 . 23857) (symbol 23326 . 23342) (symbol 23317 . 23325) (EXTERN 23310 . 23316) (punctuation 23017 . 23018) (CHAR 23012 . 23016) (CONST 23006 . 23011) (symbol 22997 . 23005) (EXTERN 22990 . 22996) (symbol 22545 . 22551) (symbol 22536 . 22544) (EXTERN 22529 . 22535) (symbol 22092 . 22098) (symbol 22083 . 22091) (EXTERN 22076 . 22082) (symbol 21662 . 21668) (symbol 21653 . 21661) (EXTERN 21646 . 21652) (symbol 21240 . 21246) (symbol 21231 . 21239) (EXTERN 21224 . 21230) (symbol 20813 . 20829) (symbol 20804 . 20812) (EXTERN 20797 . 20803) (VOID 20225 . 20229) (symbol 20216 . 20224) (EXTERN 20209 . 20215) (INT 19814 . 19817) (symbol 19805 . 19813) (EXTERN 19798 . 19804) (punctuation 19375 . 19376) (CHAR 19370 . 19374) (CONST 19364 . 19369) (symbol 19355 . 19363) (EXTERN 19348 . 19354) (punctuation 18913 . 18914) (CHAR 18908 . 18912) (CONST 18902 . 18907) (symbol 18893 . 18901) (EXTERN 18886 . 18892) (INT 18394 . 18397) (symbol 18385 . 18393) (EXTERN 18378 . 18384) (INT 17623 . 17626) (symbol 17614 . 17622) (EXTERN 17607 . 17613) (INT 16843 . 16846) (symbol 16834 . 16842) (EXTERN 16827 . 16833) (symbol 15916 . 15924) (symbol 15907 . 15915) (EXTERN 15900 . 15906) (INT 15582 . 15585) (symbol 15573 . 15581) (EXTERN 15566 . 15572) (INT 15227 . 15230) (symbol 15218 . 15226) (EXTERN 15211 . 15217) (punctuation 14813 . 14814) (semantic-list 14769 . 14813) (semantic-list 14748 . 14769) (INT 14744 . 14747) (punctuation 14698 . 14699) (semantic-list 14646 . 14698) (semantic-list 14629 . 14646) (INT 14625 . 14628) (punctuation 14571 . 14572) (semantic-list 14514 . 14571) (semantic-list 14489 . 14514) (INT 14485 . 14488) (punctuation 14439 . 14440) (semantic-list 14364 . 14439) (semantic-list 14347 . 14364) (INT 14343 . 14346) (punctuation 14293 . 14294) (semantic-list 14259 . 14293) (semantic-list 14234 . 14259) (VOID 14229 . 14233) (punctuation 14166 . 14167) (semantic-list 14150 . 14166) (semantic-list 14133 . 14150) (VOID 14128 . 14132) (INT 12538 . 12541) (symbol 12529 . 12537) (EXTERN 12522 . 12528) (punctuation 12293 . 12294) (symbol 12280 . 12292) (symbol 12271 . 12279) (EXTERN 12264 . 12270) (punctuation 11892 . 11893) (symbol 11879 . 11891) (symbol 11870 . 11878) (EXTERN 11863 . 11869) (punctuation 11514 . 11515) (symbol 11501 . 11513) (symbol 11492 . 11500) (EXTERN 11485 . 11491) (symbol 10717 . 10731) (symbol 10708 . 10716) (EXTERN 10701 . 10707) (symbol 10229 . 10245) (symbol 10220 . 10228) (EXTERN 10213 . 10219) (symbol 9705 . 9711) (symbol 9696 . 9704) (EXTERN 9689 . 9695) (symbol 9134 . 9140) (symbol 9125 . 9133) (EXTERN 9118 . 9124) (symbol 8571 . 8577) (symbol 8562 . 8570) (EXTERN 8555 . 8561) (symbol 8003 . 8019) (symbol 7994 . 8002) (EXTERN 7987 . 7993) (INT 7400 . 7403) (symbol 7391 . 7399) (EXTERN 7384 . 7390) (punctuation 7143 . 7144) (CHAR 7138 . 7142) (CONST 7132 . 7137) (symbol 7123 . 7131) (EXTERN 7116 . 7122) (punctuation 6559 . 6560) (CHAR 6554 . 6558) (CONST 6548 . 6553) (symbol 6539 . 6547) (EXTERN 6532 . 6538) (INT 5993 . 5996) (symbol 5984 . 5992) (EXTERN 5977 . 5983) (semantic-list 5590 . 5596) (symbol 5571 . 5590) (symbol 5563 . 5570) (VOID 5558 . 5562) (symbol 5549 . 5557) (EXTERN 5542 . 5548) (semantic-list 5009 . 5015) (symbol 4992 . 5009) (symbol 4984 . 4991) (VOID 4979 . 4983) (symbol 4970 . 4978) (EXTERN 4963 . 4969))
       :lexical-table 
         '(("SDL_HAT_RIGHTUP" . ((semantic-list "(SDL_HAT_RIGHT|SDL_HAT_UP)" 31803 . 31829)))
@@ -8396,7 +8401,7 @@
           ("SDL_HAT_LEFT" . ((number "0x08" 31770 . 31774)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fb994"
+    (semanticdb-table "semanticdb-table-15704e8f0080"
       :major-mode c-mode
       :tags 
         '( ("SDL_loadso_h_" variable (:constant-flag t) nil [1790 1803])
@@ -8443,13 +8448,13 @@
       :file "SDL_loadso.h"
       :pointmax 3909
       :fsize 3908
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((VOID 3698 . 3702) (symbol 3689 . 3697) (EXTERN 3682 . 3688) (punctuation 3344 . 3345) (VOID 3339 . 3343) (symbol 3330 . 3338) (EXTERN 3323 . 3329) (punctuation 2351 . 2352) (VOID 2346 . 2350) (symbol 2337 . 2345) (EXTERN 2330 . 2336))
       :lexical-table 
         '(("SDL_loadso_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fb9b4"
+    (semanticdb-table "semanticdb-table-15704e8f00a0"
       :major-mode c-mode
       :tags 
         '( ("SDL_log_h_" variable (:constant-flag t) nil [1363 1373])
@@ -8696,14 +8701,14 @@
       :file "SDL_log.h"
       :pointmax 11685
       :fsize 11684
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((VOID 11434 . 11438) (symbol 11425 . 11433) (EXTERN 11418 . 11424) (VOID 11027 . 11031) (symbol 11018 . 11026) (EXTERN 11011 . 11017) (punctuation 10658 . 10659) (semantic-list 10581 . 10658) (semantic-list 10549 . 10581) (VOID 10544 . 10548) (TYPEDEF 10536 . 10543) (VOID 9990 . 9994) (symbol 9981 . 9989) (EXTERN 9974 . 9980) (number 9494 . 9495) (semantic-list 9295 . 9470) (symbol 9281 . 9295) (symbol 9273 . 9280) (VOID 9268 . 9272) (symbol 9259 . 9267) (EXTERN 9252 . 9258) (number 8711 . 8712) (semantic-list 8626 . 8687) (symbol 8611 . 8626) (symbol 8603 . 8610) (VOID 8598 . 8602) (symbol 8589 . 8597) (EXTERN 8582 . 8588) (number 8099 . 8100) (semantic-list 8014 . 8075) (symbol 8002 . 8014) (symbol 7994 . 8001) (VOID 7989 . 7993) (symbol 7980 . 7988) (EXTERN 7973 . 7979) (number 7490 . 7491) (semantic-list 7405 . 7466) (symbol 7394 . 7405) (symbol 7386 . 7393) (VOID 7381 . 7385) (symbol 7372 . 7380) (EXTERN 7365 . 7371) (number 6882 . 6883) (semantic-list 6797 . 6858) (symbol 6786 . 6797) (symbol 6778 . 6785) (VOID 6773 . 6777) (symbol 6764 . 6772) (EXTERN 6757 . 6763) (number 6274 . 6275) (semantic-list 6189 . 6250) (symbol 6177 . 6189) (symbol 6169 . 6176) (VOID 6164 . 6168) (symbol 6155 . 6163) (EXTERN 6148 . 6154) (number 5665 . 5666) (semantic-list 5580 . 5641) (symbol 5566 . 5580) (symbol 5558 . 5565) (VOID 5553 . 5557) (symbol 5544 . 5552) (EXTERN 5537 . 5543) (number 5054 . 5055) (semantic-list 4983 . 5030) (symbol 4976 . 4983) (symbol 4968 . 4975) (VOID 4963 . 4967) (symbol 4954 . 4962) (EXTERN 4947 . 4953) (VOID 4430 . 4434) (symbol 4421 . 4429) (EXTERN 4414 . 4420) (symbol 4160 . 4175) (symbol 4151 . 4159) (EXTERN 4144 . 4150) (VOID 3775 . 3779) (symbol 3766 . 3774) (EXTERN 3759 . 3765) (VOID 3415 . 3419) (symbol 3406 . 3414) (EXTERN 3399 . 3405))
       :lexical-table 
         '(("SDL_log_h_")
           ("SDL_MAX_LOG_MESSAGE" . ((number "4096" 1700 . 1704)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fb9d4"
+    (semanticdb-table "semanticdb-table-15704e8f00c0"
       :major-mode c-mode
       :tags 
         '( ("SDL_messagebox_h_" variable (:constant-flag t) nil [975 992])
@@ -8905,13 +8910,13 @@
       :file "SDL_messagebox.h"
       :pointmax 6694
       :fsize 6693
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((INT 6411 . 6414) (symbol 6402 . 6410) (EXTERN 6395 . 6401) (INT 4808 . 4811) (symbol 4799 . 4807) (EXTERN 4792 . 4798))
       :lexical-table 
         '(("SDL_messagebox_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fb9f4"
+    (semanticdb-table "semanticdb-table-15704e8f00e0"
       :major-mode c-mode
       :tags 
         '( ("SDL_metal_h_" variable (:constant-flag t) nil [1085 1097])
@@ -8969,13 +8974,13 @@
       :file "SDL_metal.h"
       :pointmax 3381
       :fsize 3380
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((VOID 3082 . 3086) (symbol 3073 . 3081) (EXTERN 3066 . 3072) (punctuation 2554 . 2555) (VOID 2549 . 2553) (symbol 2540 . 2548) (EXTERN 2533 . 2539) (VOID 2314 . 2318) (symbol 2305 . 2313) (EXTERN 2298 . 2304) (symbol 1974 . 1987) (symbol 1965 . 1973) (EXTERN 1958 . 1964))
       :lexical-table 
         '(("SDL_metal_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fba14"
+    (semanticdb-table "semanticdb-table-15704e8f0100"
       :major-mode c-mode
       :tags 
         '( ("SDL_mutex_h_" variable (:constant-flag t) nil [970 982])
@@ -9243,7 +9248,7 @@
       :file "SDL_mutex.h"
       :pointmax 16740
       :fsize 16739
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((INT 16402 . 16405) (symbol 16393 . 16401) (EXTERN 16386 . 16392) (INT 15229 . 15232) (symbol 15220 . 15228) (EXTERN 15213 . 15219) (INT 14255 . 14258) (symbol 14246 . 14254) (EXTERN 14239 . 14245) (INT 13777 . 13780) (symbol 13768 . 13776) (EXTERN 13761 . 13767) (VOID 13287 . 13291) (symbol 13278 . 13286) (EXTERN 13271 . 13277) (punctuation 12970 . 12971) (symbol 12961 . 12969) (symbol 12952 . 12960) (EXTERN 12945 . 12951) (symbol 12355 . 12361) (symbol 12346 . 12354) (EXTERN 12339 . 12345) (INT 12074 . 12077) (symbol 12065 . 12073) (EXTERN 12058 . 12064) (INT 11555 . 11558) (symbol 11546 . 11554) (EXTERN 11539 . 11545) (INT 10624 . 10627) (symbol 10615 . 10623) (EXTERN 10608 . 10614) (INT 9801 . 9804) (symbol 9792 . 9800) (EXTERN 9785 . 9791) (VOID 8913 . 8917) (symbol 8904 . 8912) (EXTERN 8897 . 8903) (punctuation 8484 . 8485) (symbol 8476 . 8483) (symbol 8467 . 8475) (EXTERN 8460 . 8466) (VOID 7443 . 7447) (symbol 7434 . 7442) (EXTERN 7427 . 7433) (INT 6731 . 6734) (symbol 6722 . 6730) (EXTERN 6715 . 6721) (INT 6047 . 6050) (symbol 6038 . 6046) (EXTERN 6031 . 6037) (INT 5286 . 5289) (symbol 5277 . 5285) (EXTERN 5270 . 5276) (punctuation 4617 . 4618) (symbol 4607 . 4616) (symbol 4598 . 4606) (EXTERN 4591 . 4597))
       :lexical-table 
         '(("SDL_mutexP" (spp-arg-list ("m") 5369 . 5372) . ((symbol "SDL_LockMutex" 5375 . 5388) (semantic-list "(m)" 5388 . 5391)))
@@ -9274,7 +9279,7 @@
           ("SDL_ASSERT_SHARED_CAPABILITY" (spp-arg-list ("x") 3157 . 3160) . ((symbol "SDL_THREAD_ANNOTATION_ATTRIBUTE__" 3165 . 3198) (semantic-list "(assert_shared_capability(x))" 3198 . 3227)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fba34"
+    (semanticdb-table "semanticdb-table-15704e8f0120"
       :major-mode c-mode
       :tags 
         '( ("SDL_power_h_" variable (:constant-flag t) nil [970 982])
@@ -9326,13 +9331,13 @@
       :file "SDL_power.h"
       :pointmax 3227
       :fsize 3226
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((symbol 2993 . 3007) (symbol 2984 . 2992) (EXTERN 2977 . 2983))
       :lexical-table 
         '(("SDL_power_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fba54"
+    (semanticdb-table "semanticdb-table-15704e8f0140"
       :major-mode c-mode
       :tags 
         '( ("SDL_render_h_" variable (:constant-flag t) nil [1886 1899])
@@ -10796,13 +10801,13 @@
       :file "SDL_render.h"
       :pointmax 74036
       :fsize 74035
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((INT 73803 . 73806) (symbol 73794 . 73802) (EXTERN 73787 . 73793) (punctuation 73446 . 73447) (VOID 73441 . 73445) (symbol 73432 . 73440) (EXTERN 73425 . 73431) (punctuation 72578 . 72579) (VOID 72573 . 72577) (symbol 72564 . 72572) (EXTERN 72557 . 72563) (INT 72042 . 72045) (symbol 72033 . 72041) (EXTERN 72026 . 72032) (INT 71542 . 71545) (symbol 71533 . 71541) (EXTERN 71526 . 71532) (INT 69821 . 69824) (symbol 69812 . 69820) (EXTERN 69805 . 69811) (VOID 68385 . 68389) (symbol 68376 . 68384) (EXTERN 68369 . 68375) (VOID 67949 . 67953) (symbol 67940 . 67948) (EXTERN 67933 . 67939) (VOID 67561 . 67565) (symbol 67552 . 67560) (EXTERN 67545 . 67551) (INT 65681 . 65684) (symbol 65672 . 65680) (EXTERN 65665 . 65671) (INT 63801 . 63804) (symbol 63792 . 63800) (EXTERN 63785 . 63791) (INT 62340 . 62343) (symbol 62331 . 62339) (EXTERN 62324 . 62330) (INT 61072 . 61075) (symbol 61063 . 61071) (EXTERN 61056 . 61062) (INT 59761 . 59764) (symbol 59752 . 59760) (EXTERN 59745 . 59751) (INT 59023 . 59026) (symbol 59014 . 59022) (EXTERN 59007 . 59013) (INT 58474 . 58477) (symbol 58465 . 58473) (EXTERN 58458 . 58464) (INT 57880 . 57883) (symbol 57871 . 57879) (EXTERN 57864 . 57870) (INT 57354 . 57357) (symbol 57345 . 57353) (EXTERN 57338 . 57344) (INT 56777 . 56780) (symbol 56768 . 56776) (EXTERN 56761 . 56767) (INT 56241 . 56244) (symbol 56232 . 56240) (EXTERN 56225 . 56231) (INT 55593 . 55596) (symbol 55584 . 55592) (EXTERN 55577 . 55583) (INT 55114 . 55117) (symbol 55105 . 55113) (EXTERN 55098 . 55104) (INT 54309 . 54312) (symbol 54300 . 54308) (EXTERN 54293 . 54299) (INT 52395 . 52398) (symbol 52386 . 52394) (EXTERN 52379 . 52385) (INT 51159 . 51162) (symbol 51150 . 51158) (EXTERN 51143 . 51149) (INT 50336 . 50339) (symbol 50327 . 50335) (EXTERN 50320 . 50326) (INT 49221 . 49224) (symbol 49212 . 49220) (EXTERN 49205 . 49211) (INT 48361 . 48364) (symbol 48352 . 48360) (EXTERN 48345 . 48351) (INT 47460 . 47463) (symbol 47451 . 47459) (EXTERN 47444 . 47450) (INT 46571 . 46574) (symbol 46562 . 46570) (EXTERN 46555 . 46561) (INT 45460 . 45463) (symbol 45451 . 45459) (EXTERN 45444 . 45450) (INT 44617 . 44620) (symbol 44608 . 44616) (EXTERN 44601 . 44607) (INT 43790 . 43793) (symbol 43781 . 43789) (EXTERN 43774 . 43780) (INT 43202 . 43205) (symbol 43193 . 43201) (EXTERN 43186 . 43192) (INT 42656 . 42659) (symbol 42647 . 42655) (EXTERN 42640 . 42646) (INT 41767 . 41770) (symbol 41758 . 41766) (EXTERN 41751 . 41757) (INT 40801 . 40804) (symbol 40792 . 40800) (EXTERN 40785 . 40791) (VOID 39482 . 39486) (symbol 39473 . 39481) (EXTERN 39466 . 39472) (VOID 38415 . 38419) (symbol 38406 . 38414) (EXTERN 38399 . 38405) (VOID 37510 . 37514) (symbol 37501 . 37509) (EXTERN 37494 . 37500) (INT 36998 . 37001) (symbol 36989 . 36997) (EXTERN 36982 . 36988) (symbol 36100 . 36108) (symbol 36091 . 36099) (EXTERN 36084 . 36090) (VOID 35576 . 35580) (symbol 35567 . 35575) (EXTERN 35560 . 35566) (INT 35002 . 35005) (symbol 34993 . 35001) (EXTERN 34986 . 34992) (VOID 34311 . 34315) (symbol 34302 . 34310) (EXTERN 34295 . 34301) (INT 33895 . 33898) (symbol 33886 . 33894) (EXTERN 33879 . 33885) (symbol 33263 . 33271) (symbol 33254 . 33262) (EXTERN 33247 . 33253) (INT 32711 . 32714) (symbol 32702 . 32710) (EXTERN 32695 . 32701) (VOID 31939 . 31943) (symbol 31930 . 31938) (EXTERN 31923 . 31929) (INT 31164 . 31167) (symbol 31155 . 31163) (EXTERN 31148 . 31154) (punctuation 29941 . 29942) (symbol 29929 . 29940) (symbol 29920 . 29928) (EXTERN 29913 . 29919) (INT 29421 . 29424) (symbol 29412 . 29420) (EXTERN 29405 . 29411) (symbol 28477 . 28485) (symbol 28468 . 28476) (EXTERN 28461 . 28467) (VOID 28131 . 28135) (symbol 28122 . 28130) (EXTERN 28115 . 28121) (INT 27254 . 27257) (symbol 27245 . 27253) (EXTERN 27238 . 27244) (INT 25755 . 25758) (symbol 25746 . 25754) (EXTERN 25739 . 25745) (INT 24241 . 24244) (symbol 24232 . 24240) (EXTERN 24225 . 24231) (INT 22980 . 22983) (symbol 22971 . 22979) (EXTERN 22964 . 22970) (INT 21665 . 21668) (symbol 21656 . 21664) (EXTERN 21649 . 21655) (punctuation 20390 . 20391) (VOID 20385 . 20389) (symbol 20376 . 20384) (EXTERN 20369 . 20375) (INT 19940 . 19943) (symbol 19931 . 19939) (EXTERN 19924 . 19930) (INT 19465 . 19468) (symbol 19456 . 19464) (EXTERN 19449 . 19455) (INT 18982 . 18985) (symbol 18973 . 18981) (EXTERN 18966 . 18972) (INT 18419 . 18422) (symbol 18410 . 18418) (EXTERN 18403 . 18409) (INT 17881 . 17884) (symbol 17872 . 17880) (EXTERN 17865 . 17871) (INT 17218 . 17221) (symbol 17209 . 17217) (EXTERN 17202 . 17208) (INT 16653 . 16656) (symbol 16644 . 16652) (EXTERN 16637 . 16643) (INT 15694 . 15697) (symbol 15685 . 15693) (EXTERN 15678 . 15684) (INT 14981 . 14984) (symbol 14972 . 14980) (EXTERN 14965 . 14971) (INT 13886 . 13889) (symbol 13877 . 13885) (EXTERN 13870 . 13876) (punctuation 12689 . 12690) (symbol 12677 . 12688) (symbol 12668 . 12676) (EXTERN 12661 . 12667) (punctuation 11625 . 11626) (symbol 11613 . 11624) (symbol 11604 . 11612) (EXTERN 11597 . 11603) (INT 10618 . 10621) (symbol 10609 . 10617) (EXTERN 10602 . 10608) (INT 9859 . 9862) (symbol 9850 . 9858) (EXTERN 9843 . 9849) (punctuation 9376 . 9377) (symbol 9365 . 9375) (symbol 9356 . 9364) (EXTERN 9349 . 9355) (punctuation 9036 . 9037) (symbol 9023 . 9035) (symbol 9014 . 9022) (EXTERN 9007 . 9013) (punctuation 8646 . 8647) (symbol 8633 . 8645) (symbol 8624 . 8632) (EXTERN 8617 . 8623) (punctuation 7773 . 7774) (symbol 7760 . 7772) (symbol 7751 . 7759) (EXTERN 7744 . 7750) (INT 6917 . 6920) (symbol 6908 . 6916) (EXTERN 6901 . 6907) (INT 6188 . 6191) (symbol 6179 . 6187) (EXTERN 6172 . 6178) (INT 5629 . 5632) (symbol 5620 . 5628) (EXTERN 5613 . 5619))
       :lexical-table 
         '(("SDL_render_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fba74"
+    (semanticdb-table "semanticdb-table-15704e8f0160"
       :major-mode c-mode
       :tags 
         '( ("SDL_rwops_h_" variable (:constant-flag t) nil [1141 1153])
@@ -11243,7 +11248,7 @@
       :file "SDL_rwops.h"
       :pointmax 28102
       :fsize 28101
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((symbol 27839 . 27845) (symbol 27830 . 27838) (EXTERN 27823 . 27829) (symbol 27264 . 27270) (symbol 27255 . 27263) (EXTERN 27248 . 27254) (symbol 26680 . 26686) (symbol 26671 . 26679) (EXTERN 26664 . 26670) (symbol 26105 . 26111) (symbol 26096 . 26104) (EXTERN 26089 . 26095) (symbol 25521 . 25527) (symbol 25512 . 25520) (EXTERN 25505 . 25511) (symbol 24946 . 24952) (symbol 24937 . 24945) (EXTERN 24930 . 24936) (symbol 24365 . 24371) (symbol 24356 . 24364) (EXTERN 24349 . 24355) (symbol 23829 . 23835) (symbol 23820 . 23828) (EXTERN 23813 . 23819) (symbol 23344 . 23350) (symbol 23335 . 23343) (EXTERN 23328 . 23334) (symbol 22856 . 22862) (symbol 22847 . 22855) (EXTERN 22840 . 22846) (symbol 22371 . 22377) (symbol 22362 . 22370) (EXTERN 22355 . 22361) (symbol 21883 . 21889) (symbol 21874 . 21882) (EXTERN 21867 . 21873) (symbol 21398 . 21404) (symbol 21389 . 21397) (EXTERN 21382 . 21388) (symbol 20913 . 20918) (symbol 20904 . 20912) (EXTERN 20897 . 20903) (punctuation 20416 . 20417) (VOID 20411 . 20415) (symbol 20402 . 20410) (EXTERN 20395 . 20401) (punctuation 19640 . 19641) (VOID 19635 . 19639) (symbol 19626 . 19634) (EXTERN 19619 . 19625) (INT 18986 . 18989) (symbol 18977 . 18985) (EXTERN 18970 . 18976) (symbol 17891 . 17897) (symbol 17882 . 17890) (EXTERN 17875 . 17881) (symbol 16634 . 16640) (symbol 16625 . 16633) (EXTERN 16618 . 16624) (symbol 15506 . 15512) (symbol 15497 . 15505) (EXTERN 15490 . 15496) (symbol 14623 . 14629) (symbol 14614 . 14622) (EXTERN 14607 . 14613) (symbol 13444 . 13450) (symbol 13435 . 13443) (EXTERN 13428 . 13434) (VOID 12720 . 12724) (symbol 12711 . 12719) (EXTERN 12704 . 12710) (punctuation 11761 . 11762) (symbol 11751 . 11760) (symbol 11742 . 11750) (EXTERN 11735 . 11741) (punctuation 10506 . 10507) (symbol 10496 . 10505) (symbol 10487 . 10495) (EXTERN 10480 . 10486) (punctuation 9329 . 9330) (symbol 9319 . 9328) (symbol 9310 . 9318) (EXTERN 9303 . 9309) (punctuation 8157 . 8158) (symbol 8147 . 8156) (symbol 8138 . 8146) (EXTERN 8131 . 8137) (punctuation 6812 . 6813) (symbol 6802 . 6811) (symbol 6793 . 6801) (EXTERN 6786 . 6792) (punctuation 3153 . 3154) (semantic-list 3125 . 3153) (semantic-list 3107 . 3124) (INT 3103 . 3106) (punctuation 2943 . 2944) (punctuation 2594 . 2595) (punctuation 2249 . 2250) (punctuation 1917 . 1918))
       :lexical-table 
         '(("SDL_rwops_h_")
@@ -11258,7 +11263,7 @@
           ("RW_SEEK_CUR" . ((number "1" 12852 . 12853)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fba94"
+    (semanticdb-table "semanticdb-table-15704e8f0180"
       :major-mode c-mode
       :tags 
         '( ("SDL_sensor_h_" variable (:constant-flag t) nil [1056 1069])
@@ -11486,14 +11491,14 @@
       :file "SDL_sensor.h"
       :pointmax 10295
       :fsize 10294
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((VOID 10054 . 10058) (symbol 10045 . 10053) (EXTERN 10038 . 10044) (VOID 9699 . 9703) (symbol 9690 . 9698) (EXTERN 9683 . 9689) (INT 9395 . 9398) (symbol 9386 . 9394) (EXTERN 9379 . 9385) (INT 8704 . 8707) (symbol 8695 . 8703) (EXTERN 8688 . 8694) (symbol 8217 . 8229) (symbol 8208 . 8216) (EXTERN 8201 . 8207) (INT 7921 . 7924) (symbol 7912 . 7920) (EXTERN 7905 . 7911) (symbol 7601 . 7615) (symbol 7592 . 7600) (EXTERN 7585 . 7591) (punctuation 7295 . 7296) (CHAR 7290 . 7294) (CONST 7284 . 7289) (symbol 7275 . 7283) (EXTERN 7268 . 7274) (punctuation 6988 . 6989) (symbol 6977 . 6987) (symbol 6968 . 6976) (EXTERN 6961 . 6967) (punctuation 6708 . 6709) (symbol 6697 . 6707) (symbol 6688 . 6696) (EXTERN 6681 . 6687) (symbol 6403 . 6415) (symbol 6394 . 6402) (EXTERN 6387 . 6393) (INT 6081 . 6084) (symbol 6072 . 6080) (EXTERN 6065 . 6071) (symbol 5738 . 5752) (symbol 5729 . 5737) (EXTERN 5722 . 5728) (punctuation 5414 . 5415) (CHAR 5409 . 5413) (CONST 5403 . 5408) (symbol 5394 . 5402) (EXTERN 5387 . 5393) (INT 5104 . 5107) (symbol 5095 . 5103) (EXTERN 5088 . 5094) (VOID 4872 . 4876) (symbol 4863 . 4871) (EXTERN 4856 . 4862) (VOID 4820 . 4824) (symbol 4811 . 4819) (EXTERN 4804 . 4810))
       :lexical-table 
         '(("SDL_STANDARD_GRAVITY" . ((number "9.80665f" 3472 . 3480)))
           ("SDL_sensor_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbab4"
+    (semanticdb-table "semanticdb-table-15704e8f01a0"
       :major-mode c-mode
       :tags 
         '( ("SDL_shape_h_" variable (:constant-flag t) nil [970 982])
@@ -11628,7 +11633,7 @@
       :file "SDL_shape.h"
       :pointmax 5905
       :fsize 5904
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((INT 5687 . 5690) (symbol 5678 . 5686) (EXTERN 5671 . 5677) (INT 4852 . 4855) (symbol 4843 . 4851) (EXTERN 4836 . 4842) (symbol 2928 . 2936) (symbol 2919 . 2927) (EXTERN 2912 . 2918) (punctuation 2452 . 2453) (symbol 2441 . 2451) (symbol 2432 . 2440) (EXTERN 2425 . 2431))
       :lexical-table 
         '(("SDL_NONSHAPEABLE_WINDOW" . ((punctuation "-" 1332 . 1333) (number "1" 1333 . 1334)))
@@ -11638,7 +11643,7 @@
           ("SDL_WINDOW_LACKS_SHAPE" . ((punctuation "-" 1404 . 1405) (number "3" 1405 . 1406)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbad4"
+    (semanticdb-table "semanticdb-table-15704e8f01c0"
       :major-mode c-mode
       :tags 
         '( ("SDL_system_h_" variable (:constant-flag t) nil [1063 1076])
@@ -11700,13 +11705,13 @@
       :file "SDL_system.h"
       :pointmax 20773
       :fsize 20772
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((VOID 19815 . 19819) (symbol 19806 . 19814) (EXTERN 19799 . 19805) (VOID 19742 . 19746) (symbol 19733 . 19741) (EXTERN 19726 . 19732) (VOID 19670 . 19674) (symbol 19661 . 19669) (EXTERN 19654 . 19660) (VOID 19600 . 19604) (symbol 19591 . 19599) (EXTERN 19584 . 19590) (VOID 19523 . 19527) (symbol 19514 . 19522) (EXTERN 19507 . 19513) (VOID 19456 . 19460) (symbol 19447 . 19455) (EXTERN 19440 . 19446) (symbol 19318 . 19326) (symbol 19309 . 19317) (EXTERN 19302 . 19308))
       :lexical-table 
         '(("SDL_system_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbaf4"
+    (semanticdb-table "semanticdb-table-15704e8f01e0"
       :major-mode c-mode
       :tags 
         '( ("SDL_thread_h_" variable (:constant-flag t) nil [971 984])
@@ -11894,13 +11899,13 @@
       :file "SDL_thread.h"
       :pointmax 17324
       :fsize 17323
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((VOID 17123 . 17127) (symbol 17114 . 17122) (EXTERN 17107 . 17113) (INT 16907 . 16910) (symbol 16898 . 16906) (EXTERN 16891 . 16897) (punctuation 16154 . 16155) (VOID 16149 . 16153) (symbol 16140 . 16148) (EXTERN 16133 . 16139) (symbol 15709 . 15718) (symbol 15700 . 15708) (EXTERN 15693 . 15699) (VOID 15293 . 15297) (symbol 15284 . 15292) (EXTERN 15277 . 15283) (VOID 13677 . 13681) (symbol 13668 . 13676) (EXTERN 13661 . 13667) (INT 12306 . 12309) (symbol 12297 . 12305) (EXTERN 12290 . 12296) (symbol 11734 . 11746) (symbol 11725 . 11733) (EXTERN 11718 . 11724) (symbol 11198 . 11210) (symbol 11189 . 11197) (EXTERN 11182 . 11188) (punctuation 10670 . 10671) (CHAR 10665 . 10669) (CONST 10659 . 10664) (symbol 10650 . 10658) (EXTERN 10643 . 10649) (punctuation 10054 . 10055) (symbol 10043 . 10053) (symbol 10034 . 10042) (EXTERN 10027 . 10033) (punctuation 7872 . 7873) (symbol 7861 . 7871) (symbol 7852 . 7860) (EXTERN 7845 . 7851) (punctuation 2734 . 2735) (semantic-list 2722 . 2734) (semantic-list 2691 . 2721) (INT 2687 . 2690) (TYPEDEF 2679 . 2686))
       :lexical-table 
         '(("SDL_thread_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbb14"
+    (semanticdb-table "semanticdb-table-15704e8f0200"
       :major-mode c-mode
       :tags 
         '( ("SDL_timer_h_" variable (:constant-flag t) nil [970 982])
@@ -11983,14 +11988,14 @@
       :file "SDL_timer.h"
       :pointmax 7291
       :fsize 7290
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((symbol 7075 . 7083) (symbol 7066 . 7074) (EXTERN 7059 . 7065) (symbol 6590 . 6601) (symbol 6581 . 6589) (EXTERN 6574 . 6580) (punctuation 5213 . 5214) (TYPEDEF 5138 . 5145) (VOID 4746 . 4750) (symbol 4737 . 4745) (EXTERN 4730 . 4736) (symbol 4336 . 4342) (symbol 4327 . 4335) (EXTERN 4320 . 4326) (symbol 4057 . 4063) (symbol 4048 . 4056) (EXTERN 4041 . 4047) (symbol 2761 . 2767) (symbol 2752 . 2760) (EXTERN 2745 . 2751) (symbol 1927 . 1933) (symbol 1918 . 1926) (EXTERN 1911 . 1917))
       :lexical-table 
         '(("SDL_timer_h_")
           ("SDL_TICKS_PASSED" (spp-arg-list ("A" "B") 3582 . 3588) . ((semantic-list "((Sint32)((B) - (A)) <= 0)" 3590 . 3616)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbb34"
+    (semanticdb-table "semanticdb-table-15704e8f0220"
       :major-mode c-mode
       :tags 
         '( ("SDL_version_h_" variable (:constant-flag t) nil [1057 1071])
@@ -12065,7 +12070,7 @@
       :file "SDL_version.h"
       :pointmax 6871
       :fsize 6870
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((INT 6662 . 6665) (symbol 6653 . 6661) (symbol 6638 . 6652) (EXTERN 6631 . 6637) (punctuation 5834 . 5835) (CHAR 5829 . 5833) (CONST 5823 . 5828) (symbol 5814 . 5822) (EXTERN 5807 . 5813) (VOID 4716 . 4720) (symbol 4707 . 4715) (EXTERN 4700 . 4706))
       :lexical-table 
         '(("SDL_MINOR_VERSION" . ((number "26" 1920 . 1922)))
@@ -12084,7 +12089,7 @@
           ("SDL_COMPILEDVERSION" . ((symbol "SDL_VERSIONNUM" 3710 . 3724) (semantic-list "(SDL_MAJOR_VERSION, SDL_MINOR_VERSION, SDL_PATCHLEVEL)" 3724 . 3778)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbb54"
+    (semanticdb-table "semanticdb-table-15704e8f0240"
       :major-mode c-mode
       :tags 
         '( ("SDL_video_h_" variable (:constant-flag t) nil [1045 1057])
@@ -13824,7 +13829,7 @@
       :file "SDL_video.h"
       :pointmax 80804
       :fsize 80803
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((VOID 80540 . 80544) (symbol 80531 . 80539) (EXTERN 80524 . 80530) (VOID 80291 . 80295) (symbol 80282 . 80290) (EXTERN 80275 . 80281) (INT 79773 . 79776) (symbol 79764 . 79772) (EXTERN 79757 . 79763) (INT 79117 . 79120) (symbol 79108 . 79116) (EXTERN 79101 . 79107) (VOID 77775 . 77779) (symbol 77766 . 77774) (EXTERN 77759 . 77765) (symbol 76932 . 76945) (symbol 76923 . 76931) (EXTERN 76916 . 76922) (punctuation 76611 . 76612) (symbol 76601 . 76611) (symbol 76592 . 76600) (EXTERN 76585 . 76591) (INT 76218 . 76221) (symbol 76209 . 76217) (EXTERN 76202 . 76208) (symbol 75606 . 75619) (symbol 75597 . 75605) (EXTERN 75590 . 75596) (INT 74757 . 74760) (symbol 74748 . 74756) (EXTERN 74741 . 74747) (INT 74220 . 74223) (symbol 74211 . 74219) (EXTERN 74204 . 74210) (VOID 73426 . 73430) (symbol 73417 . 73425) (EXTERN 73410 . 73416) (symbol 73082 . 73090) (symbol 73073 . 73081) (EXTERN 73066 . 73072) (VOID 72175 . 72179) (symbol 72166 . 72174) (EXTERN 72159 . 72165) (punctuation 71942 . 71943) (VOID 71937 . 71941) (symbol 71928 . 71936) (EXTERN 71921 . 71927) (INT 68982 . 68985) (symbol 68973 . 68981) (EXTERN 68966 . 68972) (VOID 68103 . 68107) (symbol 68094 . 68102) (EXTERN 68087 . 68093) (VOID 67645 . 67649) (symbol 67636 . 67644) (EXTERN 67629 . 67635) (symbol 67396 . 67404) (symbol 67387 . 67395) (EXTERN 67380 . 67386) (VOID 66845 . 66849) (symbol 66836 . 66844) (EXTERN 66829 . 66835) (INT 66420 . 66423) (symbol 66411 . 66419) (EXTERN 66404 . 66410) (INT 65885 . 65888) (symbol 65876 . 65884) (EXTERN 65869 . 65875) (punctuation 63829 . 63830) (TYPEDEF 63631 . 63638) (INT 62553 . 62556) (symbol 62544 . 62552) (EXTERN 62537 . 62543) (INT 61171 . 61174) (symbol 61162 . 61170) (EXTERN 61155 . 61161) (INT 59556 . 59559) (symbol 59547 . 59555) (EXTERN 59540 . 59546) (INT 58947 . 58950) (symbol 58938 . 58946) (EXTERN 58931 . 58937) (INT 58499 . 58502) (symbol 58490 . 58498) (EXTERN 58483 . 58489) (INT 57787 . 57790) (symbol 57778 . 57786) (EXTERN 57771 . 57777) (FLOAT 57139 . 57144) (symbol 57130 . 57138) (EXTERN 57123 . 57129) (INT 56350 . 56353) (symbol 56341 . 56349) (EXTERN 56334 . 56340) (punctuation 55145 . 55146) (symbol 55136 . 55144) (CONST 55130 . 55135) (symbol 55121 . 55129) (EXTERN 55114 . 55120) (INT 54732 . 54735) (symbol 54723 . 54731) (EXTERN 54716 . 54722) (punctuation 54024 . 54025) (symbol 54013 . 54023) (symbol 54004 . 54012) (EXTERN 53997 . 54003) (symbol 53691 . 53699) (symbol 53682 . 53690) (EXTERN 53675 . 53681) (symbol 53340 . 53348) (symbol 53331 . 53339) (EXTERN 53324 . 53330) (symbol 52991 . 52999) (symbol 52982 . 52990) (EXTERN 52975 . 52981) (VOID 52615 . 52619) (symbol 52606 . 52614) (EXTERN 52599 . 52605) (VOID 52062 . 52066) (symbol 52053 . 52061) (EXTERN 52046 . 52052) (VOID 50747 . 50751) (symbol 50738 . 50746) (EXTERN 50731 . 50737) (INT 49987 . 49990) (symbol 49978 . 49986) (EXTERN 49971 . 49977) (INT 49422 . 49425) (symbol 49413 . 49421) (EXTERN 49406 . 49412) (INT 48680 . 48683) (symbol 48671 . 48679) (EXTERN 48664 . 48670) (punctuation 48123 . 48124) (symbol 48111 . 48122) (symbol 48102 . 48110) (EXTERN 48095 . 48101) (symbol 47142 . 47150) (symbol 47133 . 47141) (EXTERN 47126 . 47132) (INT 46743 . 46746) (symbol 46734 . 46742) (EXTERN 46727 . 46733) (VOID 46056 . 46060) (symbol 46047 . 46055) (EXTERN 46040 . 46046) (VOID 45754 . 45758) (symbol 45745 . 45753) (EXTERN 45738 . 45744) (VOID 45471 . 45475) (symbol 45462 . 45470) (EXTERN 45455 . 45461) (VOID 45202 . 45206) (symbol 45193 . 45201) (EXTERN 45186 . 45192) (VOID 44967 . 44971) (symbol 44958 . 44966) (EXTERN 44951 . 44957) (VOID 44753 . 44757) (symbol 44744 . 44752) (EXTERN 44737 . 44743) (VOID 44435 . 44439) (symbol 44426 . 44434) (EXTERN 44419 . 44425) (VOID 43818 . 43822) (symbol 43809 . 43817) (EXTERN 43802 . 43808) (VOID 43118 . 43122) (symbol 43109 . 43117) (EXTERN 43102 . 43108) (VOID 42432 . 42436) (symbol 42423 . 42431) (EXTERN 42416 . 42422) (VOID 41867 . 41871) (symbol 41858 . 41866) (EXTERN 41851 . 41857) (VOID 41379 . 41383) (symbol 41370 . 41378) (EXTERN 41363 . 41369) (VOID 40814 . 40818) (symbol 40805 . 40813) (EXTERN 40798 . 40804) (VOID 40324 . 40328) (symbol 40315 . 40323) (EXTERN 40308 . 40314) (INT 39402 . 39405) (symbol 39393 . 39401) (EXTERN 39386 . 39392) (VOID 37788 . 37792) (symbol 37779 . 37787) (EXTERN 37772 . 37778) (VOID 36722 . 36726) (symbol 36713 . 36721) (EXTERN 36706 . 36712) (VOID 35729 . 35733) (symbol 35720 . 35728) (EXTERN 35713 . 35719) (VOID 35079 . 35083) (symbol 35070 . 35078) (EXTERN 35063 . 35069) (punctuation 34433 . 34434) (VOID 34428 . 34432) (symbol 34419 . 34427) (EXTERN 34412 . 34418) (punctuation 33958 . 33959) (VOID 33954 . 33958) (symbol 33945 . 33953) (EXTERN 33938 . 33944) (VOID 33440 . 33444) (symbol 33431 . 33439) (EXTERN 33424 . 33430) (punctuation 33162 . 33163) (CHAR 33157 . 33161) (CONST 33151 . 33156) (symbol 33142 . 33150) (EXTERN 33135 . 33141) (VOID 32757 . 32761) (symbol 32748 . 32756) (EXTERN 32741 . 32747) (symbol 32407 . 32413) (symbol 32398 . 32406) (EXTERN 32391 . 32397) (punctuation 31972 . 31973) (symbol 31961 . 31971) (symbol 31952 . 31960) (EXTERN 31945 . 31951) (symbol 31473 . 31479) (symbol 31464 . 31472) (EXTERN 31457 . 31463) (punctuation 30992 . 30993) (symbol 30981 . 30991) (symbol 30972 . 30980) (EXTERN 30965 . 30971) (punctuation 30151 . 30152) (symbol 30140 . 30150) (symbol 30131 . 30139) (EXTERN 30124 . 30130) (symbol 26549 . 26555) (symbol 26540 . 26548) (EXTERN 26533 . 26539) (punctuation 26146 . 26147) (VOID 26142 . 26146) (symbol 26133 . 26141) (EXTERN 26126 . 26132) (INT 25592 . 25595) (symbol 25583 . 25591) (EXTERN 25576 . 25582) (INT 24971 . 24974) (symbol 24962 . 24970) (EXTERN 24955 . 24961) (INT 24180 . 24183) (symbol 24171 . 24179) (EXTERN 24164 . 24170) (INT 23691 . 23694) (symbol 23682 . 23690) (EXTERN 23675 . 23681) (INT 23170 . 23173) (symbol 23161 . 23169) (EXTERN 23154 . 23160) (punctuation 22675 . 22676) (symbol 22659 . 22674) (symbol 22650 . 22658) (EXTERN 22643 . 22649) (INT 21528 . 21531) (symbol 21519 . 21527) (EXTERN 21512 . 21518) (INT 20660 . 20663) (symbol 20651 . 20659) (EXTERN 20644 . 20650) (INT 19766 . 19769) (symbol 19757 . 19765) (EXTERN 19750 . 19756) (INT 18951 . 18954) (symbol 18942 . 18950) (EXTERN 18935 . 18941) (symbol 18405 . 18427) (symbol 18396 . 18404) (EXTERN 18389 . 18395) (INT 17971 . 17974) (symbol 17962 . 17970) (EXTERN 17955 . 17961) (INT 16370 . 16373) (symbol 16361 . 16369) (EXTERN 16354 . 16360) (INT 15206 . 15209) (symbol 15197 . 15205) (EXTERN 15190 . 15196) (punctuation 14670 . 14671) (CHAR 14665 . 14669) (CONST 14659 . 14664) (symbol 14650 . 14658) (EXTERN 14643 . 14649) (INT 14207 . 14210) (symbol 14198 . 14206) (EXTERN 14191 . 14197) (punctuation 13885 . 13886) (CHAR 13880 . 13884) (CONST 13874 . 13879) (symbol 13865 . 13873) (EXTERN 13858 . 13864) (VOID 13533 . 13537) (symbol 13524 . 13532) (EXTERN 13517 . 13523) (INT 13226 . 13229) (symbol 13217 . 13225) (EXTERN 13210 . 13216) (punctuation 12013 . 12014) (CHAR 12008 . 12012) (CONST 12002 . 12007) (symbol 11993 . 12001) (EXTERN 11986 . 11992) (INT 11575 . 11578) (symbol 11566 . 11574) (EXTERN 11559 . 11565))
       :lexical-table 
         '(("SDL_WINDOWPOS_UNDEFINED" . ((symbol "SDL_WINDOWPOS_UNDEFINED_DISPLAY" 5624 . 5655) (semantic-list "(0)" 5655 . 5658)))
@@ -13838,7 +13843,7 @@
           ("SDL_WINDOWPOS_UNDEFINED_DISPLAY" (spp-arg-list ("X") 5544 . 5547) . ((semantic-list "(SDL_WINDOWPOS_UNDEFINED_MASK|(X))" 5549 . 5583)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbb74"
+    (semanticdb-table "semanticdb-table-15704e8f0260"
       :major-mode c-mode
       :tags 
         '( ("_SDL_locale_h" variable (:constant-flag t) nil [1047 1060])
@@ -13876,13 +13881,13 @@
       :file "SDL_locale.h"
       :pointmax 3813
       :fsize 3812
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((punctuation 3569 . 3570) (symbol 3558 . 3568) (symbol 3549 . 3557) (EXTERN 3542 . 3548))
       :lexical-table 
         '(("_SDL_locale_h")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbb94"
+    (semanticdb-table "semanticdb-table-15704e8f0280"
       :major-mode c-mode
       :tags 
         '( ("SDL_misc_h_" variable (:constant-flag t) nil [1074 1085])
@@ -13903,13 +13908,13 @@
       :file "SDL_misc.h"
       :pointmax 2846
       :fsize 2845
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((INT 2640 . 2643) (symbol 2631 . 2639) (EXTERN 2624 . 2630))
       :lexical-table 
         '(("SDL_misc_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbbb4"
+    (semanticdb-table "semanticdb-table-15704e8f02a0"
       :major-mode c-mode
       :tags 
         '( ("SDL_begin_code_h" variable (:constant-flag t) nil [1342 1358])
@@ -13928,7 +13933,7 @@
       :file "begin_code.h"
       :pointmax 5534
       :fsize 5533
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((semantic-list 4894 . 4952))
       :lexical-table 
         '(("SDL_FORCE_INLINE" . 
@@ -13945,15 +13950,15 @@
           ("SDL_UNUSED" . ((symbol "__attribute__" 1651 . 1664) (semantic-list "((unused))" 1664 . 1674)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbbd4"
+    (semanticdb-table "semanticdb-table-15704e8f02c0"
       :major-mode c-mode
       :tags nil
       :file "close_code.h"
       :pointmax 1487
       :fsize 1486
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((symbol 1209 . 1210) (punctuation 1208 . 1209) (symbol 1198 . 1208) (symbol 1189 . 1197) (symbol 1181 . 1188) (symbol 1172 . 1180) (symbol 1170 . 1171) (punctuation 1169 . 1170) (symbol 1159 . 1169) (symbol 1153 . 1158) (punctuation 1152 . 1153)))
-    (semanticdb-table "semanticdb-table-158cd26fbbf4"
+    (semanticdb-table "semanticdb-table-15704e8f02e0"
       :major-mode c-mode
       :tags 
         '( ("SDL_config_h_" variable (:constant-flag t) nil [971 984])
@@ -14175,7 +14180,7 @@
       :file "SDL_config.h"
       :pointmax 16517
       :fsize 16516
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("HAVE_STDINT_H" . ((number "1" 1963 . 1964)))
@@ -14395,7 +14400,7 @@
           ("SDL_VIDEO_RENDER_OGL_ES2" . ((number "1" 13559 . 13560)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbc14"
+    (semanticdb-table "semanticdb-table-15704e8f0300"
       :major-mode c-mode
       :tags 
         '( ("SDL_platform_h_" variable (:constant-flag t) nil [1061 1076])
@@ -14412,14 +14417,14 @@
       :file "SDL_platform.h"
       :pointmax 6745
       :fsize 6744
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((punctuation 6543 . 6544) (CHAR 6538 . 6542) (CONST 6532 . 6537) (symbol 6523 . 6531) (EXTERN 6516 . 6522))
       :lexical-table 
         '(("SDL_platform_h_")
           ("__LINUX__" . ((number "1" 1852 . 1853)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbc34"
+    (semanticdb-table "semanticdb-table-15704e8f0320"
       :major-mode c-mode
       :tags 
         '( ("SDL_keyboard_h_" variable (:constant-flag t) nil [1059 1074])
@@ -14597,13 +14602,13 @@
       :file "SDL_keyboard.h"
       :pointmax 11045
       :fsize 11044
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((symbol 10813 . 10821) (symbol 10804 . 10812) (EXTERN 10797 . 10803) (symbol 10430 . 10438) (symbol 10421 . 10429) (EXTERN 10414 . 10420) (VOID 10064 . 10068) (symbol 10055 . 10063) (EXTERN 10048 . 10054) (symbol 9339 . 9347) (symbol 9330 . 9338) (EXTERN 9323 . 9329) (VOID 9144 . 9148) (symbol 9135 . 9143) (EXTERN 9128 . 9134) (VOID 8898 . 8902) (symbol 8889 . 8897) (EXTERN 8882 . 8888) (symbol 8700 . 8708) (symbol 8691 . 8699) (EXTERN 8684 . 8690) (VOID 8414 . 8418) (symbol 8405 . 8413) (EXTERN 8398 . 8404) (symbol 7830 . 7841) (symbol 7821 . 7829) (EXTERN 7814 . 7820) (punctuation 7403 . 7404) (CHAR 7398 . 7402) (CONST 7392 . 7397) (symbol 7383 . 7391) (EXTERN 7376 . 7382) (symbol 6747 . 6759) (symbol 6738 . 6746) (EXTERN 6731 . 6737) (punctuation 6288 . 6289) (CHAR 6283 . 6287) (CONST 6277 . 6282) (symbol 6268 . 6276) (EXTERN 6261 . 6267) (symbol 5255 . 5267) (symbol 5246 . 5254) (EXTERN 5239 . 5245) (symbol 4787 . 4798) (symbol 4778 . 4786) (EXTERN 4771 . 4777) (VOID 4335 . 4339) (symbol 4326 . 4334) (EXTERN 4319 . 4325) (symbol 3716 . 3726) (symbol 3707 . 3715) (EXTERN 3700 . 3706) (VOID 3372 . 3376) (symbol 3363 . 3371) (EXTERN 3356 . 3362) (punctuation 3108 . 3109) (symbol 3102 . 3107) (CONST 3096 . 3101) (symbol 3087 . 3095) (EXTERN 3080 . 3086) (punctuation 1992 . 1993) (symbol 1981 . 1991) (symbol 1972 . 1980) (EXTERN 1965 . 1971))
       :lexical-table 
         '(("SDL_keyboard_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbc54"
+    (semanticdb-table "semanticdb-table-15704e8f0340"
       :major-mode c-mode
       :tags 
         '( ("SDL_mouse_h_" variable (:constant-flag t) nil [1051 1063])
@@ -14913,7 +14918,7 @@
       :file "SDL_mouse.h"
       :pointmax 16989
       :fsize 16988
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((INT 16140 . 16143) (symbol 16131 . 16139) (EXTERN 16124 . 16130) (VOID 15282 . 15286) (symbol 15273 . 15281) (EXTERN 15266 . 15272) (punctuation 14863 . 14864) (symbol 14852 . 14862) (symbol 14843 . 14851) (EXTERN 14836 . 14842) (punctuation 14519 . 14520) (symbol 14508 . 14518) (symbol 14499 . 14507) (EXTERN 14492 . 14498) (VOID 14108 . 14112) (symbol 14099 . 14107) (EXTERN 14092 . 14098) (punctuation 13562 . 13563) (symbol 13551 . 13561) (symbol 13542 . 13550) (EXTERN 13535 . 13541) (punctuation 13072 . 13073) (symbol 13061 . 13071) (symbol 13052 . 13060) (EXTERN 13045 . 13051) (punctuation 12346 . 12347) (symbol 12335 . 12345) (symbol 12326 . 12334) (EXTERN 12319 . 12325) (symbol 10638 . 10646) (symbol 10629 . 10637) (EXTERN 10622 . 10628) (INT 10348 . 10351) (symbol 10339 . 10347) (EXTERN 10332 . 10338) (INT 8022 . 8025) (symbol 8013 . 8021) (EXTERN 8006 . 8012) (INT 7292 . 7295) (symbol 7283 . 7291) (EXTERN 7276 . 7282) (VOID 6545 . 6549) (symbol 6536 . 6544) (EXTERN 6529 . 6535) (symbol 5761 . 5767) (symbol 5752 . 5760) (EXTERN 5745 . 5751) (symbol 4950 . 4956) (symbol 4941 . 4949) (EXTERN 4934 . 4940) (symbol 3597 . 3603) (symbol 3588 . 3596) (EXTERN 3581 . 3587) (punctuation 2749 . 2750) (symbol 2738 . 2748) (symbol 2729 . 2737) (EXTERN 2722 . 2728))
       :lexical-table 
         '(("SDL_BUTTON_MIDDLE" . ((number "2" 16453 . 16454)))
@@ -14930,7 +14935,7 @@
           ("SDL_BUTTON_LMASK" . ((symbol "SDL_BUTTON" 16573 . 16583) (semantic-list "(SDL_BUTTON_LEFT)" 16583 . 16600)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbc74"
+    (semanticdb-table "semanticdb-table-15704e8f0360"
       :major-mode c-mode
       :tags 
         '( ("SDL_quit_h_" variable (:constant-flag t) nil [1048 1059])
@@ -14940,14 +14945,14 @@
       :file "SDL_quit.h"
       :pointmax 2107
       :fsize 2106
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("SDL_quit_h_")
           ("SDL_QuitRequested" (spp-arg-list nil 1987 . 1989) . ((semantic-list "(SDL_PumpEvents(), (SDL_PeepEvents(NULL,0,SDL_PEEKEVENT,SDL_QUIT,SDL_QUIT) > 0))" 2000 . 2080)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbc94"
+    (semanticdb-table "semanticdb-table-15704e8f0380"
       :major-mode c-mode
       :tags 
         '( ("SDL_gesture_h_" variable (:constant-flag t) nil [1057 1071])
@@ -15004,13 +15009,13 @@
       :file "SDL_gesture.h"
       :pointmax 3419
       :fsize 3418
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((INT 3178 . 3181) (symbol 3169 . 3177) (EXTERN 3162 . 3168) (INT 2683 . 2686) (symbol 2674 . 2682) (EXTERN 2667 . 2673) (INT 2256 . 2259) (symbol 2247 . 2255) (EXTERN 2240 . 2246) (INT 1838 . 1841) (symbol 1829 . 1837) (EXTERN 1822 . 1828))
       :lexical-table 
         '(("SDL_gesture_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbcb4"
+    (semanticdb-table "semanticdb-table-15704e8f03a0"
       :major-mode c-mode
       :tags 
         '( ("SDL_touch_h_" variable (:constant-flag t) nil [1051 1063])
@@ -15122,7 +15127,7 @@
       :file "SDL_touch.h"
       :pointmax 4507
       :fsize 4506
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((punctuation 4280 . 4281) (symbol 4269 . 4279) (symbol 4260 . 4268) (EXTERN 4253 . 4259) (INT 3724 . 3727) (symbol 3715 . 3723) (EXTERN 3708 . 3714) (symbol 3284 . 3303) (symbol 3275 . 3283) (EXTERN 3268 . 3274) (punctuation 3119 . 3120) (CHAR 3115 . 3119) (CONST 3109 . 3114) (symbol 3100 . 3108) (EXTERN 3093 . 3099) (symbol 2882 . 2893) (symbol 2873 . 2881) (EXTERN 2866 . 2872) (INT 2500 . 2503) (symbol 2491 . 2499) (EXTERN 2484 . 2490))
       :lexical-table 
         '(("SDL_TOUCH_MOUSEID" . ((semantic-list "((Uint32)-1)" 1876 . 1888)))
@@ -15130,7 +15135,7 @@
           ("SDL_touch_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbcd4"
+    (semanticdb-table "semanticdb-table-15704e8f03c0"
       :major-mode c-mode
       :tags 
         '( ("SDL_rect_h_" variable (:constant-flag t) nil [1068 1079])
@@ -15502,13 +15507,13 @@
       :file "SDL_rect.h"
       :pointmax 12861
       :fsize 12860
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((symbol 12408 . 12416) (symbol 12399 . 12407) (EXTERN 12392 . 12398) (symbol 11184 . 11192) (symbol 11175 . 11183) (EXTERN 11168 . 11174) (VOID 10260 . 10264) (symbol 10251 . 10259) (EXTERN 10244 . 10250) (symbol 9663 . 9671) (symbol 9654 . 9662) (EXTERN 9647 . 9653) (symbol 8950 . 8958) (symbol 8941 . 8949) (EXTERN 8934 . 8940) (symbol 8348 . 8364) (symbol 7817 . 7833) (symbol 7531 . 7547) (symbol 7251 . 7267) (symbol 6883 . 6891) (symbol 6874 . 6882) (EXTERN 6867 . 6873) (symbol 5692 . 5700) (symbol 5683 . 5691) (EXTERN 5676 . 5682) (VOID 4802 . 4806) (symbol 4793 . 4801) (EXTERN 4786 . 4792) (symbol 4236 . 4244) (symbol 4227 . 4235) (EXTERN 4220 . 4226) (symbol 3553 . 3561) (symbol 3544 . 3552) (EXTERN 3537 . 3543) (symbol 2908 . 2924) (symbol 2715 . 2731) (symbol 2438 . 2454))
       :lexical-table 
         '(("SDL_rect_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbcf4"
+    (semanticdb-table "semanticdb-table-15704e8f040c"
       :major-mode c-mode
       :tags 
         '( ("SDL_pixels_h_" variable (:constant-flag t) nil [1062 1075])
@@ -16314,7 +16319,7 @@
       :file "SDL_pixels.h"
       :pointmax 24523
       :fsize 24522
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((VOID 24291 . 24295) (symbol 24282 . 24290) (EXTERN 24275 . 24281) (VOID 23742 . 23746) (symbol 23733 . 23741) (EXTERN 23726 . 23732) (VOID 22636 . 22640) (symbol 22627 . 22635) (EXTERN 22620 . 22626) (symbol 21687 . 21693) (symbol 21678 . 21686) (EXTERN 21671 . 21677) (symbol 20272 . 20278) (symbol 20263 . 20271) (EXTERN 20256 . 20262) (VOID 19042 . 19046) (symbol 19033 . 19041) (EXTERN 19026 . 19032) (INT 18613 . 18616) (symbol 18604 . 18612) (EXTERN 18597 . 18603) (INT 17903 . 17906) (symbol 17894 . 17902) (EXTERN 17887 . 17893) (punctuation 17428 . 17429) (symbol 17416 . 17427) (symbol 17407 . 17415) (EXTERN 17400 . 17406) (VOID 16873 . 16877) (symbol 16864 . 16872) (EXTERN 16857 . 16863) (punctuation 16590 . 16591) (symbol 16574 . 16589) (symbol 16565 . 16573) (EXTERN 16558 . 16564) (symbol 15653 . 15659) (symbol 15644 . 15652) (EXTERN 15637 . 15643) (symbol 14650 . 14658) (symbol 14641 . 14649) (EXTERN 14634 . 14640) (punctuation 13871 . 13872) (CHAR 13867 . 13871) (CONST 13861 . 13866) (symbol 13852 . 13860) (EXTERN 13845 . 13851))
       :lexical-table 
         '(("SDL_ISPIXELFORMAT_ARRAY" (spp-arg-list ("format") 4286 . 4294) . ((semantic-list "(!SDL_ISPIXELFORMAT_FOURCC(format) && \\
@@ -16360,7 +16365,7 @@
           ("SDL_PIXELLAYOUT" (spp-arg-list ("X") 3417 . 3420) . ((semantic-list "(((X) >> 16) & 0x0F)" 3422 . 3442)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd26fbd14"
+    (semanticdb-table "semanticdb-table-15704e8f042c"
       :major-mode c-mode
       :tags 
         '( ("SDL_surface_h_" variable (:constant-flag t) nil [1079 1093])
@@ -17055,7 +17060,7 @@
       :file "SDL_surface.h"
       :pointmax 36799
       :fsize 36798
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((symbol 36538 . 36561) (symbol 36529 . 36537) (EXTERN 36522 . 36528) (symbol 36246 . 36269) (symbol 36237 . 36245) (EXTERN 36230 . 36236) (VOID 36064 . 36068) (symbol 36055 . 36063) (EXTERN 36048 . 36054) (INT 35831 . 35834) (symbol 35822 . 35830) (EXTERN 35815 . 35821) (INT 34959 . 34962) (symbol 34950 . 34958) (EXTERN 34943 . 34949) (INT 34351 . 34354) (symbol 34342 . 34350) (EXTERN 34335 . 34341) (INT 33941 . 33944) (symbol 33932 . 33940) (EXTERN 33925 . 33931) (INT 33611 . 33614) (symbol 33602 . 33610) (EXTERN 33595 . 33601) (INT 32618 . 32621) (symbol 32609 . 32617) (EXTERN 32602 . 32608) (INT 29777 . 29780) (symbol 29768 . 29776) (EXTERN 29761 . 29767) (INT 28710 . 28713) (symbol 28701 . 28709) (EXTERN 28694 . 28700) (INT 27391 . 27394) (symbol 27382 . 27390) (EXTERN 27375 . 27381) (INT 26126 . 26129) (symbol 26117 . 26125) (EXTERN 26110 . 26116) (punctuation 25268 . 25269) (symbol 25256 . 25267) (symbol 25247 . 25255) (EXTERN 25240 . 25246) (punctuation 24204 . 24205) (symbol 24192 . 24203) (symbol 24183 . 24191) (EXTERN 24176 . 24182) (punctuation 23222 . 23223) (symbol 23210 . 23221) (symbol 23201 . 23209) (EXTERN 23194 . 23200) (VOID 22788 . 22792) (symbol 22779 . 22787) (EXTERN 22772 . 22778) (symbol 22164 . 22172) (symbol 22155 . 22163) (EXTERN 22148 . 22154) (INT 21326 . 21329) (symbol 21317 . 21325) (EXTERN 21310 . 21316) (INT 20782 . 20785) (symbol 20773 . 20781) (EXTERN 20766 . 20772) (INT 20079 . 20082) (symbol 20070 . 20078) (EXTERN 20063 . 20069) (INT 19515 . 19518) (symbol 19506 . 19514) (EXTERN 19499 . 19505) (INT 18688 . 18691) (symbol 18679 . 18687) (EXTERN 18672 . 18678) (INT 17968 . 17971) (symbol 17959 . 17967) (EXTERN 17952 . 17958) (INT 17069 . 17072) (symbol 17060 . 17068) (EXTERN 17053 . 17059) (symbol 16415 . 16423) (symbol 16406 . 16414) (EXTERN 16399 . 16405) (INT 15916 . 15919) (symbol 15907 . 15915) (EXTERN 15900 . 15906) (symbol 14924 . 14932) (symbol 14915 . 14923) (EXTERN 14908 . 14914) (INT 14454 . 14457) (symbol 14445 . 14453) (EXTERN 14438 . 14444) (INT 13610 . 13613) (symbol 13601 . 13609) (EXTERN 13594 . 13600) (punctuation 12545 . 12546) (symbol 12533 . 12544) (symbol 12524 . 12532) (EXTERN 12517 . 12523) (VOID 11672 . 11676) (symbol 11663 . 11671) (EXTERN 11656 . 11662) (INT 11392 . 11395) (symbol 11383 . 11391) (EXTERN 11376 . 11382) (INT 10436 . 10439) (symbol 10427 . 10435) (EXTERN 10420 . 10426) (VOID 9982 . 9986) (symbol 9973 . 9981) (EXTERN 9966 . 9972) (punctuation 9554 . 9555) (symbol 9542 . 9553) (symbol 9533 . 9541) (EXTERN 9526 . 9532) (punctuation 7772 . 7773) (symbol 7760 . 7771) (symbol 7751 . 7759) (EXTERN 7744 . 7750) (punctuation 6523 . 6524) (symbol 6511 . 6522) (symbol 6502 . 6510) (EXTERN 6495 . 6501) (punctuation 5470 . 5471) (symbol 5458 . 5469) (symbol 5449 . 5457) (EXTERN 5442 . 5448) (punctuation 3510 . 3511) (semantic-list 3385 . 3510) (semantic-list 3365 . 3384) (INT 3361 . 3364) (TYPEDEF 3353 . 3360))
       :lexical-table 
         '(("SDL_PREALLOC" . ((number "0x00000001" 1606 . 1616)))
@@ -17071,7 +17076,7 @@
           ("SDL_MUSTLOCK" (spp-arg-list ("S") 2015 . 2018) . ((semantic-list "(((S)->flags & SDL_RLEACCEL) != 0)" 2019 . 2053)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd273d000"
+    (semanticdb-table "semanticdb-table-15704e8f044c"
       :major-mode c-mode
       :tags 
         '( ("SDL_keycode_h_" variable (:constant-flag t) nil [1074 1088])
@@ -18410,7 +18415,7 @@
       :file "SDL_keycode.h"
       :pointmax 15619
       :fsize 15618
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("SDL_SCANCODE_TO_KEYCODE" (spp-arg-list ("X") 1723 . 1726) . ((semantic-list "(X | SDLK_SCANCODE_MASK)" 1728 . 1752)))
@@ -18418,7 +18423,7 @@
           ("SDL_keycode_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd273d020"
+    (semanticdb-table "semanticdb-table-15704e8f046c"
       :major-mode c-mode
       :tags 
         '( ("SDL_blendmode_h_" variable (:constant-flag t) nil [1068 1084])
@@ -18568,13 +18573,13 @@
       :file "SDL_blendmode.h"
       :pointmax 9019
       :fsize 9018
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((symbol 8277 . 8290) (symbol 8268 . 8276) (EXTERN 8261 . 8267))
       :lexical-table 
         '(("SDL_blendmode_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd273d040"
+    (semanticdb-table "semanticdb-table-15704e8f048c"
       :major-mode c-mode
       :tags 
         '( ("SDL_scancode_h_" variable (:constant-flag t) nil [1042 1057])
@@ -19829,13 +19834,13 @@
       :file "SDL_scancode.h"
       :pointmax 16930
       :fsize 16929
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("SDL_scancode_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd273d060"
+    (semanticdb-table "semanticdb-table-15704e8f04ac"
       :major-mode c-mode
       :tags 
         '( ("SDL_guid_h_" variable (:constant-flag t) nil [1051 1062])
@@ -19881,13 +19886,13 @@
       :file "SDL_guid.h"
       :pointmax 3147
       :fsize 3146
-      :lastmodtime '(25806 9685 0 0)
+      :lastmodtime '(25843 33778 0 0)
       :unmatched-syntax '((symbol 2925 . 2933) (symbol 2916 . 2924) (EXTERN 2909 . 2915) (VOID 2397 . 2401) (symbol 2388 . 2396) (EXTERN 2381 . 2387))
       :lexical-table 
         '(("SDL_guid_h_")
           )
 )
-    (semanticdb-table "semanticdb-table-158cd273d080"
+    (semanticdb-table "semanticdb-table-15704e8f04cc"
       :major-mode c-mode
       :tags 
         '( ("SDL_IMAGE_H_" variable (:constant-flag t) nil [1151 1163])
@@ -20588,7 +20593,7 @@
           ("IMG_GetError" . ((symbol "SDL_GetError" 70174 . 70186)))
           )
 )
-    (semanticdb-table "semanticdb-table-158cd273d0a0"
+    (semanticdb-table "semanticdb-table-15704e8f04ec"
       :major-mode c-mode
       :tags 
         '( ("SDL_TTF_H_" variable (:constant-flag t) nil [1380 1390])

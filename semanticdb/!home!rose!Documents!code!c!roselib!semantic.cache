@@ -1,0 +1,22 @@
+;; Object semanticdb-project-database-file-1574f7688e5c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1574f7688e5c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1574f782eb52"
+      :major-mode makefile-gmake-mode
+      :tags 
+        '( ("cc" variable (:default-value ("g++")) nil [1 8])
+            ("cflags" variable (:default-value ("-std=c2x" "-c" "-Wall")) nil [8 33])
+            ("cxxflags" variable (:default-value ("-std=c++20" "-Wall" "-c")) nil [33 64])
+            ("bin_loc" variable (:default-value ("bin/game")) nil [64 81])
+            ("sdl_link" variable (:default-value ("-lSDL2main" "-lSDL2")) nil [81 109])
+            ("all" function nil nil [110 206]))          
+      :file "Makefile"
+      :pointmax 324
+      :fsize 323
+      :lastmodtime '(25859 38221 681720 422000)
+      :unmatched-syntax nil))
+  :file "!home!rose!Documents!code!c!roselib!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,53 +1,77 @@
-;; Object semanticdb-project-database-file-1576118aa676
+;; Object semanticdb-project-database-file-1586596f47d8
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-1576118aa676"
+(semanticdb-project-database-file "semanticdb-project-database-file-1586596f47d8"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-1576118aa656"
-      :major-mode c-mode
+    (semanticdb-table "semanticdb-table-1586596f96c8"
+      :major-mode c++-mode
       :tags 
         '( ("SDL2/SDL.h" include (:system-flag t) nil [1 22])
+            ("../libs/glad/glad.h" include nil nil [23 53])
+            ("Monitor" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [72 79])
+                    ("width" variable (:type "unsigned int") (reparse-symbol classsubparts) [84 110])
+                    ("height" variable (:type "unsigned int") (reparse-symbol classsubparts) [84 110])
+                    ("refresh_rate" variable (:type "unsigned int") (reparse-symbol classsubparts) [115 141])
+                    ("color_format" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol classsubparts) [147 167])
+                    ("color_space" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol classsubparts) [172 191])
+                    ("display_mode" variable (:type ("SDL_DisplayMode" type (:type "class") nil nil)) (reparse-symbol classsubparts) [196 225])
+                    ("bit_depth" variable (:type ("BitDepth" type
+                         (:prototype t
+                          :type "union")
+                          nil nil)) (reparse-symbol classsubparts) [231 280])
+                    ("BitDepth" type
+                       (:members 
+                          ( ("byte" variable (:type "char") (reparse-symbol classsubparts) [254 264]))                          
+                        :type "union")
+                        (reparse-symbol classsubparts) [231 280]))                  
+                :type "class")
+                nil [55 284])
             ("Window" type
-               (:typedef ("" type
-                     (:members 
-                        ( ("should_close" variable (:type "signed char") (reparse-symbol classsubparts) [45 70])
-                          ("event" variable (:type ("SDL_Event" type (:type "class") nil nil)) (reparse-symbol classsubparts) [76 92])
-                          ("window" variable
-                             (:pointer 1
-                              :type ("SDL_Window" type (:type "class") nil nil))
-                              (reparse-symbol classsubparts) [97 116])
-                          ("display_mode" variable (:type ("SDL_DisplayMode" type (:type "class") nil nil)) (reparse-symbol classsubparts) [121 150])
-                          ("width" variable (:type "unsigned int") (reparse-symbol classsubparts) [156 182])
-                          ("height" variable (:type "unsigned int") (reparse-symbol classsubparts) [156 182]))                        
-                      :type "struct")
-                      nil nil)
-                :type "typedef")
-                nil [24 191])
-            ("window_create" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("width" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [214 233])
-                    ("height" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [233 253])
-                    ("title" variable
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [302 309])
+                    ("width" variable (:type "unsigned int") (reparse-symbol classsubparts) [314 340])
+                    ("height" variable (:type "unsigned int") (reparse-symbol classsubparts) [314 340])
+                    ("aspect_ratio" variable (:type "float") (reparse-symbol classsubparts) [345 364])
+                    ("event" variable (:type ("SDL_Event" type (:type "class") nil nil)) (reparse-symbol classsubparts) [370 386])
+                    ("window" variable
                        (:pointer 1
-                        :constant-flag t
-                        :type "char")
-                        (reparse-symbol arg-sub-list) [253 271]))                  
-                :type ("Window" type (:type "class") nil nil))
-                nil [193 272])
-            ("window_close" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("window" variable
-                       (:pointer 1
+                        :type ("SDL_Window" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [391 410])
+                    ("monitor" variable (:type ("Monitor" type (:type "class") nil nil)) (reparse-symbol classsubparts) [415 431])
+                    ("create" function
+                       (:prototype-flag t
+                        :typemodifiers ("static")
+                        :arguments 
+                          ( ("width" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [458 477])
+                            ("height" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [477 497])
+                            ("titl" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [497 514]))                          
                         :type ("Window" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [291 306]))                  
-                :type "void")
-                nil [273 307]))          
+                        (reparse-symbol classsubparts) [437 515])
+                    ("set_monitor_info" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:pointer 1
+                                :type ("Monitor" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [543 552]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [521 553])
+                    ("close" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [558 571]))                  
+                :type "class")
+                nil [286 574]))          
       :file "window.h"
-      :pointmax 308
-      :fsize 307
-      :lastmodtime '(25842 40114 474296 104000)
+      :pointmax 575
+      :fsize 574
+      :lastmodtime '(25861 9987 544723 345000)
       :unmatched-syntax nil))
   :file "!home!rose!Documents!code!c!roselib!src!os!semantic.cache"
   :semantic-tag-version "2.0"

@@ -17,6 +17,7 @@
   (setq flycheck-gcc-language-standard "c++20")
   (setq flycheck-clang-language-standard "c++20")
   (setq flycheck-gcc-language-standard "c++20")
+  (define-key c-mode-base-map (kbd "C-c C-l") 'compile)
   (lsp-mode))
 
 (defun init_rust_lsp()
@@ -42,7 +43,8 @@
   )
 
 (defun setup_c_flags ()
-  (lsp-mode))
+  (lsp-mode)
+  (define-key c-mode-base-map (kbd "C-c C-l") 'compile))
 
 (add-hook 'c++-mode-hook 'setup_cpp_flags)
 (add-hook 'c-mode-hook 'setup_c_flags)
@@ -50,3 +52,6 @@
 (add-hook 'python-mode 'lsp-mode)
 (add-hook 'c++-mode 'lsp-mode)
 (add-hook 'c-mode 'lsp-mode)
+
+(add-hook 'c-mode-common-hook 
+          (lambda () (define-key c-mode-base-map (kbd "C-c C-l") 'compile)))

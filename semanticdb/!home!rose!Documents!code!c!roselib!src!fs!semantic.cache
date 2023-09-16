@@ -1,0 +1,96 @@
+;; Object semanticdb-project-database-file-15865a07c408
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15865a07c408"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15865a507972"
+      :major-mode c-mode
+      :tags 
+        '( ("FILE_OK" variable (:constant-flag t) nil [23 30])
+            ("FILE_LOAD_FAIL" variable (:constant-flag t) nil [43 57])
+            ("FILE_WRITE_FAIL" variable (:constant-flag t) nil [70 85])
+            ("iostream" include (:system-flag t) nil [91 110])
+            ("optional" include (:system-flag t) nil [111 130])
+            ("File" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [146 153])
+                    ("id" variable (:type "unsigned int") (reparse-symbol classsubparts) [158 174])
+                    ("path" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [179 196])
+                    ("size" variable (:type "int") (reparse-symbol classsubparts) [201 210])
+                    ("is_ok" variable (:type "int") (reparse-symbol classsubparts) [215 225])
+                    ("open" function
+                       (:prototype-flag t
+                        :typemodifiers ("static")
+                        :arguments 
+                          ( ("path" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [263 280]))                          
+                        :type ("std::optional" type
+                             (:template-specifier 
+                                ( ("File" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol classsubparts) [231 281])
+                    ("rd" function
+                       (:prototype-flag t
+                        :pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol classsubparts) [286 303])
+                    ("write" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("data" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [320 337]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [309 338])
+                    ("append" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("data" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "char")
+                                (reparse-symbol arg-sub-list) [355 372]))                          
+                        :type "bool")
+                        (reparse-symbol classsubparts) [343 373])
+                    ("refresh" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [378 393])
+                    ("free" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [398 410])
+                    ("File" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [416 424])
+                    ("private" label nil (reparse-symbol classsubparts) [426 434])
+                    ("_is_freed" variable (:type "bool") (reparse-symbol classsubparts) [439 454]))                  
+                :type "class")
+                nil [132 457]))          
+      :file "fs.h"
+      :pointmax 458
+      :fsize 457
+      :lastmodtime '(25861 12176 802100 775000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("FILE_WRITE_FAIL" . ((number "0x3" 86 . 89)))
+          ("FILE_OK" . ((number "0x1" 31 . 34)))
+          ("FILE_LOAD_FAIL" . ((number "0x2" 58 . 61)))
+          )
+))
+  :file "!home!rose!Documents!code!c!roselib!src!fs!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
