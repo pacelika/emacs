@@ -1,9 +1,9 @@
-;; Object semanticdb-project-database-file-158502f4e276
+;; Object semanticdb-project-database-file-15831f6e6cc0
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-158502f4e276"
+(semanticdb-project-database-file "semanticdb-project-database-file-15831f6e6cc0"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-158502f4e216"
+    (semanticdb-table "semanticdb-table-15831f6e6c60"
       :major-mode c-mode
       :tags 
         '( ("../buffers.h" include nil nil [15 38])
@@ -17,132 +17,132 @@
                         (reparse-symbol arg-sub-list) [79 88])
                     ("vbo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [88 103])
+                        :type ("VBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [88 97])
                     ("ebo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [103 118])
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [97 106])
                     ("vertices" variable
                        (:dereference 1
                         :type ("GLfloat" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [118 137])
+                        (reparse-symbol arg-sub-list) [106 125])
                     ("indices" variable
                        (:dereference 1
                         :type ("GLuint" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [137 154])
-                    ("v_size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [154 168])
-                    ("i_size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [168 182]))                  
+                        (reparse-symbol arg-sub-list) [125 142])
+                    ("v_size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [142 156])
+                    ("i_size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [156 170]))                  
                 :type "void")
-                nil [59 183])
+                nil [59 171])
             ("draw_rectangle" function
                (:prototype-flag t
                 :arguments 
                   ( ("vao" variable
                        (:pointer 1
                         :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [213 222])
+                        (reparse-symbol arg-sub-list) [201 210])
                     ("vbo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [222 237])
+                        :type ("VBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [210 219])
                     ("ebo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [237 252]))                  
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [219 228]))                  
                 :type "unsigned int")
-                nil [185 253])
+                nil [173 229])
             ("draw_circle" function
                (:prototype-flag t
                 :arguments 
                   ( ("vao" variable
                        (:pointer 1
                         :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [279 288])
+                        (reparse-symbol arg-sub-list) [255 264])
                     ("vbo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [288 303])
+                        :type ("VBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [264 273])
                     ("ebo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [303 318]))                  
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [273 282]))                  
                 :type "unsigned int")
-                nil [254 319])
+                nil [230 283])
             ("draw_triangle" function
                (:prototype-flag t
                 :arguments 
                   ( ("vao" variable
                        (:pointer 1
                         :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [347 356])
+                        (reparse-symbol arg-sub-list) [311 320])
                     ("vbo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [356 371])
+                        :type ("VBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [320 329])
                     ("ebo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [371 386]))                  
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [329 338]))                  
                 :type "unsigned int")
-                nil [320 387])
+                nil [284 339])
             ("draw_pyramid" function
                (:prototype-flag t
                 :arguments 
                   ( ("vao" variable
                        (:pointer 1
                         :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [415 424])
+                        (reparse-symbol arg-sub-list) [549 558])
                     ("vbo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [424 439])
+                        :type ("VBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [558 567])
                     ("ebo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [439 454]))                  
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [567 576]))                  
                 :type "unsigned int")
-                nil [389 455])
+                nil [523 577])
             ("draw_cube" function
                (:prototype-flag t
                 :arguments 
                   ( ("vao" variable
                        (:pointer 1
                         :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [479 488])
+                        (reparse-symbol arg-sub-list) [601 610])
                     ("vbo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [488 503])
+                        :type ("VBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [610 619])
                     ("ebo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [503 518]))                  
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [619 628]))                  
                 :type "unsigned int")
-                nil [456 519])
+                nil [578 629])
             ("draw_Sphere" function
                (:prototype-flag t
                 :arguments 
                   ( ("vao" variable
                        (:pointer 1
                         :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [545 554])
+                        (reparse-symbol arg-sub-list) [655 664])
                     ("vbo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [554 569])
+                        :type ("VBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [664 673])
                     ("ebo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [569 584]))                  
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [673 682]))                  
                 :type "unsigned int")
-                nil [520 585]))          
+                nil [630 683]))          
       :file "draw.h"
-      :pointmax 586
-      :fsize 585
-      :lastmodtime '(25860 1928 528580 132000)
-      :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-158502f4e236"
+      :pointmax 684
+      :fsize 683
+      :lastmodtime '(25862 31425 934109 223000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (punctuation 282 . 283) (semantic-list 254 . 282) (punctuation 228 . 229) (semantic-list 200 . 228) (punctuation 170 . 171) (semantic-list 78 . 170) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table-15831f6e6c80"
       :major-mode c++-mode
       :tags 
         '( ("iostream" include (:system-flag t) nil [15 34])
@@ -278,7 +278,7 @@
         '(("SHADER_LOGGING_ENABLED" . ((number "1" 130 . 131)))
           )
 )
-    (semanticdb-table "semanticdb-table-158502f4e256"
+    (semanticdb-table "semanticdb-table-15831f6e6ca0"
       :major-mode c++-mode
       :tags 
         '( ("../libs/glad/glad.h" include nil nil [15 45])

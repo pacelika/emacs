@@ -1,185 +1,221 @@
-;; Object semanticdb-project-database-file-1593488d82d8
+;; Object semanticdb-project-database-file-15831f7f26f0
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-1593488d82d8"
+(semanticdb-project-database-file "semanticdb-project-database-file-15831f7f26f0"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-1593488d8198"
-      :major-mode c-mode
+    (semanticdb-table "semanticdb-table-15831f7f22a2"
+      :major-mode c++-mode
       :tags 
         '( ("libs/glad/glad.h" include nil nil [14 41])
+            ("VBO" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [56 63])
+                    ("id" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [68 78])
+                    ("gen" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [84 95])
+                    ("init" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("vertices" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [110 131])
+                            ("size" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [131 143]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [100 144])
+                    ("bind" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [149 161])
+                    ("unbind" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [166 180])
+                    ("unload" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [185 199]))                  
+                :type "class")
+                nil [43 202])
             ("VAO" type
-               (:typedef ("" type
-                     (:members 
-                        ( ("id" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [64 74])
-                          ("stride" variable (:type ("GLsizeiptr" type (:type "class") nil nil)) (reparse-symbol classsubparts) [79 97]))                        
-                      :type "struct")
-                      nil nil)
-                :type "typedef")
-                nil [43 103])
-            ("GPUBuffer" type
-               (:typedef ("" type
-                     (:members 
-                        ( ("id" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [126 136]))                        
-                      :type "struct")
-                      nil nil)
-                :type "typedef")
-                nil [105 148])
-            ("VBO" variable (:constant-flag t) nil [158 161])
-            ("EBO" variable (:constant-flag t) nil [181 184])
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [217 224])
+                    ("id" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [229 239])
+                    ("stride" variable (:type ("GLsizeiptr" type (:type "class") nil nil)) (reparse-symbol classsubparts) [244 262])
+                    ("gen" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("stride" variable (:type ("GLsizeiptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [277 295]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [268 296])
+                    ("attr_data" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("" variable
+                               (:pointer 1
+                                :type ("VBO" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [316 321])
+                            ("location" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [321 343])
+                            ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [343 361])
+                            ("type" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [361 373])
+                            ("offset" variable
+                               (:pointer 1
+                                :type "void")
+                                (reparse-symbol arg-sub-list) [373 386]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [301 387])
+                    ("bind" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [393 405])
+                    ("unbind" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [410 424])
+                    ("unload" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [429 443]))                  
+                :type "class")
+                nil [204 446])
+            ("EBO" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [461 468])
+                    ("id" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol classsubparts) [473 483])
+                    ("gen" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [488 499])
+                    ("init" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("indices" variable
+                               (:pointer 1
+                                :type ("GLuint" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [514 530])
+                            ("size" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [530 542]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [504 543])
+                    ("bind" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [548 560])
+                    ("unbind" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [565 579])
+                    ("unload" function
+                       (:prototype-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [584 598]))                  
+                :type "class")
+                nil [448 601])
             ("vao_gen" function
                (:prototype-flag t
                 :arguments 
                   ( ("" variable
                        (:pointer 1
                         :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [210 215])
-                    ("stride" variable (:type ("GLsizeiptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [215 233]))                  
+                        (reparse-symbol arg-sub-list) [616 621])
+                    ("stride" variable (:type ("GLsizeiptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [621 639]))                  
                 :type "void")
-                nil [197 234])
+                nil [603 640])
             ("vao_attr_data" function
                (:prototype-flag t
                 :arguments 
                   ( ("" variable
                        (:pointer 1
                         :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [254 259])
+                        (reparse-symbol arg-sub-list) [660 665])
                     ("" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [259 264])
-                    ("location" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [264 286])
-                    ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [286 304])
-                    ("type" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [304 316])
+                        :type ("VBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [665 670])
+                    ("location" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [670 692])
+                    ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [692 710])
+                    ("type" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [710 722])
                     ("offset" variable
                        (:pointer 1
                         :type "void")
-                        (reparse-symbol arg-sub-list) [316 329]))                  
+                        (reparse-symbol arg-sub-list) [722 735]))                  
                 :type "void")
-                nil [235 330])
+                nil [641 736])
             ("vao_bind" function
                (:prototype-flag t
                 :arguments 
                   ( ("" variable
                        (:pointer 1
                         :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [345 350]))                  
+                        (reparse-symbol arg-sub-list) [751 756]))                  
                 :type "void")
-                nil [331 351])
+                nil [737 757])
             ("vao_unbind" function
                (:prototype-flag t
                 :type "void")
-                nil [352 370])
+                nil [758 776])
             ("vao_unload" function
                (:prototype-flag t
                 :arguments 
                   ( ("" variable
                        (:pointer 1
                         :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [387 392]))                  
+                        (reparse-symbol arg-sub-list) [793 798]))                  
                 :type "void")
-                nil [371 393])
+                nil [777 799])
             ("ebo_gen" function
                (:prototype-flag t
                 :arguments 
                   ( ("" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [408 413]))                  
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [814 819]))                  
                 :type "void")
-                nil [395 414])
+                nil [801 820])
             ("ebo_init" function
                (:prototype-flag t
                 :arguments 
                   ( ("ebo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [429 438])
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [835 844])
                     ("indices" variable
                        (:pointer 1
                         :type ("GLuint" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [438 454])
-                    ("size" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [454 466]))                  
+                        (reparse-symbol arg-sub-list) [844 860])
+                    ("size" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [860 872]))                  
                 :type "void")
-                nil [415 467])
+                nil [821 873])
             ("ebo_bind" function
                (:prototype-flag t
                 :arguments 
                   ( ("" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [482 487]))                  
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [888 893]))                  
                 :type "void")
-                nil [468 488])
+                nil [874 894])
             ("ebo_unbind" function
                (:prototype-flag t
                 :type "void")
-                nil [489 507])
+                nil [895 913])
             ("ebo_unload" function
                (:prototype-flag t
                 :arguments 
                   ( ("" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [524 529]))                  
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [930 935]))                  
                 :type "void")
-                nil [508 530])
-            ("vbo_gen" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [545 550]))                  
-                :type "void")
-                nil [532 551])
-            ("vbo_init" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [566 571])
-                    ("vertices" variable
-                       (:pointer 1
-                        :constant-flag t
-                        :type "void")
-                        (reparse-symbol arg-sub-list) [571 592])
-                    ("size" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [592 604]))                  
-                :type "void")
-                nil [552 605])
-            ("vbo_bind" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [620 625]))                  
-                :type "void")
-                nil [606 626])
-            ("vbo_unbind" function
-               (:prototype-flag t
-                :type "void")
-                nil [627 645])
-            ("vbo_unload" function
-               (:prototype-flag t
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [662 667]))                  
-                :type "void")
-                nil [646 668]))          
+                nil [914 936]))          
       :file "buffers.h"
-      :pointmax 669
-      :fsize 668
-      :lastmodtime '(25839 60580 534961 58000)
-      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2))
-      :lexical-table 
-        '(("VBO" . ((symbol "GPUBuffer" 162 . 171)))
-          ("EBO" . ((symbol "GPUBuffer" 185 . 194)))
-          )
-)
-    (semanticdb-table "semanticdb-table-1593488d81b8"
+      :pointmax 937
+      :fsize 936
+      :lastmodtime '(25862 1623 144907 621000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
+    (semanticdb-table "semanticdb-table-15831f7f22c2"
       :major-mode c++-mode
       :tags 
         '( ("stdio.h" include (:system-flag t) nil [1 19])
@@ -197,13 +233,19 @@
             ("WIDTH" variable (:constant-flag t) nil [386 391])
             ("HEIGHT" variable (:constant-flag t) nil [404 410])
             ("speed" variable (:constant-flag t) nil [424 429])
-            ("main" function (:type "int") nil [436 3530]))          
+            ("main" function (:type "int") nil [436 3484]))          
       :file "main.cxx"
-      :pointmax 3531
-      :fsize 3530
-      :lastmodtime '(25861 17439 949377 87000)
-      :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-1593488d81d8"
+      :pointmax 3485
+      :fsize 3484
+      :lastmodtime '(25862 31261 236801 506000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("HEIGHT" . ((number "600" 411 . 414)))
+          ("WIDTH" . ((number "800" 392 . 395)))
+          ("speed" . ((number "0.1f" 430 . 434)))
+          )
+)
+    (semanticdb-table "semanticdb-table-15831f7f2610"
       :major-mode c++-mode
       :tags 
         '( ("string.h" include (:system-flag t) nil [1 20])
@@ -395,7 +437,7 @@
         '(("ERR_BUF_SIZE" . ((number "512" 809 . 812)))
           )
 )
-    (semanticdb-table "semanticdb-table-1593488d81f8"
+    (semanticdb-table "semanticdb-table-15831f7f2630"
       :major-mode c++-mode
       :tags 
         '( ("renderer/texture.h" include nil nil [1 30])
@@ -494,7 +536,7 @@
         '(("STB_IMAGE_IMPLEMENTATION")
           )
 )
-    (semanticdb-table "semanticdb-table-1593488d8218"
+    (semanticdb-table "semanticdb-table-15831f7f2650"
       :major-mode c++-mode
       :tags 
         '( ("os/window.h" include nil nil [1 23])
@@ -535,7 +577,7 @@
       :fsize 1565
       :lastmodtime '(25861 10117 138669 836000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-1593488d8238"
+    (semanticdb-table "semanticdb-table-15831f7f2670"
       :major-mode c-mode
       :tags 
         '( ("Model" type
@@ -577,46 +619,10 @@
       :fsize 149
       :lastmodtime '(25859 38175 41445 581000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-1593488d8258"
+    (semanticdb-table "semanticdb-table-15831f7f2690"
       :major-mode c++-mode
       :tags 
         '( ("renderer/draw.h" include nil nil [1 27])
-            ("default_vertex_src" variable
-               (:pointer 1
-                :constant-flag t
-                :default-value "\"#version 400 core\\n\"
-\"layout (location = 0) in vec3 vert_pos;\"
-\"layout (location = 1) in vec2 tex;\"
-\"layout (location = 2) in vec3 acolor;\"
-\"out vec2 tex_coords;\"
-\"out vec3 color;\"
-
-\"uniform mat4 model_matrix;\"
-\"uniform mat4 view_matrix;\"
-\"uniform mat4 proj_matrix;\"
-
-\"void main(){\"
-    \"gl_Position = proj_matrix * view_matrix * model_matrix * vec4(vert_pos,1.0);\"
-\"    color = acolor;\"
-\"    tex_coords = tex;\"
-\"}\""
-                :type "char")
-                nil [28 28])
-            ("default_fragment_src" variable
-               (:pointer 1
-                :constant-flag t
-                :default-value "\"#version 400 core\\n\"
-\"out vec4 FragColor;\"
-\"in vec2 tex_coords;\"
-\"in vec3 color;\"
-\"uniform sampler2D tex0;\"
-\"uniform vec3 frag_color;\"
-
-\"void main(){\"
-\"    FragColor = texture(tex0,tex_coords);\"
-\"}\""
-                :type "char")
-                nil [28 28])
             ("pyramid_vertices" variable
                (:dereference 1
                 :default-value "{ //     COORDINATES     /        COLORS      /   TexCoord  //
@@ -648,20 +654,20 @@
                         (reparse-symbol arg-sub-list) [532 541])
                     ("vbo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [541 556])
+                        :type ("VBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [541 550])
                     ("ebo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [556 571]))                  
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [550 559]))                  
                 :type "unsigned int")
-                nil [506 739]))          
+                nil [506 727]))          
       :file "draw3d.cxx"
-      :pointmax 740
-      :fsize 739
-      :lastmodtime '(25860 7947 792008 158000)
+      :pointmax 728
+      :fsize 727
+      :lastmodtime '(25862 31319 910364 129000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-1593488d8278"
+    (semanticdb-table "semanticdb-table-15831f7f26b0"
       :major-mode c++-mode
       :tags 
         '( ("renderer/draw.h" include nil nil [1 27])
@@ -693,194 +699,159 @@
                         (reparse-symbol arg-sub-list) [547 556])
                     ("vbo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [556 571])
+                        :type ("VBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [556 565])
                     ("ebo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [571 586])
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [565 574])
                     ("vertices" variable
                        (:dereference 1
                         :type ("GLfloat" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [586 605])
+                        (reparse-symbol arg-sub-list) [574 593])
                     ("indices" variable
                        (:dereference 1
                         :type ("GLuint" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [605 622])
-                    ("v_size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [622 636])
-                    ("i_size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [636 650]))                  
+                        (reparse-symbol arg-sub-list) [593 610])
+                    ("v_size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [610 624])
+                    ("i_size" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [624 638]))                  
                 :type "void")
-                nil [527 1089])
+                nil [527 1069])
             ("draw_triangle" function
                (:arguments 
                   ( ("vao" variable
                        (:pointer 1
                         :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [1118 1127])
+                        (reparse-symbol arg-sub-list) [1098 1107])
                     ("vbo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [1127 1142])
+                        :type ("VBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1107 1116])
                     ("ebo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [1142 1157]))                  
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1116 1125]))                  
                 :type "unsigned int")
-                nil [1091 1316])
+                nil [1071 1284])
             ("draw_rectangle" function
                (:arguments 
                   ( ("vao" variable
                        (:pointer 1
                         :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [1346 1355])
+                        (reparse-symbol arg-sub-list) [1314 1323])
                     ("vbo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [1355 1370])
+                        :type ("VBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1323 1332])
                     ("ebo" variable
                        (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [1370 1385]))                  
+                        :type ("EBO" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1332 1341]))                  
                 :type "unsigned int")
-                nil [1318 1538]))          
+                nil [1286 1494]))          
       :file "draw2d.cxx"
-      :pointmax 1539
-      :fsize 1538
-      :lastmodtime '(25843 43902 807969 257000)
+      :pointmax 1495
+      :fsize 1494
+      :lastmodtime '(25862 31313 327005 125000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-1593488d8298"
+    (semanticdb-table "semanticdb-table-15831f7f26d0"
       :major-mode c++-mode
       :tags 
         '( ("buffers.h" include nil nil [1 21])
             ("stdio.h" include (:system-flag t) nil [22 40])
-            ("vbo_gen" function
-               (:arguments 
-                  ( ("vbo" variable
-                       (:pointer 1
-                        :type ("VBO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [55 64]))                  
+            ("gen" function
+               (:parent "VBO"
                 :type "void")
-                nil [42 97])
-            ("vbo_init" function
-               (:arguments 
-                  ( ("vbo" variable
-                       (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [113 128])
-                    ("data" variable
+                nil [42 85])
+            ("init" function
+               (:parent "VBO"
+                :arguments 
+                  ( ("data" variable
                        (:pointer 1
                         :constant-flag t
                         :type "void")
-                        (reparse-symbol arg-sub-list) [128 145])
-                    ("size" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [146 158]))                  
+                        (reparse-symbol arg-sub-list) [102 119])
+                    ("size" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [120 132]))                  
                 :type "void")
-                nil [99 264])
-            ("vbo_bind" function
-               (:arguments 
+                nil [87 233])
+            ("bind" function
+               (:parent "VBO"
+                :type "void")
+                nil [235 292])
+            ("unbind" function
+               (:parent "VBO"
+                :type "void")
+                nil [294 352])
+            ("unload" function
+               (:parent "VBO"
+                :type "void")
+                nil [354 403])
+            ("gen" function
+               (:parent "VAO"
+                :arguments 
+                  ( ("stride" variable (:type ("GLsizeiptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [419 437]))                  
+                :type "void")
+                nil [405 497])
+            ("bind" function
+               (:parent "VAO"
+                :type "void")
+                nil [499 546])
+            ("unbind" function
+               (:parent "VAO"
+                :type "void")
+                nil [548 596])
+            ("attr_data" function
+               (:parent "VAO"
+                :arguments 
                   ( ("vbo" variable
-                       (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [280 295]))                  
-                :type "void")
-                nil [266 341])
-            ("vbo_unbind" function (:type "void") nil [343 400])
-            ("vbo_unload" function
-               (:arguments 
-                  ( ("vbo" variable
-                       (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [418 433]))                  
-                :type "void")
-                nil [402 469])
-            ("vao_gen" function
-               (:arguments 
-                  ( ("vao" variable
-                       (:pointer 1
-                        :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [484 493])
-                    ("stride" variable (:type ("GLsizeiptr" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [493 511]))                  
-                :type "void")
-                nil [471 575])
-            ("vao_bind" function
-               (:arguments 
-                  ( ("vao" variable
-                       (:pointer 1
-                        :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [591 600]))                  
-                :type "void")
-                nil [577 636])
-            ("vao_unbind" function (:type "void") nil [638 685])
-            ("vao_attr_data" function
-               (:arguments 
-                  ( ("vao" variable
-                       (:pointer 1
-                        :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [706 715])
-                    ("vbo" variable
                        (:pointer 1
                         :type ("VBO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [715 724])
-                    ("layout" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [724 738])
-                    ("size" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [738 750])
-                    ("type" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [750 762])
+                        (reparse-symbol arg-sub-list) [618 627])
+                    ("layout" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [627 641])
+                    ("size" variable (:type ("GLuint" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [641 653])
+                    ("type" variable (:type ("GLenum" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [653 665])
                     ("offset" variable
                        (:pointer 1
                         :type "void")
-                        (reparse-symbol arg-sub-list) [762 775]))                  
+                        (reparse-symbol arg-sub-list) [665 678]))                  
                 :type "void")
-                nil [687 945])
-            ("vao_unload" function
-               (:arguments 
-                  ( ("vao" variable
-                       (:pointer 1
-                        :type ("VAO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [963 972]))                  
+                nil [598 842])
+            ("unload" function
+               (:parent "VAO"
                 :type "void")
-                nil [947 1013])
-            ("ebo_gen" function
-               (:arguments 
-                  ( ("ebo" variable
-                       (:pointer 1
-                        :type ("EBO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [1028 1037]))                  
+                nil [844 898])
+            ("gen" function
+               (:parent "EBO"
                 :type "void")
-                nil [1015 1070])
-            ("ebo_init" function
-               (:arguments 
-                  ( ("ebo" variable
-                       (:pointer 1
-                        :type ("GPUBuffer" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [1086 1101])
-                    ("indices" variable
+                nil [900 943])
+            ("init" function
+               (:parent "EBO"
+                :arguments 
+                  ( ("indices" variable
                        (:pointer 1
                         :type ("GLuint" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [1101 1117])
-                    ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1117 1135]))                  
+                        (reparse-symbol arg-sub-list) [960 976])
+                    ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [976 994]))                  
                 :type "void")
-                nil [1072 1228])
-            ("ebo_bind" function
-               (:arguments 
-                  ( ("ebo" variable
-                       (:pointer 1
-                        :type ("EBO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [1244 1253]))                  
+                nil [945 1080])
+            ("bind" function
+               (:parent "EBO"
                 :type "void")
-                nil [1230 1307])
-            ("ebo_unbind" function (:type "void") nil [1309 1374])
-            ("ebo_unload" function
-               (:arguments 
-                  ( ("ebo" variable
-                       (:pointer 1
-                        :type ("EBO" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [1392 1401]))                  
+                nil [1082 1147])
+            ("unbind" function
+               (:parent "EBO"
                 :type "void")
-                nil [1376 1437]))          
+                nil [1149 1215])
+            ("unload" function
+               (:parent "EBO"
+                :type "void")
+                nil [1217 1266]))          
       :file "buffers.cxx"
-      :pointmax 1438
-      :fsize 1437
-      :lastmodtime '(25839 60831 82999 586000)
+      :pointmax 1267
+      :fsize 1266
+      :lastmodtime '(25862 3022 817977 78000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-1593488d82b8"
+    (semanticdb-table "semanticdb-table-15831f7f2a1c"
       :major-mode c++-mode
       :tags 
         '( ("fs/fs.h" include nil nil [1 19])
@@ -964,7 +935,15 @@
       :lexical-table 
         '(("MAX_FILES_OPEN" . ((number "10" 123 . 125)))
           )
-))
+)
+    (semanticdb-table "semanticdb-table-15831f7f2a3c"
+      :major-mode c++-mode
+      :tags nil
+      :file "draw.cxx"
+      :pointmax 2667
+      :fsize 2666
+      :lastmodtime '(25862 31173 733123 982000)
+      :unmatched-syntax nil))
   :file "!home!rose!Documents!code!c!roselib!src!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")

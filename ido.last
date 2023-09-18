@@ -65,6 +65,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/rose/Documents/code/"
  "/home/rose/.emacs.d/"
  "/home/rose/Documents/code/c/roselib/src/"
  "/home/rose/Documents/code/c/roselib/src/fs/"
@@ -114,7 +115,6 @@
  "/home/rose/Documents/code/pascal/some_project/"
  "/home/rose/Documents/code/c/testing/src/"
  "/home/rose/Documents/code/c/game/src/core/extern_libs/glad/"
- "/home/rose/Documents/code/c/game/src/core/"
 )
 
 ;; ----- ido-work-file-list -----
