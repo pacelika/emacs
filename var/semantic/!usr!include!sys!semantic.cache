@@ -1,0 +1,669 @@
+;; Object semanticdb-project-database-file-158cd3e1c5bc
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-158cd3e1c5bc"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-158cd3e1c59c"
+      :major-mode c-mode
+      :tags 
+        '( ("_SYS_CDEFS_H" variable (:constant-flag t) nil [860 872])
+            ("features.h" include (:system-flag t) nil [949 971])
+            ("__glibc_has_attribute" variable (:constant-flag t) nil [1821 1842])
+            ("__glibc_has_builtin" variable (:constant-flag t) nil [1950 1969])
+            ("__glibc_has_extension" variable (:constant-flag t) nil [2081 2102])
+            ("__LEAF" variable (:constant-flag t) nil [2406 2412])
+            ("__LEAF_ATTR" variable (:constant-flag t) nil [2423 2434])
+            ("__THROW" variable (:constant-flag t) nil [3419 3426])
+            ("__THROWNL" variable (:constant-flag t) nil [3438 3447])
+            ("__NTH" variable (:constant-flag t) nil [3459 3464])
+            ("__NTHNL" variable (:constant-flag t) nil [3485 3492])
+            ("__COLD" variable (:constant-flag t) nil [3643 3649])
+            ("__P" variable (:constant-flag t) nil [4140 4143])
+            ("__PMT" variable (:constant-flag t) nil [4163 4168])
+            ("__CONCAT" variable (:constant-flag t) nil [4294 4302])
+            ("__STRING" variable (:constant-flag t) nil [4323 4331])
+            ("__ptr_t" variable (:constant-flag t) nil [4417 4424])
+            ("__BEGIN_DECLS" variable (:constant-flag t) nil [4531 4544])
+            ("__END_DECLS" variable (:constant-flag t) nil [4567 4578])
+            ("__bos" variable (:constant-flag t) nil [4672 4677])
+            ("__bos0" variable (:constant-flag t) nil [4744 4750])
+            ("__glibc_objsize0" variable (:constant-flag t) nil [5121 5137])
+            ("__glibc_objsize" variable (:constant-flag t) nil [5165 5180])
+            ("__warnattr" variable (:constant-flag t) nil [7654 7664])
+            ("__errordecl" variable (:constant-flag t) nil [7679 7690])
+            ("__flexarr" variable (:constant-flag t) nil [8482 8491])
+            ("__glibc_c99_flexarr_available" variable (:constant-flag t) nil [8505 8534])
+            ("__REDIRECT" variable (:constant-flag t) nil [9223 9233])
+            ("__REDIRECT_NTH" variable (:constant-flag t) nil [9324 9338])
+            ("__REDIRECT_NTHNL" variable (:constant-flag t) nil [9424 9440])
+            ("__ASMNAME" variable (:constant-flag t) nil [9746 9755])
+            ("__ASMNAME2" variable (:constant-flag t) nil [9815 9825])
+            ("__REDIRECT_FORTIFY" variable (:constant-flag t) nil [9901 9919])
+            ("__REDIRECT_FORTIFY_NTH" variable (:constant-flag t) nil [9978 10000])
+            ("__attribute_malloc__" variable (:constant-flag t) nil [10813 10833])
+            ("__attribute_alloc_size__" variable (:constant-flag t) nil [11088 11112])
+            ("__attribute_alloc_align__" variable (:constant-flag t) nil [11425 11450])
+            ("__attribute_pure__" variable (:constant-flag t) nil [11826 11844])
+            ("__attribute_const__" variable (:constant-flag t) nil [12070 12089])
+            ("__attribute_maybe_unused__" variable (:constant-flag t) nil [12253 12279])
+            ("__attribute_used__" variable (:constant-flag t) nil [12707 12725])
+            ("__attribute_noinline__" variable (:constant-flag t) nil [12764 12786])
+            ("__attribute_deprecated__" variable (:constant-flag t) nil [13023 13047])
+            ("__attribute_deprecated_msg__" variable (:constant-flag t) nil [13448 13476])
+            ("__attribute_format_arg__" variable (:constant-flag t) nil [14079 14103])
+            ("__attribute_format_strfmon__" variable (:constant-flag t) nil [14529 14557])
+            ("__attribute_nonnull__" variable (:constant-flag t) nil [15027 15048])
+            ("__returns_nonnull" variable (:constant-flag t) nil [15449 15466])
+            ("__attribute_warn_unused_result__" variable (:constant-flag t) nil [15893 15925])
+            ("__always_inline" variable (:constant-flag t) nil [16435 16450])
+            ("__attribute_artificial__" variable (:constant-flag t) nil [16751 16775])
+            ("__extension__" variable (:constant-flag t) nil [18492 18505])
+            ("__restrict" variable (:constant-flag t) nil [18860 18870])
+            ("__restrict_arr" variable (:constant-flag t) nil [19225 19239])
+            ("__glibc_unlikely" variable (:constant-flag t) nil [19565 19581])
+            ("__glibc_likely" variable (:constant-flag t) nil [19626 19640])
+            ("_Noreturn" variable (:constant-flag t) nil [20050 20059])
+            ("__attribute_nonstring__" variable (:constant-flag t) nil [20360 20383])
+            ("__attribute_copy__" variable (:constant-flag t) nil [20659 20677])
+            ("bits/wordsize.h" include (:system-flag t) nil [21210 21237])
+            ("bits/long-double.h" include (:system-flag t) nil [21238 21268])
+            ("__LDBL_REDIR" variable (:constant-flag t) nil [23586 23598])
+            ("__LDBL_REDIR1_NTH" variable (:constant-flag t) nil [23632 23649])
+            ("__LDBL_REDIR_NTH" variable (:constant-flag t) nil [23698 23714])
+            ("__LDBL_REDIR2_DECL" variable (:constant-flag t) nil [23756 23774])
+            ("__LDBL_REDIR_DECL" variable (:constant-flag t) nil [23790 23807])
+            ("__REDIRECT_LDBL" variable (:constant-flag t) nil [23843 23858])
+            ("__REDIRECT_NTH_LDBL" variable (:constant-flag t) nil [23921 23940])
+            ("__glibc_macro_warning" variable (:constant-flag t) nil [24450 24471])
+            ("__HAVE_GENERIC_SELECTION" variable (:constant-flag t) nil [25208 25232])
+            ("__fortified_attr_access" variable (:constant-flag t) nil [26268 26291])
+            ("__attr_access" variable (:constant-flag t) nil [26311 26324])
+            ("__attr_access_none" variable (:constant-flag t) nil [26338 26356])
+            ("__attr_dealloc" variable (:constant-flag t) nil [26678 26692])
+            ("__attr_dealloc_free" variable (:constant-flag t) nil [26718 26737])
+            ("__attribute_returns_twice__" variable (:constant-flag t) nil [26935 26962]))          
+      :file "cdefs.h"
+      :pointmax 27012
+      :fsize 27011
+      :lastmodtime '(25822 14145 0 0)
+      :unmatched-syntax '((symbol 23571 . 23576) (symbol 23566 . 23570) (close-paren 23564 . 23565) (symbol 23559 . 23564) (punctuation 23557 . 23558) (symbol 23552 . 23557) (punctuation 23550 . 23551) (symbol 23546 . 23550) (open-paren 23545 . 23546) (semantic-list #("(__ASMNAME (#alias))" 0 1 (macros (("alias") ("proto") ("name")))) 23512 . 23545) (symbol "__asm__" 23512 . 23545) (symbol 23504 . 23511) (punctuation 23503 . 23504) (punctuation 23501 . 23502) (punctuation 23500 . 23501) (close-paren 19955 . 19956) (semantic-list 19871 . 19955) (punctuation 19870 . 19871) (punctuation 19867 . 19868) (punctuation 19866 . 19867) (number 19852 . 19858) (punctuation 19850 . 19851) (semantic-list 19800 . 19849) (punctuation 19798 . 19799) (punctuation 19797 . 19798))
+      :lexical-table 
+        '(("__LEAF_ATTR")
+          ("__bos" (spp-arg-list ("ptr") 4677 . 4682) . ((symbol "__builtin_object_size" 4683 . 4704) (semantic-list "(ptr, __USE_FORTIFY_LEVEL > 1)" 4705 . 4735)))
+          ("__glibc_objsize0" (spp-arg-list ("__o") 5137 . 5142) . ((symbol "__bos0" 5143 . 5149) (semantic-list "(__o)" 5150 . 5155)))
+          ("__flexarr" . ((semantic-list "[0]" 8492 . 8495)))
+          ("__attribute_pure__")
+          ("__attribute_deprecated_msg__" (spp-arg-list ("msg") 13476 . 13481) . ((symbol "__attribute_deprecated__" 13482 . 13506)))
+          ("__attribute_artificial__")
+          ("__LDBL_REDIR_DECL" (spp-arg-list ("name") 23807 . 23813))
+          ("__P" (spp-arg-list ("args") 4143 . 4149) . ((symbol "args" 4150 . 4154)))
+          ("__CONCAT" (spp-arg-list ("x" "y") 4302 . 4307) . ((spp-symbol-merge ((symbol "x" 4308 . 4309) (symbol "y" 4313 . 4314)) 4308 . 4314)))
+          ("__glibc_objsize" (spp-arg-list ("__o") 5180 . 5185) . ((symbol "__bos" 5186 . 5191) (semantic-list "(__o)" 5192 . 5197)))
+          ("__REDIRECT_FORTIFY" . ((symbol "__REDIRECT" 9920 . 9930)))
+          ("__attribute_maybe_unused__")
+          ("__glibc_likely" (spp-arg-list ("cond") 19640 . 19646) . ((symbol "__builtin_expect" 19647 . 19663) (semantic-list "((cond), 1)" 19664 . 19675)))
+          ("__attribute_returns_twice__")
+          ("_SYS_CDEFS_H" . ((number "1" 873 . 874)))
+          ("__glibc_has_builtin" (spp-arg-list ("name") 1969 . 1975) . ((number "0" 1976 . 1977)))
+          ("__LEAF")
+          ("__END_DECLS" . ((close-paren "}" 4579 . 4580)))
+          ("__ASMNAME" (spp-arg-list ("cname") 9755 . 9762) . ((symbol "__ASMNAME2" 9764 . 9774) (semantic-list "(__USER_LABEL_PREFIX__, cname)" 9775 . 9805)))
+          ("__attribute_warn_unused_result__")
+          ("__LDBL_REDIR2_DECL" (spp-arg-list ("name") 23774 . 23780))
+          ("__attr_dealloc_free")
+          ("__ptr_t" . ((VOID "void" 4425 . 4429) (punctuation "*" 4430 . 4431)))
+          ("__BEGIN_DECLS" . 
+              ((EXTERN "extern" 4545 . 4551) (string "\"C\"" 4552 . 4555) (open-paren "{" 4556 . 4557)))
+          ("__REDIRECT_LDBL" (spp-arg-list ("name" "proto" "alias") 23858 . 23878) . ((symbol "__REDIRECT" 23879 . 23889) (semantic-list "(name, proto, alias)" 23890 . 23910)))
+          ("__glibc_has_extension" (spp-arg-list ("ext") 2102 . 2107) . ((number "0" 2108 . 2109)))
+          ("__THROW")
+          ("__PMT" (spp-arg-list ("args") 4168 . 4174) . ((symbol "args" 4175 . 4179)))
+          ("__STRING" (spp-arg-list ("x") 4331 . 4334) . ((punctuation "#" 4335 . 4336) (symbol "x" 4336 . 4337)))
+          ("__REDIRECT_NTHNL" (spp-arg-list ("name" "proto" "alias") 9440 . 9460) . 
+              ((symbol "name" 9468 . 9472) (symbol "proto" 9473 . 9478) (symbol "__THROWNL" 9479 . 9488) (symbol "__asm__" 9489 . 9496) (semantic-list "(__ASMNAME (#alias))" 9497 . 9517)))
+          ("__attribute_const__")
+          ("__LDBL_REDIR1_NTH" (spp-arg-list ("name" "proto" "alias") 23649 . 23669) . 
+              ((symbol "name" 23670 . 23674) (symbol "proto" 23675 . 23680) (symbol "__THROW" 23681 . 23688)))
+          ("__attr_access_none" (spp-arg-list ("argno") 26356 . 26363))
+          ("__attr_dealloc" (spp-arg-list ("dealloc" "argno") 26692 . 26708))
+          ("__REDIRECT_NTH" (spp-arg-list ("name" "proto" "alias") 9338 . 9358) . 
+              ((symbol "name" 9366 . 9370) (symbol "proto" 9371 . 9376) (symbol "__THROW" 9377 . 9384) (symbol "__asm__" 9385 . 9392) (semantic-list "(__ASMNAME (#alias))" 9393 . 9413)))
+          ("__ASMNAME2" (spp-arg-list ("prefix" "cname") 9825 . 9840) . 
+              ((symbol "__STRING" 9841 . 9849) (semantic-list "(prefix)" 9850 . 9858) (symbol "cname" 9859 . 9864)))
+          ("__attribute_format_arg__" (spp-arg-list ("x") 14103 . 14106))
+          ("__attribute_nonnull__" (spp-arg-list ("params") 15048 . 15056))
+          ("__returns_nonnull")
+          ("_Noreturn")
+          ("__attr_access" (spp-arg-list ("x") 26324 . 26327))
+          ("__LDBL_REDIR_NTH" (spp-arg-list ("name" "proto") 23714 . 23727) . 
+              ((symbol "name" 23728 . 23732) (symbol "proto" 23733 . 23738) (symbol "__THROW" 23739 . 23746)))
+          ("__restrict_arr")
+          ("__LDBL_REDIR" (spp-arg-list ("name" "proto") 23598 . 23611) . ((symbol "name" 23612 . 23616) (symbol "proto" 23617 . 23622)))
+          ("__glibc_has_attribute" (spp-arg-list ("attr") 1842 . 1848) . ((number "0" 1849 . 1850)))
+          ("__NTH" (spp-arg-list ("fct") 3464 . 3469) . ((symbol "fct" 3470 . 3473)))
+          ("__glibc_c99_flexarr_available" . ((number "1" 8535 . 8536)))
+          ("__attribute_malloc__")
+          ("__attribute_alloc_size__" (spp-arg-list ("params") 11112 . 11120))
+          ("__attribute_noinline__")
+          ("__always_inline" . ((symbol "__inline" 16451 . 16459)))
+          ("__HAVE_GENERIC_SELECTION" . ((number "0" 25233 . 25234)))
+          ("__fortified_attr_access" (spp-arg-list ("a" "o" "s") 26291 . 26300))
+          ("__REDIRECT" (spp-arg-list ("name" "proto" "alias") 9233 . 9253) . 
+              ((symbol "name" 9254 . 9258) (symbol "proto" 9259 . 9264) (symbol "__asm__" 9265 . 9272) (semantic-list "(__ASMNAME (#alias))" 9273 . 9293)))
+          ("__extension__")
+          ("__attribute_nonstring__")
+          ("__glibc_macro_warning" (spp-arg-list ("msg") 24471 . 24476))
+          ("__THROWNL")
+          ("__COLD")
+          ("__bos0" (spp-arg-list ("ptr") 4750 . 4755) . ((symbol "__builtin_object_size" 4756 . 4777) (semantic-list "(ptr, 0)" 4778 . 4786)))
+          ("__REDIRECT_FORTIFY_NTH" . ((symbol "__REDIRECT_NTH" 10001 . 10015)))
+          ("__attribute_alloc_align__" (spp-arg-list ("param") 11450 . 11457))
+          ("__attribute_used__" . ((symbol "__attribute__" 12726 . 12739) (semantic-list "((__unused__))" 12740 . 12754)))
+          ("__attribute_deprecated__")
+          ("__attribute_format_strfmon__" (spp-arg-list ("a" "b") 14557 . 14562))
+          ("__attribute_copy__" (spp-arg-list ("arg") 20677 . 20682))
+          ("__LDBL_REDIR1" (spp-arg-list ("name" "proto" "alias") 23545 . 23565) . ((symbol "name" 23566 . 23570) (symbol "proto" 23571 . 23576)))
+          ("__NTHNL" (spp-arg-list ("fct") 3492 . 3497) . ((symbol "fct" 3498 . 3501)))
+          ("__warnattr" (spp-arg-list ("msg") 7664 . 7669))
+          ("__errordecl" (spp-arg-list ("name" "msg") 7690 . 7701) . 
+              ((EXTERN "extern" 7702 . 7708) (VOID "void" 7709 . 7713) (symbol "name" 7714 . 7718) (semantic-list "(void)" 7719 . 7725)))
+          ("__restrict")
+          ("__glibc_unlikely" (spp-arg-list ("cond") 19581 . 19587) . ((symbol "__builtin_expect" 19588 . 19604) (semantic-list "((cond), 0)" 19605 . 19616)))
+          ("__REDIRECT_NTH_LDBL" (spp-arg-list ("name" "proto" "alias") 23940 . 23960) . ((symbol "__REDIRECT_NTH" 23965 . 23979) (semantic-list "(name, proto, alias)" 23980 . 24000)))
+          )
+)
+    (semanticdb-table "semanticdb-table-158cd41cdb38"
+      :major-mode c-mode
+      :tags 
+        '( ("_SYS_TYPES_H" variable (:constant-flag t) nil [893 905])
+            ("features.h" include (:system-flag t) nil [909 930])
+            ("bits/pthreadtypes.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [5636 5667])
+            ("fsfilcnt64_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__fsfilcnt64_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [5462 5498])
+            ("fsblkcnt64_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__fsblkcnt64_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [5384 5420])
+            ("blkcnt64_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__blkcnt64_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [5304 5336])
+            ("__fsfilcnt_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4803 4823])
+            ("fsfilcnt_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__fsfilcnt_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [4719 4751])
+            ("__fsblkcnt_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4660 4680])
+            ("fsblkcnt_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__fsblkcnt_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [4576 4608])
+            ("__blkcnt_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4519 4537])
+            ("blkcnt_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__blkcnt_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [4435 4463])
+            ("__blksize_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [4299 4318])
+            ("blksize_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__blksize_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [4259 4289])
+            ("sys/select.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [4117 4141])
+            ("endian.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [4029 4049])
+            ("__BIT_TYPES_DEFINED__" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3923 3944])
+            ("register_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("int"))
+                (reparse-symbol extern-c-contents) [3797 3820])
+            ("u_int64_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__uint64_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [3673 3702])
+            ("u_int32_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__uint32_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [3643 3672])
+            ("u_int16_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__uint16_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [3613 3642])
+            ("u_int8_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__uint8_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [3585 3612])
+            ("bits/stdint-intn.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [3496 3525])
+            ("uint" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("unsigned int"))
+                (reparse-symbol extern-c-contents) [3392 3418])
+            ("ushort" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("unsigned short int"))
+                (reparse-symbol extern-c-contents) [3357 3391])
+            ("ulong" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("unsigned long int"))
+                (reparse-symbol extern-c-contents) [3324 3356])
+            ("stddef.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [3241 3260])
+            ("__need_size_t" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3227 3240])
+            ("__suseconds_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3181 3202])
+            ("suseconds_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__suseconds_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [3136 3170])
+            ("__useconds_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [3076 3096])
+            ("useconds_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__useconds_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [3033 3065])
+            ("bits/types/timer_t.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2951 2982])
+            ("bits/types/time_t.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2920 2950])
+            ("bits/types/clockid_t.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2886 2919])
+            ("bits/types/clock_t.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [2846 2878])
+            ("__key_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2772 2787])
+            ("key_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__key_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [2740 2762])
+            ("__daddr_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2630 2647])
+            ("caddr_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__caddr_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [2593 2619])
+            ("daddr_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__daddr_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [2566 2592])
+            ("__ssize_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2495 2512])
+            ("ssize_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__ssize_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [2459 2485])
+            ("__id_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2410 2424])
+            ("id_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__id_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [2380 2400])
+            ("__pid_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2271 2286])
+            ("pid_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__pid_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [2239 2261])
+            ("__off64_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2189 2206])
+            ("off64_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__off64_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [2153 2179])
+            ("__off_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [2070 2085])
+            ("off_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__off_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1998 2020])
+            ("__uid_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1921 1936])
+            ("uid_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__uid_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1889 1911])
+            ("__nlink_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1839 1856])
+            ("nlink_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__nlink_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1803 1829])
+            ("__mode_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1752 1768])
+            ("mode_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__mode_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1718 1742])
+            ("__gid_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1669 1684])
+            ("gid_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__gid_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1637 1659])
+            ("__dev_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1589 1604])
+            ("dev_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__dev_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1557 1579])
+            ("__ino64_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1507 1524])
+            ("ino64_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__ino64_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1471 1497])
+            ("__ino_t_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1388 1403])
+            ("ino_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__ino_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1316 1338])
+            ("loff_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__loff_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1230 1254])
+            ("__u_char_defined" variable
+               (:typemodifiers ("extern" "\"C\"")
+                :constant-flag t)
+                (reparse-symbol extern-c-contents) [1205 1221])
+            ("fsid_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__fsid_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1170 1194])
+            ("u_quad_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__u_quad_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1141 1169])
+            ("quad_t" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__quad_t" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1116 1140])
+            ("u_long" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__u_long" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1091 1115])
+            ("u_int" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__u_int" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1068 1090])
+            ("u_short" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__u_short" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1041 1067])
+            ("u_char" type
+               (:typemodifiers ("extern" "\"C\"")
+                :type "typedef"
+                :typedef ("__u_char" type (:type "class") nil nil))
+                (reparse-symbol extern-c-contents) [1016 1040])
+            ("bits/types.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [947 970]))          
+      :file "types.h"
+      :pointmax 5714
+      :fsize 5713
+      :lastmodtime '(25822 14145 0 0)
+      :unmatched-syntax '((symbol 4239 . 4258) (symbol 4231 . 4238) (punctuation 4230 . 4231) (punctuation 4228 . 4229) (punctuation 4227 . 4228) (symbol 2365 . 2379) (symbol 2357 . 2364) (punctuation 2356 . 2357) (punctuation 2354 . 2355) (punctuation 2353 . 2354))
+      :lexical-table 
+        '(("__nlink_t_defined")
+          ("__key_t_defined")
+          ("__BIT_TYPES_DEFINED__" . ((number "1" 3945 . 3946)))
+          ("_SYS_TYPES_H" . ((number "1" 906 . 907)))
+          ("__uid_t_defined")
+          ("__blksize_t_defined")
+          ("__id_t_defined")
+          ("__blkcnt_t_defined")
+          ("__ino_t_defined")
+          ("__ino64_t_defined")
+          ("__dev_t_defined")
+          ("__fsfilcnt_t_defined")
+          ("__ssize_t_defined")
+          ("__daddr_t_defined")
+          ("__suseconds_t_defined")
+          ("__mode_t_defined")
+          ("__u_char_defined")
+          ("__useconds_t_defined")
+          ("__need_size_t")
+          ("__gid_t_defined")
+          ("__off_t_defined")
+          ("__fsblkcnt_t_defined")
+          ("__off64_t_defined")
+          ("__pid_t_defined")
+          )
+)
+    (semanticdb-table "semanticdb-table-158cd3dc36b2"
+      :major-mode c-mode
+      :tags 
+        '( ("_SYS_SELECT_H" variable (:constant-flag t) nil [970 983])
+            ("features.h" include (:system-flag t) nil [987 1008])
+            ("bits/types.h" include (:system-flag t) nil [1055 1078])
+            ("bits/select.h" include (:system-flag t) nil [1111 1135])
+            ("bits/types/sigset_t.h" include (:system-flag t) nil [1158 1190])
+            ("bits/types/time_t.h" include (:system-flag t) nil [1249 1279])
+            ("bits/types/struct_timeval.h" include (:system-flag t) nil [1280 1318])
+            ("bits/types/struct_timespec.h" include (:system-flag t) nil [1340 1380])
+            ("suseconds_t" type
+               (:typedef ("__suseconds_t" type (:type "class") nil nil)
+                :type "typedef")
+                nil [1419 1453])
+            ("__suseconds_t_defined" variable (:constant-flag t) nil [1463 1484])
+            ("__fd_mask" type
+               (:typedef ("long int")
+                :type "typedef")
+                nil [1556 1583])
+            ("__NFDBITS" variable (:constant-flag t) nil [1739 1748])
+            ("__FD_ELT" variable (:constant-flag t) nil [1788 1796])
+            ("__FD_MASK" variable (:constant-flag t) nil [1826 1835])
+            ("fd_set" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("fds_bits" variable
+                             (:dereference 1
+                              :type ("__fd_mask" type (:type "class") nil nil))
+                              (reparse-symbol classsubparts) [2066 2111])
+                          ("__FDS_BITS" variable (:constant-flag t) (reparse-symbol classsubparts) [2121 2131]))                        
+                      :type "struct")
+                      nil nil)
+                :type "typedef")
+                nil [1919 2276])
+            ("FD_SETSIZE" variable (:constant-flag t) nil [2341 2351])
+            ("fd_mask" type
+               (:typedef ("__fd_mask" type (:type "class") nil nil)
+                :type "typedef")
+                nil [2450 2476])
+            ("NFDBITS" variable (:constant-flag t) nil [2562 2569])
+            ("FD_SET" variable (:constant-flag t) nil [2633 2639])
+            ("FD_CLR" variable (:constant-flag t) nil [2682 2688])
+            ("FD_ISSET" variable (:constant-flag t) nil [2731 2739])
+            ("FD_ZERO" variable (:constant-flag t) nil [2784 2791])
+            ("pselect" function
+               (:type "int"
+                :arguments 
+                  ( ("__nfds" variable (:type "int") (reparse-symbol arg-sub-list) [4170 4181])
+                    ("__readfds" variable
+                       (:pointer 1
+                        :type ("fd_set" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4182 4211])
+                    ("__writefds" variable
+                       (:pointer 1
+                        :type ("fd_set" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4218 4248])
+                    ("__exceptfds" variable
+                       (:pointer 1
+                        :type ("fd_set" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4255 4286])
+                    ("__timeout" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("timespec" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [4293 4337])
+                    ("__sigmask" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type ("__sigset_t" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4344 4383]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [4150 4384])
+            ("select" function
+               (:type "int"
+                :arguments 
+                  ( ("__nfds" variable (:type "int") (reparse-symbol arg-sub-list) [3314 3325])
+                    ("__readfds" variable
+                       (:pointer 1
+                        :type ("fd_set" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3326 3355])
+                    ("__writefds" variable
+                       (:pointer 1
+                        :type ("fd_set" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3361 3391])
+                    ("__exceptfds" variable
+                       (:pointer 1
+                        :type ("fd_set" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3397 3428])
+                    ("__timeout" variable
+                       (:pointer 1
+                        :type ("timeval" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [3434 3471]))                  
+                :typemodifiers ("extern" "\"C\"" "extern")
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [3295 3472]))          
+      :file "select.h"
+      :pointmax 5040
+      :fsize 5039
+      :lastmodtime '(25822 14145 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("__FD_ELT" (spp-arg-list ("d") 1796 . 1799) . ((semantic-list "((d) / __NFDBITS)" 1800 . 1817)))
+          ("__FDS_BITS" (spp-arg-list ("set") 2131 . 2136) . ((semantic-list "((set)->fds_bits)" 2137 . 2154)))
+          ("FD_SETSIZE" . ((symbol "__FD_SETSIZE" 2353 . 2365)))
+          ("NFDBITS" . ((symbol "__NFDBITS" 2571 . 2580)))
+          ("FD_CLR" (spp-arg-list ("fd" "fdsetp") 2688 . 2700) . ((symbol "__FD_CLR" 2701 . 2709) (semantic-list "(fd, fdsetp)" 2710 . 2722)))
+          ("__suseconds_t_defined")
+          ("_SYS_SELECT_H" . ((number "1" 984 . 985)))
+          ("__FD_MASK" (spp-arg-list ("d") 1835 . 1838) . ((semantic-list "((__fd_mask) (1UL << ((d) % __NFDBITS)))" 1839 . 1879)))
+          ("__NFDBITS" . ((semantic-list "(8 * (int) sizeof (__fd_mask))" 1749 . 1779)))
+          ("FD_ZERO" (spp-arg-list ("fdsetp") 2791 . 2799) . ((symbol "__FD_ZERO" 2801 . 2810) (semantic-list "(fdsetp)" 2811 . 2819)))
+          ("FD_SET" (spp-arg-list ("fd" "fdsetp") 2639 . 2651) . ((symbol "__FD_SET" 2652 . 2660) (semantic-list "(fd, fdsetp)" 2661 . 2673)))
+          ("FD_ISSET" (spp-arg-list ("fd" "fdsetp") 2739 . 2751) . ((symbol "__FD_ISSET" 2752 . 2762) (semantic-list "(fd, fdsetp)" 2763 . 2775)))
+          )
+))
+  :file "!usr!include!sys!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

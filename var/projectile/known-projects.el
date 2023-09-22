@@ -1,0 +1,1 @@
+("~/Documents/code/c/roselib/" "~/.emacs.d/")
