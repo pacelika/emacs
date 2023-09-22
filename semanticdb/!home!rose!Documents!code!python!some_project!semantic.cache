@@ -1,0 +1,67 @@
+;; Object semanticdb-project-database-file-156f59c2ead4
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-156f59c2ead4"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-156f59c2eb08"
+      :major-mode python-mode
+      :tags 
+        '( ("os" include nil nil [1 10])
+            ("build" function (:arguments 
+              ( ("assembly" variable nil (reparse-symbol function_parameters) [187 195]))              ) nil [177 484])
+            ("assembly_code" variable nil nil [485 798])
+            ("Lexer" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [858 883])
+                            ("self" variable nil (reparse-symbol indented_block_body) [892 926])
+                            ("self" variable nil (reparse-symbol indented_block_body) [935 959])
+                            ("self" variable nil (reparse-symbol indented_block_body) [968 987])
+                            ("self" code nil (reparse-symbol indented_block_body) [996 1012])
+                            ("self" variable nil (reparse-symbol indented_block_body) [1021 1037]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [830 834])
+                            ("source_code" variable nil (reparse-symbol function_parameters) [835 846]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [817 1037])
+                    ("advance" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1054 1058]))                          )
+                        (reparse-symbol indented_block_body) [1042 1238])
+                    ("peek" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1251 1255]))                          )
+                        (reparse-symbol indented_block_body) [1242 1271])
+                    ("consume" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1287 1291]))                          )
+                        (reparse-symbol indented_block_body) [1275 1307])
+                    ("make_number" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1327 1331]))                          )
+                        (reparse-symbol indented_block_body) [1311 1544])
+                    ("tokenize" function
+                       (:parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [1562 1566]))                          )
+                        (reparse-symbol indented_block_body) [1549 1708]))                  
+                :type "class")
+                nil [800 1708])
+            ("source_code" variable nil nil [1709 1731])
+            ("lexer" variable nil nil [1733 1759])
+            ("lexer" code nil nil [1760 1776])
+            ("for" code nil nil [1778 1829]))          
+      :file "main.py"
+      :pointmax 1829
+      :fsize 1827
+      :lastmodtime '(25867 50886 798541 286000)
+      :unmatched-syntax nil))
+  :file "!home!rose!Documents!code!python!some_project!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,9 +1,9 @@
-;; Object semanticdb-project-database-file-15831ea38faa
+;; Object semanticdb-project-database-file-1572802c0800
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-15831ea38faa"
+(semanticdb-project-database-file "semanticdb-project-database-file-1572802c0800"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-15831e7dce88"
+    (semanticdb-table "semanticdb-table-1572802bba86"
       :major-mode c-mode
       :tags 
         '( ("_FEATURES_H" variable (:constant-flag t) nil [819 830])
@@ -126,7 +126,7 @@
           ("__GLIBC_USE_DEPRECATED_GETS" . ((number "0" 15253 . 15254)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831eee7f5a"
+    (semanticdb-table "semanticdb-table-1572802a6d40"
       :major-mode c-mode
       :tags 
         '( ("bits/wordsize.h" include (:system-flag t) nil [911 937])
@@ -136,7 +136,7 @@
       :fsize 1409
       :lastmodtime '(25822 14145 0 0)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-15831ee9804c"
+    (semanticdb-table "semanticdb-table-1572802a6d60"
       :major-mode c-mode
       :tags nil
       :file "stdc-predef.h"
@@ -144,7 +144,7 @@
       :fsize 2462
       :lastmodtime '(25822 14145 0 0)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-15831f09da22"
+    (semanticdb-table "semanticdb-table-1572802a6d80"
       :major-mode c-mode
       :tags 
         '( ("_WCHAR_H" variable (:constant-flag t) nil [916 924])
@@ -1701,7 +1701,7 @@
           ("WCHAR_MIN" . ((symbol "__WCHAR_MIN" 1966 . 1977)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f6364dc"
+    (semanticdb-table "semanticdb-table-1572802a6da0"
       :major-mode c-mode
       :tags 
         '( ("_CTYPE_H" variable (:constant-flag t) nil [878 886])
@@ -2289,7 +2289,7 @@
           ("isxdigit_l" (spp-arg-list ("c" "l") 10664 . 10669) . ((symbol "__isxdigit_l" 10670 . 10682) (semantic-list "((c), (l))" 10683 . 10693)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f6b79a8"
+    (semanticdb-table "semanticdb-table-1572802a6dc0"
       :major-mode c-mode
       :tags 
         '( ("_LOCALE_H" variable (:constant-flag t) nil [875 884])
@@ -2575,7 +2575,7 @@
           ("LC_NUMERIC" . ((symbol "__LC_NUMERIC" 1195 . 1207)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f6d27e8"
+    (semanticdb-table "semanticdb-table-1572802a6de0"
       :major-mode c++-mode
       :tags 
         '( ("_PTHREAD_H" variable (:constant-flag t) nil [818 828])
@@ -4456,7 +4456,7 @@
           ("PTHREAD_SCOPE_PROCESS" . ((symbol "PTHREAD_SCOPE_PROCESS" 3762 . 3783)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f6d27cc"
+    (semanticdb-table "semanticdb-table-1572802a6e00"
       :major-mode c-mode
       :tags 
         '( ("_WCTYPE_H" variable (:constant-flag t) nil [918 927])
@@ -4658,7 +4658,7 @@
           ("_WCTYPE_H" . ((number "1" 928 . 929)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831ef6f4e8"
+    (semanticdb-table "semanticdb-table-1572802a6e20"
       :major-mode c-mode
       :tags 
         '( ("_SCHED_H" variable (:constant-flag t) nil [890 898])
@@ -4916,7 +4916,7 @@
           ("CPU_SET" (spp-arg-list ("cpu" "cpusetp") 2916 . 2930) . ((symbol "__CPU_SET_S" 2932 . 2943) (semantic-list "(cpu, sizeof (cpu_set_t), cpusetp)" 2944 . 2978)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f57c350"
+    (semanticdb-table "semanticdb-table-1572802a6e40"
       :major-mode c-mode
       :tags 
         '( ("_TIME_H" variable (:constant-flag t) nil [872 879])
@@ -5515,7 +5515,7 @@
           ("__pid_t_defined")
           )
 )
-    (semanticdb-table "semanticdb-table-15831f6371b6"
+    (semanticdb-table "semanticdb-table-1572802a6e60"
       :major-mode c-mode
       :tags 
         '( ("_ERRNO_H" variable (:constant-flag t) nil [866 874])
@@ -5557,7 +5557,7 @@
           ("_ERRNO_H" . ((number "1" 875 . 876)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f6d884a"
+    (semanticdb-table "semanticdb-table-1572802a6e80"
       :major-mode c-mode
       :tags 
         '( ("_ENDIAN_H" variable (:constant-flag t) nil [817 826])
@@ -5606,7 +5606,7 @@
           ("PDP_ENDIAN" . ((symbol "__PDP_ENDIAN" 1069 . 1081)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f6d945e"
+    (semanticdb-table "semanticdb-table-1572802a6ea0"
       :major-mode c-mode
       :tags 
         '( ("__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION" variable (:constant-flag t) nil [921 968])
@@ -7304,7 +7304,7 @@
           ("__lldiv_t_defined" . ((number "1" 2514 . 2515)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f6dc48e"
+    (semanticdb-table "semanticdb-table-1572802a6ec0"
       :major-mode c-mode
       :tags 
         '( ("_ALLOCA_H" variable (:constant-flag t) nil [817 826])
@@ -7334,7 +7334,7 @@
           ("__need_size_t")
           )
 )
-    (semanticdb-table "semanticdb-table-15831f640374"
+    (semanticdb-table "semanticdb-table-1572802a6ee0"
       :major-mode c-mode
       :tags 
         '( ("_STDINT_H" variable (:constant-flag t) nil [867 876])
@@ -7557,7 +7557,7 @@
           ("INT_FAST16_MIN" . ((semantic-list "(-2147483647-1)" 4324 . 4339)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f72c66a"
+    (semanticdb-table "semanticdb-table-1572802a6f00"
       :major-mode c-mode
       :tags 
         '( ("_STDIO_H" variable (:constant-flag t) nil [920 928])
@@ -9196,7 +9196,7 @@
           ("L_cuserid" . ((number "9" 3399 . 3400)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f7eea30"
+    (semanticdb-table "semanticdb-table-1572802a6f20"
       :major-mode c-mode
       :tags 
         '( ("_STRING_H" variable (:constant-flag t) nil [878 887])
@@ -9543,7 +9543,7 @@
     }))" 8060 . 8381)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f757cce"
+    (semanticdb-table "semanticdb-table-1572802a6f40"
       :major-mode c-mode
       :tags 
         '( ("_STRINGS_H" variable (:constant-flag t) nil [818 828])
@@ -9715,7 +9715,7 @@
           ("__need_size_t")
           )
 )
-    (semanticdb-table "semanticdb-table-15831e74772c"
+    (semanticdb-table "semanticdb-table-1572802a6f60"
       :major-mode c++-mode
       :tags 
         '( ("_MATH_H" variable (:constant-flag t) nil [906 913])
@@ -10283,7 +10283,7 @@
           ("M_LOG2El" . ((number "1." 37888 . 37890) (number "442695040888963407359924681001892137L" 37890 . 37927)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f6bf644"
+    (semanticdb-table "semanticdb-table-1572802a6f80"
       :major-mode c-mode
       :tags 
         '( ("_DLFCN_H" variable (:constant-flag t) nil [864 872])
@@ -10619,7 +10619,7 @@
           ("LM_ID_BASE" . ((number "0" 1205 . 1206)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f78a840"
+    (semanticdb-table "semanticdb-table-1572802a6fa0"
       :major-mode c-mode
       :tags 
         '( ("_STDIO_EXT_H" variable (:constant-flag t) nil [974 986])
@@ -10751,7 +10751,7 @@
           ("FSETLOCKING_INTERNAL" . ((symbol "FSETLOCKING_INTERNAL" 1341 . 1361)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f698846"
+    (semanticdb-table "semanticdb-table-1572802a6fc0"
       :major-mode c-mode
       :tags 
         '( ("_MEMORY_H" variable (:constant-flag t) nil [833 842])
@@ -10766,7 +10766,7 @@
         '(("_MEMORY_H" . ((number "1" 843 . 844)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f69880c"
+    (semanticdb-table "semanticdb-table-1572802a6fe0"
       :major-mode c-mode
       :tags 
         '( ("_ASSERT_H" variable (:constant-flag t) nil [1007 1016])
@@ -10853,7 +10853,7 @@
           ("_ASSERT_H" . ((number "1" 1017 . 1018)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f6c22b2"
+    (semanticdb-table "semanticdb-table-1572802a7000"
       :major-mode c-mode
       :tags 
         '( ("RAYLIB_H" variable (:constant-flag t) nil [4883 4891])
@@ -18213,7 +18213,7 @@
           ("SHADER_LOC_MAP_DIFFUSE" . ((symbol "SHADER_LOC_MAP_ALBEDO" 37530 . 37551)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f6ceef0"
+    (semanticdb-table "semanticdb-table-1572802a7020"
       :major-mode c-mode
       :tags 
         '( ("_LIBC_LIMITS_H_" variable (:constant-flag t) nil [901 916])
@@ -18238,6 +18238,2065 @@
           ("_LIBC_LIMITS_H_" . ((number "1" 917 . 918)))
           ("__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION")
           ("LLONG_MAX" . ((symbol "__LONG_LONG_MAX__" 4245 . 4262)))
+          )
+)
+    (semanticdb-table "semanticdb-table-1572802c07e0"
+      :major-mode c-mode
+      :tags 
+        '( ("RLGL_H" variable (:constant-flag t) nil [6262 6268])
+            ("RLGL_VERSION" variable (:constant-flag t) nil [6278 6290])
+            ("RLAPI" variable (:constant-flag t) nil [6872 6877])
+            ("TRACELOG" variable (:constant-flag t) nil [7014 7022])
+            ("TRACELOGD" variable (:constant-flag t) nil [7055 7064])
+            ("RL_MALLOC" variable (:constant-flag t) nil [7150 7159])
+            ("RL_CALLOC" variable (:constant-flag t) nil [7216 7225])
+            ("RL_REALLOC" variable (:constant-flag t) nil [7285 7295])
+            ("RL_FREE" variable (:constant-flag t) nil [7352 7359])
+            ("GRAPHICS_API_OPENGL_33" variable (:constant-flag t) nil [7667 7689])
+            ("RLGL_RENDER_TEXTURES_HINT" variable (:constant-flag t) nil [8610 8635])
+            ("RL_DEFAULT_BATCH_BUFFER_ELEMENTS" variable (:constant-flag t) nil [9146 9178])
+            ("RL_DEFAULT_BATCH_BUFFERS" variable (:constant-flag t) nil [9550 9574])
+            ("RL_DEFAULT_BATCH_DRAWCALLS" variable (:constant-flag t) nil [9705 9731])
+            ("RL_DEFAULT_BATCH_MAX_TEXTURE_UNITS" variable (:constant-flag t) nil [9887 9921])
+            ("RL_MAX_MATRIX_STACK_SIZE" variable (:constant-flag t) nil [10114 10138])
+            ("RL_MAX_SHADER_LOCATIONS" variable (:constant-flag t) nil [10263 10286])
+            ("RL_CULL_DISTANCE_NEAR" variable (:constant-flag t) nil [10438 10459])
+            ("RL_CULL_DISTANCE_FAR" variable (:constant-flag t) nil [10564 10584])
+            ("RL_TEXTURE_WRAP_S" variable (:constant-flag t) nil [10710 10727])
+            ("RL_TEXTURE_WRAP_T" variable (:constant-flag t) nil [10791 10808])
+            ("RL_TEXTURE_MAG_FILTER" variable (:constant-flag t) nil [10872 10893])
+            ("RL_TEXTURE_MIN_FILTER" variable (:constant-flag t) nil [10957 10978])
+            ("RL_TEXTURE_FILTER_NEAREST" variable (:constant-flag t) nil [11043 11068])
+            ("RL_TEXTURE_FILTER_LINEAR" variable (:constant-flag t) nil [11117 11141])
+            ("RL_TEXTURE_FILTER_MIP_NEAREST" variable (:constant-flag t) nil [11190 11219])
+            ("RL_TEXTURE_FILTER_NEAREST_MIP_LINEAR" variable (:constant-flag t) nil [11279 11315])
+            ("RL_TEXTURE_FILTER_LINEAR_MIP_NEAREST" variable (:constant-flag t) nil [11367 11403])
+            ("RL_TEXTURE_FILTER_MIP_LINEAR" variable (:constant-flag t) nil [11455 11483])
+            ("RL_TEXTURE_FILTER_ANISOTROPIC" variable (:constant-flag t) nil [11542 11571])
+            ("RL_TEXTURE_MIPMAP_BIAS_RATIO" variable (:constant-flag t) nil [11644 11672])
+            ("RL_TEXTURE_WRAP_REPEAT" variable (:constant-flag t) nil [11766 11788])
+            ("RL_TEXTURE_WRAP_CLAMP" variable (:constant-flag t) nil [11839 11860])
+            ("RL_TEXTURE_WRAP_MIRROR_REPEAT" variable (:constant-flag t) nil [11919 11948])
+            ("RL_TEXTURE_WRAP_MIRROR_CLAMP" variable (:constant-flag t) nil [12001 12029])
+            ("RL_MODELVIEW" variable (:constant-flag t) nil [12124 12136])
+            ("RL_PROJECTION" variable (:constant-flag t) nil [12200 12213])
+            ("RL_TEXTURE" variable (:constant-flag t) nil [12277 12287])
+            ("RL_LINES" variable (:constant-flag t) nil [12385 12393])
+            ("RL_TRIANGLES" variable (:constant-flag t) nil [12457 12469])
+            ("RL_QUADS" variable (:constant-flag t) nil [12533 12541])
+            ("RL_UNSIGNED_BYTE" variable (:constant-flag t) nil [12634 12650])
+            ("RL_FLOAT" variable (:constant-flag t) nil [12714 12722])
+            ("RL_STREAM_DRAW" variable (:constant-flag t) nil [12811 12825])
+            ("RL_STREAM_READ" variable (:constant-flag t) nil [12889 12903])
+            ("RL_STREAM_COPY" variable (:constant-flag t) nil [12967 12981])
+            ("RL_STATIC_DRAW" variable (:constant-flag t) nil [13045 13059])
+            ("RL_STATIC_READ" variable (:constant-flag t) nil [13123 13137])
+            ("RL_STATIC_COPY" variable (:constant-flag t) nil [13201 13215])
+            ("RL_DYNAMIC_DRAW" variable (:constant-flag t) nil [13279 13294])
+            ("RL_DYNAMIC_READ" variable (:constant-flag t) nil [13358 13373])
+            ("RL_DYNAMIC_COPY" variable (:constant-flag t) nil [13437 13452])
+            ("RL_FRAGMENT_SHADER" variable (:constant-flag t) nil [13535 13553])
+            ("RL_VERTEX_SHADER" variable (:constant-flag t) nil [13617 13633])
+            ("RL_COMPUTE_SHADER" variable (:constant-flag t) nil [13697 13714])
+            ("RL_ZERO" variable (:constant-flag t) nil [13802 13809])
+            ("RL_ONE" variable (:constant-flag t) nil [13873 13879])
+            ("RL_SRC_COLOR" variable (:constant-flag t) nil [13943 13955])
+            ("RL_ONE_MINUS_SRC_COLOR" variable (:constant-flag t) nil [14019 14041])
+            ("RL_SRC_ALPHA" variable (:constant-flag t) nil [14105 14117])
+            ("RL_ONE_MINUS_SRC_ALPHA" variable (:constant-flag t) nil [14181 14203])
+            ("RL_DST_ALPHA" variable (:constant-flag t) nil [14267 14279])
+            ("RL_ONE_MINUS_DST_ALPHA" variable (:constant-flag t) nil [14343 14365])
+            ("RL_DST_COLOR" variable (:constant-flag t) nil [14429 14441])
+            ("RL_ONE_MINUS_DST_COLOR" variable (:constant-flag t) nil [14505 14527])
+            ("RL_SRC_ALPHA_SATURATE" variable (:constant-flag t) nil [14591 14612])
+            ("RL_CONSTANT_COLOR" variable (:constant-flag t) nil [14676 14693])
+            ("RL_ONE_MINUS_CONSTANT_COLOR" variable (:constant-flag t) nil [14757 14784])
+            ("RL_CONSTANT_ALPHA" variable (:constant-flag t) nil [14848 14865])
+            ("RL_ONE_MINUS_CONSTANT_ALPHA" variable (:constant-flag t) nil [14929 14956])
+            ("RL_FUNC_ADD" variable (:constant-flag t) nil [15056 15067])
+            ("RL_MIN" variable (:constant-flag t) nil [15131 15137])
+            ("RL_MAX" variable (:constant-flag t) nil [15201 15207])
+            ("RL_FUNC_SUBTRACT" variable (:constant-flag t) nil [15271 15287])
+            ("RL_FUNC_REVERSE_SUBTRACT" variable (:constant-flag t) nil [15351 15375])
+            ("RL_BLEND_EQUATION" variable (:constant-flag t) nil [15439 15456])
+            ("RL_BLEND_EQUATION_RGB" variable (:constant-flag t) nil [15520 15541])
+            ("RL_BLEND_EQUATION_ALPHA" variable (:constant-flag t) nil [15635 15658])
+            ("RL_BLEND_DST_RGB" variable (:constant-flag t) nil [15722 15738])
+            ("RL_BLEND_SRC_RGB" variable (:constant-flag t) nil [15802 15818])
+            ("RL_BLEND_DST_ALPHA" variable (:constant-flag t) nil [15882 15900])
+            ("RL_BLEND_SRC_ALPHA" variable (:constant-flag t) nil [15964 15982])
+            ("RL_BLEND_COLOR" variable (:constant-flag t) nil [16046 16060])
+            ("stdbool.h" include (:system-flag t) nil [16421 16445])
+            ("Matrix" type
+               (:members 
+                  ( ("m0" variable (:type "float") (reparse-symbol classsubparts) [16724 16746])
+                    ("m4" variable (:type "float") (reparse-symbol classsubparts) [16724 16746])
+                    ("m8" variable (:type "float") (reparse-symbol classsubparts) [16724 16746])
+                    ("m12" variable (:type "float") (reparse-symbol classsubparts) [16724 16746])
+                    ("m1" variable (:type "float") (reparse-symbol classsubparts) [16791 16813])
+                    ("m5" variable (:type "float") (reparse-symbol classsubparts) [16791 16813])
+                    ("m9" variable (:type "float") (reparse-symbol classsubparts) [16791 16813])
+                    ("m13" variable (:type "float") (reparse-symbol classsubparts) [16791 16813])
+                    ("m2" variable (:type "float") (reparse-symbol classsubparts) [16859 16882])
+                    ("m6" variable (:type "float") (reparse-symbol classsubparts) [16859 16882])
+                    ("m10" variable (:type "float") (reparse-symbol classsubparts) [16859 16882])
+                    ("m14" variable (:type "float") (reparse-symbol classsubparts) [16859 16882])
+                    ("m3" variable (:type "float") (reparse-symbol classsubparts) [16926 16949])
+                    ("m7" variable (:type "float") (reparse-symbol classsubparts) [16926 16949])
+                    ("m11" variable (:type "float") (reparse-symbol classsubparts) [16926 16949])
+                    ("m15" variable (:type "float") (reparse-symbol classsubparts) [16926 16949]))                  
+                :type "struct")
+                nil [16696 16999])
+            ("Matrix" type
+               (:typedef ("Matrix" type (:type "struct") nil nil)
+                :type "typedef")
+                nil [16696 16999])
+            ("RL_MATRIX_TYPE" variable (:constant-flag t) nil [17008 17022])
+            ("rlVertexBuffer" type
+               (:members 
+                  ( ("elementCount" variable (:type "int") (reparse-symbol classsubparts) [17142 17159])
+                    ("vertices" variable
+                       (:pointer 1
+                        :type "float")
+                        (reparse-symbol classsubparts) [17219 17235])
+                    ("texcoords" variable
+                       (:pointer 1
+                        :type "float")
+                        (reparse-symbol classsubparts) [17324 17341])
+                    ("colors" variable
+                       (:pointer 1
+                        :type "unsigned char")
+                        (reparse-symbol classsubparts) [17439 17461])
+                    ("indices" variable
+                       (:pointer 1
+                        :type "unsigned int")
+                        (reparse-symbol classsubparts) [17614 17636])
+                    ("vaoId" variable (:type "unsigned int") (reparse-symbol classsubparts) [17879 17898])
+                    ("vboId" variable
+                       (:dereference 1
+                        :type "unsigned int")
+                        (reparse-symbol classsubparts) [17944 17966]))                  
+                :type "struct")
+                nil [17106 18049])
+            ("rlVertexBuffer" type
+               (:typedef ("rlVertexBuffer" type (:type "struct") nil nil)
+                :type "typedef")
+                nil [17106 18049])
+            ("rlDrawCall" type
+               (:members 
+                  ( ("mode" variable (:type "int") (reparse-symbol classsubparts) [18355 18364])
+                    ("vertexCount" variable (:type "int") (reparse-symbol classsubparts) [18428 18444])
+                    ("vertexAlignment" variable (:type "int") (reparse-symbol classsubparts) [18492 18512])
+                    ("textureId" variable (:type "unsigned int") (reparse-symbol classsubparts) [18811 18834]))                  
+                :type "struct")
+                nil [18323 19136])
+            ("rlDrawCall" type
+               (:typedef ("rlDrawCall" type (:type "struct") nil nil)
+                :type "typedef")
+                nil [18323 19136])
+            ("rlRenderBatch" type
+               (:members 
+                  ( ("bufferCount" variable (:type "int") (reparse-symbol classsubparts) [19195 19211])
+                    ("currentBuffer" variable (:type "int") (reparse-symbol classsubparts) [19281 19299])
+                    ("vertexBuffer" variable
+                       (:pointer 1
+                        :type ("rlVertexBuffer" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [19367 19396])
+                    ("draws" variable
+                       (:pointer 1
+                        :type ("rlDrawCall" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [19439 19457])
+                    ("drawCounter" variable (:type "int") (reparse-symbol classsubparts) [19513 19529])
+                    ("currentDepth" variable (:type "float") (reparse-symbol classsubparts) [19567 19586]))                  
+                :type "struct")
+                nil [19160 19648])
+            ("rlRenderBatch" type
+               (:typedef ("rlRenderBatch" type (:type "struct") nil nil)
+                :type "typedef")
+                nil [19160 19648])
+            ("rlGlVersion" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("RL_OPENGL_11" variable
+                             (:constant-flag t
+                              :default-value (19702 19703)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [19687 19703])
+                          ("RL_OPENGL_21" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [19733 19746])
+                          ("RL_OPENGL_33" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [19790 19803])
+                          ("RL_OPENGL_43" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [19847 19860])
+                          ("RL_OPENGL_ES_20" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [19910 19967]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [19668 19980])
+            ("rlTraceLogLevel" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("RL_LOG_ALL" variable
+                             (:constant-flag t
+                              :default-value (20070 20071)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [20057 20071])
+                          ("RL_LOG_TRACE" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [20109 20122])
+                          ("RL_LOG_DEBUG" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [20190 20203])
+                          ("RL_LOG_INFO" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [20309 20321])
+                          ("RL_LOG_WARNING" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [20390 20405])
+                          ("RL_LOG_ERROR" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [20471 20484])
+                          ("RL_LOG_FATAL" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [20552 20565])
+                          ("RL_LOG_NONE" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [20644 20692]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [20038 20709])
+            ("rlPixelFormat" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("RL_PIXELFORMAT_UNCOMPRESSED_GRAYSCALE" variable
+                             (:constant-flag t
+                              :default-value (20838 20839)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [20798 20839])
+                          ("RL_PIXELFORMAT_UNCOMPRESSED_GRAY_ALPHA" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [20879 20918])
+                          ("RL_PIXELFORMAT_UNCOMPRESSED_R5G6B5" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [20954 20989])
+                          ("RL_PIXELFORMAT_UNCOMPRESSED_R8G8B8" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21015 21050])
+                          ("RL_PIXELFORMAT_UNCOMPRESSED_R5G5B5A1" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21076 21113])
+                          ("RL_PIXELFORMAT_UNCOMPRESSED_R4G4B4A4" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21151 21188])
+                          ("RL_PIXELFORMAT_UNCOMPRESSED_R8G8B8A8" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21226 21263])
+                          ("RL_PIXELFORMAT_UNCOMPRESSED_R32" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21287 21319])
+                          ("RL_PIXELFORMAT_UNCOMPRESSED_R32G32B32" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21368 21406])
+                          ("RL_PIXELFORMAT_UNCOMPRESSED_R32G32B32A32" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21452 21493])
+                          ("RL_PIXELFORMAT_COMPRESSED_DXT1_RGB" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21536 21571])
+                          ("RL_PIXELFORMAT_COMPRESSED_DXT1_RGBA" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21607 21643])
+                          ("RL_PIXELFORMAT_COMPRESSED_DXT3_RGBA" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21681 21717])
+                          ("RL_PIXELFORMAT_COMPRESSED_DXT5_RGBA" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21741 21777])
+                          ("RL_PIXELFORMAT_COMPRESSED_ETC1_RGB" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21801 21836])
+                          ("RL_PIXELFORMAT_COMPRESSED_ETC2_RGB" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21861 21896])
+                          ("RL_PIXELFORMAT_COMPRESSED_ETC2_EAC_RGBA" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21921 21961])
+                          ("RL_PIXELFORMAT_COMPRESSED_PVRT_RGB" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [21981 22016])
+                          ("RL_PIXELFORMAT_COMPRESSED_PVRT_RGBA" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [22041 22077])
+                          ("RL_PIXELFORMAT_COMPRESSED_ASTC_4x4_RGBA" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [22101 22141])
+                          ("RL_PIXELFORMAT_COMPRESSED_ASTC_8x8_RGBA" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [22161 22218]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [20779 22233])
+            ("rlTextureFilter" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("RL_TEXTURE_FILTER_POINT" variable
+                             (:constant-flag t
+                              :default-value (22454 22455)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [22428 22455])
+                          ("RL_TEXTURE_FILTER_BILINEAR" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [22507 22534])
+                          ("RL_TEXTURE_FILTER_TRILINEAR" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [22567 22595])
+                          ("RL_TEXTURE_FILTER_ANISOTROPIC_4X" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [22652 22685])
+                          ("RL_TEXTURE_FILTER_ANISOTROPIC_8X" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [22720 22753])
+                          ("RL_TEXTURE_FILTER_ANISOTROPIC_16X" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [22788 22822]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [22409 22871])
+            ("rlBlendMode" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("RL_BLEND_ALPHA" variable
+                             (:constant-flag t
+                              :default-value (22947 22948)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [22930 22948])
+                          ("RL_BLEND_ADDITIVE" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [23016 23034])
+                          ("RL_BLEND_MULTIPLIED" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [23088 23108])
+                          ("RL_BLEND_ADD_COLORS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [23165 23185])
+                          ("RL_BLEND_SUBTRACT_COLORS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [23251 23276])
+                          ("RL_BLEND_ALPHA_PREMULTIPLY" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [23342 23369])
+                          ("RL_BLEND_CUSTOM" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [23432 23448])
+                          ("RL_BLEND_CUSTOM_SEPARATE" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [23545 23663]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [22911 23676])
+            ("rlShaderLocationIndex" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("RL_SHADER_LOC_VERTEX_POSITION" variable
+                             (:constant-flag t
+                              :default-value (23759 23760)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [23727 23760])
+                          ("RL_SHADER_LOC_VERTEX_TEXCOORD01" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [23814 23846])
+                          ("RL_SHADER_LOC_VERTEX_TEXCOORD02" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [23903 23935])
+                          ("RL_SHADER_LOC_VERTEX_NORMAL" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [23992 24020])
+                          ("RL_SHADER_LOC_VERTEX_TANGENT" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [24077 24106])
+                          ("RL_SHADER_LOC_VERTEX_COLOR" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [24163 24190])
+                          ("RL_SHADER_LOC_MATRIX_MVP" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [24247 24272])
+                          ("RL_SHADER_LOC_MATRIX_VIEW" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [24345 24371])
+                          ("RL_SHADER_LOC_MATRIX_PROJECTION" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [24445 24477])
+                          ("RL_SHADER_LOC_MATRIX_MODEL" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [24532 24559])
+                          ("RL_SHADER_LOC_MATRIX_NORMAL" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [24626 24654])
+                          ("RL_SHADER_LOC_VECTOR_VIEW" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [24709 24735])
+                          ("RL_SHADER_LOC_COLOR_DIFFUSE" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [24790 24818])
+                          ("RL_SHADER_LOC_COLOR_SPECULAR" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [24880 24909])
+                          ("RL_SHADER_LOC_COLOR_AMBIENT" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [24971 24999])
+                          ("RL_SHADER_LOC_MAP_ALBEDO" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [25061 25086])
+                          ("RL_SHADER_LOC_MAP_METALNESS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [25184 25212])
+                          ("RL_SHADER_LOC_MAP_NORMAL" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [25311 25336])
+                          ("RL_SHADER_LOC_MAP_ROUGHNESS" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [25397 25425])
+                          ("RL_SHADER_LOC_MAP_OCCLUSION" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [25486 25514])
+                          ("RL_SHADER_LOC_MAP_EMISSION" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [25575 25602])
+                          ("RL_SHADER_LOC_MAP_HEIGHT" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [25663 25688])
+                          ("RL_SHADER_LOC_MAP_CUBEMAP" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [25749 25775])
+                          ("RL_SHADER_LOC_MAP_IRRADIANCE" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [25838 25867])
+                          ("RL_SHADER_LOC_MAP_PREFILTER" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [25930 25958])
+                          ("RL_SHADER_LOC_MAP_BRDF" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [26021 26102]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [23708 26125])
+            ("RL_SHADER_LOC_MAP_DIFFUSE" variable (:constant-flag t) nil [26135 26160])
+            ("RL_SHADER_LOC_MAP_SPECULAR" variable (:constant-flag t) nil [26200 26226])
+            ("rlShaderUniformDataType" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("RL_SHADER_UNIFORM_FLOAT" variable
+                             (:constant-flag t
+                              :default-value (26334 26335)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [26308 26335])
+                          ("RL_SHADER_UNIFORM_VEC2" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [26378 26401])
+                          ("RL_SHADER_UNIFORM_VEC3" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [26457 26480])
+                          ("RL_SHADER_UNIFORM_VEC4" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [26536 26559])
+                          ("RL_SHADER_UNIFORM_INT" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [26615 26637])
+                          ("RL_SHADER_UNIFORM_IVEC2" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [26683 26707])
+                          ("RL_SHADER_UNIFORM_IVEC3" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [26761 26785])
+                          ("RL_SHADER_UNIFORM_IVEC4" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [26839 26863])
+                          ("RL_SHADER_UNIFORM_SAMPLER2D" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [26917 26988]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [26289 27013])
+            ("rlShaderAttributeDataType" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("RL_SHADER_ATTRIB_FLOAT" variable
+                             (:constant-flag t
+                              :default-value (27090 27091)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [27065 27091])
+                          ("RL_SHADER_ATTRIB_VEC2" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [27137 27159])
+                          ("RL_SHADER_ATTRIB_VEC3" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [27218 27240])
+                          ("RL_SHADER_ATTRIB_VEC4" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [27299 27377]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [27046 27404])
+            ("rlFramebufferAttachType" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("RL_ATTACHMENT_COLOR_CHANNEL0" variable
+                             (:constant-flag t
+                              :default-value (27558 27559)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [27527 27559])
+                          ("RL_ATTACHMENT_COLOR_CHANNEL1" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [27607 27636])
+                          ("RL_ATTACHMENT_COLOR_CHANNEL2" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [27687 27716])
+                          ("RL_ATTACHMENT_COLOR_CHANNEL3" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [27767 27796])
+                          ("RL_ATTACHMENT_COLOR_CHANNEL4" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [27847 27876])
+                          ("RL_ATTACHMENT_COLOR_CHANNEL5" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [27927 27956])
+                          ("RL_ATTACHMENT_COLOR_CHANNEL6" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [28007 28036])
+                          ("RL_ATTACHMENT_COLOR_CHANNEL7" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [28087 28116])
+                          ("RL_ATTACHMENT_DEPTH" variable
+                             (:constant-flag t
+                              :default-value (28189 28192)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [28167 28192])
+                          ("RL_ATTACHMENT_STENCIL" variable
+                             (:constant-flag t
+                              :default-value (28269 28272)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [28245 28272]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [27508 28347])
+            ("rlFramebufferAttachTextureType" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("RL_ATTACHMENT_CUBEMAP_POSITIVE_X" variable
+                             (:constant-flag t
+                              :default-value (28442 28443)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [28407 28443])
+                          ("RL_ATTACHMENT_CUBEMAP_NEGATIVE_X" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [28506 28539])
+                          ("RL_ATTACHMENT_CUBEMAP_POSITIVE_Y" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [28603 28636])
+                          ("RL_ATTACHMENT_CUBEMAP_NEGATIVE_Y" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [28700 28733])
+                          ("RL_ATTACHMENT_CUBEMAP_POSITIVE_Z" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [28797 28830])
+                          ("RL_ATTACHMENT_CUBEMAP_NEGATIVE_Z" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [28894 28927])
+                          ("RL_ATTACHMENT_TEXTURE2D" variable
+                             (:constant-flag t
+                              :default-value (29017 29020)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [28991 29020])
+                          ("RL_ATTACHMENT_RENDERBUFFER" variable
+                             (:constant-flag t
+                              :default-value (29110 29113)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [29081 29113]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [28388 29203])
+            ("rlCullMode" type
+               (:typedef ("" type
+                     (:members 
+                        ( ("RL_CULL_FACE_FRONT" variable
+                             (:constant-flag t
+                              :default-value (29266 29267)
+                              :type "int")
+                              (reparse-symbol enumsubparts) [29245 29267])
+                          ("RL_CULL_FACE_BACK" variable
+                             (:constant-flag t
+                              :type "int")
+                              (reparse-symbol enumsubparts) [29273 29292]))                        
+                      :type "enum")
+                      nil nil)
+                :type "typedef")
+                nil [29226 29304])
+            ("rlLoadDrawQuad" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [46802 46807]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [46782 46808])
+            ("rlLoadDrawCube" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [46741 46746]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [46721 46747])
+            ("rlSetMatrixViewOffsetStereo" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("right" variable (:type ("Matrix" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [46568 46581])
+                    ("left" variable (:type ("Matrix" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [46582 46594]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [46535 46595])
+            ("rlSetMatrixProjectionStereo" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("right" variable (:type ("Matrix" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [46441 46454])
+                    ("left" variable (:type ("Matrix" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [46455 46467]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [46408 46468])
+            ("rlSetMatrixModelview" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("view" variable (:type ("Matrix" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [46290 46302]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [46264 46303])
+            ("rlSetMatrixProjection" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("proj" variable (:type ("Matrix" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [46145 46157]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [46118 46158])
+            ("rlGetMatrixViewOffsetStereo" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("Matrix" type (:type "class") nil nil)
+                :arguments 
+                  ( ("eye" variable (:type "int") (reparse-symbol arg-sub-list) [46011 46019]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [45976 46020])
+            ("rlGetMatrixProjectionStereo" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("Matrix" type (:type "class") nil nil)
+                :arguments 
+                  ( ("eye" variable (:type "int") (reparse-symbol arg-sub-list) [45870 45878]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [45835 45879])
+            ("rlGetMatrixTransform" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("Matrix" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [45744 45749]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [45716 45750])
+            ("rlGetMatrixProjection" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("Matrix" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [45637 45642]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [45608 45643])
+            ("rlGetMatrixModelview" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("Matrix" type (:type "class") nil nil)
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [45529 45534]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [45501 45535])
+            ("rlBindImageTexture" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [45379 45395])
+                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [45396 45415])
+                    ("format" variable (:type "int") (reparse-symbol arg-sub-list) [45416 45427])
+                    ("readonly" variable (:type "bool") (reparse-symbol arg-sub-list) [45428 45442]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [45355 45443])
+            ("rlGetShaderBufferSize" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [45264 45280]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [45229 45281])
+            ("rlCopyShaderBuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("destId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [45078 45098])
+                    ("srcId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [45099 45118])
+                    ("destOffset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [45119 45143])
+                    ("srcOffset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [45144 45167])
+                    ("count" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [45168 45187]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [45054 45188])
+            ("rlReadShaderBuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [44941 44957])
+                    ("dest" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [44958 44969])
+                    ("count" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [44970 44989])
+                    ("offset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [44990 45010]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [44917 45011])
+            ("rlBindShaderBuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [44841 44857])
+                    ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [44858 44877]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [44817 44878])
+            ("rlUpdateShaderBuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [44704 44720])
+                    ("data" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [44721 44738])
+                    ("dataSize" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [44739 44761])
+                    ("offset" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [44762 44782]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [44678 44783])
+            ("rlUnloadShaderBuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("ssboId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [44578 44598]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [44552 44599])
+            ("rlLoadShaderBuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("size" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [44449 44467])
+                    ("data" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [44468 44485])
+                    ("usageHint" variable (:type "int") (reparse-symbol arg-sub-list) [44486 44500]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [44417 44501])
+            ("rlComputeShaderDispatch" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("groupX" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [44223 44243])
+                    ("groupY" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [44244 44264])
+                    ("groupZ" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [44265 44285]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [44194 44286])
+            ("rlLoadComputeShaderProgram" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("shaderId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [44123 44145]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [44083 44146])
+            ("rlSetShader" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [43940 43956])
+                    ("locs" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [43957 43967]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43923 43968])
+            ("rlSetUniformSampler" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("locIndex" variable (:type "int") (reparse-symbol arg-sub-list) [43840 43853])
+                    ("textureId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [43854 43877]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43815 43878])
+            ("rlSetUniformMatrix" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("locIndex" variable (:type "int") (reparse-symbol arg-sub-list) [43732 43745])
+                    ("mat" variable (:type ("Matrix" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [43746 43757]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43708 43758])
+            ("rlSetUniform" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("locIndex" variable (:type "int") (reparse-symbol arg-sub-list) [43610 43623])
+                    ("value" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [43624 43642])
+                    ("uniformType" variable (:type "int") (reparse-symbol arg-sub-list) [43643 43659])
+                    ("count" variable (:type "int") (reparse-symbol arg-sub-list) [43660 43670]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43592 43671])
+            ("rlGetLocationAttrib" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("shaderId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [43503 43525])
+                    ("attribName" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [43526 43549]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43479 43550])
+            ("rlGetLocationUniform" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("shaderId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [43393 43415])
+                    ("uniformName" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [43416 43440]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43368 43441])
+            ("rlUnloadShaderProgram" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [43290 43306]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43263 43307])
+            ("rlLoadShaderProgram" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("vShaderId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [43178 43201])
+                    ("fShaderId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [43202 43225]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [43145 43226])
+            ("rlCompileShader" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("shaderCode" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [42984 43007])
+                    ("type" variable (:type "int") (reparse-symbol arg-sub-list) [43008 43017]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [42955 43018])
+            ("rlLoadShaderCode" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("vsCode" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [42872 42891])
+                    ("fsCode" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [42892 42911]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [42842 42912])
+            ("rlUnloadFramebuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [42739 42755]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [42714 42756])
+            ("rlFramebufferComplete" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "bool"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [42633 42649]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [42606 42650])
+            ("rlFramebufferAttach" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("fboId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [42467 42486])
+                    ("texId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [42487 42506])
+                    ("attachType" variable (:type "int") (reparse-symbol arg-sub-list) [42507 42522])
+                    ("texType" variable (:type "int") (reparse-symbol arg-sub-list) [42523 42535])
+                    ("mipLevel" variable (:type "int") (reparse-symbol arg-sub-list) [42536 42549]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [42442 42550])
+            ("rlLoadFramebuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("width" variable (:type "int") (reparse-symbol arg-sub-list) [42370 42380])
+                    ("height" variable (:type "int") (reparse-symbol arg-sub-list) [42381 42392]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [42339 42393])
+            ("rlReadScreenPixels" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned char"
+                :arguments 
+                  ( ("width" variable (:type "int") (reparse-symbol arg-sub-list) [42225 42235])
+                    ("height" variable (:type "int") (reparse-symbol arg-sub-list) [42236 42247]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [42191 42248])
+            ("rlReadTexturePixels" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [42092 42108])
+                    ("width" variable (:type "int") (reparse-symbol arg-sub-list) [42109 42119])
+                    ("height" variable (:type "int") (reparse-symbol arg-sub-list) [42120 42131])
+                    ("format" variable (:type "int") (reparse-symbol arg-sub-list) [42132 42143]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [42066 42144])
+            ("rlGenTextureMipmaps" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [41948 41964])
+                    ("width" variable (:type "int") (reparse-symbol arg-sub-list) [41965 41975])
+                    ("height" variable (:type "int") (reparse-symbol arg-sub-list) [41976 41987])
+                    ("format" variable (:type "int") (reparse-symbol arg-sub-list) [41988 41999])
+                    ("mipmaps" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol arg-sub-list) [42000 42013]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [41923 42014])
+            ("rlUnloadTexture" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [41836 41852]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [41815 41853])
+            ("rlGetPixelFormatName" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "char"
+                :arguments 
+                  ( ("format" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [41738 41758]))                  
+                :constant-flag t
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [41705 41759])
+            ("rlGetGlTextureFormats" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("format" variable (:type "int") (reparse-symbol arg-sub-list) [41576 41587])
+                    ("glInternalFormat" variable
+                       (:pointer 1
+                        :type "unsigned int")
+                        (reparse-symbol arg-sub-list) [41588 41619])
+                    ("glFormat" variable
+                       (:pointer 1
+                        :type "unsigned int")
+                        (reparse-symbol arg-sub-list) [41620 41643])
+                    ("glType" variable
+                       (:pointer 1
+                        :type "unsigned int")
+                        (reparse-symbol arg-sub-list) [41644 41665]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [41549 41666])
+            ("rlUpdateTexture" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [41409 41425])
+                    ("offsetX" variable (:type "int") (reparse-symbol arg-sub-list) [41426 41438])
+                    ("offsetY" variable (:type "int") (reparse-symbol arg-sub-list) [41439 41451])
+                    ("width" variable (:type "int") (reparse-symbol arg-sub-list) [41452 41462])
+                    ("height" variable (:type "int") (reparse-symbol arg-sub-list) [41463 41474])
+                    ("format" variable (:type "int") (reparse-symbol arg-sub-list) [41475 41486])
+                    ("data" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [41487 41504]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [41388 41505])
+            ("rlLoadTextureCubemap" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("data" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [41294 41311])
+                    ("size" variable (:type "int") (reparse-symbol arg-sub-list) [41312 41321])
+                    ("format" variable (:type "int") (reparse-symbol arg-sub-list) [41322 41333]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [41260 41334])
+            ("rlLoadTextureDepth" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("width" variable (:type "int") (reparse-symbol arg-sub-list) [41135 41145])
+                    ("height" variable (:type "int") (reparse-symbol arg-sub-list) [41146 41157])
+                    ("useRenderBuffer" variable (:type "bool") (reparse-symbol arg-sub-list) [41158 41179]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [41103 41180])
+            ("rlLoadTexture" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("data" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [41003 41020])
+                    ("width" variable (:type "int") (reparse-symbol arg-sub-list) [41021 41031])
+                    ("height" variable (:type "int") (reparse-symbol arg-sub-list) [41032 41043])
+                    ("format" variable (:type "int") (reparse-symbol arg-sub-list) [41044 41055])
+                    ("mipmapCount" variable (:type "int") (reparse-symbol arg-sub-list) [41056 41072]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40976 41073])
+            ("rlDrawVertexArrayElementsInstanced" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("offset" variable (:type "int") (reparse-symbol arg-sub-list) [40887 40898])
+                    ("count" variable (:type "int") (reparse-symbol arg-sub-list) [40899 40909])
+                    ("buffer" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [40910 40929])
+                    ("instances" variable (:type "int") (reparse-symbol arg-sub-list) [40930 40944]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40847 40945])
+            ("rlDrawVertexArrayInstanced" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("offset" variable (:type "int") (reparse-symbol arg-sub-list) [40802 40813])
+                    ("count" variable (:type "int") (reparse-symbol arg-sub-list) [40814 40824])
+                    ("instances" variable (:type "int") (reparse-symbol arg-sub-list) [40825 40839]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40770 40840])
+            ("rlDrawVertexArrayElements" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("offset" variable (:type "int") (reparse-symbol arg-sub-list) [40720 40731])
+                    ("count" variable (:type "int") (reparse-symbol arg-sub-list) [40732 40742])
+                    ("buffer" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [40743 40762]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40689 40763])
+            ("rlDrawVertexArray" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("offset" variable (:type "int") (reparse-symbol arg-sub-list) [40659 40670])
+                    ("count" variable (:type "int") (reparse-symbol arg-sub-list) [40671 40681]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40636 40682])
+            ("rlSetVertexAttributeDefault" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("locIndex" variable (:type "int") (reparse-symbol arg-sub-list) [40531 40544])
+                    ("value" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [40545 40563])
+                    ("attribType" variable (:type "int") (reparse-symbol arg-sub-list) [40564 40579])
+                    ("count" variable (:type "int") (reparse-symbol arg-sub-list) [40580 40590]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40498 40591])
+            ("rlSetVertexAttributeDivisor" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [40458 40477])
+                    ("divisor" variable (:type "int") (reparse-symbol arg-sub-list) [40478 40490]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40425 40491])
+            ("rlSetVertexAttribute" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [40324 40343])
+                    ("compSize" variable (:type "int") (reparse-symbol arg-sub-list) [40344 40357])
+                    ("type" variable (:type "int") (reparse-symbol arg-sub-list) [40358 40367])
+                    ("normalized" variable (:type "bool") (reparse-symbol arg-sub-list) [40368 40384])
+                    ("stride" variable (:type "int") (reparse-symbol arg-sub-list) [40385 40396])
+                    ("pointer" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [40397 40417]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40298 40418])
+            ("rlUnloadVertexBuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("vboId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [40271 40290]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40245 40291])
+            ("rlUnloadVertexArray" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("vaoId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [40218 40237]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40193 40238])
+            ("rlUpdateVertexBufferElements" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [40076 40092])
+                    ("data" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [40093 40110])
+                    ("dataSize" variable (:type "int") (reparse-symbol arg-sub-list) [40111 40124])
+                    ("offset" variable (:type "int") (reparse-symbol arg-sub-list) [40125 40136]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [40042 40137])
+            ("rlUpdateVertexBuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("bufferId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [39929 39951])
+                    ("data" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [39952 39969])
+                    ("dataSize" variable (:type "int") (reparse-symbol arg-sub-list) [39970 39983])
+                    ("offset" variable (:type "int") (reparse-symbol arg-sub-list) [39984 39995]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [39903 39996])
+            ("rlLoadVertexBufferElement" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("buffer" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [39808 39827])
+                    ("size" variable (:type "int") (reparse-symbol arg-sub-list) [39828 39837])
+                    ("dynamic" variable (:type "bool") (reparse-symbol arg-sub-list) [39838 39851]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [39769 39852])
+            ("rlLoadVertexBuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("buffer" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [39673 39692])
+                    ("size" variable (:type "int") (reparse-symbol arg-sub-list) [39693 39702])
+                    ("dynamic" variable (:type "bool") (reparse-symbol arg-sub-list) [39703 39716]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [39641 39717])
+            ("rlLoadVertexArray" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [39558 39563]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [39527 39564])
+            ("rlSetTexture" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [39270 39286]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [39252 39287])
+            ("rlCheckRenderBatchLimit" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "bool"
+                :arguments 
+                  ( ("vCount" variable (:type "int") (reparse-symbol arg-sub-list) [39141 39152]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [39112 39153])
+            ("rlDrawRenderBatchActive" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [39024 39029]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [38995 39030])
+            ("rlSetRenderBatchActive" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("batch" variable
+                       (:pointer 1
+                        :type ("rlRenderBatch" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [38879 38900]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [38851 38901])
+            ("rlDrawRenderBatch" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("batch" variable
+                       (:pointer 1
+                        :type ("rlRenderBatch" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [38750 38771]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [38727 38772])
+            ("rlUnloadRenderBatch" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("batch" variable (:type ("rlRenderBatch" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [38646 38666]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [38621 38667])
+            ("rlLoadRenderBatch" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type ("rlRenderBatch" type (:type "class") nil nil)
+                :arguments 
+                  ( ("numBuffers" variable (:type "int") (reparse-symbol arg-sub-list) [38547 38562])
+                    ("bufferElements" variable (:type "int") (reparse-symbol arg-sub-list) [38563 38582]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [38515 38583])
+            ("rlGetShaderLocsDefault" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [38261 38266]))                  
+                :pointer 1
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [38233 38267])
+            ("rlGetShaderIdDefault" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [38186 38191]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [38152 38192])
+            ("rlGetTextureIdDefault" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "unsigned int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [38105 38110]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [38070 38111])
+            ("rlGetFramebufferHeight" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [38006 38011]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [37979 38012])
+            ("rlSetFramebufferHeight" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("height" variable (:type "int") (reparse-symbol arg-sub-list) [37917 37928]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [37889 37929])
+            ("rlGetFramebufferWidth" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [37826 37831]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [37800 37832])
+            ("rlSetFramebufferWidth" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("width" variable (:type "int") (reparse-symbol arg-sub-list) [37738 37748]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [37711 37749])
+            ("rlGetVersion" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "int"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [37642 37647]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [37625 37648])
+            ("rlLoadExtensions" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("loader" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [37538 37551]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [37516 37552])
+            ("rlglClose" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [37424 37429]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [37409 37430])
+            ("rlglInit" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("width" variable (:type "int") (reparse-symbol arg-sub-list) [37311 37321])
+                    ("height" variable (:type "int") (reparse-symbol arg-sub-list) [37322 37333]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [37297 37334])
+            ("rlSetBlendFactorsSeparate" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("glSrcRGB" variable (:type "int") (reparse-symbol arg-sub-list) [36871 36884])
+                    ("glDstRGB" variable (:type "int") (reparse-symbol arg-sub-list) [36885 36898])
+                    ("glSrcAlpha" variable (:type "int") (reparse-symbol arg-sub-list) [36899 36914])
+                    ("glDstAlpha" variable (:type "int") (reparse-symbol arg-sub-list) [36915 36930])
+                    ("glEqRGB" variable (:type "int") (reparse-symbol arg-sub-list) [36931 36943])
+                    ("glEqAlpha" variable (:type "int") (reparse-symbol arg-sub-list) [36944 36958]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [36840 36959])
+            ("rlSetBlendFactors" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("glSrcFactor" variable (:type "int") (reparse-symbol arg-sub-list) [36719 36735])
+                    ("glDstFactor" variable (:type "int") (reparse-symbol arg-sub-list) [36736 36752])
+                    ("glEquation" variable (:type "int") (reparse-symbol arg-sub-list) [36753 36768]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [36696 36769])
+            ("rlSetBlendMode" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("mode" variable (:type "int") (reparse-symbol arg-sub-list) [36639 36648]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [36619 36649])
+            ("rlCheckErrors" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [36546 36551]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [36527 36552])
+            ("rlClearScreenBuffers" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [36450 36455]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [36424 36456])
+            ("rlClearColor" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("r" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [36316 36332])
+                    ("g" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [36333 36349])
+                    ("b" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [36350 36366])
+                    ("a" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [36367 36383]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [36298 36384])
+            ("rlIsStereoRenderEnabled" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "bool"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [36233 36238]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [36204 36239])
+            ("rlDisableStereoRender" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [36147 36152]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [36120 36153])
+            ("rlEnableStereoRender" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [36063 36068]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [36037 36069])
+            ("rlDisableSmoothLines" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [35982 35987]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [35956 35988])
+            ("rlEnableSmoothLines" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [35901 35906]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [35876 35907])
+            ("rlGetLineWidth" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "float"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [35811 35816]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [35790 35817])
+            ("rlSetLineWidth" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("width" variable (:type "float") (reparse-symbol arg-sub-list) [35724 35736]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [35704 35737])
+            ("rlDisableWireMode" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [35650 35655]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [35627 35656])
+            ("rlEnableWireMode" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [35573 35578]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [35551 35579])
+            ("rlScissor" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [35491 35497])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [35498 35504])
+                    ("width" variable (:type "int") (reparse-symbol arg-sub-list) [35505 35515])
+                    ("height" variable (:type "int") (reparse-symbol arg-sub-list) [35516 35527]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [35476 35528])
+            ("rlDisableScissorTest" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [35422 35427]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [35396 35428])
+            ("rlEnableScissorTest" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [35342 35347]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [35317 35348])
+            ("rlSetCullFace" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("mode" variable (:type "int") (reparse-symbol arg-sub-list) [35255 35264]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [35236 35265])
+            ("rlDisableBackfaceCulling" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [35182 35187]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [35152 35188])
+            ("rlEnableBackfaceCulling" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [35098 35103]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [35069 35104])
+            ("rlDisableDepthMask" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [35014 35019]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [34990 35020])
+            ("rlEnableDepthMask" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [34935 34940]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [34912 34941])
+            ("rlDisableDepthTest" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [34858 34863]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [34834 34864])
+            ("rlEnableDepthTest" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [34780 34785]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [34757 34786])
+            ("rlDisableColorBlend" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [34700 34705]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [34675 34706])
+            ("rlEnableColorBlend" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [34617 34622]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [34593 34623])
+            ("rlActiveDrawBuffers" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("count" variable (:type "int") (reparse-symbol arg-sub-list) [34497 34507]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [34472 34508])
+            ("rlDisableFramebuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [34379 34384]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [34353 34385])
+            ("rlEnableFramebuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [34291 34307]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [34266 34308])
+            ("rlDisableShader" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [34183 34188]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [34162 34189])
+            ("rlEnableShader" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [34101 34117]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [34081 34118])
+            ("rlCubemapParameters" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [33977 33993])
+                    ("param" variable (:type "int") (reparse-symbol arg-sub-list) [33994 34004])
+                    ("value" variable (:type "int") (reparse-symbol arg-sub-list) [34005 34015]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [33952 34016])
+            ("rlTextureParameters" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [33865 33881])
+                    ("param" variable (:type "int") (reparse-symbol arg-sub-list) [33882 33892])
+                    ("value" variable (:type "int") (reparse-symbol arg-sub-list) [33893 33903]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [33840 33904])
+            ("rlDisableTextureCubemap" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [33786 33791]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [33757 33792])
+            ("rlEnableTextureCubemap" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [33703 33719]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [33675 33720])
+            ("rlDisableTexture" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [33622 33627]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [33600 33628])
+            ("rlEnableTexture" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [33547 33563]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [33526 33564])
+            ("rlActiveTextureSlot" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("slot" variable (:type "int") (reparse-symbol arg-sub-list) [33459 33468]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [33434 33469])
+            ("rlDisableVertexAttribute" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [33099 33118]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [33069 33119])
+            ("rlEnableVertexAttribute" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("index" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [33009 33028]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [32980 33029])
+            ("rlDisableVertexBufferElement" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [32911 32916]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [32877 32917])
+            ("rlEnableVertexBufferElement" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [32808 32824]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [32775 32825])
+            ("rlDisableVertexBuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [32715 32720]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [32688 32721])
+            ("rlEnableVertexBuffer" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("id" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [32628 32644]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [32602 32645])
+            ("rlDisableVertexArray" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [32528 32533]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [32502 32534])
+            ("rlEnableVertexArray" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "bool"
+                :arguments 
+                  ( ("vaoId" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [32428 32447]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [32403 32448])
+            ("rlColor4f" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [31879 31887])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [31888 31896])
+                    ("z" variable (:type "float") (reparse-symbol arg-sub-list) [31897 31905])
+                    ("w" variable (:type "float") (reparse-symbol arg-sub-list) [31906 31914]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [31864 31915])
+            ("rlColor3f" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [31782 31790])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [31791 31799])
+                    ("z" variable (:type "float") (reparse-symbol arg-sub-list) [31800 31808]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [31767 31809])
+            ("rlColor4ub" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("r" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [31653 31669])
+                    ("g" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [31670 31686])
+                    ("b" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [31687 31703])
+                    ("a" variable (:type "unsigned char") (reparse-symbol arg-sub-list) [31704 31720]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [31637 31721])
+            ("rlNormal3f" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [31559 31567])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [31568 31576])
+                    ("z" variable (:type "float") (reparse-symbol arg-sub-list) [31577 31585]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [31543 31586])
+            ("rlTexCoord2f" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [31455 31463])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [31464 31472]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [31437 31473])
+            ("rlVertex3f" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [31357 31365])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [31366 31374])
+                    ("z" variable (:type "float") (reparse-symbol arg-sub-list) [31375 31383]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [31341 31384])
+            ("rlVertex2f" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [31261 31269])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [31270 31278]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [31245 31279])
+            ("rlVertex2i" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [31167 31173])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [31174 31180]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [31151 31181])
+            ("rlEnd" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [31081 31086]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [31070 31087])
+            ("rlBegin" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("mode" variable (:type "int") (reparse-symbol arg-sub-list) [30977 30986]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [30964 30987])
+            ("rlViewport" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [30669 30675])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [30676 30682])
+                    ("width" variable (:type "int") (reparse-symbol arg-sub-list) [30683 30693])
+                    ("height" variable (:type "int") (reparse-symbol arg-sub-list) [30694 30705]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [30653 30706])
+            ("rlOrtho" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("left" variable (:type "double") (reparse-symbol arg-sub-list) [30565 30577])
+                    ("right" variable (:type "double") (reparse-symbol arg-sub-list) [30578 30591])
+                    ("bottom" variable (:type "double") (reparse-symbol arg-sub-list) [30592 30606])
+                    ("top" variable (:type "double") (reparse-symbol arg-sub-list) [30607 30618])
+                    ("znear" variable (:type "double") (reparse-symbol arg-sub-list) [30619 30632])
+                    ("zfar" variable (:type "double") (reparse-symbol arg-sub-list) [30633 30645]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [30552 30646])
+            ("rlFrustum" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("left" variable (:type "double") (reparse-symbol arg-sub-list) [30464 30476])
+                    ("right" variable (:type "double") (reparse-symbol arg-sub-list) [30477 30490])
+                    ("bottom" variable (:type "double") (reparse-symbol arg-sub-list) [30491 30505])
+                    ("top" variable (:type "double") (reparse-symbol arg-sub-list) [30506 30517])
+                    ("znear" variable (:type "double") (reparse-symbol arg-sub-list) [30518 30531])
+                    ("zfar" variable (:type "double") (reparse-symbol arg-sub-list) [30532 30544]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [30449 30545])
+            ("rlMultMatrixf" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("matf" variable
+                       (:pointer 1
+                        :constant-flag t
+                        :type "float")
+                        (reparse-symbol arg-sub-list) [30359 30377]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [30340 30378])
+            ("rlScalef" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [30249 30257])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [30258 30266])
+                    ("z" variable (:type "float") (reparse-symbol arg-sub-list) [30267 30275]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [30235 30276])
+            ("rlRotatef" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("angle" variable (:type "float") (reparse-symbol arg-sub-list) [30135 30147])
+                    ("x" variable (:type "float") (reparse-symbol arg-sub-list) [30148 30156])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [30157 30165])
+                    ("z" variable (:type "float") (reparse-symbol arg-sub-list) [30166 30174]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [30120 30175])
+            ("rlTranslatef" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("x" variable (:type "float") (reparse-symbol arg-sub-list) [30029 30037])
+                    ("y" variable (:type "float") (reparse-symbol arg-sub-list) [30038 30046])
+                    ("z" variable (:type "float") (reparse-symbol arg-sub-list) [30047 30055]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [30011 30056])
+            ("rlLoadIdentity" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [29934 29939]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [29914 29940])
+            ("rlPopMatrix" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [29836 29841]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [29819 29842])
+            ("rlPushMatrix" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [29747 29752]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [29729 29753])
+            ("rlMatrixMode" function
+               (:typemodifiers ("extern" "\"C\"")
+                :type "void"
+                :arguments 
+                  ( ("mode" variable (:type "int") (reparse-symbol arg-sub-list) [29646 29655]))                  
+                :prototype-flag t)
+                (reparse-symbol extern-c-contents) [29628 29656]))          
+      :file "rlgl.h"
+      :pointmax 221291
+      :fsize 221290
+      :lastmodtime '(25648 34858 0 0)
+      :unmatched-syntax '((semantic-list 7625 . 7650) (symbol 7618 . 7625) (punctuation 7617 . 7618) (punctuation 7609 . 7610) (punctuation 7608 . 7609) (semantic-list 7583 . 7607) (symbol 7576 . 7583) (punctuation 7575 . 7576) (punctuation 7567 . 7568) (punctuation 7566 . 7567) (semantic-list 7541 . 7565) (symbol 7534 . 7541) (punctuation 7533 . 7534) (punctuation 7525 . 7526) (punctuation 7524 . 7525) (semantic-list 7499 . 7523) (symbol 7492 . 7499) (punctuation 7491 . 7492))
+      :lexical-table 
+        '(("TRACELOGD" (spp-arg-list ("...") 7064 . 7069) . ((semantic-list "(void)" 7070 . 7076) (number "0" 7076 . 7077)))
+          ("GRAPHICS_API_OPENGL_33")
+          ("RL_TEXTURE_MAG_FILTER" . ((number "0x2800" 10912 . 10918)))
+          ("RL_TRIANGLES" . ((number "0x0004" 12497 . 12503)))
+          ("RL_STATIC_COPY" . ((number "0x88E6" 13241 . 13247)))
+          ("RL_BLEND_SRC_RGB" . ((number "0x80C9" 15842 . 15848)))
+          ("RL_MATRIX_TYPE")
+          ("RL_FLOAT" . ((number "0x1406" 12754 . 12760)))
+          ("RL_STREAM_COPY" . ((number "0x88E2" 13007 . 13013)))
+          ("RL_ONE" . ((number "1" 13913 . 13914)))
+          ("RL_BLEND_EQUATION" . ((number "0x8009" 15479 . 15485)))
+          ("RL_CALLOC" (spp-arg-list ("n" "sz") 7225 . 7231) . ((symbol "calloc" 7234 . 7240) (semantic-list "(n,sz)" 7240 . 7246)))
+          ("RL_TEXTURE_WRAP_S" . ((number "0x2802" 10750 . 10756)))
+          ("RL_TEXTURE_MIN_FILTER" . ((number "0x2801" 10997 . 11003)))
+          ("RL_TEXTURE_FILTER_NEAREST" . ((number "0x2600" 11083 . 11089)))
+          ("RL_STATIC_READ" . ((number "0x88E5" 13163 . 13169)))
+          ("RL_ZERO" . ((number "0" 13842 . 13843)))
+          ("RL_FUNC_ADD" . ((number "0x8006" 15096 . 15102)))
+          ("RL_MAX" . ((number "0x8008" 15241 . 15247)))
+          ("RL_TEXTURE_WRAP_T" . ((number "0x2803" 10831 . 10837)))
+          ("RL_TEXTURE_WRAP_REPEAT" . ((number "0x2901" 11806 . 11812)))
+          ("RL_STREAM_READ" . ((number "0x88E1" 12929 . 12935)))
+          ("RL_DST_ALPHA" . ((number "0x0304" 14307 . 14313)))
+          ("RL_ONE_MINUS_CONSTANT_COLOR" . ((number "0x8002" 14797 . 14803)))
+          ("RL_MIN" . ((number "0x8007" 15171 . 15177)))
+          ("RLGL_H")
+          ("RLAPI")
+          ("RL_DEFAULT_BATCH_BUFFER_ELEMENTS" . ((number "8192" 9180 . 9184)))
+          ("RL_MAX_MATRIX_STACK_SIZE" . ((number "32" 10154 . 10156)))
+          ("RL_MODELVIEW" . ((number "0x1700" 12164 . 12170)))
+          ("RL_TEXTURE_MIPMAP_BIAS_RATIO" . ((number "0x4000" 11684 . 11690)))
+          ("RL_TEXTURE_WRAP_MIRROR_CLAMP" . ((number "0x8742" 12041 . 12047)))
+          ("RL_DYNAMIC_COPY" . ((number "0x88EA" 13477 . 13483)))
+          ("RL_SRC_COLOR" . ((number "0x0300" 13983 . 13989)))
+          ("RL_ONE_MINUS_CONSTANT_ALPHA" . ((number "0x8004" 14969 . 14975)))
+          ("RL_FUNC_SUBTRACT" . ((number "0x800A" 15311 . 15317)))
+          ("RL_FUNC_REVERSE_SUBTRACT" . ((number "0x800B" 15391 . 15397)))
+          ("RL_BLEND_EQUATION_RGB" . ((number "0x8009" 15560 . 15566)))
+          ("RLGL_RENDER_TEXTURES_HINT")
+          ("RL_DEFAULT_BATCH_MAX_TEXTURE_UNITS" . ((number "4" 9928 . 9929)))
+          ("RL_CULL_DISTANCE_FAR" . ((number "1000.0" 10600 . 10606)))
+          ("RL_TEXTURE_FILTER_ANISOTROPIC" . ((number "0x3000" 11582 . 11588)))
+          ("RL_QUADS" . ((number "0x0007" 12573 . 12579)))
+          ("RL_DEFAULT_BATCH_BUFFERS" . ((number "1" 9591 . 9592)))
+          ("RL_TEXTURE" . ((number "0x1702" 12317 . 12323)))
+          ("RL_STATIC_DRAW" . ((number "0x88E4" 13085 . 13091)))
+          ("RL_DYNAMIC_READ" . ((number "0x88E9" 13398 . 13404)))
+          ("RL_BLEND_DST_ALPHA" . ((number "0x80CA" 15922 . 15928)))
+          ("RL_BLEND_COLOR" . ((number "0x8005" 16086 . 16092)))
+          ("RL_REALLOC" (spp-arg-list ("n" "sz") 7295 . 7301) . ((symbol "realloc" 7303 . 7310) (semantic-list "(n,sz)" 7310 . 7316)))
+          ("RL_DEFAULT_BATCH_DRAWCALLS" . ((number "256" 9744 . 9747)))
+          ("RL_MAX_SHADER_LOCATIONS" . ((number "32" 10303 . 10305)))
+          ("RL_TEXTURE_FILTER_MIP_NEAREST" . ((number "0x2700" 11230 . 11236)))
+          ("RL_STREAM_DRAW" . ((number "0x88E0" 12851 . 12857)))
+          ("RL_FRAGMENT_SHADER" . ((number "0x8B30" 13575 . 13581)))
+          ("RL_ONE_MINUS_SRC_ALPHA" . ((number "0x0303" 14221 . 14227)))
+          ("RL_BLEND_DST_RGB" . ((number "0x80C8" 15762 . 15768)))
+          ("RL_SHADER_LOC_MAP_SPECULAR" . ((symbol "RL_SHADER_LOC_MAP_METALNESS" 26232 . 26259)))
+          ("RL_TEXTURE_FILTER_LINEAR" . ((number "0x2601" 11157 . 11163)))
+          ("RL_TEXTURE_FILTER_MIP_LINEAR" . ((number "0x2703" 11495 . 11501)))
+          ("RL_PROJECTION" . ((number "0x1701" 12240 . 12246)))
+          ("RL_VERTEX_SHADER" . ((number "0x8B31" 13657 . 13663)))
+          ("RL_COMPUTE_SHADER" . ((number "0x91B9" 13737 . 13743)))
+          ("RL_ONE_MINUS_SRC_COLOR" . ((number "0x0301" 14059 . 14065)))
+          ("RL_SRC_ALPHA_SATURATE" . ((number "0x0308" 14631 . 14637)))
+          ("RL_CONSTANT_COLOR" . ((number "0x8001" 14716 . 14722)))
+          ("RL_BLEND_SRC_ALPHA" . ((number "0x80CB" 16004 . 16010)))
+          ("RL_SHADER_LOC_MAP_DIFFUSE" . ((symbol "RL_SHADER_LOC_MAP_ALBEDO" 26167 . 26191)))
+          ("TRACELOG" (spp-arg-list ("level" "...") 7022 . 7034) . ((semantic-list "(void)" 7035 . 7041) (number "0" 7041 . 7042)))
+          ("RL_CULL_DISTANCE_NEAR" . ((number "0.01" 10476 . 10480)))
+          ("RL_TEXTURE_FILTER_NEAREST_MIP_LINEAR" . ((number "0x2702" 11319 . 11325)))
+          ("RL_TEXTURE_FILTER_LINEAR_MIP_NEAREST" . ((number "0x2701" 11407 . 11413)))
+          ("RL_TEXTURE_WRAP_CLAMP" . ((number "0x812F" 11879 . 11885)))
+          ("RL_UNSIGNED_BYTE" . ((number "0x1401" 12674 . 12680)))
+          ("RL_SRC_ALPHA" . ((number "0x0302" 14145 . 14151)))
+          ("RL_ONE_MINUS_DST_ALPHA" . ((number "0x0305" 14383 . 14389)))
+          ("RL_FREE" (spp-arg-list ("p") 7359 . 7362) . ((symbol "free" 7370 . 7374) (semantic-list "(p)" 7374 . 7377)))
+          ("RL_LINES" . ((number "0x0001" 12425 . 12431)))
+          ("RL_DST_COLOR" . ((number "0x0306" 14469 . 14475)))
+          ("RL_ONE_MINUS_DST_COLOR" . ((number "0x0307" 14545 . 14551)))
+          ("RL_CONSTANT_ALPHA" . ((number "0x8003" 14888 . 14894)))
+          ("RL_BLEND_EQUATION_ALPHA" . ((number "0x883D" 15675 . 15681)))
+          ("RLGL_VERSION" . ((string "\"4.5\"" 6292 . 6297)))
+          ("RL_MALLOC" (spp-arg-list ("sz") 7159 . 7163) . ((symbol "malloc" 7168 . 7174) (semantic-list "(sz)" 7174 . 7178)))
+          ("RL_TEXTURE_WRAP_MIRROR_REPEAT" . ((number "0x8370" 11959 . 11965)))
+          ("RL_DYNAMIC_DRAW" . ((number "0x88E8" 13319 . 13325)))
           )
 ))
   :file "!usr!include!semantic.cache"

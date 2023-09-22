@@ -1,0 +1,17 @@
+;; Object semanticdb-project-database-file-15576e1a2376
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15576e1a2376"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15576dd55e8c"
+      :major-mode python-mode
+      :tags 
+        '( ("with" code nil nil [23 94]))          
+      :file "main.py"
+      :pointmax 374
+      :fsize 425
+      :lastmodtime '(25868 50048 407790 215000)
+      :unmatched-syntax nil))
+  :file "!home!rose!Documents!code!python!game!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

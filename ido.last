@@ -65,8 +65,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/rose/Documents/code/"
+ "/home/rose/Documents/code/c++/raylib_game/src/"
+ "/home/rose/Documents/code/rust/"
  "/home/rose/.emacs.d/"
+ "/home/rose/Documents/code/"
  "/home/rose/Documents/code/c/roselib/src/"
  "/home/rose/Documents/code/c/roselib/src/fs/"
  "/home/rose/Documents/code/c/roselib/src/os/"
@@ -91,7 +93,6 @@
  "/home/rose/Documents/code/c/game/src/renderer/"
  "/home/rose/Documents/code/rust/raylib_game/src/"
  "/home/rose/Documents/code/rust/bevy_game/src/"
- "/home/rose/Documents/code/rust/"
  "/home/rose/Documents/games/test_game/scripts/"
  "/home/rose/Documents/code/lisp/some_project/"
  "/home/rose/Documents/code/rust/game/src/"
@@ -114,7 +115,6 @@
  "/home/rose/Documents/code/js/some_project/"
  "/home/rose/Documents/code/pascal/some_project/"
  "/home/rose/Documents/code/c/testing/src/"
- "/home/rose/Documents/code/c/game/src/core/extern_libs/glad/"
 )
 
 ;; ----- ido-work-file-list -----
@@ -133,7 +133,13 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/rose/.emacs.d/" (25861 18094 458843 980000) "multi_cursor.el" "../" "discordrpc.el" "ac-comphist.dat" "set_modes.el" "semanticdb/" "ido.last" "recentf" "README.md" ".lsp-session-v1" "lsp.el" "projects" ".gitignore" "recentf.txt" "#doom_modeline.el#" ".git/" "elpa/" "./" ".mc-lists.el" "auto-save-list/" "init.el")
+ ("/home/rose/Documents/code/c++/raylib_game/src/" (25751 46348 889207 381000) "file.txt" "../" "main.cpp" "./")
+
+ ("/home/rose/Documents/code/lisp/some_project/" (25865 6748 472572 433000) "../" "main.lisp" "./")
+
+ ("/home/rose/" (25863 49142 781213 255000) "Documents/" "Music/" "Videos/" ".java/" "../" ".gtkrc-2.0" "go/" ".bash_profile" ".gnupg/" ".cache/" ".config/" ".bash_logout" ".dotfiles/" ".TabNine/" ".fehbg" ".nuget/" ".tmux.conf" ".mozilla/" "Public/" ".rnd" ".dotnet/" ".icons/" ".tmux/" ".roswell/" "Desktop/" ".var/" "yay-git/" ".wget-hsts" ".degit/" ".bashrc" ".xsession-errors" ".wine/" ".profile" ".vscode-oss/" ".bash_history" ".android/" ".rustup/" ".npm/" ".stumpwm.d/" ".local/" ".ssh/" "Templates/" ".minecraft/" ".python_history" ".Xauthority" ".viminfo" ".tlauncher/" "rust-analyzer/" ".emacs.d/" "./" ".vim/" "Pictures/" ".cargo/" ".ICEauthority" "Downloads/" ".gitconfig" ".gnome/" ".pki/")
+
+ ("/home/rose/.emacs.d/" (25864 20672 175277 94000) "multi_cursor.el" "swiper.el" "../" "discordrpc.el" "ac-comphist.dat" "set_modes.el" "semanticdb/" "ido.last" "recentf" "README.md" ".lsp-session-v1" "lsp.el" "exwm.el" "projects" ".gitignore" "autostart.sh" "recentf.txt" "#doom_modeline.el#" ".git/" "elpa/" "./" ".mc-lists.el" "auto-save-list/" "init.el" "dmenu-items")
 
  ("/home/rose/Documents/code/c/roselib/src/" (25861 17520 243042 800000) "shader.cxx" "../" "window.cxx" "buffers.h" "draw3d.cxx" "fs.cxx" "fs/" "texture.cxx" "glad.c" "os/" "draw2d.cxx" "model.h" "./" "renderer/" "main.cxx" "libs/" "buffers.cxx")
 
@@ -154,8 +160,6 @@
  ("/home/rose/Documents/code/python/some_project/" (25858 34990 127098 678000) "../" "program" "#program#" "main.luna" "main.py" "build/" "./")
 
  ("/home/rose/.emacs.d/elpa/gdscript-mode-20220721.547/" (0 28800 0 0) "gdscript-fill-paragraph.el" "gdscript-debug.el" "../" "gdscript-history.el" "gdscript-comint-gdformat.elc" "gdscript-comint.elc" "gdscript-docs.el" "gdscript-debug.elc" "gdscript-godot.elc" "gdscript-customization.elc" "gdscript-rx.elc" "gdscript-indent-and-nav.elc" "gdscript-mode.elc" "gdscript-comint.el" "gdscript-history.elc" "gdscript-project.elc" "gdscript-indent-and-nav.el" "gdscript-mode-pkg.el" "gdscript-rx.el" "gdscript-hydra.el" "gdscript-syntax.elc" "gdscript-format.elc" "gdscript-hydra.elc" "gdscript-customization.el" "gdscript-comint-gdformat.el" "gdscript-godot.el" "gdscript-utils.el" "gdscript-completion.el" "gdscript-docs.elc" "gdscript-utils.elc" "gdscript-format.el" "gdscript-imenu.elc" "gdscript-imenu.el" "./" "gdscript-mode.el" "gdscript-keywords.el" "gdscript-keywords.elc" "gdscript-fill-paragraph.elc" "gdscript-mode-autoloads.el" "gdscript-completion.elc" "gdscript-project.el" "gdscript-syntax.el")
-
- ("/home/rose/" (25858 34839 870390 999000) "Documents/" "Music/" "Videos/" ".java/" "../" ".gtkrc-2.0" "go/" ".bash_profile" ".gnupg/" ".cache/" ".config/" ".bash_logout" ".dotfiles/" ".TabNine/" ".fehbg" ".nuget/" ".tmux.conf" ".mozilla/" "Public/" ".rnd" ".dotnet/" ".icons/" ".tmux/" "Desktop/" ".var/" "yay-git/" ".wget-hsts" ".degit/" ".bashrc" ".xsession-errors" ".wine/" ".profile" ".vscode-oss/" ".bash_history" ".android/" ".rustup/" ".npm/" ".stumpwm.d/" ".local/" ".ssh/" "Templates/" ".minecraft/" ".python_history" ".Xauthority" ".viminfo" ".tlauncher/" "rust-analyzer/" ".emacs.d/" "./" ".vim/" "Pictures/" ".cargo/" ".ICEauthority" "Downloads/" ".gitconfig" ".gnome/" ".pki/")
 
  ("/home/rose/.config/" (25858 28665 715078 954000) "pcmanfm/" "pulse/" "kscreenlockerrc" "systemmonitorrc" "ksmserverrc" "plasma-org.kde.plasma.desktop-appletsrc" "../" "plasmaparc" "discoverrc" "gtkrc-2.0" "konsolerc" "neofetch/" "alacritty/" "libaccounts-glib/" "blender/" "plasma-localerc" "kmixrc" "i3/" "kitty/" "discord/" "TabNine/" "stumpwm/" "kwinrc" "arkrc" "gtk-3.0/" "autostart/" "kde.org/" "menus/" "mimeapps.list" "xfce4-dict/" "kcminputrc" "evolution/" "GIMP/" "dconf/" "KDE/" "kwalletrc" "xsettingsd/" "user-dirs.locale" "NuGet/" "gtkrc" "gtk-4.0/" "ksplashrc" "kactivitymanagerd-statsrc" "Code - OSS/" "kwinrulesrc" "kdedefaults/" "Thunar/" "kdeglobals" "gtk-2.0/" "rofi/" "yay/" "plasmanotifyrc" "xdg-desktop-portal-kderc" "plasmarc" "goa-1.0/" "Trolltech.conf" "google-chrome/" "godot/" "plasmashellrc" "htop/" "kconf_updaterc" "fish/" "kateschemarc" "konsolesshconfig" "suckless/" "khotkeysrc" "kactivitymanagerdrc" "kxkbrc" ".git/" "plasma-nm" "PlasmaDiscoverUpdates" "kglobalshortcutsrc" "nitrogen/" "ranger/" "nvim/" "bluedevilglobalrc" "ktimezonedrc" "krunnerrc" "pavucontrol.ini" "baloofilerc" "kded5rc" "libfm/" "JetBrains/" "powermanagementprofilesrc" "./" "akregatorrc" "plasma.emojierrc" "session/" "awesome/" "dolphinrc" "plasma-welcomerc" "trashrc" "polybar/" "systemsettingsrc" "xfce4/" "user-dirs.dirs" "QtProject.conf")
 
@@ -230,8 +234,6 @@
  ("/home/rose/Documents/games/test_game/" (25784 31778 339042 254000) "select_net.tscn" "../" "scripts/" ".godot/" ".gitignore" "world.tscn" "icon.svg" ".gitattributes" "project.godot" "./" "icon.svg.import")
 
  ("/usr/share/xsessions/" (25779 49208 711483 970000) "../" "i3.desktop" "plasma.desktop" "dwm.desktop" "i3-with-shmlog.desktop" "stumpwm.desktop" "./")
-
- ("/home/rose/Documents/code/lisp/some_project/" (25781 52769 607902 365000) "../" "main.lisp" "#main.lisp#" "./")
 
  ("/home/rose/Documents/games/" (25755 47965 72484 633000) "../" ".godot/" ".gitignore" ".gitattributes" "test_game/" "./")
 
@@ -330,8 +332,6 @@
  ("/home/hword/Documents/mygames/test_game/scripts/" (25649 6398 562227 861000) "../" "./")
 
  ("/home/hword/Documents/code/c++/bws/src/" (25648 54475 121972 302000) "window.cpp" "fs.c" "prelude.h" "util.cpp" "../" "extern_libs/" "draw.cpp" "renderer/" "texture.cpp" "main.cpp" "camera.cpp" "glad.c" "shader.cpp" "headers/" "lmath.c" "./")
-
- ("/home/hword/Documents/code/lua/ex/" (25649 8498 280412 567000) "../" "main.lua" ".vscode/" "entity.lua" "window.lua" "engine.lua" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

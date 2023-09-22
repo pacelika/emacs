@@ -1,9 +1,9 @@
-;; Object semanticdb-project-database-file-15831f7f26f0
+;; Object semanticdb-project-database-file-1572803f4c2c
 ;; SEMANTICDB Tags save file
-(semanticdb-project-database-file "semanticdb-project-database-file-15831f7f26f0"
+(semanticdb-project-database-file "semanticdb-project-database-file-1572803f4c2c"
   :tables
   (list
-    (semanticdb-table "semanticdb-table-15831f7f22a2"
+    (semanticdb-table "semanticdb-table-1572803f4acc"
       :major-mode c++-mode
       :tags 
         '( ("libs/glad/glad.h" include nil nil [14 41])
@@ -215,37 +215,68 @@
       :fsize 936
       :lastmodtime '(25862 1623 144907 621000)
       :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2)))
-    (semanticdb-table "semanticdb-table-15831f7f22c2"
+    (semanticdb-table "semanticdb-table-1572803f4aec"
       :major-mode c++-mode
       :tags 
-        '( ("stdio.h" include (:system-flag t) nil [1 19])
-            ("stdlib.h" include (:system-flag t) nil [20 39])
-            ("buffers.h" include nil nil [40 60])
-            ("libs/cglm/include/cglm/cam.h" include nil nil [61 100])
-            ("libs/cglm/include/cglm/mat4.h" include nil nil [101 141])
-            ("libs/cglm/include/cglm/vec3.h" include nil nil [142 182])
-            ("os/window.h" include nil nil [184 206])
-            ("renderer/draw.h" include nil nil [208 234])
-            ("renderer/shader.h" include nil nil [235 263])
-            ("renderer/texture.h" include nil nil [264 293])
-            ("libs/cglm/include/cglm/cglm.h" include nil nil [295 335])
-            ("libs/cglm/include/cglm/call.h" include nil nil [336 376])
-            ("WIDTH" variable (:constant-flag t) nil [386 391])
-            ("HEIGHT" variable (:constant-flag t) nil [404 410])
-            ("speed" variable (:constant-flag t) nil [424 429])
-            ("main" function (:type "int") nil [436 3484]))          
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("vector" include (:system-flag t) nil [21 38])
+            ("buffers.h" include nil nil [39 59])
+            ("libs/cglm/include/cglm/cam.h" include nil nil [60 99])
+            ("libs/cglm/include/cglm/mat4.h" include nil nil [100 140])
+            ("libs/cglm/include/cglm/vec3.h" include nil nil [141 181])
+            ("os/window.h" include nil nil [183 205])
+            ("renderer/draw.h" include nil nil [207 233])
+            ("renderer/shader.h" include nil nil [234 262])
+            ("renderer/texture.h" include nil nil [263 292])
+            ("libs/cglm/include/cglm/cglm.h" include nil nil [294 334])
+            ("libs/cglm/include/cglm/call.h" include nil nil [335 375])
+            ("WIDTH" variable (:constant-flag t) nil [385 390])
+            ("HEIGHT" variable (:constant-flag t) nil [403 409])
+            ("speed" variable (:constant-flag t) nil [423 428])
+            ("Mesh" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [447 454])
+                    ("vao" variable (:type ("VAO" type (:type "class") nil nil)) (reparse-symbol classsubparts) [481 489])
+                    ("vbo" variable (:type ("VBO" type (:type "class") nil nil)) (reparse-symbol classsubparts) [494 502])
+                    ("ebo" variable (:type ("EBO" type (:type "class") nil nil)) (reparse-symbol classsubparts) [507 515])
+                    ("shader" variable (:type ("std::shared_ptr" type
+                         (:template-specifier 
+                            ( ("Shader" type nil nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [520 551])
+                    ("texture" variable (:type ("std::optional" type
+                         (:template-specifier 
+                            ( ("std::shared_ptr" type (:template-specifier 
+                                ( ("Texture" type nil nil nil))                                ) nil nil))                            
+                          :type "class")
+                          nil nil)) (reparse-symbol classsubparts) [556 604])
+                    ("vertex_count" variable (:type "int") (reparse-symbol classsubparts) [609 626])
+                    ("model" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol classsubparts) [632 653])
+                    ("view" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol classsubparts) [632 653])
+                    ("proj" variable (:type ("mat4" type (:type "class") nil nil)) (reparse-symbol classsubparts) [632 653])
+                    ("translation" variable (:type ("vec3" type (:type "class") nil nil)) (reparse-symbol classsubparts) [658 675])
+                    ("Mesh" function
+                       (:destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [681 796])
+                    ("init" function (:type "void") (reparse-symbol classsubparts) [801 1010])
+                    ("update_transform" function (:type "void") (reparse-symbol classsubparts) [1016 1213])
+                    ("draw" function (:type "void") (reparse-symbol classsubparts) [1219 1411]))                  
+                :type "class")
+                nil [435 1414])
+            ("main" function (:type "int") nil [1416 3918]))          
       :file "main.cxx"
-      :pointmax 3485
-      :fsize 3484
-      :lastmodtime '(25862 31261 236801 506000)
+      :pointmax 3919
+      :fsize 3918
+      :lastmodtime '(25868 55726 401291 793000)
       :unmatched-syntax nil
       :lexical-table 
-        '(("HEIGHT" . ((number "600" 411 . 414)))
-          ("WIDTH" . ((number "800" 392 . 395)))
-          ("speed" . ((number "0.1f" 430 . 434)))
+        '(("HEIGHT" . ((number "600" 410 . 413)))
+          ("WIDTH" . ((number "800" 391 . 394)))
+          ("speed" . ((number "0.1f" 429 . 433)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f7f2610"
+    (semanticdb-table "semanticdb-table-1572803f4b0c"
       :major-mode c++-mode
       :tags 
         '( ("string.h" include (:system-flag t) nil [1 20])
@@ -437,7 +468,7 @@
         '(("ERR_BUF_SIZE" . ((number "512" 809 . 812)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f7f2630"
+    (semanticdb-table "semanticdb-table-1572803f4b2c"
       :major-mode c++-mode
       :tags 
         '( ("renderer/texture.h" include nil nil [1 30])
@@ -536,7 +567,7 @@
         '(("STB_IMAGE_IMPLEMENTATION")
           )
 )
-    (semanticdb-table "semanticdb-table-15831f7f2650"
+    (semanticdb-table "semanticdb-table-1572803f4b4c"
       :major-mode c++-mode
       :tags 
         '( ("os/window.h" include nil nil [1 23])
@@ -577,7 +608,7 @@
       :fsize 1565
       :lastmodtime '(25861 10117 138669 836000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-15831f7f2670"
+    (semanticdb-table "semanticdb-table-1572803f4b6c"
       :major-mode c-mode
       :tags 
         '( ("Model" type
@@ -619,7 +650,7 @@
       :fsize 149
       :lastmodtime '(25859 38175 41445 581000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-15831f7f2690"
+    (semanticdb-table "semanticdb-table-1572803f4b8c"
       :major-mode c++-mode
       :tags 
         '( ("renderer/draw.h" include nil nil [1 27])
@@ -667,7 +698,7 @@
       :fsize 727
       :lastmodtime '(25862 31319 910364 129000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-15831f7f26b0"
+    (semanticdb-table "semanticdb-table-1572803f4bac"
       :major-mode c++-mode
       :tags 
         '( ("renderer/draw.h" include nil nil [1 27])
@@ -754,7 +785,7 @@
       :fsize 1494
       :lastmodtime '(25862 31313 327005 125000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-15831f7f26d0"
+    (semanticdb-table "semanticdb-table-1572803f4bcc"
       :major-mode c++-mode
       :tags 
         '( ("buffers.h" include nil nil [1 21])
@@ -851,7 +882,7 @@
       :fsize 1266
       :lastmodtime '(25862 3022 817977 78000)
       :unmatched-syntax nil)
-    (semanticdb-table "semanticdb-table-15831f7f2a1c"
+    (semanticdb-table "semanticdb-table-1572803f4bec"
       :major-mode c++-mode
       :tags 
         '( ("fs/fs.h" include nil nil [1 19])
@@ -936,7 +967,7 @@
         '(("MAX_FILES_OPEN" . ((number "10" 123 . 125)))
           )
 )
-    (semanticdb-table "semanticdb-table-15831f7f2a3c"
+    (semanticdb-table "semanticdb-table-1572803f4c0c"
       :major-mode c++-mode
       :tags nil
       :file "draw.cxx"

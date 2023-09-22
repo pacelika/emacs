@@ -10,7 +10,7 @@
 (defun take-screenshot()
   "take screenshot"
   (interactive)
-  (call-process-shell-command "maim ~/Pictures/screenshots/screenshot:$(date +\"%H:%M:%S\")" nil 0))
+  (call-process-shell-command "maim ~/Pictures/screenshots/screenshot:$(date +\"%H:%M:%S.png\")" nil 0))
 
 (exwm-input-set-key (kbd "s-.") 'exwm-input-toggle-keyboard)
 (exwm-input-set-key (kbd "s-SPC") 'counsel-linux-app)
