@@ -1,13 +1,14 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/rose/Documents/code/python/game/src/main.py" . 311)
- ("/home/rose/.emacs.d/set-modes.el" . 1319)
+(("/home/rose/.emacs.d/Emacs.org" . 226)
+ ("/home/rose/.emacs.d/init.el" . 2686)
+ ("/home/rose/.emacs.d/Emacs.el" . 1295)
+ ("/home/rose/.emacs.d/"
+  (dired-filename . "/home/rose/.emacs.d/Emacs.org"))
+ ("/home/rose/Documents/code/python/game/src/main.py" . 310)
  ("/home/rose/Downloads/"
   (dired-filename . "/home/rose/Downloads/🌻❤cacheada🌻❤.jpeg"))
  ("/home/rose/Documents/code/c/roselib/src/main.cxx" . 1678)
- ("/home/rose/.emacs.d/init.el" . 364)
  ("/home/rose/.emacs.d/lsp.el" . 344)
- ("/home/rose/.emacs.d/"
-  (dired-filename . "/home/rose/.emacs.d/.gitignore"))
  ("/home/rose/"
   (dired-filename . "/home/rose/Downloads"))
  ("/home/rose/Documents/code/lisp/some_project/main.lisp" . 31)

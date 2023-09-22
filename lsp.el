@@ -1,11 +1,3 @@
-(use-package auto-complete
-  :ensure t :init (progn (ac-config-default) (global-auto-complete-mode t)))
-
-(require 'lsp-mode)
-(use-package lsp-mode
-  :ensure t
-  :hook(after-init . lsp-mode))
-
 (icomplete-mode)
 (global-company-mode)
 ;; (company-mode)
