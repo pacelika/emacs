@@ -1,1 +1,12 @@
 *.txt
+.lsp-session-v1
+projects
+snippets
+var
+segmanticdb
+auto-save-list
+ac-comphist.dat
+.mc-lists.el
+places
+recentf
+recentf.txt

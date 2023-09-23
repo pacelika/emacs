@@ -1,3 +1,12 @@
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(package-initialize)
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+
+(defun goto-config-file() (interactive) (find-file (expand-file-name "~/.emacs.d/Emacs.org")))
+(keymap-global-set "C-x C-\\" 'goto-config-file)
 (with-eval-after-load 
     (message (concat "Emacs took: " (emacs-init-time) " to load")))
 
@@ -6,6 +15,9 @@
 (use-package expand-region
   :ensure t
   :bind ("M-m" . er/expand-region))
+
+(setq ivy-use-virtual-buffers t)
+(setq enable-recursive-minibuffers t)
 
 (use-package ivy
   :defer 0
@@ -87,7 +99,7 @@
   :defer 5
   :init
   (progn
-    (setq dashboard-startup-banner "~/.emacs.d/anime-banner.jpg")
+    (setq dashboard-startup-banner "~/.emacs.d/images/anime-banner.jpg")
     (setq dashboard-banner-logo-title "emacs chad'in")
     (setq dashboard-set-heading-icons t)
     (setq dashboard-items '((recents . 5)))
@@ -103,42 +115,42 @@
   (persp-mode))
 
 (use-package auto-complete
-  :ensure t :defer 5 :init (progn (ac-config-default) (global-auto-complete-mode t)))
+    :ensure t :defer 5 :init (progn (ac-config-default) (global-auto-complete-mode t)))
 
-(use-package lsp-mode
-  :ensure t
-  :commands lsp-mode
-  :hook(after-init . lsp-mode))
+  (use-package lsp-mode
+    :ensure t
+    :commands lsp-mode
+    :hook(after-init . lsp-mode))
 
-(defun setup_c_flags()
-  (define-key c-mode-base-map (kbd "C-c C-\/") 'projectile-compile-project)
-  (lsp-mode))
+  (defun setup_c_flags()
+    (define-key c-mode-base-map (kbd "C-c C-\/") 'projectile-compile-project)
+    (lsp-mode))
 
-(use-package rustic
-  :ensure
-  :bind (:map rustic-mode-map
-              ("M-j" . lsp-ui-imenu)
-              ("M-?" . lsp-find-references)
-              ("C-c C-\/" . projectile-compile-project)
-              ("C-c C-." . projectile-run-project)
-              ("C-c C-c l" . flycheck-list-errors)
-              ("C-c C-c a" . lsp-execute-code-action)
-              ("C-c C-c r" . lsp-rename)
-              ("C-c C-c q" . lsp-workspace-restart)
-              ("C-c C-c Q" . lsp-workspace-shutdown)
-              ("C-c C-c s" . lsp-rust-analyzer-status))
-  :config
-  (setq rustic-format-on-save t)
-  (add-hook 'rustic-mode-hook 'rk/rustic-mode-hook))
+  (use-package rustic
+    :ensure
+    :bind (:map rustic-mode-map
+                ("M-j" . lsp-ui-imenu)
+                ("M-?" . lsp-find-references)
+                ("C-c C-\/" . projectile-compile-project)
+                ("C-c C-." . projectile-run-project)
+                ("C-c C-c l" . flycheck-list-errors)
+                ("C-c C-c a" . lsp-execute-code-action)
+                ("C-c C-c r" . lsp-rename)
+                ("C-c C-c q" . lsp-workspace-restart)
+                ("C-c C-c Q" . lsp-workspace-shutdown)
+                ("C-c C-c s" . lsp-rust-analyzer-status))
+    :config
+    (setq rustic-format-on-save t)
+    (add-hook 'rustic-mode-hook 'rk/rustic-mode-hook))
 
-(defun rk/rustic-mode-hook ()
-  (when buffer-file-name
-    (setq-local buffer-save-without-query t))
-  (add-hook 'before-save-hook 'lsp-format-buffer nil t))
+  (defun rk/rustic-mode-hook ()
+    (when buffer-file-name
+      (setq-local buffer-save-without-query t))
+    (add-hook 'before-save-hook 'lsp-format-buffer nil t))
 
-(add-hook 'c++-mode-hook 'setup_c_flags)
-(add-hook 'c-mode-hook 'setup_c_flags)
-(add-hook 'python-mode 'lsp-mode)
+  (add-hook 'c++-mode-hook 'setup_c_flags)
+  (add-hook 'c-mode-hook 'setup_c_flags)
+  (add-hook 'python-mode 'lsp-mode)
 
 (use-package multiple-cursors
   :commands mc/edit-lines

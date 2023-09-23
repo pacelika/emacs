@@ -1,5 +1,16 @@
-* Init 
+* Package Manager and Init
 #+BEGIN_SRC emacs-lisp
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(package-initialize)
+(unless (package-installed-p 'use-package)
+  (package-refresh-contents)
+  (package-install 'use-package))
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp
+  (defun goto-config-file() (interactive) (find-file (expand-file-name "~/.emacs.d/Emacs.org")))
+  (keymap-global-set "C-x C-\\" 'goto-config-file)
   (with-eval-after-load 
       (message (concat "Emacs took: " (emacs-init-time) " to load")))
 #+END_SRC
@@ -15,6 +26,9 @@
 #+END_SRC
 * Ivy
 #+BEGIN_SRC emacs-lisp
+  (setq ivy-use-virtual-buffers t)
+  (setq enable-recursive-minibuffers t)
+
   (use-package ivy
     :defer 0
     :diminish
@@ -109,7 +123,7 @@ Keep config directories clean
     :defer 5
     :init
     (progn
-      (setq dashboard-startup-banner "~/.emacs.d/anime-banner.jpg")
+      (setq dashboard-startup-banner "~/.emacs.d/images/anime-banner.jpg")
       (setq dashboard-banner-logo-title "emacs chad'in")
       (setq dashboard-set-heading-icons t)
       (setq dashboard-items '((recents . 5)))
@@ -129,42 +143,42 @@ Keep config directories clean
 * LSP
 #+BEGIN_SRC emacs-lisp
   (use-package auto-complete
-    :ensure t :defer 5 :init (progn (ac-config-default) (global-auto-complete-mode t)))
+      :ensure t :defer 5 :init (progn (ac-config-default) (global-auto-complete-mode t)))
 
-  (use-package lsp-mode
-    :ensure t
-    :commands lsp-mode
-    :hook(after-init . lsp-mode))
+    (use-package lsp-mode
+      :ensure t
+      :commands lsp-mode
+      :hook(after-init . lsp-mode))
 
-  (defun setup_c_flags()
-    (define-key c-mode-base-map (kbd "C-c C-\/") 'projectile-compile-project)
-    (lsp-mode))
+    (defun setup_c_flags()
+      (define-key c-mode-base-map (kbd "C-c C-\/") 'projectile-compile-project)
+      (lsp-mode))
 
-  (use-package rustic
-    :ensure
-    :bind (:map rustic-mode-map
-                ("M-j" . lsp-ui-imenu)
-                ("M-?" . lsp-find-references)
-                ("C-c C-\/" . projectile-compile-project)
-                ("C-c C-." . projectile-run-project)
-                ("C-c C-c l" . flycheck-list-errors)
-                ("C-c C-c a" . lsp-execute-code-action)
-                ("C-c C-c r" . lsp-rename)
-                ("C-c C-c q" . lsp-workspace-restart)
-                ("C-c C-c Q" . lsp-workspace-shutdown)
-                ("C-c C-c s" . lsp-rust-analyzer-status))
-    :config
-    (setq rustic-format-on-save t)
-    (add-hook 'rustic-mode-hook 'rk/rustic-mode-hook))
+    (use-package rustic
+      :ensure
+      :bind (:map rustic-mode-map
+                  ("M-j" . lsp-ui-imenu)
+                  ("M-?" . lsp-find-references)
+                  ("C-c C-\/" . projectile-compile-project)
+                  ("C-c C-." . projectile-run-project)
+                  ("C-c C-c l" . flycheck-list-errors)
+                  ("C-c C-c a" . lsp-execute-code-action)
+                  ("C-c C-c r" . lsp-rename)
+                  ("C-c C-c q" . lsp-workspace-restart)
+                  ("C-c C-c Q" . lsp-workspace-shutdown)
+                  ("C-c C-c s" . lsp-rust-analyzer-status))
+      :config
+      (setq rustic-format-on-save t)
+      (add-hook 'rustic-mode-hook 'rk/rustic-mode-hook))
 
-  (defun rk/rustic-mode-hook ()
-    (when buffer-file-name
-      (setq-local buffer-save-without-query t))
-    (add-hook 'before-save-hook 'lsp-format-buffer nil t))
+    (defun rk/rustic-mode-hook ()
+      (when buffer-file-name
+        (setq-local buffer-save-without-query t))
+      (add-hook 'before-save-hook 'lsp-format-buffer nil t))
 
-  (add-hook 'c++-mode-hook 'setup_c_flags)
-  (add-hook 'c-mode-hook 'setup_c_flags)
-  (add-hook 'python-mode 'lsp-mode)
+    (add-hook 'c++-mode-hook 'setup_c_flags)
+    (add-hook 'c-mode-hook 'setup_c_flags)
+    (add-hook 'python-mode 'lsp-mode)
 #+END_SRC
 
 * Multi-Cursor
@@ -240,6 +254,8 @@ Keep config directories clean
     (exwm-input-set-key (kbd "M-RET") 'take-screenshot))
 #+END_SRC
 * Discord RPC
+Fork of emacs-discord-rpc 
+
 #+BEGIN_SRC emacs-lisp
 (defun my-discord-load-rpc()
   (discord-emacs-run "384815451978334208"))
@@ -420,4 +436,3 @@ Keep config directories clean
 
 (provide 'discord-emacs)
 #+END_SRC
-
