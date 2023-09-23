@@ -1,11 +1,11 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/home/rose/"
-  (dired-filename . "/home/rose/.emacs.d"))
+(("/home/rose/.emacs.d/Emacs.org" . 429)
  ("/home/rose/.emacs.d/"
-  (dired-filename . "/home/rose/.emacs.d/.mc-lists.el"))
+  (dired-filename . "/home/rose/.emacs.d/images"))
+ ("/home/rose/"
+  (dired-filename . "/home/rose/.emacs.d"))
  ("/home/rose/.emacs.d/.gitignore" . 108)
  ("/home/rose/.gitconfig" . 42)
- ("/home/rose/.emacs.d/Emacs.org" . 480)
  ("/home/rose/.emacs.d/init.el" . 65)
  ("/home/rose/Documents/code/python/some_project/"
   (dired-filename . "/home/rose/Documents/code/python/some_project/main.py"))
