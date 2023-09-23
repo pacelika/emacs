@@ -1,1 +1,1 @@
-("~/Documents/code/c/roselib/" "~/.emacs.d/")
+("~/.emacs.d/" "~/Documents/code/c/roselib/")

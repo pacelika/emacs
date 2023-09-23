@@ -1,27 +1,15 @@
-;;; discord-emacs.el --- Discord ipc for emacs -*- lexical-binding: t -*-
-;; Author: Ben Simms <ben@bensimms.moe>
-;; Version: 20210522
-;; URL: https://github.com/nitros12/discord-emacs.el
-;;
-;;; Commentary:
-
-;; Discord rich presence for Emacs.
-
 (defun my-discord-load-rpc()
-  (load-file "~/.emacs.d/discordrpc.el")
   (discord-emacs-run "384815451978334208"))
 
 (require 'json)
 (require 'bindat)
 (require 'cl-lib)
 
-(defvar options (list "editing" "working on"))
+(defvar actions '(editing)
 
 (defun get-random-action()
   (setf *random-state* (cl-make-random-state t))
-  (nth (- 1 (random (cl-list-length options))) options))
-
-;;; Code:
+  (nth (- 1 (random (cl-list-length actions))) actions))
 
 (defgroup discord-emacs nil
   "Discord rich presence for Emacs."
@@ -137,7 +125,6 @@
 (defun discord-emacs--gather-data ()
   "Gather data for a rich presence payload."
   (discord-emacs--rich-presence
-   ;; :details (format "Editing buffer: %s" (buffer-name))
    :details (format "%s: <%s> %s" (get-random-action) (file-name-nondirectory (directory-file-name (file-name-directory (pwd)))) (buffer-name))
    :state (discord-emacs--projectile-current-project (format "Buffers open: %d" (discord-emacs--count-buffers)))
    :timestamps `(:start ,(discord-emacs--start-time))
@@ -189,6 +176,3 @@
     (setq discord-emacs--started nil)))
 
 (provide 'discord-emacs)
-
-;;; discord-emacs.el ends here
-;; (format "hi %s" (file-name-nondirectory (directory-file-name (file-name-directory "~/Documents/code/python/some_project/main.py"))))
