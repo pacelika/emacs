@@ -7,8 +7,9 @@
 
 (defun goto-config-file() (interactive) (find-file (expand-file-name "~/.emacs.d/Emacs.org")))
 (keymap-global-set "C-x C-\\" 'goto-config-file)
-(with-eval-after-load 
-    (message (concat "Emacs took: " (emacs-init-time) " to load")))
+
+;; (with-eval-after-load 
+;;     (message (concat "Emacs took: " (emacs-init-time) " to load")))
 
 (use-package undo-tree :defer 2 :commands undo-tree-visualize :defer 1)
 
@@ -56,10 +57,10 @@
 
 (use-package all-the-icons :defer 2 :if (display-graphic-p))
 
-(use-package doom-modeline
-  :defer 2
-  :init (doom-modeline-mode 1)
-  :custom ((doom-modeline-height 15)))
+;; (use-package doom-modeline
+;;   :defer 2
+;;   :init (doom-modeline-mode 1)
+;;   :custom ((doom-modeline-height 15)))
 
 (use-package no-littering)
 ;; (setq auto-save-file-name-transforms '((".*" , (no-littering-expand-var-file-name "auto-save/") t)))
@@ -105,52 +106,64 @@
     (setq dashboard-items '((recents . 5)))
     :config (dashboard-setup-startup-hook)))
 
-(use-package perspective
-  :commands persp-switch-to-buffer
-  :bind
-  ("C-x C-b" . persp-list-buffers)         ; or use a nicer switcher, see below
-  :custom
-  (persp-mode-prefix-key (kbd "C-c M-p"))  ; pick your own prefix key here
-  :init
-  (persp-mode))
+;; (use-package perspective
+;;   :commands persp-switch-to-buffer
+;;   :bind
+;;   ("C-x C-b" . persp-list-buffers)         ; or use a nicer switcher, see below
+;;   :custom
+;;   (persp-mode-prefix-key (kbd "C-c M-p"))  ; pick your own prefix key here
+;;   :init
+;;   (persp-mode))
+
+(global-company-mode)
+(use-package company-tabnine :ensure t :commands company-tabnine)
+
+(require 'company-tabnine)
+(add-to-list 'company-backends #'company-tabnine)
 
 (use-package auto-complete
-    :ensure t :defer 5 :init (progn (ac-config-default) (global-auto-complete-mode t)))
+  :ensure t :defer 2 :init (progn (ac-config-default) (global-auto-complete-mode t)))
 
-  (use-package lsp-mode
-    :ensure t
-    :commands lsp-mode
-    :hook(after-init . lsp-mode))
+;; Trigger completion immediately.
+(setq company-idle-delay 0)
 
-  (defun setup_c_flags()
-    (define-key c-mode-base-map (kbd "C-c C-\/") 'projectile-compile-project)
-    (lsp-mode))
+;; Number the candidates (use M-1, M-2 etc to select completions).
+(setq company-show-numbers t)
 
-  (use-package rustic
-    :ensure
-    :bind (:map rustic-mode-map
-                ("M-j" . lsp-ui-imenu)
-                ("M-?" . lsp-find-references)
-                ("C-c C-\/" . projectile-compile-project)
-                ("C-c C-." . projectile-run-project)
-                ("C-c C-c l" . flycheck-list-errors)
-                ("C-c C-c a" . lsp-execute-code-action)
-                ("C-c C-c r" . lsp-rename)
-                ("C-c C-c q" . lsp-workspace-restart)
-                ("C-c C-c Q" . lsp-workspace-shutdown)
-                ("C-c C-c s" . lsp-rust-analyzer-status))
-    :config
-    (setq rustic-format-on-save t)
-    (add-hook 'rustic-mode-hook 'rk/rustic-mode-hook))
+(use-package lsp-mode
+  :ensure t
+  :commands lsp-mode
+  :hook(after-init . lsp-mode))
 
-  (defun rk/rustic-mode-hook ()
-    (when buffer-file-name
-      (setq-local buffer-save-without-query t))
-    (add-hook 'before-save-hook 'lsp-format-buffer nil t))
+(defun setup_c_flags()
+  ;; (define-key c-mode-base-map (kbd "C-c C-\/") 'projectile-compile-project)
+  (lsp-mode))
 
-  (add-hook 'c++-mode-hook 'setup_c_flags)
-  (add-hook 'c-mode-hook 'setup_c_flags)
-  (add-hook 'python-mode 'lsp-mode)
+(use-package rustic
+  :ensure
+  :bind (:map rustic-mode-map
+              ("M-j" . lsp-ui-imenu)
+              ("M-?" . lsp-find-references)
+              ;; ("C-c C-\/" . projectile-compile-project)
+              ;; ("C-c C-." . projectile-run-project)
+              ("C-c C-c l" . flycheck-list-errors)
+              ("C-c C-c a" . lsp-execute-code-action)
+              ("C-c C-c r" . lsp-rename)
+              ("C-c C-c q" . lsp-workspace-restart)
+              ("C-c C-c Q" . lsp-workspace-shutdown)
+              ("C-c C-c s" . lsp-rust-analyzer-status))
+  :config
+  (setq rustic-format-on-save t)
+  (add-hook 'rustic-mode-hook 'rk/rustic-mode-hook))
+
+(defun rk/rustic-mode-hook ()
+  (when buffer-file-name
+    (setq-local buffer-save-without-query t))
+  (add-hook 'before-save-hook 'lsp-format-buffer nil t))
+
+(add-hook 'c++-mode-hook 'setup_c_flags)
+(add-hook 'c-mode-hook 'setup_c_flags)
+(add-hook 'python-mode 'lsp-mode)
 
 (use-package multiple-cursors
   :commands mc/edit-lines
@@ -189,6 +202,8 @@
   :bind
   (("C-c p f" . helm-projectile-find-file)
    ("C-c p p" . helm-projectile-switch-project)
+   ("C-c C-." . projectile-compile-project)
+   ("C-c C-\/" . projectile-run-project)
    ("C-c p s" . projectile-save-project-buffers))
   :config
   (projectile-mode +1))
@@ -209,7 +224,7 @@
   (require 'exwm)
   (require 'exwm-config)
   (exwm-config-example)
-  (exwm-input-set-key (kbd "s-.") 'exwm-input-toggle-keyboard)
+  (exwm-input-set-key (kbd "s-k") 'exwm-input-toggle-keyboard)
   (exwm-input-set-key (kbd "s-SPC") 'counsel-linux-app)
   (exwm-input-set-key (kbd "s-<return>") 'launch-terminal)
   (exwm-input-set-key (kbd "M-RET") 'take-screenshot))
@@ -392,3 +407,5 @@
     (setq discord-emacs--started nil)))
 
 (provide 'discord-emacs)
+
+(use-package beacon :commands beacon-mode :defer 1 :init (beacon-mode))
