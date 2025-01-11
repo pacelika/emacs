@@ -1,3 +1,7 @@
+elpa/
+history
+eln-cache/
+projectile-bookmarks.eld
 *.txt
 .lsp-session-v1
 projects
