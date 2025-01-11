@@ -86,16 +86,19 @@
 (setq inhibit-startup-message t)
 (setq make-backup-files nil)
 
-(use-package dashboard
-  :ensure t
-  :defer 1
-  :init
-  (progn
-    (setq dashboard-startup-banner "~/.emacs.d/images/anime-banner.jpg")
-    (setq dashboard-banner-logo-title "emacs chad'in")
-    (setq dashboard-set-heading-icons t)
-    (setq dashboard-items '((recents . 5)))
-    :config (dashboard-setup-startup-hook)))
+(defvar _dashboardEnabled 0)
+
+(when (= _dashboardEnabled 1) (progn
+                                (use-package dashboard
+                                  :ensure t
+                                  :init
+                                  (progn
+                                    (setq dashboard-startup-banner "~/.emacs.d/images/anime-banner.jpg")
+                                    (setq dashboard-banner-logo-title "emacs chad'in")
+                                    (setq dashboard-set-heading-icons t)
+                                    (setq dashboard-items '((recents . 5)))
+                                    :config (dashboard-setup-startup-hook)))
+                                ))
 
 (use-package doom-modeline
   :ensure t

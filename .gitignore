@@ -1,4 +1,5 @@
 elpa/
+.cache/
 history
 eln-cache/
 projectile-bookmarks.eld
