@@ -8,8 +8,8 @@
 (defun goto-config-file() (interactive) (find-file (expand-file-name "~/.emacs.d/Emacs.org")))
 (keymap-global-set "C-x C-\\" 'goto-config-file)
 
-(with-eval-after-load 
-    (message (concat "Emacs took: " (emacs-init-time) " to load")))
+;; (with-eval-after-load 
+;;     (message (concat "Emacs took: " (emacs-init-time) " to load")))
 
 (use-package undo-tree :defer 2 :commands undo-tree-visualize :defer 1)
 
@@ -50,10 +50,10 @@
          ("C-r" . 'counsel-minibuffer-history)
          ("M-x" . 'counsel-M-x)
          ("C-x C-f" . 'counsel-find-file))
-   :custom
-   (counsel-linux-app-format-function #'counsel-linux-app-format-function-name-only)
-   :config
-   (counsel-mode 1))
+  :custom
+  (counsel-linux-app-format-function #'counsel-linux-app-format-function-name-only)
+  :config
+  (counsel-mode 1))
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 
@@ -67,6 +67,7 @@
 (savehist-mode 1)
 (save-place-mode 1)
 (global-auto-revert-mode 1)
+(set-face-attribute 'default nil :height 170)
 
 (setq history-length 25)
 (setq use-dialog-box nil)
@@ -75,7 +76,7 @@
 (setq inhibit-startup-message t
       initial-scratch-message ""
       cursor-type 'bar)
- '(compilation-message-face 'default)
+'(compilation-message-face 'default)
 (setq-default tab-width 4)
 (setq-default indent-tabs-mode nil)
 (setq indent-line-function 'insert-tab)
@@ -96,28 +97,32 @@
     (setq dashboard-items '((recents . 5)))
     :config (dashboard-setup-startup-hook)))
 
-;;(global-company-mode)
-(use-package auto-complete
-  :ensure t :defer 2 :init (progn (ac-config-default) (global-auto-complete-mode t)))
-
-;; Trigger completion immediately.
-(setq company-idle-delay 0)
-
-;; Number the candidates (use M-1, M-2 etc to select completions).
-(setq company-show-numbers t)
-
-(use-package lsp-mode
+(use-package doom-modeline
   :ensure t
-  :commands lsp-mode
-  :hook(after-init . lsp-mode))
+  :init (doom-modeline-mode 1))
 
-(defun setup_c_flags()
-  ;; (define-key c-mode-base-map (kbd "C-c C-\/") 'projectile-compile-project)
-  (lsp-mode))
+;;  (global-company-mode)
+  (use-package auto-complete
+    :ensure t :defer 2 :init (progn (ac-config-default) (global-auto-complete-mode t)))
 
-(add-hook 'c++-mode-hook 'setup_c_flags)
-(add-hook 'c-mode-hook 'setup_c_flags)
-(add-hook 'python-mode 'lsp-mode)
+  ;; Trigger completion immediately.
+  (setq company-idle-delay 0)
+
+  ;; Number the candidates (use M-1, M-2 etc to select completions).
+  (setq company-show-numbers t)
+
+  (use-package lsp-mode
+    :ensure t
+    :commands lsp-mode
+    :hook(after-init . lsp-mode))
+
+  (defun setup_c_flags()
+    ;; (define-key c-mode-base-map (kbd "C-c C-\/") 'projectile-compile-project)
+    (lsp-mode))
+
+  (add-hook 'c++-mode-hook 'setup_c_flags)
+  (add-hook 'c-mode-hook 'setup_c_flags)
+  (add-hook 'python-mode 'lsp-mode)
 
 (use-package multiple-cursors
   :commands mc/edit-lines
@@ -138,16 +143,8 @@
 (use-package dired-single
   :commands (dired dired-jump))
 
-;; (use-package all-the-icons-dired
-;;   :hook (dired-mode . all-the-icons-dired-mode))
-
-;; (use-package dired-open
-;;   :commands (dired dired-jump)
-;;   :config
-;;   ;; Doesn't work as expected!
-;;   ;;(add-to-list 'dired-open-functions #'dired-open-xdg t)
-;;   (setq dired-open-extensions '(("png" . "feh")
-;;                                 ("mkv" . "mpv"))))
+(use-package all-the-icons-dired
+  :hook (dired-mode . all-the-icons-dired-mode))
 
 (use-package projectile
   :ensure t
@@ -162,4 +159,4 @@
   :config
   (projectile-mode +1))
 
-;; (use-package beacon :commands beacon-mode :defer 1 :init (beacon-mode))
+(use-package beacon :commands beacon-mode :defer 1 :init (beacon-mode))
