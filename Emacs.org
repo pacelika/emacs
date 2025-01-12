@@ -12,12 +12,8 @@
   (defun goto-config-file() (interactive) (find-file (expand-file-name "~/.emacs.d/Emacs.org")))
   (keymap-global-set "C-x C-\\" 'goto-config-file)
 
-  ;; (with-eval-after-load 
-  ;;     (message (concat "Emacs took: " (emacs-init-time) " to load")))
-#+END_SRC
-* Undo tree
-#+BEGIN_SRC emacs-lisp
-  (use-package undo-tree :defer 2 :commands undo-tree-visualize :defer 1)
+  (with-eval-after-load 
+      (message (concat "Emacs took: " (emacs-init-time) " to load")))
 #+END_SRC
 * Expand-region
 #+BEGIN_SRC emacs-lisp
@@ -31,7 +27,7 @@
   (setq enable-recursive-minibuffers t)
 
   (use-package ivy
-    :defer 0
+    :defer 1
     :diminish
     :bind (("C-s" . swiper)
            :map ivy-minibuffer-map
@@ -50,6 +46,7 @@
     (ivy-mode 1))
 
   (use-package ivy-rich
+    :defer 1
     :after ivy
     :init
     (ivy-rich-mode 1))
@@ -58,6 +55,7 @@
 * Counsel
 #+BEGIN_SRC emacs-lisp
   (use-package counsel
+    :defer 1
     :bind (("C-M-j" . 'counsel-switch-buffer)
            :map minibuffer-local-map
            ("C-r" . 'counsel-minibuffer-history)
@@ -103,7 +101,7 @@
 #+END_SRC
 * Dashboard 
 #+BEGIN_SRC emacs-lisp
-  (defvar _dashboardEnabled 0)
+  (defvar _dashboardEnabled 1)
 
   (when (= _dashboardEnabled 1) (progn
                                   (use-package dashboard
@@ -117,15 +115,9 @@
                                       :config (dashboard-setup-startup-hook)))
                                   ))
 #+END_SRC
-* Doom-Modeline
-#+BEGIN_SRC emacs-lisp
-(use-package doom-modeline
-  :ensure t
-  :init (doom-modeline-mode 1))
-#+END_SRC
 * LSP
 #+BEGIN_SRC emacs-lisp
-;;  (global-company-mode)
+  (global-company-mode)
   (use-package auto-complete
     :ensure t :defer 2 :init (progn (ac-config-default) (global-auto-complete-mode t)))
 
@@ -140,15 +132,10 @@
     :commands lsp-mode
     :hook(after-init . lsp-mode))
 
-  (defun setup_c_flags()
-    ;; (define-key c-mode-base-map (kbd "C-c C-\/") 'projectile-compile-project)
-    (lsp-mode))
-
-  (add-hook 'c++-mode-hook 'setup_c_flags)
-  (add-hook 'c-mode-hook 'setup_c_flags)
+  (add-hook 'c++-mode-hook 'lsp-mode)
+  (add-hook 'c-mode-hook 'lsp-mode)
   (add-hook 'python-mode 'lsp-mode)
 #+END_SRC
-
 * Multi-Cursor
 #+BEGIN_SRC emacs-lisp
   (use-package multiple-cursors
@@ -166,14 +153,10 @@
   (use-package dired
     :ensure nil
     :commands (dired dired-jump)
-    :bind (("C-x C-j" . dired-jump))
-    :custom ((dired-listing-switches "-agho --group-directories-first")))
+    :bind (("C-x C-j" . dired-jump)))
 
   (use-package dired-single
     :commands (dired dired-jump))
-
-  (use-package all-the-icons-dired
-    :hook (dired-mode . all-the-icons-dired-mode))
 #+END_SRC
 * Projectile
 #+BEGIN_SRC emacs-lisp
@@ -192,5 +175,5 @@
 #+END_SRC
 * Beacon
 #+BEGIN_SRC emacs-lisp
-  (use-package beacon :commands beacon-mode :defer 1 :init (beacon-mode))
+  (use-package beacon :commands beacon-mode :defer 1 :init (beacon-mode)) 
 #+END_SRC

@@ -8,10 +8,8 @@
 (defun goto-config-file() (interactive) (find-file (expand-file-name "~/.emacs.d/Emacs.org")))
 (keymap-global-set "C-x C-\\" 'goto-config-file)
 
-;; (with-eval-after-load 
-;;     (message (concat "Emacs took: " (emacs-init-time) " to load")))
-
-(use-package undo-tree :defer 2 :commands undo-tree-visualize :defer 1)
+(with-eval-after-load 
+    (message (concat "Emacs took: " (emacs-init-time) " to load")))
 
 (use-package expand-region
   :ensure t
@@ -21,7 +19,7 @@
 (setq enable-recursive-minibuffers t)
 
 (use-package ivy
-  :defer 0
+  :defer 1
   :diminish
   :bind (("C-s" . swiper)
          :map ivy-minibuffer-map
@@ -40,11 +38,13 @@
   (ivy-mode 1))
 
 (use-package ivy-rich
+  :defer 1
   :after ivy
   :init
   (ivy-rich-mode 1))
 
 (use-package counsel
+  :defer 1
   :bind (("C-M-j" . 'counsel-switch-buffer)
          :map minibuffer-local-map
          ("C-r" . 'counsel-minibuffer-history)
@@ -86,7 +86,7 @@
 (setq inhibit-startup-message t)
 (setq make-backup-files nil)
 
-(defvar _dashboardEnabled 0)
+(defvar _dashboardEnabled 1)
 
 (when (= _dashboardEnabled 1) (progn
                                 (use-package dashboard
@@ -100,54 +100,46 @@
                                     :config (dashboard-setup-startup-hook)))
                                 ))
 
-(use-package doom-modeline
+;; (use-package doom-modeline
+;;   :ensure t
+;;   :init (doom-modeline-mode 1))
+
+(global-company-mode)
+(use-package auto-complete
+  :ensure t :defer 2 :init (progn (ac-config-default) (global-auto-complete-mode t)))
+
+;; Trigger completion immediately.
+(setq company-idle-delay 0)
+
+;; Number the candidates (use M-1, M-2 etc to select completions).
+(setq company-show-numbers t)
+
+(use-package lsp-mode
   :ensure t
-  :init (doom-modeline-mode 1))
+  :commands lsp-mode
+  :hook(after-init . lsp-mode))
 
-;;  (global-company-mode)
-  (use-package auto-complete
-    :ensure t :defer 2 :init (progn (ac-config-default) (global-auto-complete-mode t)))
+(add-hook 'c++-mode-hook 'lsp-mode)
+(add-hook 'c-mode-hook 'lsp-mode)
+(add-hook 'python-mode 'lsp-mode)
 
-  ;; Trigger completion immediately.
-  (setq company-idle-delay 0)
-
-  ;; Number the candidates (use M-1, M-2 etc to select completions).
-  (setq company-show-numbers t)
-
-  (use-package lsp-mode
-    :ensure t
-    :commands lsp-mode
-    :hook(after-init . lsp-mode))
-
-  (defun setup_c_flags()
-    ;; (define-key c-mode-base-map (kbd "C-c C-\/") 'projectile-compile-project)
-    (lsp-mode))
-
-  (add-hook 'c++-mode-hook 'setup_c_flags)
-  (add-hook 'c-mode-hook 'setup_c_flags)
-  (add-hook 'python-mode 'lsp-mode)
-
-(use-package multiple-cursors
-  :commands mc/edit-lines
-  :ensure t
-  :bind(("C-S-c C-S-c" . 'mc/edit-lines)
-        ("C->" . 'mc/mark-next-like-this)
-        ("C-<" . 'mc/mark-previous-like-this)
-        ("C-c C-<" . 'mc/mark-all-like-this)
-        ("C-c C-c" . 'ace-jump-mode)
-        ("C-x M-r" . 'replace-string)))
+;; (use-package multiple-cursors
+;;   :commands mc/edit-lines
+;;   :ensure t
+;;   :bind(("C-S-c C-S-c" . 'mc/edit-lines)
+;;         ("C->" . 'mc/mark-next-like-this)
+;;         ("C-<" . 'mc/mark-previous-like-this)
+;;         ("C-c C-<" . 'mc/mark-all-like-this)
+;;         ("C-c C-c" . 'ace-jump-mode)
+;;         ("C-x M-r" . 'replace-string)))
 
 (use-package dired
   :ensure nil
   :commands (dired dired-jump)
-  :bind (("C-x C-j" . dired-jump))
-  :custom ((dired-listing-switches "-agho --group-directories-first")))
+  :bind (("C-x C-j" . dired-jump)))
 
 (use-package dired-single
   :commands (dired dired-jump))
-
-(use-package all-the-icons-dired
-  :hook (dired-mode . all-the-icons-dired-mode))
 
 (use-package projectile
   :ensure t
