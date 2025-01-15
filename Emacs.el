@@ -20,6 +20,7 @@
 
 (use-package ivy
   :defer 1
+  :ensure t
   :diminish
   :bind (("C-s" . swiper)
          :map ivy-minibuffer-map
@@ -39,12 +40,14 @@
 
 (use-package ivy-rich
   :defer 1
+  :ensure t
   :after ivy
   :init
   (ivy-rich-mode 1))
 
 (use-package counsel
   :defer 1
+  :ensure t
   :bind (("C-M-j" . 'counsel-switch-buffer)
          :map minibuffer-local-map
          ("C-r" . 'counsel-minibuffer-history)
@@ -69,6 +72,15 @@
 (global-auto-revert-mode 1)
 (set-face-attribute 'default nil :height 170)
 
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq-default electric-indent-mode nil)
+(remove-hook 'text-mode-hook 'turn-on-auto-fill)
+(global-auto-revert-mode -1)
+
+(when (fboundp 'aggressive-indent-mode)
+  (aggressive-indent-mode -1))
+
 (setq history-length 25)
 (setq use-dialog-box nil)
 (setq global-auto-revert-non-file-buffers t)
@@ -86,25 +98,22 @@
 (setq inhibit-startup-message t)
 (setq make-backup-files nil)
 
-(defvar _dashboardEnabled 1)
+(defvar enabled 1)
 
-(when (= _dashboardEnabled 1) (progn
-                                (use-package dashboard
-                                  :ensure t
-                                  :init
-                                  (progn
-                                    (setq dashboard-startup-banner "~/.emacs.d/images/anime-banner.jpg")
-                                    (setq dashboard-banner-logo-title "emacs chad'in")
-                                    (setq dashboard-set-heading-icons t)
-                                    (setq dashboard-items '((recents . 5)))
-                                    :config (dashboard-setup-startup-hook)))
-                                ))
+(when (= enabled 1) (progn
+                      (use-package dashboard
+                        :ensure t
+                        :init
+                        (progn
+                          (setq dashboard-startup-banner "~/.emacs.d/images/anime-banner.jpg")
+                          (setq dashboard-banner-logo-title "emacs chad'in")
+                          (setq dashboard-set-heading-icons t)
+                          (setq dashboard-items '((recents . 5)))
+                          :config (dashboard-setup-startup-hook)))
+                      ))
 
-;; (use-package doom-modeline
-;;   :ensure t
-;;   :init (doom-modeline-mode 1))
+(use-package company :ensure t :init (global-company-mode))
 
-(global-company-mode)
 (use-package auto-complete
   :ensure t :defer 2 :init (progn (ac-config-default) (global-auto-complete-mode t)))
 
@@ -123,15 +132,15 @@
 (add-hook 'c-mode-hook 'lsp-mode)
 (add-hook 'python-mode 'lsp-mode)
 
-;; (use-package multiple-cursors
-;;   :commands mc/edit-lines
-;;   :ensure t
-;;   :bind(("C-S-c C-S-c" . 'mc/edit-lines)
-;;         ("C->" . 'mc/mark-next-like-this)
-;;         ("C-<" . 'mc/mark-previous-like-this)
-;;         ("C-c C-<" . 'mc/mark-all-like-this)
-;;         ("C-c C-c" . 'ace-jump-mode)
-;;         ("C-x M-r" . 'replace-string)))
+(use-package multiple-cursors
+  :commands mc/edit-lines
+  :ensure t
+  :bind(("C-S-c C-S-c" . 'mc/edit-lines)
+        ("C->" . 'mc/mark-next-like-this)
+        ("C-<" . 'mc/mark-previous-like-this)
+        ("C-c C-<" . 'mc/mark-all-like-this)
+        ("C-c C-c" . 'ace-jump-mode)
+        ("C-x M-r" . 'replace-string)))
 
 (use-package dired
   :ensure nil
@@ -155,3 +164,5 @@
   (projectile-mode +1))
 
 (use-package beacon :commands beacon-mode :defer 1 :init (beacon-mode))
+
+(load "~/.emacs.d/llvm-mode.el")
