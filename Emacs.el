@@ -128,9 +128,9 @@
   :commands lsp-mode
   :hook(after-init . lsp-mode))
 
-(add-hook 'c++-mode-hook 'lsp-mode)
-(add-hook 'c-mode-hook 'lsp-mode)
-(add-hook 'python-mode 'lsp-mode)
+;; (add-hook 'c++-mode-hook 'lsp-mode)
+;; (add-hook 'c-mode-hook 'lsp-mode)
+;; (add-hook 'python-mode 'lsp-mode)
 
 (use-package multiple-cursors
   :commands mc/edit-lines

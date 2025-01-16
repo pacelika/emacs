@@ -1,0 +1,21 @@
+* Package Manager and init
+#+BEGIN_SRC emacs-lisp
+  (require 'package)
+  (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+  (package-initialize)
+  (unless (package-installed-p 'use-package)
+    (package-refresh-contents)
+    (package-install 'use-package))
+#+END_SRC
+* Config debug stuff
+#+BEGIN_SRC emacs-lisp
+  (defun goto-config-file() (interactive) (find-file (expand-file-name "~/.emacs.d/config.org")))
+  (keymap-global-set "C-x C-\\" 'goto-config-file)
+
+  (with-eval-after-load 
+      (message (concat "Emacs took: " (emacs-init-time) " to load")))
+#+END_SRC
+* Set-Defaults
+#+BEGIN_SRC emacs-lisp
+(load "~/.emacs.d/defaults.el")
+#+END_SRC

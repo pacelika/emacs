@@ -71,45 +71,7 @@
 #+END_SRC
 * Set-Defaults
 #+BEGIN_SRC emacs-lisp
-  (defalias 'yes-or-no-p 'y-or-n-p)
-
-  (tool-bar-mode -1)
-  (menu-bar-mode -1)
-  (scroll-bar-mode -1) 
-  (electric-pair-mode 1)
-  (global-display-line-numbers-mode 1)
-  (semantic-mode)
-  (recentf-mode 1)
-  (savehist-mode 1)
-  (save-place-mode 1)
-  (global-auto-revert-mode 1)
-  (set-face-attribute 'default nil :height 170)
-
-  (setq-default indent-tabs-mode nil)
-  (setq-default tab-width 4)
-  (setq-default electric-indent-mode nil)
-  (remove-hook 'text-mode-hook 'turn-on-auto-fill)
-  (global-auto-revert-mode -1)
-
-  (when (fboundp 'aggressive-indent-mode)
-    (aggressive-indent-mode -1))
-
-  (setq history-length 25)
-  (setq use-dialog-box nil)
-  (setq global-auto-revert-non-file-buffers t)
-  (setq display-line-numbers-type 'relative)
-  (setq inhibit-startup-message t
-        initial-scratch-message ""
-        cursor-type 'bar)
-  '(compilation-message-face 'default)
-  (setq-default tab-width 4)
-  (setq-default indent-tabs-mode nil)
-  (setq indent-line-function 'insert-tab)
-  (setq c-syntactic-indentation t)
-  (setq c-basic-offset 4)
-  (setq truncate-lines t)
-  (setq inhibit-startup-message t)
-  (setq make-backup-files nil)
+(load "~/.emacs.d/defaults.el")
 #+END_SRC
 * Dashboard 
 #+BEGIN_SRC emacs-lisp
@@ -145,9 +107,9 @@
     :commands lsp-mode
     :hook(after-init . lsp-mode))
 
-  (add-hook 'c++-mode-hook 'lsp-mode)
-  (add-hook 'c-mode-hook 'lsp-mode)
-  (add-hook 'python-mode 'lsp-mode)
+  ;; (add-hook 'c++-mode-hook 'lsp-mode)
+  ;; (add-hook 'c-mode-hook 'lsp-mode)
+  ;; (add-hook 'python-mode 'lsp-mode)
 #+END_SRC
 * Multi-Cursor
 #+BEGIN_SRC emacs-lisp
