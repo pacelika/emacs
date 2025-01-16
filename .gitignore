@@ -9,6 +9,7 @@ projects
 snippets
 var
 segmanticdb
+semanticdb
 auto-save-list
 ac-comphist.dat
 .mc-lists.el

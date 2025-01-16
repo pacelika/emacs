@@ -10,12 +10,12 @@
 (global-auto-revert-mode -1)
 '(compilation-message-face 'default)
 
-;; (recentf-mode 1)
-;; (savehist-mode 1)
-;; (setq history-length 25)
-;; (save-place-mode 1)
-(fmakunbound 'recentf-mode)
-(fmakunbound 'save-place-mode)
+(recentf-mode 1)
+(savehist-mode 1)
+(setq history-length 25)
+(save-place-mode 1)
+;; (fmakunbound 'recentf-mode)
+;; (fmakunbound 'save-place-mode)
 
 (setq inhibit-startup-message t)
 (setq make-backup-files nil)
