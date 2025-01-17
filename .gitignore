@@ -1,6 +1,7 @@
 elpa/
 .cache/
 history
+perspective-save
 eln-cache/
 projectile-bookmarks.eld
 *.txt
