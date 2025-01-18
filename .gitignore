@@ -1,9 +1,7 @@
 elpa/
 .cache/
 history
-perspective-save
 eln-cache/
-projectile-bookmarks.eld
 *.txt
 .lsp-session-v1
 projects
