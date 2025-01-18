@@ -1,11 +1,11 @@
 * Package Manager and init
 #+BEGIN_SRC emacs-lisp
-  ;; (require 'package)
-  ;; (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-  ;; (package-initialize)
-  ;; (unless (package-installed-p 'use-package)
-  ;;   (package-refresh-contents)
-  ;;   (package-install 'use-package))
+  (require 'package)
+  (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+  (package-initialize)
+  (unless (package-installed-p 'use-package)
+    (package-refresh-contents)
+    (package-install 'use-package))
 #+END_SRC
 * Config debug stuff
 #+BEGIN_SRC emacs-lisp
@@ -20,34 +20,12 @@
   (load "~/.emacs.d/defaults.el")
   (keymap-global-set "C-," 'duplicate-line)
 #+END_SRC
-* Themes 
-#+BEGIN_SRC emacs-lisp
-  ;; TODO: add themes here
-#+END_SRC
 * Expand Region 
 #+BEGIN_SRC emacs-lisp
-  (defun expand-to-string ()
-    "Expand the region to encompass the string at point."
-    (interactive)
-    (let ((bounds (bounds-of-string)))
-      (if bounds
-          (progn
-            (set-mark (car bounds))
-            (goto-char (cdr bounds))
-            (activate-mark))
-        (message "Not inside a string."))))
-
-  (defun bounds-of-string()
-    "Get the bounds of the string at point, if any."
-    (let ((syntax (syntax-ppss)))
-      (when (nth 3 syntax)
-        (save-excursion
-          (let ((start (nth 8 syntax)))
-            (goto-char start)
-            (forward-sexp)
-            (cons start (point)))))))
-
-  (global-set-key (kbd "C-c C-'") 'expand-to-string)
+  (use-package expand-region
+    :ensure t
+    :defer 2
+    :bind ("C-=" . er/expand-region))
 #+END_SRC
 * Compile settings
 #+BEGIN_SRC emacs-lisp
@@ -92,37 +70,23 @@
 #+END_SRC
 * Lsp settings
 #+BEGIN_SRC emacs-lisp
-  ;; (use-package corfu
-  ;;   :ensure t
-  ;;   :defer 3
-  ;;   :custom
-  ;;   (corfu-cycle t)
-  ;;   (corfu-auto t)
-  ;;   (corfu-auto-prefix 2)
-  ;;   (corfu-auto-delay 0.1)
-  ;;   (corfu-popupinfo-delay '(0.5 . 0.2))
-  ;;   (corfu-preview-current 'insert)
-  ;;   (corfu-preselect 'prompt)
-  ;;   (corfu-on-exact-match nil)
-  ;;   :bind (:map corfu-map
-  ;;               ("M-SPC"      . corfu-insert-separator)
-  ;;               ("TAB"        . corfu-next)
-  ;;               ([tab]        . corfu-next)
-  ;;               ("S-TAB"      . corfu-previous)
-  ;;               ([backtab]    . corfu-previous)
-  ;;               ("S-<return>" . corfu-insert)
-  ;;               ("RET"        . nil))
+  (use-package company :ensure t :defer 2
+  :config
+  (setq company-idle-delay 0.2)
+  (setq company-minimum-prefix-length 1)
+  (setq company-tooltip-limit 10)
+  (setq company-selection-wrap-around t)
+  (setq company-quickhelp-delay 0.2)
+  (setq company-backends '((company-capf) (company-files)))
+  (global-company-mode 1))
 
-  ;;   :init
-  ;;   (global-corfu-mode)
-  ;;   (corfu-history-mode)
-  ;;   (corfu-popupinfo-mode))
+  (use-package lsp-mode :ensure t 
+    :defer 2 
+    :hook
+    (c-mode . lsp)
+    (cpp-mode .lsp)
+    (lua-mode .lsp)
+    (rust-mode .lsp))
 
-  ;; (use-package lsp-mode :ensure t 
-  ;;   :defer 2 
-  ;;   :hook
-  ;;   (c-mode . lsp)
-  ;;   (cpp-mode .lsp))
-
-  ;; (use-package lsp-ui :ensure t :defer 2 :commands lsp-ui-mode :hook (lsp-mode . lsp-ui-mode))
+  (use-package lsp-ui :ensure t :defer 2 :commands lsp-ui-mode :hook (lsp-mode . lsp-ui-mode))
 #+END_SRC

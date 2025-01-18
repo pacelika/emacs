@@ -56,3 +56,8 @@
 
 (when (fboundp 'aggressive-indent-mode)
   (aggressive-indent-mode -1))
+
+(setq warning-suppress-types '((comp) (emacs)))
+(setq warning-minimum-level :error)
+(setq warning-minimum-level :silent)
+(setq warning-suppress-types '((use-package) (initialization)))

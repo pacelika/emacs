@@ -1,6 +1,7 @@
 elpa/
 .cache/
 history
+ido.last
 eln-cache/
 *.txt
 .lsp-session-v1
