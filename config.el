@@ -22,28 +22,6 @@
 
 (use-package vterm :ensure :defer 2 :bind ("M-*" . vterm))
 
-(defvar save-state-location "~/.emacs.d/perspective-save")
-
-(use-package perspective 
-  :ensure t
-  :demand t
-  :bind (("C-x k" . persp-kill-buffer*)
-         ("C-x C-b" . persp-list-buffers))
-  :custom
-  (persp-mode-prefix-key (kbd "C-x x"))
-  (persp-state-default-file save-state-location)  ;; Save state location
-  (persp-save-dir "~/.emacs.d/persp-sessions/")  ;; Where to save sessions
-  :config
-  (persp-mode)
-  (add-hook 'kill-emacs-hook #'persp-state-save save-state-location)  ;; Auto-save on exit
-  ;; (add-hook 'emacs-startup-hook #'persp-state-load save-state-location)
-  )
-
-(require 'perspective)
-
-(run-with-timer 1 nil #'persp-state-load save-state-location)
-(run-with-timer 1.3 nil #'persp-switch "main")
-
 (require 'compile)
 
 (setq compilation-scroll-output t)
