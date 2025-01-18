@@ -17,22 +17,37 @@
 #+END_SRC
 * Set-Defaults
 #+BEGIN_SRC emacs-lisp
-  (keymap-global-set "C-," 'duplicate-line)
   (load "~/.emacs.d/defaults.el")
+  (keymap-global-set "C-," 'duplicate-line)
 #+END_SRC
 * Themes 
 #+BEGIN_SRC emacs-lisp
-  ;; (use-package gruber-darker-theme :ensure t)
+  ;; TODO: add themes here
 #+END_SRC
 * Expand Region 
 #+BEGIN_SRC emacs-lisp
-  ;; (use-package expand-region
-  ;;   :ensure t
-  ;;   :bind ("C-=" . er/expand-region))
-#+END_SRC
-* Terminal
-#+BEGIN_SRC emacs-lisp
-  ;; (use-package vterm :ensure :defer 2 :bind ("M-*" . vterm))
+  (defun expand-to-string ()
+    "Expand the region to encompass the string at point."
+    (interactive)
+    (let ((bounds (bounds-of-string)))
+      (if bounds
+          (progn
+            (set-mark (car bounds))
+            (goto-char (cdr bounds))
+            (activate-mark))
+        (message "Not inside a string."))))
+
+  (defun bounds-of-string()
+    "Get the bounds of the string at point, if any."
+    (let ((syntax (syntax-ppss)))
+      (when (nth 3 syntax)
+        (save-excursion
+          (let ((start (nth 8 syntax)))
+            (goto-char start)
+            (forward-sexp)
+            (cons start (point)))))))
+
+  (global-set-key (kbd "C-c C-'") 'expand-to-string)
 #+END_SRC
 * Compile settings
 #+BEGIN_SRC emacs-lisp
@@ -66,8 +81,9 @@
 * Searching
 #+BEGIN_SRC emacs-lisp
   (global-set-key (kbd "C-c g") 'rgrep)
+
   (defun ripgrep-search (query)
-    (interactive "Search for: ")
+    (interactive "SSearch for: ")
     (let ((default-directory (read-directory-name "Directory: ")))
       (grep (format "rg --no-heading --line-number %s %s"
                     (shell-quote-argument query)

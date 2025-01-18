@@ -11,16 +11,33 @@
 (with-eval-after-load 
     (message (concat "Emacs took: " (emacs-init-time) " to load")))
 
-(keymap-global-set "C-," 'duplicate-line)
 (load "~/.emacs.d/defaults.el")
+(keymap-global-set "C-," 'duplicate-line)
 
-;; (use-package gruber-darker-theme :ensure t)
+;; TODO: add themes here
 
-;; (use-package expand-region
-;;   :ensure t
-;;   :bind ("C-=" . er/expand-region))
+(defun expand-to-string ()
+  "Expand the region to encompass the string at point."
+  (interactive)
+  (let ((bounds (bounds-of-string)))
+    (if bounds
+        (progn
+          (set-mark (car bounds))
+          (goto-char (cdr bounds))
+          (activate-mark))
+      (message "Not inside a string."))))
 
-;; (use-package vterm :ensure :defer 2 :bind ("M-*" . vterm))
+(defun bounds-of-string()
+  "Get the bounds of the string at point, if any."
+  (let ((syntax (syntax-ppss)))
+    (when (nth 3 syntax)
+      (save-excursion
+        (let ((start (nth 8 syntax)))
+          (goto-char start)
+          (forward-sexp)
+          (cons start (point)))))))
+
+(global-set-key (kbd "C-c C-'") 'expand-to-string)
 
 (require 'compile)
 
@@ -50,8 +67,9 @@
 (global-set-key (kbd "C-c C-.") 'compile-root-w-prompt)
 
 (global-set-key (kbd "C-c g") 'rgrep)
+
 (defun ripgrep-search (query)
-  (interactive "Search for: ")
+  (interactive "SSearch for: ")
   (let ((default-directory (read-directory-name "Directory: ")))
     (grep (format "rg --no-heading --line-number %s %s"
                   (shell-quote-argument query)

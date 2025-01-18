@@ -30,7 +30,7 @@
 (setq ring-bell-function 'ignore)
 (setq visible-bell t)
 (setq inhibit-startup-message t
-      initial-scratch-message ""
+      ;; initial-scratch-message ""
       cursor-type 'bar)
 (setq indent-line-function 'insert-tab)
 (setq c-syntactic-indentation t)
