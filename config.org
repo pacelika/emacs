@@ -20,6 +20,10 @@
   (load "~/.emacs.d/defaults.el")
   (keymap-global-set "C-," 'duplicate-line)
 #+END_SRC
+* Language support
+#+BEGIN_SRC emacs-lisp
+  (use-package zig-mode :ensure t)
+#+END_SRC
 * Expand Region 
 #+BEGIN_SRC emacs-lisp
   (use-package expand-region
@@ -70,23 +74,24 @@
 #+END_SRC
 * Lsp settings
 #+BEGIN_SRC emacs-lisp
-  (use-package company :ensure t :defer 2
-  :config
-  (setq company-idle-delay 0.2)
-  (setq company-minimum-prefix-length 1)
-  (setq company-tooltip-limit 10)
-  (setq company-selection-wrap-around t)
-  (setq company-quickhelp-delay 0.2)
-  (setq company-backends '((company-capf) (company-files)))
-  (global-company-mode 1))
+    (use-package company :ensure t :defer 2
+    :config
+    (setq company-idle-delay 0.2)
+    (setq company-minimum-prefix-length 1)
+    (setq company-tooltip-limit 10)
+    (setq company-selection-wrap-around t)
+    (setq company-quickhelp-delay 0.2)
+    (setq company-backends '((company-capf) (company-files)))
+    (global-company-mode 1))
 
-  (use-package lsp-mode :ensure t 
-    :defer 2 
-    :hook
-    (c-mode . lsp)
-    (cpp-mode .lsp)
-    (lua-mode .lsp)
-    (rust-mode .lsp))
+    (use-package lsp-mode :ensure t 
+      :defer 2 
+      :hook
+      (c-mode . lsp)
+      (cpp-mode .lsp)
+      (lua-mode .lsp)
+      (rust-mode .lsp)
+      (zig-mode .lsp))
 
-  (use-package lsp-ui :ensure t :defer 2 :commands lsp-ui-mode :hook (lsp-mode . lsp-ui-mode))
+    (use-package lsp-ui :ensure t :defer 2 :commands lsp-ui-mode :hook (lsp-mode . lsp-ui-mode))
 #+END_SRC
