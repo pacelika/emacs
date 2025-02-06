@@ -29,14 +29,18 @@
 (setq display-line-numbers-type 'relative)
 (setq ring-bell-function 'ignore)
 (setq visible-bell t)
+(setq file-name-handler-alist nil)
+
 (setq inhibit-startup-message t
-      ;; initial-scratch-message ""
+      initial-scratch-message nil
+      inhibit-compacting-font-caches t
+      gc-cons-threshold 100000000
       cursor-type 'bar)
+
 (setq indent-line-function 'insert-tab)
 (setq c-syntactic-indentation t)
 (setq c-basic-offset 4)
 (setq truncate-lines t)
-
 (setq history-length 100)
 
 (setq icomplete-compute-delay 0

@@ -7,7 +7,7 @@
  '(custom-enabled-themes '(modus-vivendi))
  '(custom-safe-themes
    '("01a9797244146bbae39b18ef37e6f2ca5bebded90d9fe3a2f342a9e863aaa4fd" default))
- '(package-selected-packages '(vterm clojure-mode corfu)))
+ '(package-selected-packages '(zig-mode vterm clojure-mode corfu)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

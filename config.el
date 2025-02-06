@@ -14,6 +14,8 @@
 (load "~/.emacs.d/defaults.el")
 (keymap-global-set "C-," 'duplicate-line)
 
+(use-package zig-mode :ensure t)
+
 (use-package expand-region
   :ensure t
   :defer 2
@@ -72,6 +74,7 @@
   (c-mode . lsp)
   (cpp-mode .lsp)
   (lua-mode .lsp)
-  (rust-mode .lsp))
+  (rust-mode .lsp)
+  (zig-mode .lsp))
 
 (use-package lsp-ui :ensure t :defer 2 :commands lsp-ui-mode :hook (lsp-mode . lsp-ui-mode))
