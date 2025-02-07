@@ -13,16 +13,81 @@
   (keymap-global-set "C-x C-\\" 'goto-config-file)
 
   (with-eval-after-load 
-      (message (concat "Emacs took: " (emacs-init-time) " to load")))
+      (message (concat "Ermm Emacs took: " (emacs-init-time) " to initialize")))
 #+END_SRC
 * Set-Defaults
 #+BEGIN_SRC emacs-lisp
-  (load "~/.emacs.d/defaults.el")
+  (tool-bar-mode -1)
+  (menu-bar-mode -1)
+  (scroll-bar-mode -1)
+  (global-auto-revert-mode 1)
+  (global-display-line-numbers-mode 1)
+  (set-face-attribute 'default nil :height 170)
+
+  (semantic-mode)
+  (ido-mode 1)
+  (ido-everywhere 1)
+  (icomplete-mode 1)
+
+  (electric-pair-mode 1)
+  (remove-hook 'text-mode-hook 'turn-on-auto-fill)
+  (global-auto-revert-mode -1)
+  '(compilation-message-face 'default)
+
+  (recentf-mode 1)
+  (savehist-mode 1)
+  (setq history-length 25)
+  (save-place-mode 1)
+
+  (setq inhibit-startup-message t)
+  (setq make-backup-files nil)
+  (setq use-dialog-box nil)
+  (setq global-auto-revert-non-file-buffers t)
+  (setq display-line-numbers-type 'relative)
+  (setq ring-bell-function 'ignore)
+  (setq visible-bell t)
+  (setq file-name-handler-alist nil)
+
+  (setq inhibit-startup-message t
+        initial-scratch-message nil
+        inhibit-compacting-font-caches t
+        gc-cons-threshold 100000000
+        cursor-type 'bar)
+
+  (setq indent-line-function 'insert-tab)
+  (setq c-syntactic-indentation t)
+  (setq c-basic-offset 4)
+  (setq truncate-lines t)
+  (setq history-length 100)
+
+  (setq icomplete-compute-delay 0
+        icomplete-max-delay-chars 2
+        icomplete-show-matches-on-no-input t)
+
+  (setq isearch-lazy-count t
+        lazy-highlight-cleanup nil
+        search-whitespace-regexp ".*?")
+
+  (setq-default indent-tabs-mode nil)
+  (setq-default tab-width 4)
+  (setq-default electric-indent-mode nil)
+  (setq-default tab-width 4)
+  (setq-default indent-tabs-mode nil)
+  (defalias 'yes-or-no-p 'y-or-n-p)
+
+  (when (fboundp 'aggressive-indent-mode)
+    (aggressive-indent-mode -1))
+
+  (setq warning-suppress-types '((comp) (emacs)))
+  (setq warning-minimum-level :error)
+  (setq warning-minimum-level :silent)
+  (setq warning-suppress-types '((use-package) (initialization)))
   (keymap-global-set "C-," 'duplicate-line)
 #+END_SRC
-* Language support
+* Mode support
 #+BEGIN_SRC emacs-lisp
   (use-package zig-mode :ensure t)
+  (load "~/.emacs.d/mode-support/llvm-mode.el")
 #+END_SRC
 * Expand Region 
 #+BEGIN_SRC emacs-lisp
@@ -74,8 +139,8 @@
       (let ((default-directory root))
         (compile command))))
 
-  (global-set-key (kbd "C-c C-.") 'compile-root-with-prompt)
-  (global-set-key (kbd "C-c C-/") 'compile-root-without-confirmation)
+  (global-set-key (kbd "C-c C-/") 'compile-root-with-prompt)
+  (global-set-key (kbd "C-c C-.") 'compile-root-without-confirmation)
 #+END_SRC
 * Searching
 #+BEGIN_SRC emacs-lisp
@@ -89,17 +154,35 @@
                     (shell-quote-argument default-directory)))))
   (global-set-key (kbd "C-c r") 'ripgrep-search)
 #+END_SRC
-* Lsp settings
+* Lsp stuff
 #+BEGIN_SRC emacs-lisp
-    (use-package company :ensure t :defer 2
-    :config
-    (setq company-idle-delay 0.2)
-    (setq company-minimum-prefix-length 1)
-    (setq company-tooltip-limit 10)
-    (setq company-selection-wrap-around t)
-    (setq company-quickhelp-delay 0.2)
-    (setq company-backends '((company-capf) (company-files)))
-    (global-company-mode 1))
+  (use-package corfu
+    :ensure t
+    :defer 3
+    :custom
+    (corfu-cycle t)
+    (corfu-auto t)
+    (corfu-quit-at-boundary 'separator)
+    (corfu-auto-prefix 1)
+    (corfu-auto-delay 0.0)
+    (corfu-popupinfo-delay '(0.3 . 0.2))
+    (corfu-echo-documentation 0.25)
+    (corfu-preview-current 'insert)
+    (corfu-preselect 'prompt)
+    (corfu-on-exact-match nil)
+    :bind (:map corfu-map
+                ("M-SPC"      . corfu-insert-separator)
+                ("TAB"        . corfu-next)
+                ([tab]        . corfu-next)
+                ("S-TAB"      . corfu-previous)
+                ([backtab]    . corfu-previous)
+                ("S-<return>" . corfu-insert)
+                ("RET"        . nil))
+
+    :init
+    (global-corfu-mode)
+    (corfu-history-mode)
+    (corfu-popupinfo-mode))
 
     (use-package lsp-mode :ensure t 
       :defer 2 
