@@ -23,30 +23,47 @@
 
 (require 'compile)
 
-(setq compilation-scroll-output t)
+  (setq compilation-scroll-output t)
+  (defvar last-compile-command nil)
 
-(defun find-project-root()
-  "Find the root of the project by searching for .git, Makefile, or similar markers."
-  (or (locate-dominating-file default-directory ".git")
-      (locate-dominating-file default-directory "Makefile")
-      (locate-dominating-file default-directory "Cargo.toml")))
+(defun detect-project-type(root)
+  "Detect the type of project based on files in ROOT."
+  (cond
+   ((file-exists-p (expand-file-name "Cargo.toml" root)) "cargo run")
+   ((file-exists-p (expand-file-name "package.json" root)) "npm run start")
+   ((file-exists-p (expand-file-name "build.zig" root)) "zig build")
+   ((file-exists-p (expand-file-name "Makefile" root)) "make")
+   ((file-exists-p (expand-file-name "CMakeLists.txt" root)) "cmake --build .")
+   ((file-exists-p (expand-file-name "venv" root)) "python main.py")
+   (t nil)))
 
-(defun compile-root-wo-prompt()
-  "Run `compile` from the project root."
-  (interactive)
-  (let ((default-directory (or (find-project-root) default-directory)))
-    (compile "make -k")))
+  (defun find-project-root()
+    "Find the root of the project by searching for .git, Makefile, or similar markers."
+    (or (locate-dominating-file default-directory ".git")
+        (locate-dominating-file default-directory "Makefile")
+        (locate-dominating-file default-directory "CMakeLists.txt")
+        (locate-dominating-file default-directory "package.json")
+        (locate-dominating-file default-directory "Cargo.toml")
+        (locate-dominating-file default-directory "build.zig")))
 
-(defun compile-root-w-prompt()
-  "Prompt for a compile command and run it from the project root."
-  (interactive)
-  (let* ((root (or (find-project-root) default-directory))
-         (default-command "make")
-         (command (read-shell-command "Compile command: " default-command)))
-    (let ((default-directory root))
-      (compile command))))
+  (defun compile-root-wo-prompt()
+    "Run `compile` from the project root."
+    (interactive)
+    (let ((default-directory (or (find-project-root) default-directory)))
+      (compile last-compile-command)))
 
-(global-set-key (kbd "C-c C-.") 'compile-root-w-prompt)
+  (defun compile-root-w-prompt()
+    "Prompt for a compile command and run it from the project root."
+    (interactive)
+    (let* ((root (or (find-project-root) default-directory))
+           (default-command (or last-compile-command (detect-project-type root)))
+           (command (read-shell-command "Compile command: " default-command)))
+      (setq last-compile-command command)
+      (let ((default-directory root))
+        (compile command))))
+
+  (global-set-key (kbd "C-c C-.") 'compile-root-w-prompt)
+  (global-set-key (kbd "C-c C-/") 'compile-root-wo-prompt)
 
 (global-set-key (kbd "C-c g") 'rgrep)
 
