@@ -1,26 +1,3 @@
-* Package Manager and Init
-#+BEGIN_SRC emacs-lisp
-(require 'package)
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-(package-initialize)
-(unless (package-installed-p 'use-package)
-  (package-refresh-contents)
-  (package-install 'use-package))
-#+END_SRC
-* Config debug stuff
-#+BEGIN_SRC emacs-lisp
-  (defun goto-config-file() (interactive) (find-file (expand-file-name "~/.emacs.d/Emacs.org")))
-  (keymap-global-set "C-x C-\\" 'goto-config-file)
-
-  (with-eval-after-load 
-      (message (concat "Emacs took: " (emacs-init-time) " to load")))
-#+END_SRC
-* Expand-region
-#+BEGIN_SRC emacs-lisp
-  (use-package expand-region
-    :ensure t
-    :bind ("M-m" . er/expand-region))
-#+END_SRC
 * Ivy
 #+BEGIN_SRC emacs-lisp
   (setq ivy-use-virtual-buffers t)
@@ -69,10 +46,6 @@
     :config
     (counsel-mode 1))
 #+END_SRC
-* Set-Defaults
-#+BEGIN_SRC emacs-lisp
-(load "~/.emacs.d/defaults.el")
-#+END_SRC
 * Dashboard 
 #+BEGIN_SRC emacs-lisp
   (defvar enabled 1)
@@ -88,28 +61,6 @@
                             (setq dashboard-items '((recents . 5)))
                             :config (dashboard-setup-startup-hook)))
                         ))
-#+END_SRC
-* LSP
-#+BEGIN_SRC emacs-lisp
-  (use-package company :ensure t :init (global-company-mode))
-
-  (use-package auto-complete
-    :ensure t :defer 2 :init (progn (ac-config-default) (global-auto-complete-mode t)))
-
-  ;; Trigger completion immediately.
-  (setq company-idle-delay 0)
-
-  ;; Number the candidates (use M-1, M-2 etc to select completions).
-  (setq company-show-numbers t)
-
-  (use-package lsp-mode
-    :ensure t
-    :commands lsp-mode
-    :hook(after-init . lsp-mode))
-
-  ;; (add-hook 'c++-mode-hook 'lsp-mode)
-  ;; (add-hook 'c-mode-hook 'lsp-mode)
-  ;; (add-hook 'python-mode 'lsp-mode)
 #+END_SRC
 * Multi-Cursor
 #+BEGIN_SRC emacs-lisp
@@ -133,26 +84,7 @@
   (use-package dired-single
     :commands (dired dired-jump))
 #+END_SRC
-* Projectile
-#+BEGIN_SRC emacs-lisp
-  (use-package projectile
-    :ensure t
-    :defer 
-    :diminish projectile-mode
-    :bind
-    (("C-c p f" . helm-projectile-find-file)
-     ("C-c p p" . helm-projectile-switch-project)
-     ("C-c C-." . projectile-compile-project)
-     ("C-c C-\/" . projectile-run-project)
-     ("C-c p s" . projectile-save-project-buffers))
-    :config
-    (projectile-mode +1))
-#+END_SRC
 * Beacon
 #+BEGIN_SRC emacs-lisp
   (use-package beacon :commands beacon-mode :defer 1 :init (beacon-mode)) 
-#+END_SRC
-* llvm mode
-#+BEGIN_SRC emacs-lisp
-(load "~/.emacs.d/llvm-mode.el")
 #+END_SRC
