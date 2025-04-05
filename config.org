@@ -64,10 +64,6 @@
         icomplete-max-delay-chars 2
         icomplete-show-matches-on-no-input t)
 
-  (setq isearch-lazy-count t
-        lazy-highlight-cleanup nil
-        search-whitespace-regexp ".*?")
-
   (setq-default indent-tabs-mode nil)
   (setq-default tab-width 4)
   (setq-default electric-indent-mode nil)
@@ -108,10 +104,9 @@
     (cond
      ((file-exists-p (expand-file-name "Cargo.toml" root)) "cargo run")
      ((file-exists-p (expand-file-name "package.json" root)) "npm run dev")
-     ((file-exists-p (expand-file-name "build.zig" root)) "zig build")
+     ((file-exists-p (expand-file-name "build.zig" root)) "zig build run")
      ((file-exists-p (expand-file-name "Makefile" root)) "make")
      ((file-exists-p (expand-file-name "CMakeLists.txt" root)) "cmake -S .")
-     ((file-exists-p (expand-file-name "venv" root)) "python main.py")
      (t nil)))
 
   (defun find-project-root()
