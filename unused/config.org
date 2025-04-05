@@ -83,7 +83,6 @@
 * Mode support
 #+BEGIN_SRC emacs-lisp
   (use-package zig-mode :ensure t)
-  (load "~/.emacs.d/mode-support/llvm-mode.el")
 #+END_SRC
 * Expand Region 
 #+BEGIN_SRC emacs-lisp

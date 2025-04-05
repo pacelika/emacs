@@ -4,8 +4,6 @@ eln-cache/
 server/
 org-persist/
 
-config.el
-
 history
 ido.last
 
