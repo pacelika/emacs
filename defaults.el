@@ -5,7 +5,6 @@
 (global-display-line-numbers-mode 1)
 (set-face-attribute 'default nil :height 170)
 
-(semantic-mode)
 (ido-mode 1)
 (ido-everywhere 1)
 (icomplete-mode 1)
@@ -20,6 +19,7 @@
 (setq history-length 25)
 (save-place-mode 1)
 
+(setq semanticdb-default-save-directory nil)
 (setq inhibit-startup-message t)
 (setq make-backup-files nil)
 (setq use-dialog-box nil)
