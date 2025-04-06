@@ -8,6 +8,11 @@
 (ido-mode 1)
 (ido-everywhere 1)
 
+(icomplete-mode 1)
+(setq icomplete-compute-delay 0
+      icomplete-max-delay-chars 2
+      icomplete-show-matches-on-no-input t)
+
 (electric-pair-mode 1)
 (remove-hook 'text-mode-hook 'turn-on-auto-fill)
 (global-auto-revert-mode -1)

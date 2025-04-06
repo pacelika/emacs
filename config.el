@@ -23,5 +23,5 @@
 (load "~/.emacs.d/defaults.el")
 (load "~/.emacs.d/compile.el")
 (load "~/.emacs.d/languages.el")
+(load "~/.emacs.d/themes.el")
 (load "~/.emacs.d/lsp.el")
-(load "~/.emacs.d/consult.el")
