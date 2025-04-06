@@ -32,7 +32,6 @@
 
 (setq use-dialog-box nil)
 (setq global-auto-revert-non-file-buffers t)
-(setq display-line-numbers-type 'relative)
 (setq ring-bell-function 'ignore)
 (setq visible-bell t)
 (setq file-name-handler-alist nil)

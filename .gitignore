@@ -4,12 +4,12 @@ eln-cache/
 server/
 org-persist/
 
-history
-ido.last
-
 *.txt
 .lsp-session-v1
 
+history
+bookmarks
+ido.last
 projects
 snippets
 var

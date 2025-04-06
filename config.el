@@ -13,10 +13,12 @@
 (with-eval-after-load 
     (message (concat "Ermm Emacs took: " (emacs-init-time) " to initialize")))
 
-;; (use-package expand-region
-;;   :ensure t
-;;   :defer t
-;;   :bind ("C-=" . er/expand-region))
+(when (and (fboundp 'bookmark-bmenu-list)
+           (not noninteractive)
+           (null command-line-args-left))
+  ((lambda()
+     (bookmark-bmenu-list)
+     (switch-to-buffer "*Bookmark List*"))))
 
 (load "~/.emacs.d/defaults.el")
 (load "~/.emacs.d/compile.el")
