@@ -7,7 +7,7 @@
 
 (ido-mode 1)
 (ido-everywhere 1)
-(icomplete-mode 1)
+;; (icomplete-mode 1)
 
 (electric-pair-mode 1)
 (remove-hook 'text-mode-hook 'turn-on-auto-fill)
@@ -48,9 +48,9 @@
 (setq truncate-lines t)
 (setq history-length 100)
 
-(setq icomplete-compute-delay 0
-      icomplete-max-delay-chars 2
-      icomplete-show-matches-on-no-input t)
+;; (setq icomplete-compute-delay 0
+;;       icomplete-max-delay-chars 2
+;;       icomplete-show-matches-on-no-input t)
 
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
