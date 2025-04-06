@@ -7,7 +7,6 @@
 
 (ido-mode 1)
 (ido-everywhere 1)
-;; (icomplete-mode 1)
 
 (electric-pair-mode 1)
 (remove-hook 'text-mode-hook 'turn-on-auto-fill)
@@ -29,11 +28,11 @@
 (setq history-length 0)
 
 (setq auto-save-visited-file-name nil)
-
 (setq use-dialog-box nil)
 (setq global-auto-revert-non-file-buffers t)
 (setq ring-bell-function 'ignore)
 (setq visible-bell t)
+(setq display-line-numbers-type 'relative)
 (setq file-name-handler-alist nil)
 
 (setq inhibit-startup-message t
@@ -47,10 +46,6 @@
 (setq c-basic-offset 4)
 (setq truncate-lines t)
 (setq history-length 100)
-
-;; (setq icomplete-compute-delay 0
-;;       icomplete-max-delay-chars 2
-;;       icomplete-show-matches-on-no-input t)
 
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
