@@ -1,6 +1,6 @@
 (use-package corfu
   :ensure t
-  :defer 3
+  :defer t
   :custom
   (corfu-cycle t)
   (corfu-auto t)

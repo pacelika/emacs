@@ -1,4 +1,4 @@
-(use-package eglot :defer 2 
+(use-package eglot :defer t
   :ensure t
   :hook 
   ((zig-mode . eglot-ensure))

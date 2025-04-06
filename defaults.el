@@ -14,14 +14,22 @@
 (global-auto-revert-mode -1)
 '(compilation-message-face 'default)
 
-(recentf-mode 1)
-(savehist-mode 1)
-(setq history-length 25)
-(save-place-mode 1)
+(setq help-at-pt-display-when-idle nil)
+(setq vc-handled-backends nil)
+(setq gc-cons-threshold (* 50 1000 1000))
+(setq gc-cons-percentage 0.1)
 
 (setq semanticdb-default-save-directory nil)
 (setq inhibit-startup-message t)
 (setq make-backup-files nil)
+
+(setq recentf-mode nil)
+(setq savehist-mode nil)
+(setq auto-save-default nil)
+(setq history-length 0)
+
+(setq auto-save-visited-file-name nil)
+
 (setq use-dialog-box nil)
 (setq global-auto-revert-non-file-buffers t)
 (setq display-line-numbers-type 'relative)

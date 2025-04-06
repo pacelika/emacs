@@ -13,10 +13,10 @@
 (with-eval-after-load 
     (message (concat "Ermm Emacs took: " (emacs-init-time) " to initialize")))
 
-(use-package expand-region
-  :ensure t
-  :defer 2
-  :bind ("C-=" . er/expand-region))
+;; (use-package expand-region
+;;   :ensure t
+;;   :defer t
+;;   :bind ("C-=" . er/expand-region))
 
 (load "~/.emacs.d/defaults.el")
 (load "~/.emacs.d/compile.el")
