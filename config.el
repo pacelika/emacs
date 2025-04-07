@@ -24,3 +24,5 @@
 (load "~/.emacs.d/languages.el")
 (load "~/.emacs.d/themes.el")
 (load "~/.emacs.d/lsp.el")
+(load "~/.emacs.d/consult.el")
+(load "~/.emacs.d/ivy.el")

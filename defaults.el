@@ -8,7 +8,7 @@
 (ido-mode 1)
 (ido-everywhere 1)
 
-(icomplete-mode 1)
+;; (icomplete-mode 1)
 (setq icomplete-compute-delay 0
       icomplete-max-delay-chars 2
       icomplete-show-matches-on-no-input t)
