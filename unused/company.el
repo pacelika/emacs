@@ -1,4 +1,4 @@
-(use-package company :ensure t :defer 2
+(use-package company :ensure t :defer t
   :hook (eglot-managed-mode . company-mode)
   :config
   (setq company-idle-delay 0.2)

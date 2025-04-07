@@ -20,7 +20,6 @@
      (bookmark-bmenu-list)
      (switch-to-buffer "*Bookmark List*"))))
 
-(load "~/.emacs.d/defaults.el")
 (load "~/.emacs.d/compile.el")
 (load "~/.emacs.d/languages.el")
 (load "~/.emacs.d/themes.el")
