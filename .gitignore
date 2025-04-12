@@ -8,6 +8,7 @@ org-persist/
 .lsp-session-v1
 
 history
+custom.el
 bookmarks
 ido.last
 projects

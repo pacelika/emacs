@@ -1,10 +1,10 @@
+(with-eval-after-load 
+    (message (concat "Ermm Emacs took " (emacs-init-time) " to initialize")))
+
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
 (defun goto-config-file() (interactive) (find-file (expand-file-name "~/.emacs.d/config.el")))
 (keymap-global-set "C-x C-\\" 'goto-config-file)
-
-(with-eval-after-load 
-    (message (concat "Ermm Emacs took: " (emacs-init-time) " to initialize")))
 
 (when (and (fboundp 'bookmark-bmenu-list)
            (not noninteractive)
