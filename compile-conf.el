@@ -22,13 +22,15 @@
       (locate-dominating-file default-directory "Cargo.toml")
       (locate-dominating-file default-directory "build.zig")))
 
-(defun compile-root-without-confirmation()
+(defun compile-root-wo-prompt()
   "Run `compile` without command prompt."
   (interactive)
   (let ((default-directory (or (find-project-root) default-directory)))
-    (compile last-compile-command)))
+    (cond 
+     ((null last-compile-command) (compile-root-with-prompt))
+    (t (compile last-compile-command)))))
 
-(defun compile-root-with-prompt()
+(defun compile-root-w-prompt()
   "Prompt for a compile command and run it from the project root."
   (interactive)
   (let* ((root (or (find-project-root) default-directory))
@@ -38,5 +40,5 @@
     (let ((default-directory root))
       (compile command))))
 
-(global-set-key (kbd "C-c C-/") 'compile-root-with-prompt)
-(global-set-key (kbd "C-c C-.") 'compile-root-without-confirmation)
+(global-set-key (kbd "C-c C-/") 'compile-root-w-prompt)
+(global-set-key (kbd "C-c C-.") 'compile-root-wo-prompt)

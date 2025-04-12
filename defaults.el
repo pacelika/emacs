@@ -5,6 +5,8 @@
 (global-display-line-numbers-mode 1)
 (set-face-attribute 'default nil :height 170)
 
+(which-key-mode)
+
 (ido-mode 1)
 (setq ido-enable-flex-matching t)
 (ido-everywhere 1)
