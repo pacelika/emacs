@@ -1,16 +1,6 @@
 (load "~/.emacs.d/defaults.el")
+(mapc #'disable-theme custom-enabled-themes)
+(setq custom-file (locate-user-emacs-file "custom.el"))
+(load custom-file 'noerror)
+(load-theme 'modus-vivendi t)
 (load "~/.emacs.d/config.el")
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-enabled-themes '(modus-vivendi))
- '(package-selected-packages nil))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )

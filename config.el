@@ -1,11 +1,4 @@
-(require 'package)
-
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
-(package-initialize)
-
-(unless (package-installed-p 'use-package)
-  (package-refresh-contents)
-  (package-install 'use-package))
+(add-to-list 'load-path "~/.emacs.d/vendor")
 
 (defun goto-config-file() (interactive) (find-file (expand-file-name "~/.emacs.d/config.el")))
 (keymap-global-set "C-x C-\\" 'goto-config-file)
@@ -20,9 +13,6 @@
      (bookmark-bmenu-list)
      (switch-to-buffer "*Bookmark List*"))))
 
-(load "~/.emacs.d/compile.el")
+(load "~/.emacs.d/compile-conf.el")
 (load "~/.emacs.d/languages.el")
-(load "~/.emacs.d/themes.el")
-(load "~/.emacs.d/lsp.el")
-(load "~/.emacs.d/consult.el")
-(load "~/.emacs.d/ivy.el")
+(load "~/.emacs.d/configs/lsp-conf.el")

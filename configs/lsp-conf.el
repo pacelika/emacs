@@ -11,4 +11,5 @@
   ((lisp-mode . eglot-ensure))
 )
 
-(load "~/.emacs.d/corfu.el")
+(setq tab-always-indent 'complete)
+(fido-mode 1)

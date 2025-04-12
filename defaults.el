@@ -6,9 +6,10 @@
 (set-face-attribute 'default nil :height 170)
 
 (ido-mode 1)
+(setq ido-enable-flex-matching t)
 (ido-everywhere 1)
 
-;; (icomplete-mode 1)
+(icomplete-mode 1)
 (setq icomplete-compute-delay 0
       icomplete-max-delay-chars 2
       icomplete-show-matches-on-no-input t)
