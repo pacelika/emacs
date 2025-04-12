@@ -27,7 +27,7 @@
   (interactive)
   (let ((default-directory (or (find-project-root) default-directory)))
     (cond 
-     ((null last-compile-command) (compile-root-with-prompt))
+     ((null last-compile-command) (compile-root-w-prompt))
     (t (compile last-compile-command)))))
 
 (defun compile-root-w-prompt()
