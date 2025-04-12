@@ -3,6 +3,8 @@ elpa/
 eln-cache/
 server/
 org-persist/
+url/
+eshell/
 
 *.txt
 .lsp-session-v1

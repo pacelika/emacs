@@ -1,0 +1,2 @@
+(require 'beacon)
+(beacon-mode)
