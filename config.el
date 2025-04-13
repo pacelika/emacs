@@ -13,7 +13,7 @@
 
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
-(load "~/.emacs.d/languages.el")
+(load "~/.emacs.d/configs/modes-conf.el")
 (load "~/.emacs.d/configs/compile-conf.el")
 (load "~/.emacs.d/configs/shell-conf.el")
 (load "~/.emacs.d/configs/lsp-conf.el")
