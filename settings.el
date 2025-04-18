@@ -3,9 +3,8 @@
 (scroll-bar-mode -1)
 (global-auto-revert-mode 1)
 (global-display-line-numbers-mode 1)
+(electric-pair-mode 1)
 (set-face-attribute 'default nil :height 170)
-
-(which-key-mode)
 
 (ido-mode 1)
 (setq ido-enable-flex-matching t)
@@ -16,12 +15,16 @@
       icomplete-max-delay-chars 2
       icomplete-show-matches-on-no-input t)
 
+(which-key-mode 1)
 (fido-vertical-mode 1)
 
-(electric-pair-mode 1)
 (remove-hook 'text-mode-hook 'turn-on-auto-fill)
 (global-auto-revert-mode -1)
 '(compilation-message-face 'default)
+
+(save-place-mode 1)
+(global-auto-revert-mode 1)
+(setq global-auto-revert-non-file-buffers t)
 
 (setq help-at-pt-display-when-idle nil)
 (setq vc-handled-backends nil)
@@ -35,7 +38,6 @@
 (setq recentf-mode nil)
 (setq savehist-mode nil)
 (setq auto-save-default nil)
-(setq history-length 0)
 
 (setq auto-save-visited-file-name nil)
 (setq use-dialog-box nil)
@@ -66,6 +68,8 @@
 
 (when (fboundp 'aggressive-indent-mode)
   (aggressive-indent-mode -1))
+
+(setq vc-handled-backends '(Git))
 
 (setq warning-suppress-types '((comp) (emacs)))
 (setq warning-minimum-level :error)

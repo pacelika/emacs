@@ -4,6 +4,7 @@
   ((rust-mode . eglot-ensure))
   ((c-mode . eglot-ensure))
   ((cpp-mode . eglot-ensure))
+  ((csharp-mode . eglot-ensure))
   ((java-mode . eglot-ensure))
   ((javascript-mode . eglot-ensure))
   ((python-mode . eglot-ensure))

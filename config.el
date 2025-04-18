@@ -4,13 +4,6 @@
 (defun goto-config-file() (interactive) (find-file (expand-file-name "~/.emacs.d/config.el")))
 (keymap-global-set "C-x C-\\" 'goto-config-file)
 
-(when (and (fboundp 'bookmark-bmenu-list)
-           (not noninteractive)
-           (null command-line-args-left))
-  ((lambda()
-     (bookmark-bmenu-list)
-     (switch-to-buffer "*Bookmark List*"))))
-
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
 (load "~/.emacs.d/configs/modes-conf.el")

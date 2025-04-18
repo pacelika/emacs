@@ -1,4 +1,4 @@
-(load "~/.emacs.d/defaults.el")
+(load "~/.emacs.d/settings.el")
 (mapc #'disable-theme custom-enabled-themes)
 (setq custom-file (locate-user-emacs-file "custom.el"))
 (load custom-file 'noerror)
