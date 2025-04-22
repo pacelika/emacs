@@ -1,30 +1,23 @@
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
-(global-auto-revert-mode 1)
+(which-key-mode 1)
+
 (global-display-line-numbers-mode 1)
 (electric-pair-mode 1)
 (set-face-attribute 'default nil :height 170)
 
-(ido-mode 1)
-(setq ido-enable-flex-matching t)
-(ido-everywhere 1)
+(global-auto-revert-mode 1)
+(setq global-auto-revert-non-file-buffers t)
 
+(fido-vertical-mode 1)
 (icomplete-mode 1)
 (setq icomplete-compute-delay 0
       icomplete-max-delay-chars 2
       icomplete-show-matches-on-no-input t)
 
-(which-key-mode 1)
-(fido-vertical-mode 1)
-
 (remove-hook 'text-mode-hook 'turn-on-auto-fill)
-(global-auto-revert-mode -1)
 '(compilation-message-face 'default)
-
-(save-place-mode 1)
-(global-auto-revert-mode 1)
-(setq global-auto-revert-non-file-buffers t)
 
 (setq help-at-pt-display-when-idle nil)
 (setq vc-handled-backends nil)

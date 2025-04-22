@@ -8,7 +8,7 @@
   ((java-mode . eglot-ensure))
   ((javascript-mode . eglot-ensure))
   ((python-mode . eglot-ensure))
-  ((lisp-mode . eglot-ensure))
+  ;; ((lisp-mode . eglot-ensure))
 )
 
 (use-package completion-preview

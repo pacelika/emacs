@@ -6,8 +6,6 @@
 
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
-(load "~/.emacs.d/configs/modes-conf.el")
-(load "~/.emacs.d/configs/compile-conf.el")
-(load "~/.emacs.d/configs/shell-conf.el")
-(load "~/.emacs.d/configs/lsp-conf.el")
-(load "~/.emacs.d/configs/beacon-conf.el")
+(let ((dir (expand-file-name "~/.emacs.d/configs")))
+  (dolist (file (nthcdr 0 (directory-files dir t "\\.el$")))
+    (load file)))

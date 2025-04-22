@@ -1,3 +1,3 @@
-(load "~/.emacs.d/modes/llvm-mode.el")
-(load "~/.emacs.d/modes/zig-mode.el")
-(load "~/.emacs.d/modes/janet-mode.el")
+(let ((dir (expand-file-name "~/.emacs.d/modes")))
+  (dolist (file (nthcdr 0 (directory-files dir t "\\.el$")))
+    (load file)))
