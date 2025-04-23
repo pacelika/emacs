@@ -10,6 +10,8 @@
 (global-auto-revert-mode 1)
 (setq global-auto-revert-non-file-buffers t)
 
+(ido-mode)
+
 (fido-vertical-mode 1)
 (icomplete-mode 1)
 (setq icomplete-compute-delay 0
