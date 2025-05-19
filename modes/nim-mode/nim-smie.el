@@ -941,26 +941,26 @@ indentation levels from right to left."
              (assoc-default :force-indent nim-smie--line-info)))
       empty-line-indent
 
-    ;; INFO: Commented by pacelika. Errors on initial mode enter
+    ;; INFO: Changed by pacelika. Removed denote-with-error on line 947
 
-    ;; (let* ((savep (point))
-    ;;        (indent (or (with-demoted-errors
-    ;;                        (save-excursion
-    ;;                          (forward-line 0)
-    ;;                          (skip-chars-forward " \t")
-    ;;                          (if (>= (point) savep) (setq savep nil))
-    ;;                          (or (smie-indent-calculate) 0)))
-    ;;                    0)))
-    ;;   (cond ((eq 'noindent indent)
-    ;;          ;; For inside string
-    ;;          nil)
-    ;;         ((assoc-default :comment nim-smie--line-info)
-    ;;          ;; Comment
-    ;;          (nim-get-comment-indent))
-    ;;         ((or (not (numberp indent))
-    ;;              (< indent 0))
-    ;;          0)
-    ;;         (t (or (assoc-default :force-indent nim-smie--line-info) indent))))
+    (let* ((savep (point))
+           (indent (or
+                    (save-excursion
+                      (forward-line 0)
+                      (skip-chars-forward " \t")
+                      (if (>= (point) savep) (setq savep nil))
+                      (or (smie-indent-calculate) 0))
+                       0)))
+      (cond ((eq 'noindent indent)
+             ;; For inside string
+             nil)
+            ((assoc-default :comment nim-smie--line-info)
+             ;; Comment
+             (nim-get-comment-indent))
+            ((or (not (numberp indent))
+                 (< indent 0))
+             0)
+            (t (or (assoc-default :force-indent nim-smie--line-info) indent))))
 
 ))
 
