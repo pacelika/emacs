@@ -7,6 +7,7 @@
   "get the project common compile command"
   (cond
    ((file-exists-p (expand-file-name "Cargo.toml" root)) "cargo run")
+   ((directory-files root nil "\\.nimble\\'") "nimble run")
    ((file-exists-p (expand-file-name "package.json" root)) "npm run dev")
    ((file-exists-p (expand-file-name "build.zig" root)) "zig build run")
    ((file-exists-p (expand-file-name "Makefile" root)) "make")
@@ -20,6 +21,9 @@
       (locate-dominating-file default-directory "CMakeLists.txt")
       (locate-dominating-file default-directory "package.json")
       (locate-dominating-file default-directory "Cargo.toml")
+      (locate-dominating-file
+       default-directory
+       (lambda (dir) (directory-files dir nil "\\.nimble\\'")))
       (locate-dominating-file default-directory "build.zig")))
 
 (defun compile-root-wo-prompt()

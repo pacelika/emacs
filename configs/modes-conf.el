@@ -15,6 +15,13 @@
   :config 
   (setq fennel-program "fennel --repl"))
 
+(add-to-list 'load-path "~/.emacs.d/modes/nim-mode")
+(autoload 'nim-mode "~/.emacs.d/modes/nim-mode/nim-mode.el" nil t)
+(add-to-list 'auto-mode-alist '("\\.nim\\'" . nim-mode))
+
+(add-to-list 'auto-mode-alist '("\\.nims\\'" . nim-mode))
+(add-to-list 'auto-mode-alist '("\\.nimble\\'" . nim-mode))
+
 (let ((dir (expand-file-name "~/.emacs.d/modes")))
   (dolist (file (nthcdr 0 (directory-files dir t "\\.el$")))
     (load file)))
