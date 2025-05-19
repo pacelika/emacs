@@ -206,7 +206,10 @@ but is experimental."
   (let ((map (make-sparse-keymap)))
     ;; Allowed keys: C-c with control-letter, or {,}, <, >, :, ;
     ;; See also: http://www.gnu.org/software/emacs/manual/html_node/elisp/Key-Binding-Conventions.html
-    (define-key map (kbd "C-c C-c") 'nim-compile)
+
+    ;; INFO: Commented by pacelika. Conflicts with intended behavior
+
+    ;; (define-key map (kbd "C-c C-c") 'nim-compile)
     (define-key map (kbd "C-c <") 'nim-indent-shift-left)
     (define-key map (kbd "C-c >") 'nim-indent-shift-right)
     ;; TODO:

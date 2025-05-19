@@ -21,6 +21,11 @@
 
 (add-to-list 'auto-mode-alist '("\\.nims\\'" . nim-mode))
 (add-to-list 'auto-mode-alist '("\\.nimble\\'" . nim-mode))
+(setq nim-compile-command nil)
+
+(use-package nim-mode
+  :defer t
+  :bind (("C-c C-c" . #'compile-root-wo-prompt)))
 
 (let ((dir (expand-file-name "~/.emacs.d/modes")))
   (dolist (file (nthcdr 0 (directory-files dir t "\\.el$")))

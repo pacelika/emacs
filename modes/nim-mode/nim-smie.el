@@ -940,24 +940,29 @@ indentation levels from right to left."
   (if-let* ((empty-line-indent
              (assoc-default :force-indent nim-smie--line-info)))
       empty-line-indent
-    (let* ((savep (point))
-           (indent (or (with-demoted-errors
-                           (save-excursion
-                             (forward-line 0)
-                             (skip-chars-forward " \t")
-                             (if (>= (point) savep) (setq savep nil))
-                             (or (smie-indent-calculate) 0)))
-                       0)))
-      (cond ((eq 'noindent indent)
-             ;; For inside string
-             nil)
-            ((assoc-default :comment nim-smie--line-info)
-             ;; Comment
-             (nim-get-comment-indent))
-            ((or (not (numberp indent))
-                 (< indent 0))
-             0)
-            (t (or (assoc-default :force-indent nim-smie--line-info) indent))))))
+
+    ;; INFO: Commented by pacelika. Errors on initial mode enter
+
+    ;; (let* ((savep (point))
+    ;;        (indent (or (with-demoted-errors
+    ;;                        (save-excursion
+    ;;                          (forward-line 0)
+    ;;                          (skip-chars-forward " \t")
+    ;;                          (if (>= (point) savep) (setq savep nil))
+    ;;                          (or (smie-indent-calculate) 0)))
+    ;;                    0)))
+    ;;   (cond ((eq 'noindent indent)
+    ;;          ;; For inside string
+    ;;          nil)
+    ;;         ((assoc-default :comment nim-smie--line-info)
+    ;;          ;; Comment
+    ;;          (nim-get-comment-indent))
+    ;;         ((or (not (numberp indent))
+    ;;              (< indent 0))
+    ;;          0)
+    ;;         (t (or (assoc-default :force-indent nim-smie--line-info) indent))))
+
+))
 
 (defun nim-indent-calculate-levels ()
   "Return possible indentation levels."
@@ -1011,12 +1016,13 @@ case INDENTATION is a list, this order is enforced."
                      "sibling(%s)-bolp(%s)\n"
                      "parent(%s)-hanging(%s)\n"
                      "line-info(%s)\n")))
-    (message (format fmt kind token (point)
-                     (ignore-errors (smie-rule-sibling-p))
-                     (ignore-errors (smie-rule-bolp))
-                     (ignore-errors (smie-indent--parent))
-                     (ignore-errors (smie-rule-hanging-p))
-                     nim-smie--line-info))))
+    ;; (message (format fmt kind token (point)
+    ;;                  (ignore-errors (smie-rule-sibling-p))
+    ;;                  (ignore-errors (smie-rule-bolp))
+    ;;                  (ignore-errors (smie-indent--parent))
+    ;;                  (ignore-errors (smie-rule-hanging-p))
+    ;;                  nim-smie--line-info))))
+))
 ;; (advice-add 'nim-mode-smie-rules :before #'nim-debug-smie-rules)
 
 (provide 'nim-smie)
