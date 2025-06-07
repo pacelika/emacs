@@ -70,5 +70,3 @@
 (setq warning-minimum-level :error)
 (setq warning-minimum-level :silent)
 (setq warning-suppress-types '((use-package) (initialization)))
-
-(keymap-global-set "C-," 'duplicate-line)

@@ -6,11 +6,6 @@
   :ensure t 
   :defer t)
 
-
-(let ((dir (expand-file-name "~/.emacs.d/configs/modes")))
-  (dolist (file (nthcdr 0 (directory-files dir t "\\.el$")))
-    (load file)))
-
 (let ((dir (expand-file-name "~/.emacs.d/modes")))
   (dolist (file (nthcdr 0 (directory-files dir t "\\.el$")))
     (load file)))

@@ -13,6 +13,8 @@
 
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
-(let ((dir (expand-file-name "~/.emacs.d/configs")))
+(let ((dir (expand-file-name "~/.emacs.d/config")))
   (dolist (file (nthcdr 0 (directory-files dir t "\\.el$")))
     (load file)))
+
+(keymap-global-set "C-," 'duplicate-line)
