@@ -3,13 +3,17 @@
   ((zig-mode . eglot-ensure))
   ((rust-mode . eglot-ensure))
   ((c-mode . eglot-ensure))
-  ((cpp-mode . eglot-ensure))
-  ((csharp-mode . eglot-ensure))
+  ((c++-mode . eglot-ensure))
   ((java-mode . eglot-ensure))
   ((javascript-mode . eglot-ensure))
   ((typescript-mode . eglot-ensure))
   ((python-mode . eglot-ensure))
   ((lua-mode . eglot-ensure))
+  :bind(
+        ("C-." . #'eglot-code-actions)
+        ("C-c C-f" . #'eglot-format)
+        ("<f2>" . #'eglot-rename)
+        )
 )
 
 (use-package completion-preview

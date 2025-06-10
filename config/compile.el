@@ -10,7 +10,8 @@
    ((directory-files root nil "\\.nimble\\'") "nimble run")
    ((file-exists-p (expand-file-name "package.json" root)) "npm run dev")
    ((file-exists-p (expand-file-name "build.zig" root)) "zig build run")
-   ((file-exists-p (expand-file-name "Makefile" root)) "make")
+   ((file-exists-p (expand-file-name "Makefile" root))
+    (if (eq system-type 'windows-nt) "mingw32-make" "make"))
    ((file-exists-p (expand-file-name "CMakeLists.txt" root)) "cmake -S .")
    (t nil)))
 

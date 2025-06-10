@@ -17,4 +17,4 @@
   (dolist (file (nthcdr 0 (directory-files dir t "\\.el$")))
     (load file)))
 
-(keymap-global-set "C-," 'duplicate-line)
+(keymap-global-set "M-<down>" 'duplicate-line)
