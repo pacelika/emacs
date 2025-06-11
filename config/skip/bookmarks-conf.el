@@ -1,6 +1,0 @@
-(when (and (fboundp 'bookmark-bmenu-list)
-           (not noninteractive)
-           (null command-line-args-left))
-  ((lambda()
-     (bookmark-bmenu-list)
-     (switch-to-buffer "*Bookmark List*"))))

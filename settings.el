@@ -27,14 +27,10 @@
 (setq global-auto-revert-non-file-buffers t)
 
 ;; Completion ;;
-;; (ido-mode)
-(fido-vertical-mode 1)
 (icomplete-mode 1)
 (setq icomplete-compute-delay 0
       icomplete-max-delay-chars 2
       icomplete-show-matches-on-no-input t)
-(remove-hook 'text-mode-hook 'turn-on-auto-fill)
-'(compilation-message-face 'default)
 
 ;; Version Control
 (setq vc-handled-backends '(Git))
@@ -62,6 +58,8 @@
       inhibit-compacting-font-caches t
       cursor-type 'bar)
 (defalias 'yes-or-no-p 'y-or-n-p)
+'(compilation-message-face 'default)
+(remove-hook 'text-mode-hook 'turn-on-auto-fill)
 
 ;; Tab specs ;;
 (setq indent-line-function 'insert-tab)
