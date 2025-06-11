@@ -9,11 +9,10 @@
   ((typescript-mode . eglot-ensure))
   ((python-mode . eglot-ensure))
   ((lua-mode . eglot-ensure))
-  :bind(
-        ("C-." . #'eglot-code-actions)
+  :bind
+  (("C-." . #'eglot-code-actions)
         ("C-c C-f" . #'eglot-format)
-        ("<f2>" . #'eglot-rename)
-        )
+        ("<f2>" . #'eglot-rename))
 )
 
 (use-package completion-preview
