@@ -16,6 +16,3 @@
 (let ((dir (expand-file-name "~/.emacs.d/config")))
   (dolist (file (nthcdr 0 (directory-files dir t "\\.el$")))
     (load file)))
-
-(keymap-global-set "M-<down>" 'duplicate-line)
-(keymap-global-set "C-," 'duplicate-line)

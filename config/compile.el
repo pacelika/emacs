@@ -8,8 +8,10 @@
   (cond
    ((file-exists-p (expand-file-name "Cargo.toml" root)) "cargo run")
    ((directory-files root nil "\\.nimble\\'") "nimble run")
+   ((directory-files root nil "\\.ninja\\'") "ninja")
    ((file-exists-p (expand-file-name "package.json" root)) "npm run dev")
    ((file-exists-p (expand-file-name "build.zig" root)) "zig build run")
+   ((file-exists-p (expand-file-name "premake5.lua" root)) "premake5 gmake")
    ((file-exists-p (expand-file-name "Makefile" root))
     (if (eq system-type 'windows-nt) "mingw32-make" "make"))
    ((file-exists-p (expand-file-name "CMakeLists.txt" root)) "cmake -S .")
@@ -21,10 +23,14 @@
       (locate-dominating-file default-directory "Makefile")
       (locate-dominating-file default-directory "CMakeLists.txt")
       (locate-dominating-file default-directory "package.json")
+      (locate-dominating-file default-directory "premake5.lua")
       (locate-dominating-file default-directory "Cargo.toml")
       (locate-dominating-file
        default-directory
        (lambda (dir) (directory-files dir nil "\\.nimble\\'")))
+      (locate-dominating-file
+       default-directory
+       (lambda (dir) (directory-files dir nil "\\.ninja\\'")))
       (locate-dominating-file default-directory "build.zig")))
 
 (defun compile-root-wo-prompt()
