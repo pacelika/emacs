@@ -1,1 +1,1 @@
-# Minimal Emacs (30+) config
+# Emacs (30+) config

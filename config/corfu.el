@@ -1,3 +1,8 @@
+(defun my/corfu-complete()
+  (interactive)
+        (corfu-next)
+        (corfu-complete))
+
 (use-package corfu
   :ensure t
   :defer t
@@ -14,8 +19,9 @@
   (corfu-on-exact-match nil)
   :bind (:map corfu-map
               ("M-SPC"      . corfu-insert-separator)
-              ("TAB"        . corfu-next)
-              ("S-TAB"      . corfu-previous)
+              ("<down>"        . corfu-next)
+              ("<up>"      . corfu-previous)
+              ("TAB"        . #'my/corfu-complete)
               ("S-<return>" . corfu-insert)
               ("RET"        . nil))
   :init
