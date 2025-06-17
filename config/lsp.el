@@ -1,6 +1,9 @@
 (use-package eglot :defer t
   :hook 
   ((zig-mode . eglot-ensure))
+  ((janet-mode . (lambda()
+                   (unless (eq system-type 'windows-nt)
+                     (eglot-ensure)))))
   ((rust-mode . eglot-ensure))
   ((c-mode . eglot-ensure))
   ((c++-mode . eglot-ensure))
@@ -14,7 +17,7 @@
         ("C-c C-f" . #'eglot-format)
         ("<f2>" . #'eglot-rename))
   :config
-  (add-to-list 'eglot-server-programs '(janet-mode . ("janet-lsp")))
+  (add-to-list 'eglot-server-programs '(janet-mode . ("~/janet/bin/janet-lsp")))
   (add-hook 'janet-mode-hook 'eglot-ensure))
 
 (use-package completion-preview
