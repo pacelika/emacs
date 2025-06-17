@@ -13,7 +13,9 @@
   (("C-." . #'eglot-code-actions)
         ("C-c C-f" . #'eglot-format)
         ("<f2>" . #'eglot-rename))
-)
+  :config
+  (add-to-list 'eglot-server-programs '(janet-mode . ("janet-lsp")))
+  (add-hook 'janet-mode-hook 'eglot-ensure))
 
 (use-package completion-preview
   :config
