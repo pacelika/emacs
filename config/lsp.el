@@ -4,6 +4,7 @@
   ((c++-mode . eglot-ensure))
   ((zig-mode . eglot-ensure))
   ((rust-mode . eglot-ensure))
+  ((nim-mode . eglot-ensure))
   ((go-mode . eglot-ensure))
   ((java-mode . eglot-ensure))
   ((javascript-mode . eglot-ensure))
@@ -21,6 +22,11 @@
   (add-to-list 'eglot-server-programs
                '(php-mode . ("intelephense" "--stdio")))
   (add-hook 'php-mode-hook 'eglot-ensure)
+
+  (add-to-list 'eglot-server-programs
+               '(nim-mode . ("nimlangserver")))
+  (add-hook 'nim-mode-hook 'eglot-ensure)
+
   (add-to-list 'eglot-server-programs '(janet-mode . ("~/janet/bin/janet-lsp")))
   (add-hook 'janet-mode-hook 'eglot-ensure))
 
