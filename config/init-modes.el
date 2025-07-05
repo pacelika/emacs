@@ -6,6 +6,14 @@
   :ensure t 
   :defer t)
 
+(use-package php-mode 
+  :ensure t 
+  :defer t)
+
+(use-package go-mode 
+  :ensure t 
+  :defer t)
+
 (let ((dir (expand-file-name "~/.emacs.d/modes")))
   (dolist (file (nthcdr 0 (directory-files dir t "\\.el$")))
     (load file)))

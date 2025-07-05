@@ -10,6 +10,7 @@
    ((directory-files root nil "\\.nimble\\'") "nimble run")
    ((directory-files root nil "\\.ninja\\'") "ninja")
    ((file-exists-p (expand-file-name "package.json" root)) "npm run dev")
+   ((file-exists-p (expand-file-name "go.mod" root)) "go run ")
    ((file-exists-p (expand-file-name "build.zig" root)) "zig build run")
    ((file-exists-p (expand-file-name "premake5.lua" root)) "premake5 gmake")
    ((file-exists-p (expand-file-name "Makefile" root))
@@ -25,6 +26,7 @@
       (locate-dominating-file default-directory "package.json")
       (locate-dominating-file default-directory "premake5.lua")
       (locate-dominating-file default-directory "Cargo.toml")
+      (locate-dominating-file default-directory "go.mod")
       (locate-dominating-file
        default-directory
        (lambda (dir) (directory-files dir nil "\\.nimble\\'")))
