@@ -25,6 +25,6 @@
 (add-to-list 'auto-mode-alist '("\\.nims\\'" . nim-mode))
 (add-to-list 'auto-mode-alist '("\\.nimble\\'" . nim-mode))
 
-(use-package nim-mode
-  :defer t)
-
+(add-to-list 'load-path "~/.emacs.d/modes/crystal-mode")
+(autoload 'crystal-mode "~/.emacs.d/modes/crystal-mode/crystal-mode.el" nil t)
+(add-to-list 'auto-mode-alist '("\\.cr\\'" . crystal-mode))
