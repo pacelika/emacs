@@ -2,6 +2,7 @@
   :hook 
   ((c-mode . eglot-ensure))
   ((c++-mode . eglot-ensure))
+  ((c3-mode . eglot-ensure))
   ((zig-mode . eglot-ensure))
   ((rust-mode . eglot-ensure))
   ((nim-mode . eglot-ensure))
@@ -20,6 +21,11 @@
   (add-to-list 'eglot-server-programs
                '(nim-mode . ("nimlangserver")))
   (add-hook 'nim-mode-hook 'eglot-ensure)
+
+  (add-to-list 'eglot-server-programs
+               '(c3-mode . ("c3lsp")))
+  (add-hook 'c3-mode-hook 'eglot-ensure)
+
   (add-to-list 'eglot-server-programs
              '((web-mode) . ("typescript-language-server" "--stdio")))
   :hook
