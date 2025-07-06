@@ -2,4 +2,8 @@
 (autoload 'elcord-mode "~/.emacs.d/modes/elcord/elcord.el" nil t)
 
 (require 'elcord)
-(elcord-mode)
+
+(use-package elcord
+  :defer t
+  :init
+  (elcord-mode))
