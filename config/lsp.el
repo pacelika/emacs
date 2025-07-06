@@ -9,26 +9,23 @@
   ((java-mode . eglot-ensure))
   ((javascript-mode . eglot-ensure))
   ((typescript-mode . eglot-ensure))
+  ((web-mode . eglot-ensure))
   ((python-mode . eglot-ensure))
   ((lua-mode . eglot-ensure))
-  ((janet-mode . (lambda()
-                   (unless (eq system-type 'windows-nt)
-                     (eglot-ensure)))))
   :bind
   (("C-." . #'eglot-code-actions)
         ("C-c C-f" . #'eglot-format)
         ("<f2>" . #'eglot-rename))
   :config
   (add-to-list 'eglot-server-programs
-               '(php-mode . ("intelephense" "--stdio")))
-  (add-hook 'php-mode-hook 'eglot-ensure)
-
-  (add-to-list 'eglot-server-programs
                '(nim-mode . ("nimlangserver")))
   (add-hook 'nim-mode-hook 'eglot-ensure)
-
-  (add-to-list 'eglot-server-programs '(janet-mode . ("~/janet/bin/janet-lsp")))
-  (add-hook 'janet-mode-hook 'eglot-ensure))
+  (add-to-list 'eglot-server-programs
+             '((web-mode) . ("typescript-language-server" "--stdio")))
+  :hook
+  ((web-mode . (lambda()
+                 (when (string-equal "tsx" (file-name-extension buffer-file-name))
+                   (eglot-ensure))))))
 
 (use-package completion-preview
   :config

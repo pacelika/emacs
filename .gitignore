@@ -5,6 +5,7 @@ server/
 org-persist/
 url/
 eshell/
+transient/
 
 *.txt
 .lsp-session-v1
