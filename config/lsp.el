@@ -7,6 +7,7 @@
   ((rust-mode . eglot-ensure))
   ((nim-mode . eglot-ensure))
   ((go-mode . eglot-ensure))
+  ((dart-mode . eglot-ensure))
   ((java-mode . eglot-ensure))
   ((javascript-mode . eglot-ensure))
   ((typescript-mode . eglot-ensure))

@@ -14,6 +14,10 @@
   :ensure t 
   :defer t)
 
+(use-package dart-mode 
+  :ensure t 
+  :defer t)
+
 (use-package web-mode
   :ensure t
   :defer t

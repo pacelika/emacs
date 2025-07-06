@@ -2,4 +2,6 @@
   :ensure t
   :defer t
   :bind
-  ("C-=" . #'er/expand-region))
+  ("C--" . #'er/contract-region)
+  ("C-=" . #'er/expand-region)
+  )

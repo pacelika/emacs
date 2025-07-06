@@ -62,7 +62,7 @@ See <https://discordapp.com/developers/applications/me>."
   :type 'integer
   :group 'elcord)
 
-(defcustom elcord-idle-message "Getting something to drink..."
+(defcustom elcord-idle-message "Chilling"
   "Message to show when elcord status is idle."
   :type 'string)
 
