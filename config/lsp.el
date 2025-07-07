@@ -12,6 +12,7 @@
   ((javascript-mode . eglot-ensure))
   ((typescript-mode . eglot-ensure))
   ((web-mode . eglot-ensure))
+  ((slint-mode . eglot-ensure))
   ((python-mode . eglot-ensure))
   ((lua-mode . eglot-ensure))
   :bind
@@ -22,6 +23,10 @@
   (add-to-list 'eglot-server-programs
                '(nim-mode . ("nimlangserver")))
   (add-hook 'nim-mode-hook 'eglot-ensure)
+
+  (add-to-list 'eglot-server-programs
+               '(slint-mode . ("slint-lsp")))
+  (add-hook 'slint-mode-hook 'eglot-ensure)
 
   (add-to-list 'eglot-server-programs
                '(c3-mode . ("c3lsp")))
