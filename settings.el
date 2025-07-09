@@ -1,13 +1,3 @@
-;; Off ;;
-(tool-bar-mode -1)
-(menu-bar-mode -1)
-(scroll-bar-mode -1)
-(when (fboundp 'aggressive-indent-mode)
-  (aggressive-indent-mode -1))
-(setq use-dialog-box nil)
-(setq file-name-handler-alist nil)
-
-;; On ;;
 (which-key-mode 1)
 (setq visible-bell t)
 (setq ring-bell-function 'ignore)
@@ -16,7 +6,6 @@
 (global-display-line-numbers-mode 1)
 (setq inhibit-startup-message t)
 
-;; Electric modes
 (electric-pair-mode t)
 (electric-indent-mode t)
 
@@ -27,7 +16,6 @@
 (setq global-auto-revert-non-file-buffers t)
 
 ;; Completion ;;
-;; (fido-vertical-mode 1)
 (icomplete-mode 1)
 (setq icomplete-compute-delay 0
       icomplete-max-delay-chars 2
@@ -51,8 +39,6 @@
 (setq auto-save-visited-file-name nil)
 (setq history-length 100)
 
-;; Appearance ;;
-(set-face-attribute 'default nil :height 170)
 (setq display-line-numbers-type 'relative)
 (setq inhibit-startup-message t
       initial-scratch-message nil

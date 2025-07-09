@@ -8,6 +8,16 @@
   :defer t
   :mode "\\.zig\\'")
 
+(use-package c3-mode
+  :load-path "~/.emacs.d/modes"
+  :defer t
+  :mode "\\.c3\\'")
+
+(use-package cmake-mode
+  :load-path "~/.emacs.d/modes"
+  :defer t
+  :mode "\\CMakeLists.txt\\'")
+
 (use-package rust-mode 
   :ensure t
   :defer t)
@@ -24,7 +34,7 @@
   :defer t)
 
 (use-package crystal-mode
-  :load-path "~/.emacs.d/modes/crystal-mode"
+  :load-path "~/.emacs.d/modes/"
   :defer t
   :mode "\\.cr\\'")
 
