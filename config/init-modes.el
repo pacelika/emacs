@@ -1,40 +1,63 @@
+(use-package llvm-mode
+  :load-path "~/.emacs.d/modes"
+  :defer t
+  :mode "\\.ll\\'")
+
+(use-package zig-mode
+  :load-path "~/.emacs.d/modes"
+  :defer t
+  :mode "\\.zig\\'")
+
 (use-package rust-mode 
-  :ensure t 
+  :ensure t
   :defer t)
 
-(use-package lua-mode 
-  :ensure t 
+(use-package nim-mode
+  :load-path "~/.emacs.d/modes/nim-mode"
+  :defer t
+  :mode (("\\.nim\\'" . nim-mode)
+         ("\\.nims\\'" . nim-mode)
+         ("\\.nimble\\'" . nim-mode)))
+
+(use-package haskell-mode
+  :ensure t
   :defer t)
 
-(use-package php-mode 
-  :ensure t 
-  :defer t)
+(use-package crystal-mode
+  :load-path "~/.emacs.d/modes/crystal-mode"
+  :defer t
+  :mode "\\.cr\\'")
 
 (use-package go-mode 
   :ensure t 
   :defer t)
 
-(use-package dart-mode 
-  :ensure t 
+(use-package dart-mode
+  :defer t
+  :load-path "~/.emacs.d/modes"
+  :mode "\\.dart\\'")
+
+(use-package janet-mode
+  :load-path "~/.emacs.d/modes"
+  :mode "\\.janet\\'"
+  :defer t)
+
+(use-package lua-mode
+  :load-path "~/.emacs.d/modes"
+  :mode "\\.lua\\'"
   :defer t)
 
 (use-package web-mode
-  :ensure t
   :defer t
- :mode (("\\.tsx\\'" . web-mode)
+  :load-path "~/.emacs.d/modes"
+  :mode (("\\.tsx\\'" . web-mode)
          ("\\.jsx\\'" . web-mode)))
 
-(let ((dir (expand-file-name "~/.emacs.d/modes")))
-  (dolist (file (nthcdr 0 (directory-files dir t "\\.el$")))
-    (load file)))
+(use-package php-mode 
+  :ensure t 
+  :defer t)
 
-(add-to-list 'load-path "~/.emacs.d/modes/nim-mode")
-(autoload 'nim-mode "~/.emacs.d/modes/nim-mode/nim-mode.el" nil t)
-(add-to-list 'auto-mode-alist '("\\.nim\\'" . nim-mode))
-
-(add-to-list 'auto-mode-alist '("\\.nims\\'" . nim-mode))
-(add-to-list 'auto-mode-alist '("\\.nimble\\'" . nim-mode))
-
-(add-to-list 'load-path "~/.emacs.d/modes/crystal-mode")
-(autoload 'crystal-mode "~/.emacs.d/modes/crystal-mode/crystal-mode.el" nil t)
-(add-to-list 'auto-mode-alist '("\\.cr\\'" . crystal-mode))
+(use-package slint-mode
+  :load-path "~/.emacs.d/modes"
+  :defer t
+  :mode "\\.slint\\'")
