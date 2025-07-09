@@ -12,7 +12,7 @@ persist/
 .lsp-session-v1
 
 history
-custom.el
+theme-gen.el
 bookmarks
 ido.last
 projects

@@ -20,7 +20,8 @@
 
 (use-package rust-mode 
   :ensure t
-  :defer t)
+  :defer t
+  :mode "\\.rs\\'")
 
 (use-package nim-mode
   :load-path "~/.emacs.d/modes/nim-mode"
@@ -31,7 +32,8 @@
 
 (use-package haskell-mode
   :ensure t
-  :defer t)
+  :defer t
+  :mode "\\.hs\\'")
 
 (use-package crystal-mode
   :load-path "~/.emacs.d/modes/"
@@ -40,7 +42,8 @@
 
 (use-package go-mode 
   :ensure t 
-  :defer t)
+  :defer t
+  :mode "\\.go\\'")
 
 (use-package dart-mode
   :defer t
@@ -64,8 +67,9 @@
          ("\\.jsx\\'" . web-mode)))
 
 (use-package php-mode 
-  :ensure t 
-  :defer t)
+  :ensure t
+  :defer t
+  :mode "\\.php\\'")
 
 (use-package slint-mode
   :load-path "~/.emacs.d/modes"
