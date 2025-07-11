@@ -8,6 +8,7 @@
   ((nim-mode . eglot-ensure))
   ((go-mode . eglot-ensure))
   ((dart-mode . eglot-ensure))
+  ((tuareg-mode . eglot-ensure))
   ((haskell-mode . eglot-ensure))
   ((java-mode . eglot-ensure))
   ((typescript-mode . eglot-ensure))

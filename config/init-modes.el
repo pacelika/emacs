@@ -13,11 +13,6 @@
   :defer t
   :mode "\\.c3\\'")
 
-(use-package cmake-mode
-  :load-path "~/.emacs.d/modes"
-  :defer t
-  :mode "\\CMakeLists.txt\\'")
-
 (use-package rust-mode 
   :load-path "~/.emacs.d/modes/rust-mode"
   :defer t
@@ -29,6 +24,10 @@
   :mode (("\\.nim\\'" . nim-mode)
          ("\\.nims\\'" . nim-mode)
          ("\\.nimble\\'" . nim-mode)))
+
+(use-package tuareg
+  :ensure t
+  :defer t)
 
 (use-package haskell-mode
   :defer t
@@ -71,13 +70,14 @@
   :load-path "~/.emacs.d/modes/php-mode"
   :mode "\\.php\\'")
 
+(use-package cmake-mode
+  :load-path "~/.emacs.d/modes"
+  :defer t
+  :mode "\\CMakeLists.txt\\'")
+
 (use-package slint-mode
   :load-path "~/.emacs.d/modes"
   :defer t
   :mode "\\.slint\\'")
-
-(use-package multiple-cursors-mode
-  :load-path "~/.emacs.d/modes/multiple-cursors"
-  :defer t)
 
 (require 'restclient)
