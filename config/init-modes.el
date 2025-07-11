@@ -19,7 +19,7 @@
   :mode "\\CMakeLists.txt\\'")
 
 (use-package rust-mode 
-  :ensure t
+  :load-path "~/.emacs.d/modes/rust-mode"
   :defer t
   :mode "\\.rs\\'")
 
@@ -31,8 +31,8 @@
          ("\\.nimble\\'" . nim-mode)))
 
 (use-package haskell-mode
-  :ensure t
   :defer t
+  :load-path "~/.emacs.d/modes/haskell-mode"
   :mode "\\.hs\\'")
 
 (use-package crystal-mode
@@ -41,8 +41,8 @@
   :mode "\\.cr\\'")
 
 (use-package go-mode 
-  :ensure t 
   :defer t
+  :load-path "~/.emacs.d/modes/go-mode"
   :mode "\\.go\\'")
 
 (use-package dart-mode
@@ -67,11 +67,17 @@
          ("\\.jsx\\'" . web-mode)))
 
 (use-package php-mode 
-  :ensure t
   :defer t
+  :load-path "~/.emacs.d/modes/php-mode"
   :mode "\\.php\\'")
 
 (use-package slint-mode
   :load-path "~/.emacs.d/modes"
   :defer t
   :mode "\\.slint\\'")
+
+(use-package multiple-cursors-mode
+  :load-path "~/.emacs.d/modes/multiple-cursors"
+  :defer t)
+
+(require 'restclient)

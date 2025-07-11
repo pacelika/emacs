@@ -24,7 +24,6 @@
 ;; Version Control
 (setq vc-handled-backends '(Git))
 (setq help-at-pt-display-when-idle nil)
-(setq vc-handled-backends nil)
 
 ;; Garbage Collector
 (setq gc-cons-threshold (* 50 1000 1000))
