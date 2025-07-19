@@ -76,4 +76,11 @@
   :defer t
   :mode "\\.slint\\'")
 
-(require 'restclient)
+(use-package restclient
+  :init
+  (require 'restclient))
+
+(use-package rainbow-delimiters
+  :init
+  (require 'rainbow-delimiters)
+  (add-hook 'prog-mode-hook #'rainbow-delimiters-mode))
