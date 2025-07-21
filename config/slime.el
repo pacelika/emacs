@@ -1,3 +1,13 @@
+(use-package slime
+  :ensure t
+  :defer t
+  :hook
+  (lisp-mode . slime-mode)
+  :config
+  (setq inferior-lisp-program "sbcl")
+  (setq slime-protocol-version 'ignore)
+  (slime-setup '(slime-fancy)))
+
 (require 'slime)
 
 (defun find-root-asd()
@@ -20,18 +30,12 @@
     (save-excursion
       (slime))))
 
-(use-package slime
-  :ensure t
-  :defer t
-  :hook
-  (lisp-mode . slime-mode)
-  :config
-  (setq inferior-lisp-program "sbcl")
-  (setq slime-protocol-version 'ignore)
-  (slime-setup '(slime-fancy)))
-
 (add-hook 'lisp-mode-hook
           (lambda()
+            (if (eq system-type 'windows-nt)
             (setq inferior-lisp-program (concat "~/.emacs.d/scripts/start-sbcl.bat "
                                                 (or (find-project-root) default-directory)))
+            (setq inferior-lisp-program (concat "~/.emacs.d/scripts/start-sbcl.sh "
+                                                (or (find-project-root) default-directory)))
+                )
             (_load-slime)))
