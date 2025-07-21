@@ -9,6 +9,7 @@
    ((file-exists-p (expand-file-name "Cargo.toml" root)) "cargo run")
    ((directory-files root nil "\\.nimble\\'") "nimble run")
    ((directory-files root nil "\\.ninja\\'") "ninja")
+   ((directory-files root nil "\\.asd\\'") "sbcl ")
    ((file-exists-p (expand-file-name "package.json" root)) "npm run dev")
    ((file-exists-p (expand-file-name "project.json" root)) "")
    ((file-exists-p (expand-file-name "go.mod" root)) "go run ")
@@ -32,6 +33,9 @@
       (locate-dominating-file
        default-directory
        (lambda (dir) (directory-files dir nil "\\.nimble\\'")))
+      (locate-dominating-file
+       default-directory
+       (lambda (dir) (directory-files dir nil "\\.asd\\'")))
       (locate-dominating-file
        default-directory
        (lambda (dir) (directory-files dir nil "\\.ninja\\'")))
