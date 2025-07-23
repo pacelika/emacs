@@ -10,7 +10,7 @@
 
 (require 'slime)
 
-(defun find-root-asd()
+(defun get-root-asd-file()
   (let ((dir (locate-dominating-file
               default-directory
               (lambda (dir) (directory-files dir nil "\\.asd\\'")))))
@@ -19,13 +19,13 @@
        (car (directory-files dir nil "\\.asd\\'"))
        dir))))
 
-(defun find-project-root()
+(defun get-project-root-dir()
   (locate-dominating-file
    default-directory
    (lambda (dir)
      (directory-files dir nil "\\.asd\\'"))))
 
-(defun _load-slime()
+(defun try-load-slime()
   (unless (slime-connected-p)
     (save-excursion
       (slime))))
@@ -34,8 +34,7 @@
           (lambda()
             (if (eq system-type 'windows-nt)
             (setq inferior-lisp-program (concat "~/.emacs.d/scripts/start-sbcl.bat "
-                                                (or (find-project-root) default-directory)))
+                                                (or (get-project-root-dir) default-directory)))
             (setq inferior-lisp-program (concat "~/.emacs.d/scripts/start-sbcl.sh "
-                                                (or (find-project-root) default-directory)))
-                )
-            (_load-slime)))
+                                                (or (get--project-root-dir) default-directory))))
+            (try-load-slime)))
