@@ -10,6 +10,9 @@
 
 (require 'slime)
 
+(defvar last-project-path nil)
+(defvar current-project-path nil)
+
 (defun get-root-asd-file()
   (let ((dir (locate-dominating-file
               default-directory
@@ -32,9 +35,13 @@
 
 (add-hook 'lisp-mode-hook
           (lambda()
-            (if (eq system-type 'windows-nt)
-            (setq inferior-lisp-program (concat "~/.emacs.d/scripts/start-sbcl.bat "
-                                                (or (get-project-root-dir) default-directory)))
-            (setq inferior-lisp-program (concat "~/.emacs.d/scripts/start-sbcl.sh "
-                                                (or (get--project-root-dir) default-directory))))
-            (try-load-slime)))
+            (try-load-slime)
+            (setf current-project-path (or (get-project-root-dir) default-directory))
+            (when (slime-connected-p)
+              (when (and last-project-path (not (string= last-project-path current-project-path)))
+                (slime-cd current-project-path))
+              (setf last-project-path current-project-path))))
+
+(add-hook 'slime-connected-hook
+          (lambda()
+            (slime-cd (or (get-project-root-dir) default-directory))))
