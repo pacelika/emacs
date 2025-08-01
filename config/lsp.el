@@ -28,7 +28,7 @@
         ("C-c C-f" . #'eglot-format)
         ("<f2>" . #'eglot-rename))
   :config
-  (push '(lisp-mode . ("localhost" 8006)) eglot-server-programs)
+  (push '(lisp-mode . ("localhost" 57846)) eglot-server-programs)
   (add-to-list 'eglot-server-programs
                '(nim-mode . ("nimlangserver")))
   (add-hook 'nim-mode-hook 'eglot-ensure)
@@ -67,6 +67,6 @@
 
 (add-hook 'lisp-mode-hook
           (lambda()
-            (when (try-start-alive-lsp)
+            (when (and (not (eq system-type 'windows-nt)) (try-start-alive-lsp))
               (sleep-for 1)
               (eglot-ensure))))
