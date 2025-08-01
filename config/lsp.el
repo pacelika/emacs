@@ -1,8 +1,14 @@
+(defun try-start-alive-lsp()
+   (unless (get-process "alive-lsp")
+    (start-process "alive-lsp" "*alive-lsp*"
+                   "~/.emacs.d/start-alive-lsp.sh")
+    t))
+
 (use-package eglot :defer t
   :hook 
   ((c-mode . eglot-ensure))
-  ((c3-mode . eglot-ensure))
   ((c++-mode . eglot-ensure))
+  ((c3-mode . eglot-ensure))
   ((zig-mode . eglot-ensure))
   ((rust-mode . eglot-ensure))
   ((nim-mode . eglot-ensure))
@@ -22,6 +28,7 @@
         ("C-c C-f" . #'eglot-format)
         ("<f2>" . #'eglot-rename))
   :config
+  (push '(lisp-mode . ("localhost" 8006)) eglot-server-programs)
   (add-to-list 'eglot-server-programs
                '(nim-mode . ("nimlangserver")))
   (add-hook 'nim-mode-hook 'eglot-ensure)
@@ -57,3 +64,9 @@
       completions-sort 'history-length
       completions-max-height 20
       completion-ignore-case t)
+
+(add-hook 'lisp-mode-hook
+          (lambda()
+            (when (try-start-alive-lsp)
+              (sleep-for 1)
+              (eglot-ensure))))
