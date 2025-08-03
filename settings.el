@@ -15,7 +15,6 @@
 (setq global-auto-revert-non-file-buffers t)
 
 ;; Completion ;;
-(fido-vertical-mode 1)
 (icomplete-mode 1)
 (setq icomplete-compute-delay 0
       icomplete-max-delay-chars 2
