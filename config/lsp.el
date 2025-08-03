@@ -1,8 +1,14 @@
-(defun try-start-alive-lsp()
-   (unless (get-process "alive-lsp")
-    (start-process "alive-lsp" "*alive-lsp*"
-                   "~/.emacs.d/start-alive-lsp.sh")
-    t))
+(defun start-alive-lsp-package()
+  "Start alive-lsp package"
+  (interactive)
+  (if (not (eq system-type 'windows-nt))
+      (unless (get-process "alive-lsp")
+        (start-process "alive-lsp" "*alive-lsp*"
+                       "~/.emacs.d/start-alive-lsp.sh")
+        (message "INFO: Starting alive-lsp package") t)
+    (progn
+      (message "INFO: Failed to start alive-lsp package")
+      nil)))
 
 (use-package eglot :defer t
   :hook 
@@ -67,6 +73,7 @@
 
 (add-hook 'lisp-mode-hook
           (lambda()
-            (when (and (not (eq system-type 'windows-nt)) (try-start-alive-lsp))
+            (when (and (not (eq system-type 'windows-nt))
+                       (start-alive-lsp-package))
               (sleep-for 1)
               (eglot-ensure))))
