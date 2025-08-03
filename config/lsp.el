@@ -70,10 +70,3 @@
       completions-sort 'history-length
       completions-max-height 20
       completion-ignore-case t)
-
-(add-hook 'lisp-mode-hook
-          (lambda()
-            (when (and (not (eq system-type 'windows-nt))
-                       (start-alive-lsp-package))
-              (sleep-for 1)
-              (eglot-ensure))))
