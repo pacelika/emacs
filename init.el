@@ -7,6 +7,7 @@
 (keymap-global-set "C-x C-\\" 'goto-config-file)
 
 (add-to-list 'load-path "~/.emacs.d/deps")
+(add-to-list 'load-path "~/.emacs.d/utils")
 
 (let ((dir (expand-file-name "~/.emacs.d/config")))
   (dolist (file (nthcdr 0 (directory-files dir t "\\.el$")))

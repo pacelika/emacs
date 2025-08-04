@@ -4,7 +4,7 @@
   (if (not (eq system-type 'windows-nt))
       (unless (get-process "alive-lsp")
         (start-process "alive-lsp" "*alive-lsp*"
-                       "~/.emacs.d/start-alive-lsp.sh")
+                       "~/.emacs.d/scripts/start-alive-lsp.sh")
         (message "INFO: Starting alive-lsp package") t)
     (progn
       (message "INFO: Failed to start alive-lsp package")
