@@ -84,3 +84,9 @@
   :init
   (require 'rainbow-delimiters)
   (add-hook 'prog-mode-hook #'rainbow-delimiters-mode))
+
+(use-package elcord
+  :load-path "~/.emacs.d/modes/elcord"
+  :defer t
+  :init
+  (require 'elcord))
