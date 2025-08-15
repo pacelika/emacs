@@ -317,13 +317,14 @@ This is to avoid copious output from evaluating certain forms."
 (defun ajrepl-insert-rest-of-usage ()
   "Insert rest of usage."
   (interactive)
-  (newline-and-indent)
-  (insert "# =>")
-  (newline-and-indent)
+  ;; (newline-and-indent)
+  ;; (insert "# =>")
+  ;; (newline-and-indent)
   (ajrepl-send-expression-at-point)
-  ;; XXX
-  (sit-for 0.1)
-  (ajrepl-insert-last-output))
+  ;; ;; XXX
+  ;; (sit-for 0.1)
+  ;; (ajrepl-insert-last-output)
+  )
 
 (defvar ajrepl-interaction-mode-map
   (let ((map (make-sparse-keymap)))

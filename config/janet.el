@@ -3,9 +3,10 @@
   :load-path "~/.emacs.d/modes"
   :mode "\\.janet\\'")
 
+(require 'janet-mode)
+
 (use-package ajrepl
   :defer t
-  :mode "\\.janet\\'"
   :load-path "~/.emacs.d/modes/ajrepl"
   :bind
   (:map janet-mode-map
