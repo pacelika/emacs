@@ -45,11 +45,6 @@
   :load-path "~/.emacs.d/modes"
   :mode "\\.dart\\'")
 
-(use-package janet-mode
-  :load-path "~/.emacs.d/modes"
-  :mode "\\.janet\\'"
-  :defer t)
-
 (use-package lua-mode
   :load-path "~/.emacs.d/modes"
   :mode "\\.lua\\'"
