@@ -17,6 +17,7 @@
   ((c3-mode . eglot-ensure))
   ((zig-mode . eglot-ensure))
   ((rust-mode . eglot-ensure))
+  ((vlang-mode . eglot-ensure))
   ((nim-mode . eglot-ensure))
   ((go-mode . eglot-ensure))
   ((dart-mode . eglot-ensure))
@@ -35,6 +36,11 @@
         ("<f2>" . #'eglot-rename))
   :config
   (push '(lisp-mode . ("localhost" 57846)) eglot-server-programs)
+
+  (add-to-list 'eglot-server-programs
+               '(vlang-mode . ("v-analyzer")))
+  (add-hook 'vlang-mode-hook 'eglot-ensure)
+
   (add-to-list 'eglot-server-programs
                '(nim-mode . ("nimlangserver")))
   (add-hook 'nim-mode-hook 'eglot-ensure)

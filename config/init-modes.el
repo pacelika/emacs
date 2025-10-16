@@ -50,6 +50,11 @@
   :mode "\\.lua\\'"
   :defer t)
 
+(use-package vlang-mode
+  :load-path "~/.emacs.d/modes"
+  :mode "\\.v\\'"
+  :defer t)
+
 (use-package web-mode
   :defer t
   :load-path "~/.emacs.d/modes"
