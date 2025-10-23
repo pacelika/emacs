@@ -1,15 +1,3 @@
-(defun start-alive-lsp-package()
-  "Start alive-lsp package"
-  (interactive)
-  (if (not (eq system-type 'windows-nt))
-      (unless (get-process "alive-lsp")
-        (start-process "alive-lsp" "*alive-lsp*"
-                       "~/.emacs.d/scripts/start-alive-lsp.sh")
-        (message "INFO: Starting alive-lsp package") t)
-    (progn
-      (message "INFO: Failed to start alive-lsp package")
-      nil)))
-
 (use-package eglot :defer t
   :hook 
   ((c-mode . eglot-ensure))
@@ -18,7 +6,6 @@
   ((zig-mode . eglot-ensure))
   ((rust-mode . eglot-ensure))
   ((vlang-mode . eglot-ensure))
-  ((nim-mode . eglot-ensure))
   ((go-mode . eglot-ensure))
   ((dart-mode . eglot-ensure))
   ((tuareg-mode . eglot-ensure))
@@ -35,26 +22,17 @@
         ("C-c C-f" . #'eglot-format)
         ("<f2>" . #'eglot-rename))
   :config
-  (push '(lisp-mode . ("localhost" 57846)) eglot-server-programs)
-
   (add-to-list 'eglot-server-programs
                '(vlang-mode . ("v-analyzer")))
   (add-hook 'vlang-mode-hook 'eglot-ensure)
-
-  (add-to-list 'eglot-server-programs
-               '(nim-mode . ("nimlangserver")))
-  (add-hook 'nim-mode-hook 'eglot-ensure)
-
   (add-to-list 'eglot-server-programs
                '(slint-mode . ("slint-lsp")))
   (add-hook 'slint-mode-hook 'eglot-ensure)
-
   (add-to-list 'eglot-server-programs
                '(c3-mode . ("c3lsp")))
   (add-hook 'c3-mode-hook 'eglot-ensure)
-
   (add-to-list 'eglot-server-programs
-             '((web-mode) . ("typescript-language-server" "--stdio")))
+               '((web-mode) . ("typescript-language-server" "--stdio")))
   :hook
   ((web-mode . (lambda()
                  (when (string-equal "tsx" (file-name-extension buffer-file-name))

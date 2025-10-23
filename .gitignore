@@ -12,10 +12,10 @@ persist/
 .lsp-session-v1
 
 history
+projects
 theme-gen.el
 bookmarks
 ido.last
-projects
 snippets
 var
 segmanticdb
@@ -24,7 +24,5 @@ auto-save-list
 places
 recentf
 recentf.txt
-projectile-bookmarks.eld
-
 ac-comphist.dat
 .mc-lists.el
