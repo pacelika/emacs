@@ -40,6 +40,10 @@
   :load-path "~/.emacs.d/modes/go-mode"
   :mode "\\.go\\'")
 
+(use-package clojure-mode
+  :ensure t
+  :defer t)
+
 (use-package dart-mode
   :defer t
   :load-path "~/.emacs.d/modes"
