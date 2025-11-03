@@ -1,6 +1,5 @@
 (use-package multiple-cursors
-  :ensure t
-  :defer t
+  :load-path "~/.emacs.d/modes/multiple-cursors-1.5.0"
   :bind
   ("C->" . 'mc/mark-next-like-this)
   ("C-<" . 'mc/mark-previous-like-this)

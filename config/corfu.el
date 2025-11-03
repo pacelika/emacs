@@ -4,8 +4,8 @@
         (corfu-complete))
 
 (use-package corfu
-  :ensure t
   :defer t
+  :load-path "~/.emacs.d/modes/corfu-2.4/"
   :custom
   (corfu-cycle t)
   (corfu-auto t)
@@ -25,6 +25,10 @@
               ("S-<return>" . corfu-insert)
               ("RET"        . nil))
   :init
+  (require 'corfu)
   (global-corfu-mode)
+  :config
+  (require 'corfu-history)
+  (require 'corfu-popupinfo)
   (corfu-history-mode)
   (corfu-popupinfo-mode))

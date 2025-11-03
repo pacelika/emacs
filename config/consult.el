@@ -1,6 +1,6 @@
 (use-package consult
-  :ensure t
   :defer t
+  :load-path "~/.emacs.d/modes/consult-2.9"
   :bind
   (("C-x b" . consult-buffer)
    ("C-S-s" . consult-ripgrep)
@@ -8,6 +8,8 @@
   ("C-;" . #'consult-find-w-dir))
   :config
   (setq consult-preview-key nil))
+
+(require 'consult)
 
 (defun consult-find-w-dir()
   (interactive)
