@@ -9,8 +9,11 @@
 
 (load "~/.emacs.d/settings.el")
 
-(add-to-list 'load-path "~/.emacs.d/deps")
-(add-to-list 'load-path "~/.emacs.d/utils")
+(mapc (lambda (p) (add-to-list 'load-path (file-name-directory p)))
+      (directory-files-recursively "~/.emacs.d/deps" ""))
+
+(mapc (lambda (p) (add-to-list 'load-path (file-name-directory p)))
+      (directory-files-recursively "~/.emacs.d/utils" ""))
 
 (let ((dir (expand-file-name "~/.emacs.d/config")))
   (dolist (file (nthcdr 0 (directory-files dir t "\\.el$")))

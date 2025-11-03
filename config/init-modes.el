@@ -41,8 +41,8 @@
   :mode "\\.go\\'")
 
 (use-package clojure-mode
-  :ensure t
   :defer t
+  :load-path "~/.emacs.d/modes/clojure-mode-5.20.0"
   :mode "\\.clj\\'")
 
 (use-package dart-mode

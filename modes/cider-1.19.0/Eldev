@@ -1,0 +1,69 @@
+; -*- mode: emacs-lisp; lexical-binding: t -*-
+
+(eldev-require-version "1.8.2")
+
+(eldev-use-package-archive 'gnu)
+
+;; For compatibility; e.g. with MELPA Stable one test fails.
+(eldev-use-package-archive 'melpa-unstable)
+
+(eldev-use-plugin 'autoloads)
+
+(eldev-add-loading-roots 'test "test/utils")
+(eldev-add-extra-dependencies 'runtime '(:package logview :optional t))
+(eldev-add-extra-dependencies 'runtime '(:package clojure-ts-mode :optional t))
+
+;; slightly increase the maximum (applies to checkdoc and the byte compiler alike)
+(setq byte-compile-docstring-max-column 100)
+
+;; allow commas to indicate that the first sentence continues, which enables longer first sentences
+(setq checkdoc-permit-comma-termination-flag t)
+
+(defvar cider-test-type 'main)
+(setf eldev-standard-excludes `(:or ,eldev-standard-excludes
+                                    ;; Avoid including files in test "projects".
+                                    (eldev-pcase-exhaustive cider-test-type
+                                                            (`main            "./test/*/")
+                                                            (`integration     '("./test/"   "!./test/integration"))
+                                                            (`clojure-ts-mode '("./test/*/" "!./test/clojure-ts-mode"))
+                                                            (`all             '("./test/*/" "!./test/integration")))
+                                    "test/integration/projects"
+                                    ;; This file is _supposed_ to be excluded
+                                    ;; from automated testing.
+                                    "test/cider-tests--no-auto.el"))
+
+(eldev-defoption cider-test-selection (type)
+  "Select tests to run; type can be `main', `integration', `clojure-ts-mode' or `all'"
+  :options        (-T --test-type)
+  :for-command    test
+  :value          TYPE
+  :default-value  cider-test-type
+  (unless (memq (intern type) '(main integration clojure-ts-mode all))
+    (signal 'eldev-wrong-option-usage `("unknown test type `%s'" ,type)))
+  (setf cider-test-type (intern type)))
+
+(add-hook 'eldev-load-dependencies-hook
+          (lambda (type additional-sets)
+            (when (and (eq cider-test-type 'clojure-ts-mode)
+                       (member 'runtime additional-sets))
+              (message "Installing tree-sitter grammars")
+              (require 'clojure-ts-mode)
+              (clojure-ts--ensure-grammars))))
+
+(add-hook 'eldev-test-hook
+          (lambda ()
+            (eldev-verbose "Using cider tests of type `%s'" cider-test-type)))
+(add-hook 'eldev-executing-command-hook
+          (lambda (command)
+            (unless (eq command 'test)
+              ;; So that e.g. byte-compilation works on all tests.
+              (setf cider-test-type 'all))))
+
+;; CIDER cannot be compiled otherwise.
+(setf eldev-build-load-before-byte-compiling t)
+
+(setf eldev-lint-default '(elisp))
+(with-eval-after-load 'elisp-lint
+  ;; We will byte-compile with Eldev.
+  (setf elisp-lint-ignored-validators '("package-lint" "fill-column" "byte-compile")
+        enable-local-variables        :safe))

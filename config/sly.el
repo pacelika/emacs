@@ -1,6 +1,6 @@
 (use-package sly
-  :ensure t
   :defer t
+  :load-path "~/.emacs.d/modes/sly-1.0.43/"
   :hook
   (lisp-mode . sly-mode)
   :config
