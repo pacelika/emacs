@@ -42,7 +42,8 @@
 
 (use-package clojure-mode
   :ensure t
-  :defer t)
+  :defer t
+  :mode "\\.clj\\'")
 
 (use-package dart-mode
   :defer t
