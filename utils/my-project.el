@@ -13,6 +13,8 @@
       (locate-dominating-file default-directory "Cargo.toml")
       (locate-dominating-file default-directory "go.mod")
       (locate-dominating-file default-directory "v.mod")
+      (locate-dominating-file default-directory "pom.xml")
+      (locate-dominating-file default-directory "build.gradle")
       (locate-dominating-file
        default-directory
        (lambda (dir) (directory-files dir nil "\\.nimble\\'")))
