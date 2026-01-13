@@ -3,4 +3,14 @@
   :defer t
   :mode "\\.fnl\\'"
   :bind (:map fennel-mode-map
-              ("C-c C-c" . #'fennel-eval-region)))
+              ("C-c C-c" . #'fennel-eval-region))
+  :config
+  (setq inferior-lisp-program "fennel"))
+
+(defun run-fennel-repl()
+  (unless (comint-check-proc "*inferior-lisp*")
+    (save-window-excursion
+      (run-lisp inferior-lisp-program))))
+
+(add-hook 'fennel-mode-hook #'run-fennel-repl)
+
