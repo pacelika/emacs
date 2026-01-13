@@ -8,18 +8,13 @@
   :defer t
   :mode "\\.zig\\'")
 
-(use-package c3-mode
-  :load-path "~/.emacs.d/modes"
-  :defer t
-  :mode "\\.c3\\'")
-
 (use-package rust-mode 
-  :load-path "~/.emacs.d/modes/rust-mode"
+  :load-path "~/.emacs.d/modes/rust-mode-1.0.6"
   :defer t
   :mode "\\.rs\\'")
 
 (use-package nim-mode
-  :load-path "~/.emacs.d/modes/nim-mode"
+  :load-path "~/.emacs.d/modes/nim-mode-0.4.2"
   :defer t
   :mode (("\\.nim\\'" . nim-mode)
          ("\\.nims\\'" . nim-mode)
@@ -27,7 +22,7 @@
 
 (use-package haskell-mode
   :defer t
-  :load-path "~/.emacs.d/modes/haskell-mode"
+  :load-path "~/.emacs.d/modes/haskell-mode-17.5"
   :mode "\\.hs\\'")
 
 (use-package crystal-mode
@@ -37,7 +32,7 @@
 
 (use-package go-mode 
   :defer t
-  :load-path "~/.emacs.d/modes/go-mode"
+  :load-path "~/.emacs.d/modes/go-mode-1.6.0"
   :mode "\\.go\\'")
 
 (use-package clojure-mode
@@ -45,15 +40,15 @@
   :load-path "~/.emacs.d/modes/clojure-mode-5.20.0"
   :mode "\\.clj\\'")
 
-(use-package dart-mode
-  :defer t
-  :load-path "~/.emacs.d/modes"
-  :mode "\\.dart\\'")
-
 (use-package lua-mode
   :load-path "~/.emacs.d/modes"
   :mode "\\.lua\\'"
   :defer t)
+
+(use-package janet-mode
+  :defer t
+  :load-path "~/.emacs.d/modes"
+  :mode "\\.janet\\'")
 
 (use-package vlang-mode
   :load-path "~/.emacs.d/modes"
@@ -68,18 +63,13 @@
 
 (use-package php-mode 
   :defer t
-  :load-path "~/.emacs.d/modes/php-mode"
+  :load-path "~/.emacs.d/modes/php-mode-1.26.1"
   :mode "\\.php\\'")
 
 (use-package cmake-mode
   :load-path "~/.emacs.d/modes"
   :defer t
   :mode "\\CMakeLists.txt\\'")
-
-(use-package slint-mode
-  :load-path "~/.emacs.d/modes"
-  :defer t
-  :mode "\\.slint\\'")
 
 (use-package restclient
   :init
